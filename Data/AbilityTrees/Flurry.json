@@ -1,0 +1,6979 @@
+{
+	"ability": {
+		"abilityName": "Flurry",
+		"playerAbilityID": "flur3"
+	},
+	"nodeList": [
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "A bow or melee skill that performs 3 rapid attacks.",
+			"id": 0,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 0,
+			"nodeDescription": "",
+			"nodeName": "Flurry"
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Flurry has increased attack speed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 2,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Alacrity",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "A bow or melee skill that performs 3 rapid attacks.",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "",
+						"nodeName": "Flurry"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Attack Speed",
+					"tags": 0,
+					"value": "+5%"
+				}
+			]
+		},
+		{
+			"altText": "Multiple stacks can be gained with each strike if you hit multiple enemies.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have increased attack speed for each hit you dealt with your previous flurry, up to a maximum.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 3,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "",
+			"nodeName": "Relentless",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry has increased attack speed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Alacrity",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A bow or melee skill that performs 3 rapid attacks.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Flurry"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Attack Speed",
+								"tags": 0,
+								"value": "+5%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "These chances are not reduced by Flurry's penalty to ailment chances.\n\nPhysical Shred reduces Physical Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.\n\nPoison Shred reduces Poison Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry's first strike has a chance to inflict poison.\nFlurry's second strike has a chance to cause bleed.\nFlurry's third strike has a chance to shred physical and poison resistance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 17,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Description",
+						"nodeName": "Vile Tactics",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry deals more damage (multiplicative with other modifers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 5,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Deep Strikes",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A bow or melee skill that performs 3 rapid attacks.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Flurry"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+8%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "First Strike Poison Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Second Strike Bleed Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10028,
+								"statName": "Third Strike Poison Res Shred Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10073,
+								"statName": "Third Strike Physical Res Shred Chance",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Attack Speed per Hit",
+					"tags": 0,
+					"value": "+2%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 2,
+					"statName": "Maximum Attack Speed",
+					"tags": 0,
+					"value": "10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Flurry deals more damage (multiplicative with other modifers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 5,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Deep Strikes",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "A bow or melee skill that performs 3 rapid attacks.",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "",
+						"nodeName": "Flurry"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage",
+					"tags": 0,
+					"value": "+8%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Flurry leeches a portion of the damage it deals as health.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 6,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Description",
+			"nodeName": "Blood Revelry",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry has increased attack speed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Alacrity",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A bow or melee skill that performs 3 rapid attacks.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Flurry"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Attack Speed",
+								"tags": 0,
+								"value": "+5%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Enemies killed by Flurry have a chance to release a {Kinetic Burst} around the target, dealing physical damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 4,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Kineticism",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry deals more damage (multiplicative with other modifers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 5,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Deep Strikes",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A bow or melee skill that performs 3 rapid attacks.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Flurry"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+8%"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Chance for Kinetic Burst on Kill",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 51,
+					"statName": "First Strike Leech",
+					"tags": 0,
+					"value": "+1%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 51,
+					"statName": "Second Strike Leech",
+					"tags": 0,
+					"value": "+2%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 51,
+					"statName": "Third Strike Leech",
+					"tags": 0,
+					"value": "+3%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Each stack of {Adrenaline Rush} grants Flurry a chance to bleed on hit.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 8,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Bloodplay",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry strikes have a chance to grant you {Adrenaline Rush}, granting Flurry 5% more damage (multiplicative with other modifiers) and 5% increased attack speed. This lasts for 4 seconds, can stack up to 4 times.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Adrenaline Rush",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Multiple stacks can be gained with each strike if you hit multiple enemies.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You have increased attack speed for each hit you dealt with your previous flurry, up to a maximum.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "",
+									"nodeName": "Relentless",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry has increased attack speed.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Alacrity",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed",
+														"tags": 0,
+														"value": "+5%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "These chances are not reduced by Flurry's penalty to ailment chances.\n\nPhysical Shred reduces Physical Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.\n\nPoison Shred reduces Poison Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry's first strike has a chance to inflict poison.\nFlurry's second strike has a chance to cause bleed.\nFlurry's third strike has a chance to shred physical and poison resistance.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 17,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "Description",
+												"nodeName": "Vile Tactics",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"requirement": 1
+													},
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Flurry deals more damage (multiplicative with other modifers).",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 5,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 3,
+															"nodeDescription": "Description",
+															"nodeName": "Deep Strikes",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "A bow or melee skill that performs 3 rapid attacks.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "",
+																		"nodeName": "Flurry"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Damage",
+																	"tags": 0,
+																	"value": "+8%"
+																}
+															]
+														},
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10007,
+														"statName": "First Strike Poison Chance",
+														"tags": 0,
+														"value": "+10%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10002,
+														"statName": "Second Strike Bleed Chance",
+														"tags": 0,
+														"value": "+10%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10028,
+														"statName": "Third Strike Poison Res Shred Chance",
+														"tags": 0,
+														"value": "+10%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10073,
+														"statName": "Third Strike Physical Res Shred Chance",
+														"tags": 0,
+														"value": "+10%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed per Hit",
+											"tags": 0,
+											"value": "+2%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 2,
+											"statName": "Maximum Attack Speed",
+											"tags": 0,
+											"value": "10%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 20067,
+								"statName": "Adrenaline Rush Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Adrenaline Rush Duration (seconds)",
+								"tags": 0,
+								"value": "4"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Adrenaline Rush Max Stacks",
+								"tags": 0,
+								"value": "4"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10002,
+					"statName": "Bleed Chance",
+					"tags": 0,
+					"value": "+3%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Eack stack of {Adrenaline Rush} grants Flurry a chance to poison on hit.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 9,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Festering Wounds",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry strikes have a chance to grant you {Adrenaline Rush}, granting Flurry 5% more damage (multiplicative with other modifiers) and 5% increased attack speed. This lasts for 4 seconds, can stack up to 4 times.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Adrenaline Rush",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Multiple stacks can be gained with each strike if you hit multiple enemies.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You have increased attack speed for each hit you dealt with your previous flurry, up to a maximum.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "",
+									"nodeName": "Relentless",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry has increased attack speed.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Alacrity",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed",
+														"tags": 0,
+														"value": "+5%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "These chances are not reduced by Flurry's penalty to ailment chances.\n\nPhysical Shred reduces Physical Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.\n\nPoison Shred reduces Poison Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry's first strike has a chance to inflict poison.\nFlurry's second strike has a chance to cause bleed.\nFlurry's third strike has a chance to shred physical and poison resistance.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 17,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "Description",
+												"nodeName": "Vile Tactics",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"requirement": 1
+													},
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Flurry deals more damage (multiplicative with other modifers).",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 5,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 3,
+															"nodeDescription": "Description",
+															"nodeName": "Deep Strikes",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "A bow or melee skill that performs 3 rapid attacks.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "",
+																		"nodeName": "Flurry"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Damage",
+																	"tags": 0,
+																	"value": "+8%"
+																}
+															]
+														},
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10007,
+														"statName": "First Strike Poison Chance",
+														"tags": 0,
+														"value": "+10%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10002,
+														"statName": "Second Strike Bleed Chance",
+														"tags": 0,
+														"value": "+10%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10028,
+														"statName": "Third Strike Poison Res Shred Chance",
+														"tags": 0,
+														"value": "+10%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10073,
+														"statName": "Third Strike Physical Res Shred Chance",
+														"tags": 0,
+														"value": "+10%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed per Hit",
+											"tags": 0,
+											"value": "+2%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 2,
+											"statName": "Maximum Attack Speed",
+											"tags": 0,
+											"value": "10%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 20067,
+								"statName": "Adrenaline Rush Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Adrenaline Rush Duration (seconds)",
+								"tags": 0,
+								"value": "4"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Adrenaline Rush Max Stacks",
+								"tags": 0,
+								"value": "4"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Poison Chance",
+					"tags": 0,
+					"value": "+3%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Adrenaline Rush} lasts longer.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 10,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Description",
+			"nodeName": "Inexhaustible",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry strikes have a chance to grant you {Adrenaline Rush}, granting Flurry 5% more damage (multiplicative with other modifiers) and 5% increased attack speed. This lasts for 4 seconds, can stack up to 4 times.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Adrenaline Rush",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Multiple stacks can be gained with each strike if you hit multiple enemies.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You have increased attack speed for each hit you dealt with your previous flurry, up to a maximum.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "",
+									"nodeName": "Relentless",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry has increased attack speed.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Alacrity",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed",
+														"tags": 0,
+														"value": "+5%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "These chances are not reduced by Flurry's penalty to ailment chances.\n\nPhysical Shred reduces Physical Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.\n\nPoison Shred reduces Poison Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry's first strike has a chance to inflict poison.\nFlurry's second strike has a chance to cause bleed.\nFlurry's third strike has a chance to shred physical and poison resistance.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 17,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "Description",
+												"nodeName": "Vile Tactics",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"requirement": 1
+													},
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Flurry deals more damage (multiplicative with other modifers).",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 5,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 3,
+															"nodeDescription": "Description",
+															"nodeName": "Deep Strikes",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "A bow or melee skill that performs 3 rapid attacks.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "",
+																		"nodeName": "Flurry"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Damage",
+																	"tags": 0,
+																	"value": "+8%"
+																}
+															]
+														},
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10007,
+														"statName": "First Strike Poison Chance",
+														"tags": 0,
+														"value": "+10%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10002,
+														"statName": "Second Strike Bleed Chance",
+														"tags": 0,
+														"value": "+10%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10028,
+														"statName": "Third Strike Poison Res Shred Chance",
+														"tags": 0,
+														"value": "+10%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10073,
+														"statName": "Third Strike Physical Res Shred Chance",
+														"tags": 0,
+														"value": "+10%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed per Hit",
+											"tags": 0,
+											"value": "+2%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 2,
+											"statName": "Maximum Attack Speed",
+											"tags": 0,
+											"value": "10%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 20067,
+								"statName": "Adrenaline Rush Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Adrenaline Rush Duration (seconds)",
+								"tags": 0,
+								"value": "4"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Adrenaline Rush Max Stacks",
+								"tags": 0,
+								"value": "4"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5093,
+					"statName": "Duration",
+					"tags": 0,
+					"value": "+50%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Adrenaline Rush} can have more maximum stacks, but has a reduced chance to trigger on Flurry hits.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 11,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Strained Reflexes",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Adrenaline Rush} lasts longer.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 10,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Description",
+						"nodeName": "Inexhaustible",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry strikes have a chance to grant you {Adrenaline Rush}, granting Flurry 5% more damage (multiplicative with other modifiers) and 5% increased attack speed. This lasts for 4 seconds, can stack up to 4 times.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 7,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Adrenaline Rush",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "Multiple stacks can be gained with each strike if you hit multiple enemies.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "You have increased attack speed for each hit you dealt with your previous flurry, up to a maximum.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 3,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 2,
+												"nodeDescription": "",
+												"nodeName": "Relentless",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Flurry has increased attack speed.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 2,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 3,
+															"nodeDescription": "Description",
+															"nodeName": "Alacrity",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "A bow or melee skill that performs 3 rapid attacks.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "",
+																		"nodeName": "Flurry"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 2,
+																	"statName": "Attack Speed",
+																	"tags": 0,
+																	"value": "+5%"
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"node": {
+															"altText": "These chances are not reduced by Flurry's penalty to ailment chances.\n\nPhysical Shred reduces Physical Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.\n\nPoison Shred reduces Poison Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Flurry's first strike has a chance to inflict poison.\nFlurry's second strike has a chance to cause bleed.\nFlurry's third strike has a chance to shred physical and poison resistance.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 17,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 4,
+															"nodeDescription": "Description",
+															"nodeName": "Vile Tactics",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"requirement": 1
+																},
+																{
+																	"node": {
+																		"altText": "",
+																		"animations": [
+																			null
+																		],
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "Flurry deals more damage (multiplicative with other modifers).",
+																		"fadeOverlay": null,
+																		"highlightGlow": null,
+																		"id": 5,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 3,
+																		"nodeDescription": "Description",
+																		"nodeName": "Deep Strikes",
+																		"pointsText": {
+																			"tmp": null
+																		},
+																		"requirements": [
+																			{
+																				"node": {
+																					"altText": "",
+																					"connectionPrefab": {
+																						"SkillTreeConnection": {
+																							"dotsImage": null,
+																							"endConnectionImage": null,
+																							"singleRail": null,
+																							"startConnectionImage": null
+																						}
+																					},
+																					"description": "A bow or melee skill that performs 3 rapid attacks.",
+																					"id": 0,
+																					"isBaseLockNode": 0,
+																					"isLockNode": 0,
+																					"loreText": "",
+																					"mastery": 0,
+																					"masteryRequirement": 0,
+																					"maxPoints": 0,
+																					"nodeDescription": "",
+																					"nodeName": "Flurry"
+																				},
+																				"requirement": 0
+																			}
+																		],
+																		"stats": [
+																			{
+																				"downside": 0,
+																				"noScaling": 0,
+																				"overrideSprite": 0,
+																				"property": 0,
+																				"statName": "Damage",
+																				"tags": 0,
+																				"value": "+8%"
+																			}
+																		]
+																	},
+																	"requirement": 1
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 10007,
+																	"statName": "First Strike Poison Chance",
+																	"tags": 0,
+																	"value": "+10%"
+																},
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 10002,
+																	"statName": "Second Strike Bleed Chance",
+																	"tags": 0,
+																	"value": "+10%"
+																},
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 10028,
+																	"statName": "Third Strike Poison Res Shred Chance",
+																	"tags": 0,
+																	"value": "+10%"
+																},
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 10073,
+																	"statName": "Third Strike Physical Res Shred Chance",
+																	"tags": 0,
+																	"value": "+10%"
+																}
+															]
+														},
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed per Hit",
+														"tags": 0,
+														"value": "+2%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 2,
+														"statName": "Maximum Attack Speed",
+														"tags": 0,
+														"value": "10%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 20067,
+											"statName": "Adrenaline Rush Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Adrenaline Rush Duration (seconds)",
+											"tags": 0,
+											"value": "4"
+										},
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Adrenaline Rush Max Stacks",
+											"tags": 0,
+											"value": "4"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5093,
+								"statName": "Duration",
+								"tags": 0,
+								"value": "+50%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 5093,
+					"statName": "Maximum Stacks",
+					"tags": 0,
+					"value": "+1"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Adrenaline Rush Chance",
+					"tags": 0,
+					"value": "-2%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Flurry deals more damage (multiplicative with other modifiers) for each second channelled up to a maximum.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 14,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Accelerating Impact",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry is now a channelled ability that costs 5 mana per second to maintain. You do not regenerate mana while channelling.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 13,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Description",
+						"nodeName": "Boundless Blows",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry has increased attack speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Alacrity",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A bow or melee skill that performs 3 rapid attacks.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Flurry"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 20067,
+								"statName": "Channelled Flurry",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost Per Second",
+								"tags": 0,
+								"value": "5"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage Per Second",
+					"tags": 0,
+					"value": "+3%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 0,
+					"statName": "Maximum Damage Bonus",
+					"tags": 0,
+					"value": "15%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have additional physical and elemental resistances while channelling Flurry.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 15,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Description",
+			"nodeName": "Pavise",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry is now a channelled ability that costs 5 mana per second to maintain. You do not regenerate mana while channelling.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 13,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Description",
+						"nodeName": "Boundless Blows",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry has increased attack speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Alacrity",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A bow or melee skill that performs 3 rapid attacks.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Flurry"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 20067,
+								"statName": "Channelled Flurry",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost Per Second",
+								"tags": 0,
+								"value": "5"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 64,
+					"statName": "Physical Resistance",
+					"tags": 0,
+					"value": "+8%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 52,
+					"statName": "Elemental Resistance",
+					"tags": 0,
+					"value": "+8%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "If you are using a bow you fire arrows faster, but they are less accurate.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 16,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "",
+			"nodeName": "Arrow Storm",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You have additional physical and elemental resistances while channelling Flurry.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 15,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Pavise",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry is now a channelled ability that costs 5 mana per second to maintain. You do not regenerate mana while channelling.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 13,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Description",
+									"nodeName": "Boundless Blows",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry has increased attack speed.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Alacrity",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed",
+														"tags": 0,
+														"value": "+5%"
+													}
+												]
+											},
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 20067,
+											"statName": "Channelled Flurry",
+											"tags": 0,
+											"value": ""
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost Per Second",
+											"tags": 0,
+											"value": "5"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 64,
+								"statName": "Physical Resistance",
+								"tags": 0,
+								"value": "+8%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 52,
+								"statName": "Elemental Resistance",
+								"tags": 0,
+								"value": "+8%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Arrow Frequency",
+					"tags": 0,
+					"value": "+15%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Arrows Are Inaccurate",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "These chances are not reduced by Flurry's penalty to ailment chances.\n\nPhysical Shred reduces Physical Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.\n\nPoison Shred reduces Poison Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Flurry's first strike has a chance to inflict poison.\nFlurry's second strike has a chance to cause bleed.\nFlurry's third strike has a chance to shred physical and poison resistance.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 17,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Description",
+			"nodeName": "Vile Tactics",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Multiple stacks can be gained with each strike if you hit multiple enemies.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You have increased attack speed for each hit you dealt with your previous flurry, up to a maximum.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 3,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "",
+						"nodeName": "Relentless",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry has increased attack speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Alacrity",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A bow or melee skill that performs 3 rapid attacks.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Flurry"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Attack Speed per Hit",
+								"tags": 0,
+								"value": "+2%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 2,
+								"statName": "Maximum Attack Speed",
+								"tags": 0,
+								"value": "10%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry deals more damage (multiplicative with other modifers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 5,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Deep Strikes",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A bow or melee skill that performs 3 rapid attacks.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Flurry"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+8%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "First Strike Poison Chance",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10002,
+					"statName": "Second Strike Bleed Chance",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10028,
+					"statName": "Third Strike Poison Res Shred Chance",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10073,
+					"statName": "Third Strike Physical Res Shred Chance",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Bleed stacks inflicted by Flurry have increased effectiveness, causing them to deal more damage (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 18,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Reopened Wounds",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Damaging ailments inflicted by Flurry deal more damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 12,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Lethal Vector",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "These chances are not reduced by Flurry's penalty to ailment chances.\n\nPhysical Shred reduces Physical Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.\n\nPoison Shred reduces Poison Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry's first strike has a chance to inflict poison.\nFlurry's second strike has a chance to cause bleed.\nFlurry's third strike has a chance to shred physical and poison resistance.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 17,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "Description",
+									"nodeName": "Vile Tactics",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "Multiple stacks can be gained with each strike if you hit multiple enemies.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "You have increased attack speed for each hit you dealt with your previous flurry, up to a maximum.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 3,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 2,
+												"nodeDescription": "",
+												"nodeName": "Relentless",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Flurry has increased attack speed.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 2,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 3,
+															"nodeDescription": "Description",
+															"nodeName": "Alacrity",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "A bow or melee skill that performs 3 rapid attacks.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "",
+																		"nodeName": "Flurry"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 2,
+																	"statName": "Attack Speed",
+																	"tags": 0,
+																	"value": "+5%"
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed per Hit",
+														"tags": 0,
+														"value": "+2%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 2,
+														"statName": "Maximum Attack Speed",
+														"tags": 0,
+														"value": "10%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry deals more damage (multiplicative with other modifers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 5,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Deep Strikes",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+8%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10007,
+											"statName": "First Strike Poison Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10002,
+											"statName": "Second Strike Bleed Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10028,
+											"statName": "Third Strike Poison Res Shred Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10073,
+											"statName": "Third Strike Physical Res Shred Chance",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5038,
+								"statName": "Damage Over Time",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 20002,
+					"statName": "Bleed Effect",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Poison stacks inflicted by Flurry deal more damage (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 19,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Compounding Toxin",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Damaging ailments inflicted by Flurry deal more damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 12,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Lethal Vector",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "These chances are not reduced by Flurry's penalty to ailment chances.\n\nPhysical Shred reduces Physical Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.\n\nPoison Shred reduces Poison Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry's first strike has a chance to inflict poison.\nFlurry's second strike has a chance to cause bleed.\nFlurry's third strike has a chance to shred physical and poison resistance.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 17,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "Description",
+									"nodeName": "Vile Tactics",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "Multiple stacks can be gained with each strike if you hit multiple enemies.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "You have increased attack speed for each hit you dealt with your previous flurry, up to a maximum.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 3,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 2,
+												"nodeDescription": "",
+												"nodeName": "Relentless",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Flurry has increased attack speed.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 2,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 3,
+															"nodeDescription": "Description",
+															"nodeName": "Alacrity",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "A bow or melee skill that performs 3 rapid attacks.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "",
+																		"nodeName": "Flurry"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 2,
+																	"statName": "Attack Speed",
+																	"tags": 0,
+																	"value": "+5%"
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed per Hit",
+														"tags": 0,
+														"value": "+2%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 2,
+														"statName": "Maximum Attack Speed",
+														"tags": 0,
+														"value": "10%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry deals more damage (multiplicative with other modifers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 5,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Deep Strikes",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+8%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10007,
+											"statName": "First Strike Poison Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10002,
+											"statName": "Second Strike Bleed Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10028,
+											"statName": "Third Strike Poison Res Shred Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10073,
+											"statName": "Third Strike Physical Res Shred Chance",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5038,
+								"statName": "Damage Over Time",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5131,
+					"statName": "Poison Damage",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Force Wave",
+				"playerAbilityID": "ew3ve"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "The {Force Waves} travel further.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 21,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Description",
+			"nodeName": "Billowing Waves",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "If you are using a melee weapon Flurry now causes {Force Waves} to blast forward with each strike, dealing melee physical damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Description",
+						"nodeName": "Shockwave",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry's first and second strike deal less damage (multiplicative with other modifiers), but the third strike deals more damage (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 28,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Crescendo",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Improves Flurry's base critical strike chance.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 22,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Precision",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Flurry deals more damage (multiplicative with other modifers).",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 5,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 3,
+															"nodeDescription": "Description",
+															"nodeName": "Deep Strikes",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "A bow or melee skill that performs 3 rapid attacks.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "",
+																		"nodeName": "Flurry"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Damage",
+																	"tags": 0,
+																	"value": "+8%"
+																}
+															]
+														},
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 4,
+														"statName": "Critical Strike Chance",
+														"tags": 0,
+														"value": "+2%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 0,
+											"statName": "First Strike Damage",
+											"tags": 0,
+											"value": "-5%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 0,
+											"statName": "Second Strike Damage",
+											"tags": 0,
+											"value": "-5%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 0,
+											"statName": "Third Strike Damage",
+											"tags": 0,
+											"value": "+25%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 20067,
+								"statName": "Force Wave On Use",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5015,
+					"statName": "Wave Range",
+					"tags": 0,
+					"value": "+15%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Improves Flurry's base critical strike chance.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 22,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Precision",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry deals more damage (multiplicative with other modifers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 5,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Deep Strikes",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A bow or melee skill that performs 3 rapid attacks.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Flurry"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+8%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 4,
+					"statName": "Critical Strike Chance",
+					"tags": 0,
+					"value": "+2%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Flurry critical strikes deal more damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 23,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Description",
+			"nodeName": "Incision",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Improves Flurry's base critical strike chance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 22,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Precision",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry deals more damage (multiplicative with other modifers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 5,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Deep Strikes",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A bow or melee skill that performs 3 rapid attacks.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Flurry"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+8%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 4,
+								"statName": "Critical Strike Chance",
+								"tags": 0,
+								"value": "+2%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5,
+					"statName": "Critical Strike Multiplier",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Critical strikes restore health. The amount of health gained is increased by Dexterity.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 24,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Description",
+			"nodeName": "Stolen Endurance",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry critical strikes deal more damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 23,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Description",
+						"nodeName": "Incision",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Improves Flurry's base critical strike chance.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 22,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Precision",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry deals more damage (multiplicative with other modifers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 5,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Deep Strikes",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+8%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 4,
+											"statName": "Critical Strike Chance",
+											"tags": 0,
+											"value": "+2%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5,
+								"statName": "Critical Strike Multiplier",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 38,
+					"statName": "Heal On Crit",
+					"tags": 0,
+					"value": "+5"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 44,
+					"statName": "Healing Per Dexterity",
+					"tags": 0,
+					"value": "+4%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Flurry grants health when hitting at least one enemy.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 25,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Second Wind",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry leeches a portion of the damage it deals as health.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 6,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Description",
+						"nodeName": "Blood Revelry",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry has increased attack speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Alacrity",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A bow or melee skill that performs 3 rapid attacks.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Flurry"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Enemies killed by Flurry have a chance to release a {Kinetic Burst} around the target, dealing physical damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 4,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Kineticism",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry deals more damage (multiplicative with other modifers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 5,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Deep Strikes",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+8%"
+													}
+												]
+											},
+											"requirement": 2
+										},
+										{
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Chance for Kinetic Burst on Kill",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 51,
+								"statName": "First Strike Leech",
+								"tags": 0,
+								"value": "+1%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 51,
+								"statName": "Second Strike Leech",
+								"tags": 0,
+								"value": "+2%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 51,
+								"statName": "Third Strike Leech",
+								"tags": 0,
+								"value": "+3%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 38,
+					"statName": "Health Gain",
+					"tags": 0,
+					"value": "+4"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Flurry grants mana when hitting at least one enemy.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 26,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Description",
+			"nodeName": "Sap Willpower",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry grants health when hitting at least one enemy.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 25,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Second Wind",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry leeches a portion of the damage it deals as health.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 6,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "Description",
+									"nodeName": "Blood Revelry",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry has increased attack speed.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Alacrity",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed",
+														"tags": 0,
+														"value": "+5%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Enemies killed by Flurry have a chance to release a {Kinetic Burst} around the target, dealing physical damage.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 4,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Kineticism",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Flurry deals more damage (multiplicative with other modifers).",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 5,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 3,
+															"nodeDescription": "Description",
+															"nodeName": "Deep Strikes",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "A bow or melee skill that performs 3 rapid attacks.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "",
+																		"nodeName": "Flurry"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Damage",
+																	"tags": 0,
+																	"value": "+8%"
+																}
+															]
+														},
+														"requirement": 2
+													},
+													{
+														"requirement": 2
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Chance for Kinetic Burst on Kill",
+														"tags": 0,
+														"value": "+10%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 51,
+											"statName": "First Strike Leech",
+											"tags": 0,
+											"value": "+1%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 51,
+											"statName": "Second Strike Leech",
+											"tags": 0,
+											"value": "+2%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 51,
+											"statName": "Third Strike Leech",
+											"tags": 0,
+											"value": "+3%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 38,
+								"statName": "Health Gain",
+								"tags": 0,
+								"value": "+4"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 40,
+					"statName": "Mana Gain",
+					"tags": 0,
+					"value": "+1"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Flurry's third strike Slows enemies hit.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 27,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Hamstring",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry's first and second strike deal less damage (multiplicative with other modifiers), but the third strike deals more damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 28,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Crescendo",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Improves Flurry's base critical strike chance.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 22,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Precision",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry deals more damage (multiplicative with other modifers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 5,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Deep Strikes",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+8%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 4,
+											"statName": "Critical Strike Chance",
+											"tags": 0,
+											"value": "+2%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 0,
+								"statName": "First Strike Damage",
+								"tags": 0,
+								"value": "-5%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 0,
+								"statName": "Second Strike Damage",
+								"tags": 0,
+								"value": "-5%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 0,
+								"statName": "Third Strike Damage",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10006,
+					"statName": "Third Strike Chance to Slow",
+					"tags": 0,
+					"value": "+100%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Flurry's first and second strike deal less damage (multiplicative with other modifiers), but the third strike deals more damage (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 28,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Crescendo",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Improves Flurry's base critical strike chance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 22,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Precision",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry deals more damage (multiplicative with other modifers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 5,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Deep Strikes",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A bow or melee skill that performs 3 rapid attacks.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Flurry"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+8%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 4,
+								"statName": "Critical Strike Chance",
+								"tags": 0,
+								"value": "+2%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 0,
+					"statName": "First Strike Damage",
+					"tags": 0,
+					"value": "-5%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 0,
+					"statName": "Second Strike Damage",
+					"tags": 0,
+					"value": "-5%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 0,
+					"statName": "Third Strike Damage",
+					"tags": 0,
+					"value": "+25%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Damaging ailments inflicted by Flurry deal more damage (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 12,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Lethal Vector",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "These chances are not reduced by Flurry's penalty to ailment chances.\n\nPhysical Shred reduces Physical Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.\n\nPoison Shred reduces Poison Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry's first strike has a chance to inflict poison.\nFlurry's second strike has a chance to cause bleed.\nFlurry's third strike has a chance to shred physical and poison resistance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 17,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Description",
+						"nodeName": "Vile Tactics",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Multiple stacks can be gained with each strike if you hit multiple enemies.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You have increased attack speed for each hit you dealt with your previous flurry, up to a maximum.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "",
+									"nodeName": "Relentless",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry has increased attack speed.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Alacrity",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed",
+														"tags": 0,
+														"value": "+5%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed per Hit",
+											"tags": 0,
+											"value": "+2%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 2,
+											"statName": "Maximum Attack Speed",
+											"tags": 0,
+											"value": "10%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry deals more damage (multiplicative with other modifers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 5,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Deep Strikes",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A bow or melee skill that performs 3 rapid attacks.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Flurry"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+8%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "First Strike Poison Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Second Strike Bleed Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10028,
+								"statName": "Third Strike Poison Res Shred Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10073,
+								"statName": "Third Strike Physical Res Shred Chance",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5038,
+					"statName": "Damage Over Time",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Flurry is now a channelled ability that costs 5 mana per second to maintain. You do not regenerate mana while channelling.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 13,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Boundless Blows",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry has increased attack speed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Alacrity",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A bow or melee skill that performs 3 rapid attacks.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Flurry"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Attack Speed",
+								"tags": 0,
+								"value": "+5%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 20067,
+					"statName": "Channelled Flurry",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost Per Second",
+					"tags": 0,
+					"value": "5"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "If you are using a bow, every 4th arrow is replaced by {Multishot}.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 29,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Fusillade",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You have additional physical and elemental resistances while channelling Flurry.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 15,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Pavise",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry is now a channelled ability that costs 5 mana per second to maintain. You do not regenerate mana while channelling.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 13,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Description",
+									"nodeName": "Boundless Blows",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry has increased attack speed.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Alacrity",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed",
+														"tags": 0,
+														"value": "+5%"
+													}
+												]
+											},
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 20067,
+											"statName": "Channelled Flurry",
+											"tags": 0,
+											"value": ""
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost Per Second",
+											"tags": 0,
+											"value": "5"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 64,
+								"statName": "Physical Resistance",
+								"tags": 0,
+								"value": "+8%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 52,
+								"statName": "Elemental Resistance",
+								"tags": 0,
+								"value": "+8%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 20067,
+					"statName": "Multishot Every 4th Arrow",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Channel Cost",
+					"tags": 0,
+					"value": "+15"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Flurry strikes have a chance to grant you {Adrenaline Rush}, granting Flurry 5% more damage (multiplicative with other modifiers) and 5% increased attack speed. This lasts for 4 seconds, can stack up to 4 times.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 7,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Description",
+			"nodeName": "Adrenaline Rush",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Multiple stacks can be gained with each strike if you hit multiple enemies.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You have increased attack speed for each hit you dealt with your previous flurry, up to a maximum.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 3,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "",
+						"nodeName": "Relentless",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry has increased attack speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Alacrity",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A bow or melee skill that performs 3 rapid attacks.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Flurry"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "These chances are not reduced by Flurry's penalty to ailment chances.\n\nPhysical Shred reduces Physical Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.\n\nPoison Shred reduces Poison Resistance by 5% (2% on bosses), lasts for 4 seconds and can stack up to 20 times.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry's first strike has a chance to inflict poison.\nFlurry's second strike has a chance to cause bleed.\nFlurry's third strike has a chance to shred physical and poison resistance.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 17,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "Description",
+									"nodeName": "Vile Tactics",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry deals more damage (multiplicative with other modifers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 5,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Deep Strikes",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+8%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10007,
+											"statName": "First Strike Poison Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10002,
+											"statName": "Second Strike Bleed Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10028,
+											"statName": "Third Strike Poison Res Shred Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10073,
+											"statName": "Third Strike Physical Res Shred Chance",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Attack Speed per Hit",
+								"tags": 0,
+								"value": "+2%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 2,
+								"statName": "Maximum Attack Speed",
+								"tags": 0,
+								"value": "10%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 20067,
+					"statName": "Adrenaline Rush Chance",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Adrenaline Rush Duration (seconds)",
+					"tags": 0,
+					"value": "4"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Adrenaline Rush Max Stacks",
+					"tags": 0,
+					"value": "4"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "If you are using a melee weapon Flurry now causes {Force Waves} to blast forward with each strike, dealing melee physical damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 20,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Shockwave",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry's first and second strike deal less damage (multiplicative with other modifiers), but the third strike deals more damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 28,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Crescendo",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Improves Flurry's base critical strike chance.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 22,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Precision",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Flurry deals more damage (multiplicative with other modifers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 5,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Deep Strikes",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A bow or melee skill that performs 3 rapid attacks.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Flurry"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+8%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 4,
+											"statName": "Critical Strike Chance",
+											"tags": 0,
+											"value": "+2%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 0,
+								"statName": "First Strike Damage",
+								"tags": 0,
+								"value": "-5%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 0,
+								"statName": "Second Strike Damage",
+								"tags": 0,
+								"value": "-5%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 0,
+								"statName": "Third Strike Damage",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 20067,
+					"statName": "Force Wave On Use",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Enemies killed by Flurry have a chance to release a {Kinetic Burst} around the target, dealing physical damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 4,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Kineticism",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry deals more damage (multiplicative with other modifers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 5,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Deep Strikes",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A bow or melee skill that performs 3 rapid attacks.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Flurry"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+8%"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Flurry leeches a portion of the damage it deals as health.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 6,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Description",
+						"nodeName": "Blood Revelry",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Flurry has increased attack speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Alacrity",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A bow or melee skill that performs 3 rapid attacks.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Flurry"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 51,
+								"statName": "First Strike Leech",
+								"tags": 0,
+								"value": "+1%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 51,
+								"statName": "Second Strike Leech",
+								"tags": 0,
+								"value": "+2%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 51,
+								"statName": "Third Strike Leech",
+								"tags": 0,
+								"value": "+3%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Chance for Kinetic Burst on Kill",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		}
+	],
+	"specialised": 0,
+	"treeID": "flur3",
+	"unspentPoints": 1,
+	"version": 0
+}

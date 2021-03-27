@@ -1,0 +1,4146 @@
+{
+	"ability": {
+		"abilityName": "Summon Scorpion",
+		"playerAbilityID": "sc36pi"
+	},
+	"nodeList": [
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"id": 0,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "Fierce and lethal, with a penchant for the weak.",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 0,
+			"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+			"nodeName": "Summon Scorpion"
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion is larger and has additional physical and poison resistance",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 1,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Your Scorpion has +[50] armor and poison protection per point.\n\nYour Scorpion has [20%] increased armor and poison protection per point.\n\nYour Scorpion is [8%] larger per point.",
+			"nodeName": "Steel Carapace",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Fierce and lethal, with a penchant for the weak.",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+						"nodeName": "Summon Scorpion"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 64,
+					"statName": "Physical Resistance",
+					"tags": 0,
+					"value": "+15%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 28,
+					"statName": "Poison Resistance",
+					"tags": 0,
+					"value": "+15%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5054,
+					"statName": "Size",
+					"tags": 0,
+					"value": "+8%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your scorpion's attacks grant health on hit, and have a chance to poison enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 2,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Your Scorpion has +[10%] chance to poison on hit per point.\n\nYour Scorpion heals [5] health on hit per point.",
+			"nodeName": "Concoction",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Fierce and lethal, with a penchant for the weak.",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+						"nodeName": "Summon Scorpion"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 38,
+					"statName": "Health Gain On Hit",
+					"tags": 0,
+					"value": "+5"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Poison Chance",
+					"tags": 0,
+					"value": "+25%"
+				}
+			]
+		},
+		{
+			"altText": "Blinding Poison is a non-stacking ailment with a 4 second duration that deals 30 poison damage per second and reduces critical strike chance by 50%.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion's attacks have a chance to inflict blinding poison on enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 3,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Your Scorpion has a [10%] chance to inflict blinding poison on hit",
+			"nodeName": "Noxious Toxins",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your scorpion's attacks grant health on hit, and have a chance to poison enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Your Scorpion has +[10%] chance to poison on hit per point.\n\nYour Scorpion heals [5] health on hit per point.",
+						"nodeName": "Concoction",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Fierce and lethal, with a penchant for the weak.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+									"nodeName": "Summon Scorpion"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 38,
+								"statName": "Health Gain On Hit",
+								"tags": 0,
+								"value": "+5"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Chance",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Blinding Poison Chance",
+					"tags": 0,
+					"value": "10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion's melee attacks deal damage in a larger area, and your Scorpion is larger.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 4,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Your Scorpion's melee attacks have [20%] increased area of effect per point.\n\nYour Scorpion is [10%] larger per point.",
+			"nodeName": "Pinches and Pokes",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion is larger and has additional physical and poison resistance",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 1,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion has +[50] armor and poison protection per point.\n\nYour Scorpion has [20%] increased armor and poison protection per point.\n\nYour Scorpion is [8%] larger per point.",
+						"nodeName": "Steel Carapace",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Fierce and lethal, with a penchant for the weak.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+									"nodeName": "Summon Scorpion"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 64,
+								"statName": "Physical Resistance",
+								"tags": 0,
+								"value": "+15%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 28,
+								"statName": "Poison Resistance",
+								"tags": 0,
+								"value": "+15%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5054,
+								"statName": "Size",
+								"tags": 0,
+								"value": "+8%"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion's has a chance to cause enemies to bleed, and it deals more damage over time (multiplicative with other modifiers)",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 5,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion has [10%] chance per point to cause bleed on hit.\n\nYour Scorpion deals [20%] increased damage per point with damage over time effects.",
+						"nodeName": "Blood Poisoning",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your scorpion's attacks grant health on hit, and have a chance to poison enemies.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "Your Scorpion has +[10%] chance to poison on hit per point.\n\nYour Scorpion heals [5] health on hit per point.",
+									"nodeName": "Concoction",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Fierce and lethal, with a penchant for the weak.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+												"nodeName": "Summon Scorpion"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 38,
+											"statName": "Health Gain On Hit",
+											"tags": 0,
+											"value": "+5"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10007,
+											"statName": "Poison Chance",
+											"tags": 0,
+											"value": "+25%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Bleed Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5038,
+								"statName": "Damage Over Time",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5015,
+					"statName": "Melee Area",
+					"tags": 0,
+					"value": "+20%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5054,
+					"statName": "Size",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion's has a chance to cause enemies to bleed, and it deals more damage over time (multiplicative with other modifiers)",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 5,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Your Scorpion has [10%] chance per point to cause bleed on hit.\n\nYour Scorpion deals [20%] increased damage per point with damage over time effects.",
+			"nodeName": "Blood Poisoning",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your scorpion's attacks grant health on hit, and have a chance to poison enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Your Scorpion has +[10%] chance to poison on hit per point.\n\nYour Scorpion heals [5] health on hit per point.",
+						"nodeName": "Concoction",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Fierce and lethal, with a penchant for the weak.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+									"nodeName": "Summon Scorpion"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 38,
+								"statName": "Health Gain On Hit",
+								"tags": 0,
+								"value": "+5"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Chance",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion's melee attacks deal damage in a larger area, and your Scorpion is larger.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 4,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Your Scorpion's melee attacks have [20%] increased area of effect per point.\n\nYour Scorpion is [10%] larger per point.",
+						"nodeName": "Pinches and Pokes",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your Scorpion is larger and has additional physical and poison resistance",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 1,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Your Scorpion has +[50] armor and poison protection per point.\n\nYour Scorpion has [20%] increased armor and poison protection per point.\n\nYour Scorpion is [8%] larger per point.",
+									"nodeName": "Steel Carapace",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Fierce and lethal, with a penchant for the weak.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+												"nodeName": "Summon Scorpion"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 64,
+											"statName": "Physical Resistance",
+											"tags": 0,
+											"value": "+15%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 28,
+											"statName": "Poison Resistance",
+											"tags": 0,
+											"value": "+15%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5054,
+											"statName": "Size",
+											"tags": 0,
+											"value": "+8%"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5015,
+								"statName": "Melee Area",
+								"tags": 0,
+								"value": "+20%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5054,
+								"statName": "Size",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10002,
+					"statName": "Bleed Chance",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5038,
+					"statName": "Damage Over Time",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Baby Scorpions} deal more damage (damage is multiplicative with other modifiers) and their attacks have a chance to poison enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 8,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Baby Scorpions deal [10%] more damage and have +[10%] chance to poison on hit per point.",
+			"nodeName": "Temper Tantrum",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion spawns a number of {Baby Scorpions} every 10 seconds. Baby Scorpions are permanent minions but can be killed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Your Scorpion spawns a Baby Scorpion every 10 seconds.\n\nBaby Scorpions are permanent and can be kiled. You may control up to [1] Baby Scorpion per point.",
+						"nodeName": "Maternal Instinct",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your Scorpion is larger and has additional physical and poison resistance",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 1,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Your Scorpion has +[50] armor and poison protection per point.\n\nYour Scorpion has [20%] increased armor and poison protection per point.\n\nYour Scorpion is [8%] larger per point.",
+									"nodeName": "Steel Carapace",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Fierce and lethal, with a penchant for the weak.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+												"nodeName": "Summon Scorpion"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 64,
+											"statName": "Physical Resistance",
+											"tags": 0,
+											"value": "+15%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 28,
+											"statName": "Poison Resistance",
+											"tags": 0,
+											"value": "+15%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5054,
+											"statName": "Size",
+											"tags": 0,
+											"value": "+8%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Baby Scorpions Summoned Every 10 Seconds",
+								"tags": 0,
+								"value": "1"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Baby Scorpion More Damage",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Baby Scorpion Poison Chance",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "This cannot exceed your maximum number of Baby Scorpions.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Activating your Scorpion's ability summons additional {Baby Scorpions.}",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 9,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Activating your Scorpion's ability spawns [1] Baby Scorpion per point.",
+			"nodeName": "Sweet Release",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Baby Scorpions} deal more damage (damage is multiplicative with other modifiers) and their attacks have a chance to poison enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 8,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Baby Scorpions deal [10%] more damage and have +[10%] chance to poison on hit per point.",
+						"nodeName": "Temper Tantrum",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your Scorpion spawns a number of {Baby Scorpions} every 10 seconds. Baby Scorpions are permanent minions but can be killed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 7,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Your Scorpion spawns a Baby Scorpion every 10 seconds.\n\nBaby Scorpions are permanent and can be kiled. You may control up to [1] Baby Scorpion per point.",
+									"nodeName": "Maternal Instinct",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Your Scorpion is larger and has additional physical and poison resistance",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 1,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Your Scorpion has +[50] armor and poison protection per point.\n\nYour Scorpion has [20%] increased armor and poison protection per point.\n\nYour Scorpion is [8%] larger per point.",
+												"nodeName": "Steel Carapace",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Fierce and lethal, with a penchant for the weak.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+															"nodeName": "Summon Scorpion"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 64,
+														"statName": "Physical Resistance",
+														"tags": 0,
+														"value": "+15%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 28,
+														"statName": "Poison Resistance",
+														"tags": 0,
+														"value": "+15%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5054,
+														"statName": "Size",
+														"tags": 0,
+														"value": "+8%"
+													}
+												]
+											},
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Baby Scorpions Summoned Every 10 Seconds",
+											"tags": 0,
+											"value": "1"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Baby Scorpion More Damage",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Baby Scorpion Poison Chance",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Baby Scorpions Summoned",
+					"tags": 0,
+					"value": "1"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Baby Scorpions} are summoned more frequently.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 10,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Baby Scorpions are spawned [50%] faster per point.",
+			"nodeName": "Fertility Rites",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion spawns a number of {Baby Scorpions} every 10 seconds. Baby Scorpions are permanent minions but can be killed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Your Scorpion spawns a Baby Scorpion every 10 seconds.\n\nBaby Scorpions are permanent and can be kiled. You may control up to [1] Baby Scorpion per point.",
+						"nodeName": "Maternal Instinct",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your Scorpion is larger and has additional physical and poison resistance",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 1,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Your Scorpion has +[50] armor and poison protection per point.\n\nYour Scorpion has [20%] increased armor and poison protection per point.\n\nYour Scorpion is [8%] larger per point.",
+									"nodeName": "Steel Carapace",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Fierce and lethal, with a penchant for the weak.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+												"nodeName": "Summon Scorpion"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 64,
+											"statName": "Physical Resistance",
+											"tags": 0,
+											"value": "+15%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 28,
+											"statName": "Poison Resistance",
+											"tags": 0,
+											"value": "+15%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5054,
+											"statName": "Size",
+											"tags": 0,
+											"value": "+8%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Baby Scorpions Summoned Every 10 Seconds",
+								"tags": 0,
+								"value": "1"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5056,
+					"statName": "Baby Scorpion Summoning Frequency",
+					"tags": 0,
+					"value": "+50%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Baby Scorpions} have increased attack and movement speed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 11,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Baby Scorpions have [15%] increased movement and attack speed per point.",
+			"nodeName": "Scurry",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Baby Scorpions} are summoned more frequently.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 10,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Baby Scorpions are spawned [50%] faster per point.",
+						"nodeName": "Fertility Rites",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your Scorpion spawns a number of {Baby Scorpions} every 10 seconds. Baby Scorpions are permanent minions but can be killed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 7,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Your Scorpion spawns a Baby Scorpion every 10 seconds.\n\nBaby Scorpions are permanent and can be kiled. You may control up to [1] Baby Scorpion per point.",
+									"nodeName": "Maternal Instinct",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Your Scorpion is larger and has additional physical and poison resistance",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 1,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Your Scorpion has +[50] armor and poison protection per point.\n\nYour Scorpion has [20%] increased armor and poison protection per point.\n\nYour Scorpion is [8%] larger per point.",
+												"nodeName": "Steel Carapace",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Fierce and lethal, with a penchant for the weak.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+															"nodeName": "Summon Scorpion"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 64,
+														"statName": "Physical Resistance",
+														"tags": 0,
+														"value": "+15%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 28,
+														"statName": "Poison Resistance",
+														"tags": 0,
+														"value": "+15%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5054,
+														"statName": "Size",
+														"tags": 0,
+														"value": "+8%"
+													}
+												]
+											},
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Baby Scorpions Summoned Every 10 Seconds",
+											"tags": 0,
+											"value": "1"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5056,
+								"statName": "Baby Scorpion Summoning Frequency",
+								"tags": 0,
+								"value": "+50%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Baby Scorpion Attack Speed",
+					"tags": 0,
+					"value": "+15%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 9,
+					"statName": "Baby Scorpion Movespeed",
+					"tags": 0,
+					"value": "+15%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion has additional elemental resistance.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 12,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Your Scorpion has +[50] elemental protection per point.",
+			"nodeName": "Chromatic Carapace",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Fierce and lethal, with a penchant for the weak.",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+						"nodeName": "Summon Scorpion"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 52,
+					"statName": "Elemental Resistance",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "Frostbite deals cold damage over 4 seconds and reduces freeze avoidance by 200, increasing the enemy's chance to be frozen.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion's base poison chance and additional poison chance granted from this tree are converted into chance to apply {Frostbite} instead.\n\nYour Scorpion has increased frostbite effectiveness.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 13,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Your Scorpion's base poison chance on hit and additional poison chance granted from this tree is converted in to chance to apply Frostbite on hit instead.\n\nYour Scorpion has [50%] increased Frostbite effectiveness per point.",
+			"nodeName": "Cold-Blooded",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion has additional elemental resistance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 12,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion has +[50] elemental protection per point.",
+						"nodeName": "Chromatic Carapace",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Fierce and lethal, with a penchant for the weak.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+									"nodeName": "Summon Scorpion"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 52,
+								"statName": "Elemental Resistance",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 4
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 10023,
+					"statName": "Poison Chance -> Frostbite Chance",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 20023,
+					"statName": "Frostbite Effect",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion now has a freeze rate with its melee attacks, and has an increased chance to freeze enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 14,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Your Scorpion's melee attacks have a freeze rate of [10] per point.\n\nYour Scorpions have +[60%] freeze rate multiplier per point.",
+			"nodeName": "Ice Sting",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Frostbite deals cold damage over 4 seconds and reduces freeze avoidance by 200, increasing the enemy's chance to be frozen.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion's base poison chance and additional poison chance granted from this tree are converted into chance to apply {Frostbite} instead.\n\nYour Scorpion has increased frostbite effectiveness.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 13,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion's base poison chance on hit and additional poison chance granted from this tree is converted in to chance to apply Frostbite on hit instead.\n\nYour Scorpion has [50%] increased Frostbite effectiveness per point.",
+						"nodeName": "Cold-Blooded",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your Scorpion has additional elemental resistance.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 12,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Your Scorpion has +[50] elemental protection per point.",
+									"nodeName": "Chromatic Carapace",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Fierce and lethal, with a penchant for the weak.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+												"nodeName": "Summon Scorpion"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 52,
+											"statName": "Elemental Resistance",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 4
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 10023,
+								"statName": "Poison Chance -> Frostbite Chance",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 20023,
+								"statName": "Frostbite Effect",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5075,
+					"statName": "Melee Freeze Rate",
+					"tags": 0,
+					"value": "+10"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 67,
+					"statName": "Freeze Rate Multiplier",
+					"tags": 0,
+					"value": "+60%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion now has the ability to pull an enemy that is out of range into melee range every 8 seconds.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 15,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Your Scorpion gets the ability to pull an enemy that is out of melee range in to melee range. The ability has an 8 second cooldown.",
+			"nodeName": "Get Over Here",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion now has a freeze rate with its melee attacks, and has an increased chance to freeze enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion's melee attacks have a freeze rate of [10] per point.\n\nYour Scorpions have +[60%] freeze rate multiplier per point.",
+						"nodeName": "Ice Sting",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Frostbite deals cold damage over 4 seconds and reduces freeze avoidance by 200, increasing the enemy's chance to be frozen.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your Scorpion's base poison chance and additional poison chance granted from this tree are converted into chance to apply {Frostbite} instead.\n\nYour Scorpion has increased frostbite effectiveness.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 13,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Your Scorpion's base poison chance on hit and additional poison chance granted from this tree is converted in to chance to apply Frostbite on hit instead.\n\nYour Scorpion has [50%] increased Frostbite effectiveness per point.",
+									"nodeName": "Cold-Blooded",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Your Scorpion has additional elemental resistance.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 12,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Your Scorpion has +[50] elemental protection per point.",
+												"nodeName": "Chromatic Carapace",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Fierce and lethal, with a penchant for the weak.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+															"nodeName": "Summon Scorpion"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 52,
+														"statName": "Elemental Resistance",
+														"tags": 0,
+														"value": "+10%"
+													}
+												]
+											},
+											"requirement": 4
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 0,
+											"property": 10023,
+											"statName": "Poison Chance -> Frostbite Chance",
+											"tags": 0,
+											"value": ""
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 20023,
+											"statName": "Frostbite Effect",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5075,
+								"statName": "Melee Freeze Rate",
+								"tags": 0,
+								"value": "+10"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 67,
+								"statName": "Freeze Rate Multiplier",
+								"tags": 0,
+								"value": "+60%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Pulls Enemies Every 8 Seconds",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "Shock reduces lightning resistance by 5%, increases chance to be stunned by 10%, lasts 4 seconds, and can stack up to 20 times. It has 60% reduced effect against bosses and players.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion is infused with lightning, and all poison chance in this tree is converted to shock chance. Your Scorpion's activated ability is now {Lightning Nova.}",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 16,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Your Scorpion is infused with lightning. All poison chance is converted to shock chance. Your Scorpion's activated ability is now a Lightning Nova.",
+			"nodeName": "Thunder Stinger",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion has additional elemental resistance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 12,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion has +[50] elemental protection per point.",
+						"nodeName": "Chromatic Carapace",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Fierce and lethal, with a penchant for the weak.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+									"nodeName": "Summon Scorpion"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 52,
+								"statName": "Elemental Resistance",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 4
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10005,
+					"statName": "Poison Chance -> Shock Chance",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Scorpion Casts Lightning Nova",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion deals additional melee lightning damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 17,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Your Scorpion has +[6] melee lightning damage per point.",
+			"nodeName": "Shock and Claw",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Shock reduces lightning resistance by 5%, increases chance to be stunned by 10%, lasts 4 seconds, and can stack up to 20 times. It has 60% reduced effect against bosses and players.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion is infused with lightning, and all poison chance in this tree is converted to shock chance. Your Scorpion's activated ability is now {Lightning Nova.}",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 16,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Your Scorpion is infused with lightning. All poison chance is converted to shock chance. Your Scorpion's activated ability is now a Lightning Nova.",
+						"nodeName": "Thunder Stinger",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your Scorpion has additional elemental resistance.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 12,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Your Scorpion has +[50] elemental protection per point.",
+									"nodeName": "Chromatic Carapace",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Fierce and lethal, with a penchant for the weak.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+												"nodeName": "Summon Scorpion"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 52,
+											"statName": "Elemental Resistance",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 4
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10005,
+								"statName": "Poison Chance -> Shock Chance",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Scorpion Casts Lightning Nova",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5063,
+					"statName": "Melee Lightning Damage",
+					"tags": 0,
+					"value": "+6"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Whenever your Scorpion kills an enemy, it heals for a percentage of its maximum health.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 18,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "When your Scorpion kills an enemy, it heals [10%] of its health per point.",
+			"nodeName": "Rest for the Wicked",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion deals more poison damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion deals [30%] increased poison damage per point.",
+						"nodeName": "Noxious Carapace",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Fierce and lethal, with a penchant for the weak.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+									"nodeName": "Summon Scorpion"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Damage",
+								"tags": 0,
+								"value": "+30%"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion has additional elemental resistance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 12,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion has +[50] elemental protection per point.",
+						"nodeName": "Chromatic Carapace",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Fierce and lethal, with a penchant for the weak.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+									"nodeName": "Summon Scorpion"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 52,
+								"statName": "Elemental Resistance",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 7,
+					"statName": "Percent Health Healed On Kill",
+					"tags": 0,
+					"value": "10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion deals more poison damage (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 20,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Your Scorpion deals [30%] increased poison damage per point.",
+			"nodeName": "Noxious Carapace",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Fierce and lethal, with a penchant for the weak.",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+						"nodeName": "Summon Scorpion"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Poison Damage",
+					"tags": 0,
+					"value": "+30%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your scorpion's {Venom Nova} deals damage in a larger area, and has an increased chance to poison enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 22,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Your Scorpion's activated ability, Venom Nova has [20%] increased area of effect and poison chance per point.",
+			"nodeName": "Miasma",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion deals more poison damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion deals [30%] increased poison damage per point.",
+						"nodeName": "Noxious Carapace",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Fierce and lethal, with a penchant for the weak.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+									"nodeName": "Summon Scorpion"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Damage",
+								"tags": 0,
+								"value": "+30%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5015,
+					"statName": "Venom Nova Area",
+					"tags": 0,
+					"value": "+30%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Venom Nova Poison Chance",
+					"tags": 0,
+					"value": "+30%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Venom Nova} leaves behind a {Poison Pool} for a duration, which applies a stack of poison each second to enemies standing in the pool.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 23,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Venom Nova leaves behind a Poison Pool for [1] second[s] per point.\n\nPoison Pool applies a stack of poison to enemies in the pool each second.",
+			"nodeName": "Deeper Puddle",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion deals more poison damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion deals [30%] increased poison damage per point.",
+						"nodeName": "Noxious Carapace",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Fierce and lethal, with a penchant for the weak.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+									"nodeName": "Summon Scorpion"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Damage",
+								"tags": 0,
+								"value": "+30%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Venom Nova Creates Poison Pool",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5093,
+					"statName": "Venom Nova Poison Pool Duration",
+					"tags": 0,
+					"value": "1"
+				}
+			]
+		},
+		{
+			"altText": "Poison Pool applies a stack of poison to enemies standing in it each second.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion has a chance when it is hit to create a {Poison Pool.} This effect has a 10 second cooldown.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 24,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Whenever your Scorpion is hit, there is a [10%] chance that a Poison Pool is released on the ground which lasts 3 seconds. This effect has a 10 second cooldown.",
+			"nodeName": "Pus Sacks",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Venom Nova} leaves behind a {Poison Pool} for a duration, which applies a stack of poison each second to enemies standing in the pool.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 23,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Venom Nova leaves behind a Poison Pool for [1] second[s] per point.\n\nPoison Pool applies a stack of poison to enemies in the pool each second.",
+						"nodeName": "Deeper Puddle",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your Scorpion deals more poison damage (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 20,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Your Scorpion deals [30%] increased poison damage per point.",
+									"nodeName": "Noxious Carapace",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Fierce and lethal, with a penchant for the weak.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+												"nodeName": "Summon Scorpion"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10007,
+											"statName": "Poison Damage",
+											"tags": 0,
+											"value": "+30%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Venom Nova Creates Poison Pool",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5093,
+								"statName": "Venom Nova Poison Pool Duration",
+								"tags": 0,
+								"value": "1"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Chance To Create Poison Pool When Hit",
+					"tags": 0,
+					"value": "10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Poison Pools} grant you and your minions increased attack speed and cast speed and a chance to poison enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 25,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Your Scorpion's Poison Pools give you and your minions +[10%] chance to poison on hit per point.\n\nYour Scorpion's Poison Pools give you and your minions [3%] increased attack and cast speed per point.",
+			"nodeName": "Brood Invigoration",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Poison Pool applies a stack of poison to enemies standing in it each second.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion has a chance when it is hit to create a {Poison Pool.} This effect has a 10 second cooldown.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 24,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Whenever your Scorpion is hit, there is a [10%] chance that a Poison Pool is released on the ground which lasts 3 seconds. This effect has a 10 second cooldown.",
+						"nodeName": "Pus Sacks",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "{Venom Nova} leaves behind a {Poison Pool} for a duration, which applies a stack of poison each second to enemies standing in the pool.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 23,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "Venom Nova leaves behind a Poison Pool for [1] second[s] per point.\n\nPoison Pool applies a stack of poison to enemies in the pool each second.",
+									"nodeName": "Deeper Puddle",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Your Scorpion deals more poison damage (multiplicative with other modifiers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 20,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Your Scorpion deals [30%] increased poison damage per point.",
+												"nodeName": "Noxious Carapace",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Fierce and lethal, with a penchant for the weak.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+															"nodeName": "Summon Scorpion"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10007,
+														"statName": "Poison Damage",
+														"tags": 0,
+														"value": "+30%"
+													}
+												]
+											},
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Venom Nova Creates Poison Pool",
+											"tags": 0,
+											"value": ""
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5093,
+											"statName": "Venom Nova Poison Pool Duration",
+											"tags": 0,
+											"value": "1"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Chance To Create Poison Pool When Hit",
+								"tags": 0,
+								"value": "10%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Attack Speed Granted From Poison Pool",
+					"tags": 0,
+					"value": "+3%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 3,
+					"statName": "Cast Speed Granted From Poison Pool",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Poison Chance Granted From Poison Pool",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "Poison chance from items, passives or temporary buffs will still work.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion deals additional melee physical damage, but can no longer poison enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 6,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Your Scorpion has +15 melee physical damage.\n\nYour Scorpion no longer has any base poison chance and no longer receives poison chance from this skill tree.",
+			"nodeName": "Ironclad",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion's melee attacks deal damage in a larger area, and your Scorpion is larger.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 4,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Your Scorpion's melee attacks have [20%] increased area of effect per point.\n\nYour Scorpion is [10%] larger per point.",
+						"nodeName": "Pinches and Pokes",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your Scorpion is larger and has additional physical and poison resistance",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 1,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Your Scorpion has +[50] armor and poison protection per point.\n\nYour Scorpion has [20%] increased armor and poison protection per point.\n\nYour Scorpion is [8%] larger per point.",
+									"nodeName": "Steel Carapace",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Fierce and lethal, with a penchant for the weak.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+												"nodeName": "Summon Scorpion"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 64,
+											"statName": "Physical Resistance",
+											"tags": 0,
+											"value": "+15%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 28,
+											"statName": "Poison Resistance",
+											"tags": 0,
+											"value": "+15%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5054,
+											"statName": "Size",
+											"tags": 0,
+											"value": "+8%"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your Scorpion's has a chance to cause enemies to bleed, and it deals more damage over time (multiplicative with other modifiers)",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 5,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Your Scorpion has [10%] chance per point to cause bleed on hit.\n\nYour Scorpion deals [20%] increased damage per point with damage over time effects.",
+									"nodeName": "Blood Poisoning",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Your scorpion's attacks grant health on hit, and have a chance to poison enemies.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "Your Scorpion has +[10%] chance to poison on hit per point.\n\nYour Scorpion heals [5] health on hit per point.",
+												"nodeName": "Concoction",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Fierce and lethal, with a penchant for the weak.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+															"nodeName": "Summon Scorpion"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 38,
+														"statName": "Health Gain On Hit",
+														"tags": 0,
+														"value": "+5"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10007,
+														"statName": "Poison Chance",
+														"tags": 0,
+														"value": "+25%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10002,
+											"statName": "Bleed Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5038,
+											"statName": "Damage Over Time",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5015,
+								"statName": "Melee Area",
+								"tags": 0,
+								"value": "+20%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5054,
+								"statName": "Size",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5081,
+					"statName": "Melee Physical Damage",
+					"tags": 0,
+					"value": "+15"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Scorpion Cannot Poison",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion spawns a number of {Baby Scorpions} every 10 seconds. Baby Scorpions are permanent minions but can be killed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 7,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Your Scorpion spawns a Baby Scorpion every 10 seconds.\n\nBaby Scorpions are permanent and can be kiled. You may control up to [1] Baby Scorpion per point.",
+			"nodeName": "Maternal Instinct",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion is larger and has additional physical and poison resistance",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 1,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion has +[50] armor and poison protection per point.\n\nYour Scorpion has [20%] increased armor and poison protection per point.\n\nYour Scorpion is [8%] larger per point.",
+						"nodeName": "Steel Carapace",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Fierce and lethal, with a penchant for the weak.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+									"nodeName": "Summon Scorpion"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 64,
+								"statName": "Physical Resistance",
+								"tags": 0,
+								"value": "+15%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 28,
+								"statName": "Poison Resistance",
+								"tags": 0,
+								"value": "+15%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5054,
+								"statName": "Size",
+								"tags": 0,
+								"value": "+8%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Baby Scorpions Summoned Every 10 Seconds",
+					"tags": 0,
+					"value": "1"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion can cast {Ice Thorns} with a 5 second cooldown. The Ice Thorns are affected by its skill tree.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 19,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Your Scorpion can cast Ice Thorns, with a 5 second cooldown. The Ice Thorns are affected by its skill tree, but not by your non-minion stats.",
+			"nodeName": "Ice Thorns",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Frostbite deals cold damage over 4 seconds and reduces freeze avoidance by 200, increasing the enemy's chance to be frozen.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion's base poison chance and additional poison chance granted from this tree are converted into chance to apply {Frostbite} instead.\n\nYour Scorpion has increased frostbite effectiveness.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 13,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion's base poison chance on hit and additional poison chance granted from this tree is converted in to chance to apply Frostbite on hit instead.\n\nYour Scorpion has [50%] increased Frostbite effectiveness per point.",
+						"nodeName": "Cold-Blooded",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your Scorpion has additional elemental resistance.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 12,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Your Scorpion has +[50] elemental protection per point.",
+									"nodeName": "Chromatic Carapace",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Fierce and lethal, with a penchant for the weak.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+												"nodeName": "Summon Scorpion"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 52,
+											"statName": "Elemental Resistance",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 4
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 10023,
+								"statName": "Poison Chance -> Frostbite Chance",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 20023,
+								"statName": "Frostbite Effect",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Scorpion Casts Ice Thorns",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your Scorpion casts {Acid Lob,} a ranged spell that explodes on impact, poisoning enemies and reducing their armor. Acid Lob has a 6 second cooldown.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 21,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Your Scorpion can cast Acid Lob, with a 6 second cooldown.",
+			"nodeName": "Acid Lob",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your Scorpion deals more poison damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Your Scorpion deals [30%] increased poison damage per point.",
+						"nodeName": "Noxious Carapace",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Fierce and lethal, with a penchant for the weak.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Summons a primal scorpion that poisons your enemies. Resistant to powerful area attacks.\n\nThe scorpion counts as a companion. You can have a maximum of two companions at once by default.",
+									"nodeName": "Summon Scorpion"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Damage",
+								"tags": 0,
+								"value": "+30%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Scorpion Casts Acid Lob",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		}
+	],
+	"specialised": 0,
+	"treeID": "sc36pi",
+	"unspentPoints": 1,
+	"version": 1
+}

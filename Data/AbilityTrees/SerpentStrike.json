@@ -1,0 +1,4218 @@
+{
+	"ability": {
+		"abilityName": "Serpent Strike",
+		"playerAbilityID": "st31et"
+	},
+	"nodeList": [
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"id": 0,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 0,
+			"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+			"nodeName": "Serpent Strike"
+		},
+		{
+			"altText": "If you have a similar effect from an item or passive node, then the highest threshold is used.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Serpent Strike hits have a chance to instantly kill enemies that are below a threshold (a percentage of their maximum health).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 3,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Your hits with serpent strike instantly kill enemies that are below a health threshold ([6%] of their maximum life per point).",
+			"nodeName": "Culling Point",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+						"nodeName": "Serpent Strike"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5029,
+					"statName": "Kill Threshold",
+					"tags": 0,
+					"value": "6%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Kills with Serpent Strike grant you health.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 4,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "You gain [10] health on kill with serpent strike per point",
+			"nodeName": "Devour Prey",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "If you have a similar effect from an item or passive node, then the highest threshold is used.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike hits have a chance to instantly kill enemies that are below a threshold (a percentage of their maximum health).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 3,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Your hits with serpent strike instantly kill enemies that are below a health threshold ([6%] of their maximum life per point).",
+						"nodeName": "Culling Point",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+									"nodeName": "Serpent Strike"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5029,
+								"statName": "Kill Threshold",
+								"tags": 0,
+								"value": "6%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 38,
+					"statName": "Health Granted On Kill",
+					"tags": 0,
+					"value": "10"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You are granted increased poison damage for 4 seconds when you use Serpent Strike.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 6,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Gain [12%] increased poison damage per point for 4 seconds when you use serpent strike",
+			"nodeName": "Scorpion Strikes",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike hits have a chance to inflict {Plague}, a that deals poison damage over time and spreads between nearby enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 5,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[25%] chance to inflict plague on hit per point\n\nPlague deals poison damage over time and spreads between enemies",
+						"nodeName": "Plaguebearer",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+									"nodeName": "Serpent Strike"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10018,
+								"statName": "Plague Chance",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 20007,
+					"statName": "Global Increased Poison Damage",
+					"tags": 0,
+					"value": "+12%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Serpent Strike has increased attack speed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 7,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "[7%] increased attack speed per point",
+			"nodeName": "Spear Flurry",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike hits have a chance to inflict {Plague}, a that deals poison damage over time and spreads between nearby enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 5,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[25%] chance to inflict plague on hit per point\n\nPlague deals poison damage over time and spreads between enemies",
+						"nodeName": "Plaguebearer",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+									"nodeName": "Serpent Strike"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10018,
+								"statName": "Plague Chance",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "Armour Shred reduces armour by 100, lasts 4 seconds, and can stack.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike hits have a chance to reduce enemy armor.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 16,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[20%] chance to shred armour on hit per point",
+						"nodeName": "Breaking Point",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You are granted dodge rating for 4 seconds when you use Serpent Strike.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 13,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 6,
+									"nodeDescription": "Gain [10] dodge rating per point for 4 seconds when you use serpent strike.",
+									"nodeName": "Primal Reflex",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+												"nodeName": "Serpent Strike"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 11,
+											"statName": "Dodge Rating",
+											"tags": 0,
+											"value": "+10"
+										}
+									]
+								},
+								"requirement": 3
+							},
+							{
+								"requirement": 3
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Bleed, poison, armor shred, and blinding poison inflicted by Serpent Strike hits last longer.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 20,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "[15%] increased duration of poison, bleed, armour shred, blinding poison, and plague.",
+									"nodeName": "Fester",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Serpent Strike hits have a chance to cause enemies to bleed.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 15,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "[20%] chance to inflict bleeding on hit per point",
+												"nodeName": "Gouging Spear",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Serpent Strike has increased attack speed and has a chance to cause enemies to bleed.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 14,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 4,
+															"nodeDescription": "",
+															"nodeName": "Blood Flurry",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"animations": [
+																			null
+																		],
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "You are granted dodge rating for 4 seconds when you use Serpent Strike.",
+																		"fadeOverlay": null,
+																		"highlightGlow": null,
+																		"id": 13,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 6,
+																		"nodeDescription": "Gain [10] dodge rating per point for 4 seconds when you use serpent strike.",
+																		"nodeName": "Primal Reflex",
+																		"pointsText": {
+																			"tmp": null
+																		},
+																		"requirements": [
+																			{
+																				"node": {
+																					"altText": "",
+																					"connectionPrefab": {
+																						"SkillTreeConnection": {
+																							"dotsImage": null,
+																							"endConnectionImage": null,
+																							"singleRail": null,
+																							"startConnectionImage": null
+																						}
+																					},
+																					"description": "",
+																					"id": 0,
+																					"isBaseLockNode": 0,
+																					"isLockNode": 0,
+																					"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+																					"mastery": 0,
+																					"masteryRequirement": 0,
+																					"maxPoints": 0,
+																					"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+																					"nodeName": "Serpent Strike"
+																				},
+																				"requirement": 0
+																			}
+																		],
+																		"stats": [
+																			{
+																				"downside": 0,
+																				"noScaling": 0,
+																				"overrideSprite": 0,
+																				"property": 11,
+																				"statName": "Dodge Rating",
+																				"tags": 0,
+																				"value": "+10"
+																			}
+																		]
+																	},
+																	"requirement": 1
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 2,
+																	"statName": "Attack Speed",
+																	"tags": 0,
+																	"value": "+4%"
+																},
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 10002,
+																	"statName": "Bleed Chance",
+																	"tags": 0,
+																	"value": "+10%"
+																}
+															]
+														},
+														"requirement": 2
+													},
+													{
+														"requirement": 2
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10002,
+														"statName": "Bleed Chance",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 2
+										},
+										{
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5057,
+											"statName": "Ailment Duration",
+											"tags": 0,
+											"value": "+15%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10008,
+								"statName": "Armour Shred Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Attack Speed",
+					"tags": 0,
+					"value": "+5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You are granted increased damage over time for 4 seconds when you use Serpent Strike.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 8,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Gain [10%] increased damage over time per point for 4 seconds when you use serpent strike",
+			"nodeName": "Chrono Strike",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "The poisoning projectile inflicts poison on hit, that scales with your increases to poison damage and damage over time, but not with other nodes on this tree. The projectile does not deal any other damage on hit.\n\nThe poison duration penalty does apply to the projectile, but does not apply to other ailments that serpent strike may apply such as blinding poison.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike hits have a chance to cast {Poison Spit,} a projectile spell that poisons on hit, but poisons you inflict have reduced duration.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 9,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Release a poisoning projectile when you use serpent strike. \n\nPoison inflicted by serpent strike or the projectile has 35% reduced duration.",
+						"nodeName": "Venomous Intent",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Serpent Strike has additional chance to poison enemies and poisons inflicted by Serpent Strike last longer.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 10,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 6,
+									"nodeDescription": "Serpent strike has [10%] additional poison chance per point\n\nPoison inflicted by serpent strike has [10%] increased duration per point",
+									"nodeName": "Nagasa Venom",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+												"nodeName": "Serpent Strike"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10007,
+											"statName": "Poison Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 15007,
+											"statName": "Poison Duration",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 4
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5119,
+								"statName": "Serpent Strike Casts Poison Spit",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 15007,
+								"statName": "Poison Duration",
+								"tags": 0,
+								"value": "-35%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5038,
+					"statName": "Global Damage Over Time",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Serpent Strike has additional chance to poison enemies and poisons inflicted by Serpent Strike last longer.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 10,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 6,
+			"nodeDescription": "Serpent strike has [10%] additional poison chance per point\n\nPoison inflicted by serpent strike has [10%] increased duration per point",
+			"nodeName": "Nagasa Venom",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+						"nodeName": "Serpent Strike"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Poison Chance",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 15007,
+					"statName": "Poison Duration",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "{Blinding Poison} does not reduce poison resistance.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Serpent Strike hits have a chance to inflict enemies with {Blinding Poison}, which deals poison damage over time and blinds enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 11,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "[17%] chance to inflict blinding poison on hit per point.",
+			"nodeName": "Debilitating Poison",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike has additional chance to poison enemies and poisons inflicted by Serpent Strike last longer.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 10,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 6,
+						"nodeDescription": "Serpent strike has [10%] additional poison chance per point\n\nPoison inflicted by serpent strike has [10%] increased duration per point",
+						"nodeName": "Nagasa Venom",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+									"nodeName": "Serpent Strike"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 15007,
+								"statName": "Poison Duration",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10015,
+					"statName": "Blinding Poison Chance",
+					"tags": 0,
+					"value": "17%"
+				}
+			]
+		},
+		{
+			"altText": "This includes both {Blind} and {Blinding Poison} effects.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Serpent Strike hits deal more damage against blinded enemies (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 12,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "[25%] more damage against enemies affected by blinding poison per point. [25%] more damage against enemies affected by blind per point. ",
+			"nodeName": "Septic Wounds",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "{Blinding Poison} does not reduce poison resistance.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike hits have a chance to inflict enemies with {Blinding Poison}, which deals poison damage over time and blinds enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 11,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "[17%] chance to inflict blinding poison on hit per point.",
+						"nodeName": "Debilitating Poison",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Serpent Strike has additional chance to poison enemies and poisons inflicted by Serpent Strike last longer.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 10,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 6,
+									"nodeDescription": "Serpent strike has [10%] additional poison chance per point\n\nPoison inflicted by serpent strike has [10%] increased duration per point",
+									"nodeName": "Nagasa Venom",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+												"nodeName": "Serpent Strike"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10007,
+											"statName": "Poison Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 15007,
+											"statName": "Poison Duration",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10015,
+								"statName": "Blinding Poison Chance",
+								"tags": 0,
+								"value": "17%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5001,
+					"statName": "Hit Damage Against Blinded Enemies",
+					"tags": 0,
+					"value": "+25%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You are granted dodge rating for 4 seconds when you use Serpent Strike.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 13,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 6,
+			"nodeDescription": "Gain [10] dodge rating per point for 4 seconds when you use serpent strike.",
+			"nodeName": "Primal Reflex",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+						"nodeName": "Serpent Strike"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 11,
+					"statName": "Dodge Rating",
+					"tags": 0,
+					"value": "+10"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Serpent Strike has increased attack speed and has a chance to cause enemies to bleed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 14,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "",
+			"nodeName": "Blood Flurry",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You are granted dodge rating for 4 seconds when you use Serpent Strike.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 13,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 6,
+						"nodeDescription": "Gain [10] dodge rating per point for 4 seconds when you use serpent strike.",
+						"nodeName": "Primal Reflex",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+									"nodeName": "Serpent Strike"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 11,
+								"statName": "Dodge Rating",
+								"tags": 0,
+								"value": "+10"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Attack Speed",
+					"tags": 0,
+					"value": "+4%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10002,
+					"statName": "Bleed Chance",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Serpent Strike hits have a chance to cause enemies to bleed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 15,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "[20%] chance to inflict bleeding on hit per point",
+			"nodeName": "Gouging Spear",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike has increased attack speed and has a chance to cause enemies to bleed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "",
+						"nodeName": "Blood Flurry",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You are granted dodge rating for 4 seconds when you use Serpent Strike.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 13,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 6,
+									"nodeDescription": "Gain [10] dodge rating per point for 4 seconds when you use serpent strike.",
+									"nodeName": "Primal Reflex",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+												"nodeName": "Serpent Strike"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 11,
+											"statName": "Dodge Rating",
+											"tags": 0,
+											"value": "+10"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Attack Speed",
+								"tags": 0,
+								"value": "+4%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Bleed Chance",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Bleed, poison, armor shred, and blinding poison inflicted by Serpent Strike hits last longer.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[15%] increased duration of poison, bleed, armour shred, blinding poison, and plague.",
+						"nodeName": "Fester",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "Armour Shred reduces armour by 100, lasts 4 seconds, and can stack.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Serpent Strike hits have a chance to reduce enemy armor.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 16,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "[20%] chance to shred armour on hit per point",
+									"nodeName": "Breaking Point",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "You are granted dodge rating for 4 seconds when you use Serpent Strike.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 13,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 6,
+												"nodeDescription": "Gain [10] dodge rating per point for 4 seconds when you use serpent strike.",
+												"nodeName": "Primal Reflex",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+															"nodeName": "Serpent Strike"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 11,
+														"statName": "Dodge Rating",
+														"tags": 0,
+														"value": "+10"
+													}
+												]
+											},
+											"requirement": 3
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Serpent Strike has increased attack speed.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 7,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "[7%] increased attack speed per point",
+												"nodeName": "Spear Flurry",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Serpent Strike hits have a chance to inflict {Plague}, a that deals poison damage over time and spreads between nearby enemies.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 5,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 4,
+															"nodeDescription": "[25%] chance to inflict plague on hit per point\n\nPlague deals poison damage over time and spreads between enemies",
+															"nodeName": "Plaguebearer",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+																		"nodeName": "Serpent Strike"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 10018,
+																	"statName": "Plague Chance",
+																	"tags": 0,
+																	"value": "+25%"
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"requirement": 3
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed",
+														"tags": 0,
+														"value": "+5%"
+													}
+												]
+											},
+											"requirement": 3
+										},
+										{
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10008,
+											"statName": "Armour Shred Chance",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5057,
+								"statName": "Ailment Duration",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10002,
+					"statName": "Bleed Chance",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "Armour Shred reduces armour by 100, lasts 4 seconds, and can stack.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Serpent Strike hits have a chance to reduce enemy armor.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 16,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "[20%] chance to shred armour on hit per point",
+			"nodeName": "Breaking Point",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You are granted dodge rating for 4 seconds when you use Serpent Strike.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 13,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 6,
+						"nodeDescription": "Gain [10] dodge rating per point for 4 seconds when you use serpent strike.",
+						"nodeName": "Primal Reflex",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+									"nodeName": "Serpent Strike"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 11,
+								"statName": "Dodge Rating",
+								"tags": 0,
+								"value": "+10"
+							}
+						]
+					},
+					"requirement": 3
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike has increased attack speed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[7%] increased attack speed per point",
+						"nodeName": "Spear Flurry",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Serpent Strike hits have a chance to inflict {Plague}, a that deals poison damage over time and spreads between nearby enemies.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 5,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "[25%] chance to inflict plague on hit per point\n\nPlague deals poison damage over time and spreads between enemies",
+									"nodeName": "Plaguebearer",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+												"nodeName": "Serpent Strike"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10018,
+											"statName": "Plague Chance",
+											"tags": 0,
+											"value": "+25%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Attack Speed",
+								"tags": 0,
+								"value": "+5%"
+							}
+						]
+					},
+					"requirement": 3
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Bleed, poison, armor shred, and blinding poison inflicted by Serpent Strike hits last longer.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[15%] increased duration of poison, bleed, armour shred, blinding poison, and plague.",
+						"nodeName": "Fester",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Serpent Strike hits have a chance to cause enemies to bleed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 15,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "[20%] chance to inflict bleeding on hit per point",
+									"nodeName": "Gouging Spear",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Serpent Strike has increased attack speed and has a chance to cause enemies to bleed.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 14,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "",
+												"nodeName": "Blood Flurry",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "You are granted dodge rating for 4 seconds when you use Serpent Strike.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 13,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 6,
+															"nodeDescription": "Gain [10] dodge rating per point for 4 seconds when you use serpent strike.",
+															"nodeName": "Primal Reflex",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+																		"nodeName": "Serpent Strike"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 11,
+																	"statName": "Dodge Rating",
+																	"tags": 0,
+																	"value": "+10"
+																}
+															]
+														},
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed",
+														"tags": 0,
+														"value": "+4%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10002,
+														"statName": "Bleed Chance",
+														"tags": 0,
+														"value": "+10%"
+													}
+												]
+											},
+											"requirement": 2
+										},
+										{
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10002,
+											"statName": "Bleed Chance",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5057,
+								"statName": "Ailment Duration",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10008,
+					"statName": "Armour Shred Chance",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Improves Serpent Strike's base critical strike chance.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 17,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Adds [3%] to base crit chance per point",
+			"nodeName": "Eye of the Viper",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You are granted dodge rating for 4 seconds when you use Serpent Strike.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 13,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 6,
+						"nodeDescription": "Gain [10] dodge rating per point for 4 seconds when you use serpent strike.",
+						"nodeName": "Primal Reflex",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+									"nodeName": "Serpent Strike"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 11,
+								"statName": "Dodge Rating",
+								"tags": 0,
+								"value": "+10"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "If you have a similar effect from an item or passive node, then the highest threshold is used.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike hits have a chance to instantly kill enemies that are below a threshold (a percentage of their maximum health).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 3,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Your hits with serpent strike instantly kill enemies that are below a health threshold ([6%] of their maximum life per point).",
+						"nodeName": "Culling Point",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+									"nodeName": "Serpent Strike"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5029,
+								"statName": "Kill Threshold",
+								"tags": 0,
+								"value": "6%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5007,
+					"statName": "Base Crit Chance",
+					"tags": 0,
+					"value": "+3%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Serpent Strike critical strikes grant you health.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 18,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Gain [5] health on crit per point",
+			"nodeName": "Confidence",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Improves Serpent Strike's base critical strike chance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 17,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Adds [3%] to base crit chance per point",
+						"nodeName": "Eye of the Viper",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You are granted dodge rating for 4 seconds when you use Serpent Strike.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 13,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 6,
+									"nodeDescription": "Gain [10] dodge rating per point for 4 seconds when you use serpent strike.",
+									"nodeName": "Primal Reflex",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+												"nodeName": "Serpent Strike"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 11,
+											"statName": "Dodge Rating",
+											"tags": 0,
+											"value": "+10"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "If you have a similar effect from an item or passive node, then the highest threshold is used.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Serpent Strike hits have a chance to instantly kill enemies that are below a threshold (a percentage of their maximum health).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "Your hits with serpent strike instantly kill enemies that are below a health threshold ([6%] of their maximum life per point).",
+									"nodeName": "Culling Point",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+												"nodeName": "Serpent Strike"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5029,
+											"statName": "Kill Threshold",
+											"tags": 0,
+											"value": "6%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5007,
+								"statName": "Base Crit Chance",
+								"tags": 0,
+								"value": "+3%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 38,
+					"statName": "Health Gain On Crit",
+					"tags": 0,
+					"value": "5"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Plague} inflicted by Serpent Strike is more effective, causing it to deal more damage (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 19,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Plague deals [20%] more damage per point (multiplicative with other modifiers)",
+			"nodeName": "Hive",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike hits have a chance to inflict {Plague}, a that deals poison damage over time and spreads between nearby enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 5,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[25%] chance to inflict plague on hit per point\n\nPlague deals poison damage over time and spreads between enemies",
+						"nodeName": "Plaguebearer",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+									"nodeName": "Serpent Strike"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10018,
+								"statName": "Plague Chance",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Increased Plague Effect",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Summon Serpent",
+				"playerAbilityID": ""
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Primal Serpents} have increased attack speed and are granted health when they hit enemies with a melee attack.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 21,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Primal Serpents summoned by serpent strike have [10%] increased attack speed per point, and gain [10] health on melee hit per point.",
+			"nodeName": "Viscious Strikes",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "\n\nPrimal serpents also gain 4% increased damage for each point of Strength or Dexterity.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "When Serpent Strike kills an enemy, you have a chance to summon a {Primal Serpent}, a melee minion which poisons on hit.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[7%] chance to summon a primal serpent on kill.",
+						"nodeName": "Primal Serpent",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+									"nodeName": "Serpent Strike"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5118,
+								"statName": "Chance To Summon Primal Serpent On Kill",
+								"tags": 0,
+								"value": "7%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Primal Serpent Attack Speed",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 38,
+					"statName": "Primal Serpent Health Granted On Melee Hit",
+					"tags": 0,
+					"value": "10"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Summon Serpent",
+				"playerAbilityID": ""
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Primal Serpents} have more maximum health (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 22,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Primal Serpents summoned by serpent strike have [40%] more health per point (multiplicative with other modifiers)",
+			"nodeName": "Natural Survival",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Summon Serpent",
+							"playerAbilityID": ""
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Primal Serpents} have increased attack speed and are granted health when they hit enemies with a melee attack.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 21,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Primal Serpents summoned by serpent strike have [10%] increased attack speed per point, and gain [10] health on melee hit per point.",
+						"nodeName": "Viscious Strikes",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "\n\nPrimal serpents also gain 4% increased damage for each point of Strength or Dexterity.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "When Serpent Strike kills an enemy, you have a chance to summon a {Primal Serpent}, a melee minion which poisons on hit.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "[7%] chance to summon a primal serpent on kill.",
+									"nodeName": "Primal Serpent",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+												"nodeName": "Serpent Strike"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5118,
+											"statName": "Chance To Summon Primal Serpent On Kill",
+											"tags": 0,
+											"value": "7%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Primal Serpent Attack Speed",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 38,
+								"statName": "Primal Serpent Health Granted On Melee Hit",
+								"tags": 0,
+								"value": "10"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 7,
+					"statName": "Primal Serpent Health",
+					"tags": 0,
+					"value": "+40%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Summon Serpent",
+				"playerAbilityID": ""
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Primal Serpents} have an additional chance to poison enemies and poisons inflicted by Primal Serpents last longer.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 23,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Primal Serpents summoned by serpent strike have [20%] additional chance to poison on melee hit per point and [20%] increased poison duration per point",
+			"nodeName": "Serpent's Milk",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Summon Serpent",
+							"playerAbilityID": ""
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Primal Serpents} have increased attack speed and are granted health when they hit enemies with a melee attack.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 21,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Primal Serpents summoned by serpent strike have [10%] increased attack speed per point, and gain [10] health on melee hit per point.",
+						"nodeName": "Viscious Strikes",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "\n\nPrimal serpents also gain 4% increased damage for each point of Strength or Dexterity.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "When Serpent Strike kills an enemy, you have a chance to summon a {Primal Serpent}, a melee minion which poisons on hit.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "[7%] chance to summon a primal serpent on kill.",
+									"nodeName": "Primal Serpent",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+												"nodeName": "Serpent Strike"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5118,
+											"statName": "Chance To Summon Primal Serpent On Kill",
+											"tags": 0,
+											"value": "7%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Primal Serpent Attack Speed",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 38,
+								"statName": "Primal Serpent Health Granted On Melee Hit",
+								"tags": 0,
+								"value": "10"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Primal Serpent Poison Chance",
+					"tags": 0,
+					"value": "+20%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 15007,
+					"statName": "Primal Serpent Poison Duration",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Summon Serpent",
+				"playerAbilityID": ""
+			},
+			"altText": "This effect triggers when you kill an enemy and roll to summon.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Instead of summoning a new serpent when the {Primal Serpent} node's effect triggers, you heal your current serpent to full health and it deals more damage (multiplicative with other modifiers) for 4 seconds.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 24,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "If you already have a primal serpent, instead of summoning a new one you heal the existing serpent to full health and give it 50% increased damage for 4 seconds.",
+			"nodeName": "Guardian Spear",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "\n\nPrimal serpents also gain 4% increased damage for each point of Strength or Dexterity.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "When Serpent Strike kills an enemy, you have a chance to summon a {Primal Serpent}, a melee minion which poisons on hit.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[7%] chance to summon a primal serpent on kill.",
+						"nodeName": "Primal Serpent",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+									"nodeName": "Serpent Strike"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5118,
+								"statName": "Chance To Summon Primal Serpent On Kill",
+								"tags": 0,
+								"value": "7%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 7,
+					"statName": "Heal Serpent To Full",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage",
+					"tags": 0,
+					"value": "+50%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5118,
+					"statName": "No Longer Resummons Primal Serpent",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "\n\nPrimal serpents also gain 4% increased damage for each point of Strength or Dexterity.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "When Serpent Strike kills an enemy, you have a chance to summon a {Primal Serpent}, a melee minion which poisons on hit.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 2,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "[7%] chance to summon a primal serpent on kill.",
+			"nodeName": "Primal Serpent",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+						"nodeName": "Serpent Strike"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5118,
+					"statName": "Chance To Summon Primal Serpent On Kill",
+					"tags": 0,
+					"value": "7%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Serpent Strike hits have a chance to inflict {Plague}, a that deals poison damage over time and spreads between nearby enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 5,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "[25%] chance to inflict plague on hit per point\n\nPlague deals poison damage over time and spreads between enemies",
+			"nodeName": "Plaguebearer",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+						"nodeName": "Serpent Strike"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10018,
+					"statName": "Plague Chance",
+					"tags": 0,
+					"value": "+25%"
+				}
+			]
+		},
+		{
+			"altText": "The poisoning projectile inflicts poison on hit, that scales with your increases to poison damage and damage over time, but not with other nodes on this tree. The projectile does not deal any other damage on hit.\n\nThe poison duration penalty does apply to the projectile, but does not apply to other ailments that serpent strike may apply such as blinding poison.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Serpent Strike hits have a chance to cast {Poison Spit,} a projectile spell that poisons on hit, but poisons you inflict have reduced duration.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 9,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Release a poisoning projectile when you use serpent strike. \n\nPoison inflicted by serpent strike or the projectile has 35% reduced duration.",
+			"nodeName": "Venomous Intent",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike has additional chance to poison enemies and poisons inflicted by Serpent Strike last longer.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 10,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 6,
+						"nodeDescription": "Serpent strike has [10%] additional poison chance per point\n\nPoison inflicted by serpent strike has [10%] increased duration per point",
+						"nodeName": "Nagasa Venom",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+									"nodeName": "Serpent Strike"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 15007,
+								"statName": "Poison Duration",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 4
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5119,
+					"statName": "Serpent Strike Casts Poison Spit",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 15007,
+					"statName": "Poison Duration",
+					"tags": 0,
+					"value": "-35%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Bleed, poison, armor shred, and blinding poison inflicted by Serpent Strike hits last longer.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 20,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "[15%] increased duration of poison, bleed, armour shred, blinding poison, and plague.",
+			"nodeName": "Fester",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike hits have a chance to cause enemies to bleed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 15,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "[20%] chance to inflict bleeding on hit per point",
+						"nodeName": "Gouging Spear",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Serpent Strike has increased attack speed and has a chance to cause enemies to bleed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 14,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "",
+									"nodeName": "Blood Flurry",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "You are granted dodge rating for 4 seconds when you use Serpent Strike.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 13,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 6,
+												"nodeDescription": "Gain [10] dodge rating per point for 4 seconds when you use serpent strike.",
+												"nodeName": "Primal Reflex",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+															"nodeName": "Serpent Strike"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 11,
+														"statName": "Dodge Rating",
+														"tags": 0,
+														"value": "+10"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed",
+											"tags": 0,
+											"value": "+4%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10002,
+											"statName": "Bleed Chance",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Bleed Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "Armour Shred reduces armour by 100, lasts 4 seconds, and can stack.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Serpent Strike hits have a chance to reduce enemy armor.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 16,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[20%] chance to shred armour on hit per point",
+						"nodeName": "Breaking Point",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You are granted dodge rating for 4 seconds when you use Serpent Strike.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 13,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 6,
+									"nodeDescription": "Gain [10] dodge rating per point for 4 seconds when you use serpent strike.",
+									"nodeName": "Primal Reflex",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+												"nodeName": "Serpent Strike"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 11,
+											"statName": "Dodge Rating",
+											"tags": 0,
+											"value": "+10"
+										}
+									]
+								},
+								"requirement": 3
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Serpent Strike has increased attack speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 7,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "[7%] increased attack speed per point",
+									"nodeName": "Spear Flurry",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Serpent Strike hits have a chance to inflict {Plague}, a that deals poison damage over time and spreads between nearby enemies.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 5,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "[25%] chance to inflict plague on hit per point\n\nPlague deals poison damage over time and spreads between enemies",
+												"nodeName": "Plaguebearer",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The strength of the python and the venom of the cobra are yours to channel",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "A melee attack that poisons the target. Requires a polearm.\n\nPoisons inflicted by serpent strike last 40% longer.",
+															"nodeName": "Serpent Strike"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10018,
+														"statName": "Plague Chance",
+														"tags": 0,
+														"value": "+25%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 3
+							},
+							{
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10008,
+								"statName": "Armour Shred Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5057,
+					"statName": "Ailment Duration",
+					"tags": 0,
+					"value": "+15%"
+				}
+			]
+		}
+	],
+	"specialised": 0,
+	"treeID": "st31et",
+	"unspentPoints": 1,
+	"version": 0
+}

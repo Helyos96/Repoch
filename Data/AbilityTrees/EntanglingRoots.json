@@ -1,0 +1,4808 @@
+{
+	"ability": {
+		"abilityName": "Entangling Roots",
+		"playerAbilityID": "er6no"
+	},
+	"nodeList": [
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"id": 0,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "Roots burst from the earth to snare and hinder your foes",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 0,
+			"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+			"nodeName": "Entangling Roots"
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots deals more damage (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 3,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Entangling roots deals [20%] increased damage per point",
+			"nodeName": "Mystic Roots",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Roots burst from the earth to snare and hinder your foes",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+						"nodeName": "Entangling Roots"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "Duration increase is multiplicative with other nodes",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots lasts longer.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 4,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Entangling roots lasts [20%] longer per point",
+			"nodeName": "Lasting Briar",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "{Vines} scale with your bonuses to minions, but not with other nodes on this tree, unless stated otherwise.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Enemies killed by Entangling Roots have a chance to sprout a {Vine,} a melee minion that poisons enemies it hits.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[25%] chance per point for vines to sprout from enemies killed by entangling roots.",
+						"nodeName": "Reclamation",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Roots burst from the earth to snare and hinder your foes",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+									"nodeName": "Entangling Roots"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Chance To Summon Vine On Kill",
+								"tags": 0,
+								"value": "25%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots deals additional poison damage over time.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 5,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Entangling roots deals +[3] base poison damage per second per point.",
+						"nodeName": "Poison Ground",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Entangling Roots deals more damage (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Entangling roots deals [20%] increased damage per point",
+									"nodeName": "Mystic Roots",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Roots burst from the earth to snare and hinder your foes",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+												"nodeName": "Entangling Roots"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5131,
+								"statName": "Poison Damage Per Second",
+								"tags": 0,
+								"value": "+3"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5093,
+					"statName": "Duration",
+					"tags": 0,
+					"value": "+15%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots deals additional poison damage over time.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 5,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Entangling roots deals +[3] base poison damage per second per point.",
+			"nodeName": "Poison Ground",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Duration increase is multiplicative with other nodes",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots lasts longer.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 4,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Entangling roots lasts [20%] longer per point",
+						"nodeName": "Lasting Briar",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "{Vines} scale with your bonuses to minions, but not with other nodes on this tree, unless stated otherwise.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Enemies killed by Entangling Roots have a chance to sprout a {Vine,} a melee minion that poisons enemies it hits.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "[25%] chance per point for vines to sprout from enemies killed by entangling roots.",
+									"nodeName": "Reclamation",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Roots burst from the earth to snare and hinder your foes",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+												"nodeName": "Entangling Roots"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Chance To Summon Vine On Kill",
+											"tags": 0,
+											"value": "25%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5093,
+								"statName": "Duration",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots deals more damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 3,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Entangling roots deals [20%] increased damage per point",
+						"nodeName": "Mystic Roots",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Roots burst from the earth to snare and hinder your foes",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+									"nodeName": "Entangling Roots"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5131,
+					"statName": "Poison Damage Per Second",
+					"tags": 0,
+					"value": "+3"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots affects a larger area.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 6,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Entangling roots has [30%] increased area per point",
+			"nodeName": "Grove Master",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "{Vines} scale with your bonuses to minions, but not with other nodes on this tree, unless stated otherwise.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Enemies killed by Entangling Roots have a chance to sprout a {Vine,} a melee minion that poisons enemies it hits.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[25%] chance per point for vines to sprout from enemies killed by entangling roots.",
+						"nodeName": "Reclamation",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Roots burst from the earth to snare and hinder your foes",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+									"nodeName": "Entangling Roots"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Chance To Summon Vine On Kill",
+								"tags": 0,
+								"value": "25%"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Allies within Entangling Roots' area of effect deal increased damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Allies within the area of effect deal [30%] increased damage per point",
+						"nodeName": "Imbued Sap",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Roots burst from the earth to snare and hinder your foes",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+									"nodeName": "Entangling Roots"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Increased Ally Damage",
+								"tags": 0,
+								"value": "+30%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5015,
+					"statName": "Area",
+					"tags": 0,
+					"value": "+30%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Allies within Entangling Roots' area of effect deal increased damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 7,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Allies within the area of effect deal [30%] increased damage per point",
+			"nodeName": "Imbued Sap",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Roots burst from the earth to snare and hinder your foes",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+						"nodeName": "Entangling Roots"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Increased Ally Damage",
+					"tags": 0,
+					"value": "+30%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Summon Spriggan",
+				"playerAbilityID": "sp38"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Allied Spriggans within Entangling Roots' area of effect have increased cast speed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 9,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Allied spriggans within the area of effect gain [25%] increased cast speed per point.",
+			"nodeName": "Spriggans of the Grove",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Allies within Entangling Roots' area of effect deal increased damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Allies within the area of effect deal [30%] increased damage per point",
+						"nodeName": "Imbued Sap",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Roots burst from the earth to snare and hinder your foes",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+									"nodeName": "Entangling Roots"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Increased Ally Damage",
+								"tags": 0,
+								"value": "+30%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 3,
+					"statName": "Spriggan Cast Speed",
+					"tags": 0,
+					"value": "+25%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "While within Entangling Roots' area of effect, the attacks of allied wolves, serpents, and scorpions have a chance to poison enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 11,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Allied wolves, serpents, and scorpions within the area of effect gain [40%] chance to poison on hit per point.",
+			"nodeName": "Venomous Pack",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Allies within Entangling Roots' area of effect deal increased damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Allies within the area of effect deal [30%] increased damage per point",
+						"nodeName": "Imbued Sap",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Roots burst from the earth to snare and hinder your foes",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+									"nodeName": "Entangling Roots"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Increased Ally Damage",
+								"tags": 0,
+								"value": "+30%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Poison Chance",
+					"tags": 0,
+					"value": "+30%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "While within Entangling Roots' area of effect, the attacks of allied bears and sabertooths have a chance to cause enemies to bleed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 12,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Allied bears and sabertooths within the area of effect gain [40%] chance to cause bleeding on hit per point.",
+			"nodeName": "Empowered Bites",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Allies within Entangling Roots' area of effect deal increased damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Allies within the area of effect deal [30%] increased damage per point",
+						"nodeName": "Imbued Sap",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Roots burst from the earth to snare and hinder your foes",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+									"nodeName": "Entangling Roots"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Increased Ally Damage",
+								"tags": 0,
+								"value": "+30%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10002,
+					"statName": "Bleed Chance",
+					"tags": 0,
+					"value": "+40%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots heals allies within its area of effect each second.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 16,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Entangling roots heals allies within its area for [15] health per second per point",
+			"nodeName": "Nourish",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Roots burst from the earth to snare and hinder your foes",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+						"nodeName": "Entangling Roots"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 38,
+					"statName": "Healing Per Second",
+					"tags": 0,
+					"value": "10"
+				}
+			]
+		},
+		{
+			"altText": "Duration reduction is additive with Entangling Roots",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots costs less mana, but has a shorter duration.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 17,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Entangling roots has [15%] reduced duration per point, but [40%] increased mana efficiency per point.",
+			"nodeName": "Fleeting Grove",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots restores mana to you and allies within its area of effect each second.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 13,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Entangling roots also restores 1 mana per second to all allies within its area",
+						"nodeName": "Mana Bloom",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"abilityGrantedByNode": {
+										"abilityName": "Healing Nova",
+										"playerAbilityID": "hn18"
+									},
+									"altText": "Healing novas restore 30 health",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Entangling Roots casts {Healing Nova} when it ends, a spell that restores 30 health to all allies hit.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 8,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Entangling roots leaves a healing nova when it ends",
+									"nodeName": "Bountiful Harvest",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Entangling Roots heals allies within its area of effect each second.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 16,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Entangling roots heals allies within its area for [15] health per second per point",
+												"nodeName": "Nourish",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Roots burst from the earth to snare and hinder your foes",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+															"nodeName": "Entangling Roots"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 38,
+														"statName": "Healing Per Second",
+														"tags": 0,
+														"value": "10"
+													}
+												]
+											},
+											"requirement": 4
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Casts Healing Nova",
+											"tags": 0,
+											"value": ""
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 40,
+								"statName": "Mana Gained Per Second",
+								"tags": 0,
+								"value": "1"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 69,
+					"statName": "Mana Efficiency",
+					"tags": 0,
+					"value": "+40%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5093,
+					"statName": "Duration",
+					"tags": 0,
+					"value": "-15%"
+				}
+			]
+		},
+		{
+			"altText": "Duration reduction is additive with Fleeting Grove",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots has an additional patch, but each patch has a shorter duration and deals less damage (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 19,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Entangling roots has 1 additional patch, but 30% reduced duration and 10% reduced damage.",
+			"nodeName": "Plentiful Thicket",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots patches are now cast in a line in the target direction, with 4 meters between each.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Patches from entangling roots are arranged in a line in the target direction, with 4 metres between each patch.",
+						"nodeName": "Overgrown Path",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "The second and third patches are created at random locations within 6 metres of the first.\n\nEach patch creates its own healing nova if you have taken Restorative Harvest\n\nDamage and healing from multiple patches can overlap",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Entangling Roots creates 3 patches, but each patch affects a smaller area and Entangling Roots costs more mana.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 18,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "50% increased mana cost. Entangling roots creates 3 patches. Each patch has 60% reduced area of effect.",
+									"nodeName": "Roots of Lapp",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Entangling Roots heals allies within its area of effect each second.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 16,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Entangling roots heals allies within its area for [15] health per second per point",
+												"nodeName": "Nourish",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Roots burst from the earth to snare and hinder your foes",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+															"nodeName": "Entangling Roots"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 38,
+														"statName": "Healing Per Second",
+														"tags": 0,
+														"value": "10"
+													}
+												]
+											},
+											"requirement": 2
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Entangling Roots deals more damage (multiplicative with other modifiers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 3,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Entangling roots deals [20%] increased damage per point",
+												"nodeName": "Mystic Roots",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Roots burst from the earth to snare and hinder your foes",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+															"nodeName": "Entangling Roots"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "3 Entangling Roots Patches",
+											"tags": 0,
+											"value": ""
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "+50%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5015,
+											"statName": "Area",
+											"tags": 0,
+											"value": "-60%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Entangling Roots Patches Cast In A Line",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Additional Entangling Roots Patch",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5093,
+					"statName": "Reduced Duration",
+					"tags": 0,
+					"value": "-30%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage",
+					"tags": 0,
+					"value": "-10%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Healing Nova",
+				"playerAbilityID": "hn18"
+			},
+			"altText": "Healing novas restore 30 health",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots casts {Healing Nova} when it ends, a spell that restores 30 health to all allies hit.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 8,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Entangling roots leaves a healing nova when it ends",
+			"nodeName": "Bountiful Harvest",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots heals allies within its area of effect each second.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 16,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Entangling roots heals allies within its area for [15] health per second per point",
+						"nodeName": "Nourish",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Roots burst from the earth to snare and hinder your foes",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+									"nodeName": "Entangling Roots"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 38,
+								"statName": "Healing Per Second",
+								"tags": 0,
+								"value": "10"
+							}
+						]
+					},
+					"requirement": 4
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Casts Healing Nova",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots restores mana to you and allies within its area of effect each second.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 13,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Entangling roots also restores 1 mana per second to all allies within its area",
+			"nodeName": "Mana Bloom",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Healing Nova",
+							"playerAbilityID": "hn18"
+						},
+						"altText": "Healing novas restore 30 health",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots casts {Healing Nova} when it ends, a spell that restores 30 health to all allies hit.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 8,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Entangling roots leaves a healing nova when it ends",
+						"nodeName": "Bountiful Harvest",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Entangling Roots heals allies within its area of effect each second.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 16,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Entangling roots heals allies within its area for [15] health per second per point",
+									"nodeName": "Nourish",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Roots burst from the earth to snare and hinder your foes",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+												"nodeName": "Entangling Roots"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 38,
+											"statName": "Healing Per Second",
+											"tags": 0,
+											"value": "10"
+										}
+									]
+								},
+								"requirement": 4
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Casts Healing Nova",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 40,
+					"statName": "Mana Gained Per Second",
+					"tags": 0,
+					"value": "1"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Summon Spriggan",
+				"playerAbilityID": "sp38"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Allied spriggans within Entangling Roots' area of effect deal additional physical damage with spells.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 14,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "",
+			"nodeName": "Wardens of Farwood",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Summon Spriggan",
+							"playerAbilityID": "sp38"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Allied Spriggans within Entangling Roots' area of effect have increased cast speed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 9,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Allied spriggans within the area of effect gain [25%] increased cast speed per point.",
+						"nodeName": "Spriggans of the Grove",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Allies within Entangling Roots' area of effect deal increased damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 7,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Allies within the area of effect deal [30%] increased damage per point",
+									"nodeName": "Imbued Sap",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Roots burst from the earth to snare and hinder your foes",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+												"nodeName": "Entangling Roots"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Increased Ally Damage",
+											"tags": 0,
+											"value": "+30%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 3,
+								"statName": "Spriggan Cast Speed",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 41,
+					"statName": "Spriggan Spell Physical Damage",
+					"tags": 0,
+					"value": "+5"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Allied wolves, serpents, and scorpions within Entangling Roots' area of effect have increased attack speed, cast speed, and movement speed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 15,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Allied wolves, serpents, and scorpions within the area of effect gain [15%] increased attack speed, cast speed, and movement speed per point.",
+			"nodeName": "Frenzy Roots",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "While within Entangling Roots' area of effect, the attacks of allied wolves, serpents, and scorpions have a chance to poison enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 11,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Allied wolves, serpents, and scorpions within the area of effect gain [40%] chance to poison on hit per point.",
+						"nodeName": "Venomous Pack",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Allies within Entangling Roots' area of effect deal increased damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 7,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Allies within the area of effect deal [30%] increased damage per point",
+									"nodeName": "Imbued Sap",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Roots burst from the earth to snare and hinder your foes",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+												"nodeName": "Entangling Roots"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Increased Ally Damage",
+											"tags": 0,
+											"value": "+30%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Chance",
+								"tags": 0,
+								"value": "+30%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Attack Speed",
+					"tags": 0,
+					"value": "+12%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 3,
+					"statName": "Cast Speed",
+					"tags": 0,
+					"value": "+12%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 9,
+					"statName": "Movespeed",
+					"tags": 0,
+					"value": "+12%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots has a chance to cause enemies to bleed each second.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 22,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "[25%] chance per point to cause bleeding each second",
+			"nodeName": "Bramble Thorns",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Duration increase is multiplicative with other nodes",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots lasts longer.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 4,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Entangling roots lasts [20%] longer per point",
+						"nodeName": "Lasting Briar",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "{Vines} scale with your bonuses to minions, but not with other nodes on this tree, unless stated otherwise.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Enemies killed by Entangling Roots have a chance to sprout a {Vine,} a melee minion that poisons enemies it hits.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "[25%] chance per point for vines to sprout from enemies killed by entangling roots.",
+									"nodeName": "Reclamation",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Roots burst from the earth to snare and hinder your foes",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+												"nodeName": "Entangling Roots"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Chance To Summon Vine On Kill",
+											"tags": 0,
+											"value": "25%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Entangling Roots deals additional poison damage over time.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 5,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Entangling roots deals +[3] base poison damage per second per point.",
+									"nodeName": "Poison Ground",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 2
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Entangling Roots deals more damage (multiplicative with other modifiers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 3,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Entangling roots deals [20%] increased damage per point",
+												"nodeName": "Mystic Roots",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Roots burst from the earth to snare and hinder your foes",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+															"nodeName": "Entangling Roots"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5131,
+											"statName": "Poison Damage Per Second",
+											"tags": 0,
+											"value": "+3"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5093,
+								"statName": "Duration",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10002,
+					"statName": "Bleed Chance",
+					"tags": 0,
+					"value": "+25%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Poison and bleed inflicted by Entangling roots lasts longer.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 23,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Poison and Bleeding inflicted by Entangling Roots lasts 50% longer",
+			"nodeName": "Inevitable",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots has a chance to cause enemies to bleed each second.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 22,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[25%] chance per point to cause bleeding each second",
+						"nodeName": "Bramble Thorns",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Duration increase is multiplicative with other nodes",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Entangling Roots lasts longer.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 4,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Entangling roots lasts [20%] longer per point",
+									"nodeName": "Lasting Briar",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "{Vines} scale with your bonuses to minions, but not with other nodes on this tree, unless stated otherwise.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Enemies killed by Entangling Roots have a chance to sprout a {Vine,} a melee minion that poisons enemies it hits.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "[25%] chance per point for vines to sprout from enemies killed by entangling roots.",
+												"nodeName": "Reclamation",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Roots burst from the earth to snare and hinder your foes",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+															"nodeName": "Entangling Roots"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Chance To Summon Vine On Kill",
+														"tags": 0,
+														"value": "25%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Entangling Roots deals additional poison damage over time.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 5,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Entangling roots deals +[3] base poison damage per second per point.",
+												"nodeName": "Poison Ground",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"requirement": 2
+													},
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Entangling Roots deals more damage (multiplicative with other modifiers).",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 3,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 5,
+															"nodeDescription": "Entangling roots deals [20%] increased damage per point",
+															"nodeName": "Mystic Roots",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "Roots burst from the earth to snare and hinder your foes",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+																		"nodeName": "Entangling Roots"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Damage",
+																	"tags": 0,
+																	"value": "+20%"
+																}
+															]
+														},
+														"requirement": 2
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5131,
+														"statName": "Poison Damage Per Second",
+														"tags": 0,
+														"value": "+3"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5093,
+											"statName": "Duration",
+											"tags": 0,
+											"value": "+15%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Bleed Chance",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 3
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots has a chance to poison enemies each second.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 24,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[25%] chance to poison each second per point",
+						"nodeName": "Nightshade",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Entangling Roots has a chance to cause enemies to bleed each second.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 22,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "[25%] chance per point to cause bleeding each second",
+									"nodeName": "Bramble Thorns",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "Duration increase is multiplicative with other nodes",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Entangling Roots lasts longer.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 4,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Entangling roots lasts [20%] longer per point",
+												"nodeName": "Lasting Briar",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "{Vines} scale with your bonuses to minions, but not with other nodes on this tree, unless stated otherwise.",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Enemies killed by Entangling Roots have a chance to sprout a {Vine,} a melee minion that poisons enemies it hits.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 2,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 4,
+															"nodeDescription": "[25%] chance per point for vines to sprout from enemies killed by entangling roots.",
+															"nodeName": "Reclamation",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "Roots burst from the earth to snare and hinder your foes",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+																		"nodeName": "Entangling Roots"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 1,
+																	"property": 54,
+																	"statName": "Chance To Summon Vine On Kill",
+																	"tags": 0,
+																	"value": "25%"
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Entangling Roots deals additional poison damage over time.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 5,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 5,
+															"nodeDescription": "Entangling roots deals +[3] base poison damage per second per point.",
+															"nodeName": "Poison Ground",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"requirement": 2
+																},
+																{
+																	"node": {
+																		"altText": "",
+																		"animations": [
+																			null
+																		],
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "Entangling Roots deals more damage (multiplicative with other modifiers).",
+																		"fadeOverlay": null,
+																		"highlightGlow": null,
+																		"id": 3,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 5,
+																		"nodeDescription": "Entangling roots deals [20%] increased damage per point",
+																		"nodeName": "Mystic Roots",
+																		"pointsText": {
+																			"tmp": null
+																		},
+																		"requirements": [
+																			{
+																				"node": {
+																					"altText": "",
+																					"connectionPrefab": {
+																						"SkillTreeConnection": {
+																							"dotsImage": null,
+																							"endConnectionImage": null,
+																							"singleRail": null,
+																							"startConnectionImage": null
+																						}
+																					},
+																					"description": "",
+																					"id": 0,
+																					"isBaseLockNode": 0,
+																					"isLockNode": 0,
+																					"loreText": "Roots burst from the earth to snare and hinder your foes",
+																					"mastery": 0,
+																					"masteryRequirement": 0,
+																					"maxPoints": 0,
+																					"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+																					"nodeName": "Entangling Roots"
+																				},
+																				"requirement": 0
+																			}
+																		],
+																		"stats": [
+																			{
+																				"downside": 0,
+																				"noScaling": 0,
+																				"overrideSprite": 0,
+																				"property": 0,
+																				"statName": "Damage",
+																				"tags": 0,
+																				"value": "+20%"
+																			}
+																		]
+																	},
+																	"requirement": 2
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5131,
+																	"statName": "Poison Damage Per Second",
+																	"tags": 0,
+																	"value": "+3"
+																}
+															]
+														},
+														"requirement": 2
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5093,
+														"statName": "Duration",
+														"tags": 0,
+														"value": "+15%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10002,
+											"statName": "Bleed Chance",
+											"tags": 0,
+											"value": "+25%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Chance",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 15007,
+					"statName": "Poison Duration",
+					"tags": 0,
+					"value": "+50%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 15002,
+					"statName": "Bleed Duration",
+					"tags": 0,
+					"value": "+50%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots has a chance to poison enemies each second.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 24,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "[25%] chance to poison each second per point",
+			"nodeName": "Nightshade",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots has a chance to cause enemies to bleed each second.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 22,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[25%] chance per point to cause bleeding each second",
+						"nodeName": "Bramble Thorns",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Duration increase is multiplicative with other nodes",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Entangling Roots lasts longer.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 4,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Entangling roots lasts [20%] longer per point",
+									"nodeName": "Lasting Briar",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "{Vines} scale with your bonuses to minions, but not with other nodes on this tree, unless stated otherwise.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Enemies killed by Entangling Roots have a chance to sprout a {Vine,} a melee minion that poisons enemies it hits.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "[25%] chance per point for vines to sprout from enemies killed by entangling roots.",
+												"nodeName": "Reclamation",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Roots burst from the earth to snare and hinder your foes",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+															"nodeName": "Entangling Roots"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Chance To Summon Vine On Kill",
+														"tags": 0,
+														"value": "25%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Entangling Roots deals additional poison damage over time.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 5,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Entangling roots deals +[3] base poison damage per second per point.",
+												"nodeName": "Poison Ground",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"requirement": 2
+													},
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Entangling Roots deals more damage (multiplicative with other modifiers).",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 3,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 5,
+															"nodeDescription": "Entangling roots deals [20%] increased damage per point",
+															"nodeName": "Mystic Roots",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "Roots burst from the earth to snare and hinder your foes",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+																		"nodeName": "Entangling Roots"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Damage",
+																	"tags": 0,
+																	"value": "+20%"
+																}
+															]
+														},
+														"requirement": 2
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5131,
+														"statName": "Poison Damage Per Second",
+														"tags": 0,
+														"value": "+3"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5093,
+											"statName": "Duration",
+											"tags": 0,
+											"value": "+15%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Bleed Chance",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Poison Chance",
+					"tags": 0,
+					"value": "+25%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Summon Vine",
+				"playerAbilityID": "vi41a"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Vines} summoned by Entangling Roots deal more damage and have more health (both are multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 25,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Vines summoned by Entangling Roots have [40%] more damage and health per point (multiplicative with other modifiers)",
+			"nodeName": "Rampant Growth",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "{Vines} scale with your bonuses to minions, but not with other nodes on this tree, unless stated otherwise.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Enemies killed by Entangling Roots have a chance to sprout a {Vine,} a melee minion that poisons enemies it hits.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[25%] chance per point for vines to sprout from enemies killed by entangling roots.",
+						"nodeName": "Reclamation",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Roots burst from the earth to snare and hinder your foes",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+									"nodeName": "Entangling Roots"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Chance To Summon Vine On Kill",
+								"tags": 0,
+								"value": "25%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Vine Damage",
+					"tags": 0,
+					"value": "+40%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 7,
+					"statName": "Vine Health",
+					"tags": 0,
+					"value": "+40%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Summon Vine",
+				"playerAbilityID": "vi41a"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Vines} summoned by Entangling Roots reflect 100% of damage to attackers.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 26,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Vines summoned by Entangling Roots reflect 100% of the damage they take",
+			"nodeName": "Mirror Vines",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Summon Vine",
+							"playerAbilityID": "vi41a"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Vines} summoned by Entangling Roots deal more damage and have more health (both are multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 25,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Vines summoned by Entangling Roots have [40%] more damage and health per point (multiplicative with other modifiers)",
+						"nodeName": "Rampant Growth",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "{Vines} scale with your bonuses to minions, but not with other nodes on this tree, unless stated otherwise.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Enemies killed by Entangling Roots have a chance to sprout a {Vine,} a melee minion that poisons enemies it hits.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "[25%] chance per point for vines to sprout from enemies killed by entangling roots.",
+									"nodeName": "Reclamation",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Roots burst from the earth to snare and hinder your foes",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+												"nodeName": "Entangling Roots"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Chance To Summon Vine On Kill",
+											"tags": 0,
+											"value": "25%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Vine Damage",
+								"tags": 0,
+								"value": "+40%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 7,
+								"statName": "Vine Health",
+								"tags": 0,
+								"value": "+40%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 86,
+					"statName": "Vines Percent Reflect",
+					"tags": 0,
+					"value": "100%"
+				}
+			]
+		},
+		{
+			"altText": "{Vines} scale with your bonuses to minions, but not with other nodes on this tree, unless stated otherwise.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Enemies killed by Entangling Roots have a chance to sprout a {Vine,} a melee minion that poisons enemies it hits.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 2,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "[25%] chance per point for vines to sprout from enemies killed by entangling roots.",
+			"nodeName": "Reclamation",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Roots burst from the earth to snare and hinder your foes",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+						"nodeName": "Entangling Roots"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Chance To Summon Vine On Kill",
+					"tags": 0,
+					"value": "25%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "When you cast Entangling Roots, allied Spriggans within its area of effect are healed to full health.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 10,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "When you cast entangling roots allied spriggans within its area of effect are healed to full health",
+			"nodeName": "Reform from Roots",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Summon Spriggan",
+							"playerAbilityID": "sp38"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Allied spriggans within Entangling Roots' area of effect deal additional physical damage with spells.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "",
+						"nodeName": "Wardens of Farwood",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"abilityGrantedByNode": {
+										"abilityName": "Summon Spriggan",
+										"playerAbilityID": "sp38"
+									},
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Allied Spriggans within Entangling Roots' area of effect have increased cast speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 9,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "Allied spriggans within the area of effect gain [25%] increased cast speed per point.",
+									"nodeName": "Spriggans of the Grove",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Allies within Entangling Roots' area of effect deal increased damage.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 7,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Allies within the area of effect deal [30%] increased damage per point",
+												"nodeName": "Imbued Sap",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Roots burst from the earth to snare and hinder your foes",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+															"nodeName": "Entangling Roots"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Increased Ally Damage",
+														"tags": 0,
+														"value": "+30%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 3,
+											"statName": "Spriggan Cast Speed",
+											"tags": 0,
+											"value": "+25%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 41,
+								"statName": "Spriggan Spell Physical Damage",
+								"tags": 0,
+								"value": "+5"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Spriggans Healed To Full",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Buffs applied by Entangling Roots persist for 3 seconds after leaving its area of effect.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 28,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Buffs applied by Entangling Roots persist for three seconds after leaving the area of effect.",
+			"nodeName": "Memories of Spring",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Allied wolves, serpents, and scorpions within Entangling Roots' area of effect have increased attack speed, cast speed, and movement speed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 15,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Allied wolves, serpents, and scorpions within the area of effect gain [15%] increased attack speed, cast speed, and movement speed per point.",
+						"nodeName": "Frenzy Roots",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "While within Entangling Roots' area of effect, the attacks of allied wolves, serpents, and scorpions have a chance to poison enemies.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 11,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Allied wolves, serpents, and scorpions within the area of effect gain [40%] chance to poison on hit per point.",
+									"nodeName": "Venomous Pack",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Allies within Entangling Roots' area of effect deal increased damage.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 7,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Allies within the area of effect deal [30%] increased damage per point",
+												"nodeName": "Imbued Sap",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Roots burst from the earth to snare and hinder your foes",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+															"nodeName": "Entangling Roots"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Increased Ally Damage",
+														"tags": 0,
+														"value": "+30%"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10007,
+											"statName": "Poison Chance",
+											"tags": 0,
+											"value": "+30%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Attack Speed",
+								"tags": 0,
+								"value": "+12%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 3,
+								"statName": "Cast Speed",
+								"tags": 0,
+								"value": "+12%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 9,
+								"statName": "Movespeed",
+								"tags": 0,
+								"value": "+12%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Buffs Persist After Leaving Entangling Roots",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "The second and third patches are created at random locations within 6 metres of the first.\n\nEach patch creates its own healing nova if you have taken Restorative Harvest\n\nDamage and healing from multiple patches can overlap",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots creates 3 patches, but each patch affects a smaller area and Entangling Roots costs more mana.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 18,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "50% increased mana cost. Entangling roots creates 3 patches. Each patch has 60% reduced area of effect.",
+			"nodeName": "Roots of Lapp",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots heals allies within its area of effect each second.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 16,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Entangling roots heals allies within its area for [15] health per second per point",
+						"nodeName": "Nourish",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Roots burst from the earth to snare and hinder your foes",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+									"nodeName": "Entangling Roots"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 38,
+								"statName": "Healing Per Second",
+								"tags": 0,
+								"value": "10"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots deals more damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 3,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Entangling roots deals [20%] increased damage per point",
+						"nodeName": "Mystic Roots",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Roots burst from the earth to snare and hinder your foes",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+									"nodeName": "Entangling Roots"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "3 Entangling Roots Patches",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "+50%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5015,
+					"statName": "Area",
+					"tags": 0,
+					"value": "-60%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Entangling Roots patches are now cast in a line in the target direction, with 4 meters between each.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 20,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Patches from entangling roots are arranged in a line in the target direction, with 4 metres between each patch.",
+			"nodeName": "Overgrown Path",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "The second and third patches are created at random locations within 6 metres of the first.\n\nEach patch creates its own healing nova if you have taken Restorative Harvest\n\nDamage and healing from multiple patches can overlap",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Entangling Roots creates 3 patches, but each patch affects a smaller area and Entangling Roots costs more mana.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 18,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "50% increased mana cost. Entangling roots creates 3 patches. Each patch has 60% reduced area of effect.",
+						"nodeName": "Roots of Lapp",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Entangling Roots heals allies within its area of effect each second.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 16,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Entangling roots heals allies within its area for [15] health per second per point",
+									"nodeName": "Nourish",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Roots burst from the earth to snare and hinder your foes",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+												"nodeName": "Entangling Roots"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 38,
+											"statName": "Healing Per Second",
+											"tags": 0,
+											"value": "10"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Entangling Roots deals more damage (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Entangling roots deals [20%] increased damage per point",
+									"nodeName": "Mystic Roots",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Roots burst from the earth to snare and hinder your foes",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth roots from the ground that snare nearby enemies and deal physical damage to them over time.",
+												"nodeName": "Entangling Roots"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "3 Entangling Roots Patches",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost",
+								"tags": 0,
+								"value": "+50%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5015,
+								"statName": "Area",
+								"tags": 0,
+								"value": "-60%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Entangling Roots Patches Cast In A Line",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		}
+	],
+	"specialised": 0,
+	"treeID": "er6no",
+	"unspentPoints": 1,
+	"version": 2
+}

@@ -1,0 +1,5924 @@
+{
+	"ability": {
+		"abilityName": "Firebrand",
+		"playerAbilityID": "f1b4d"
+	},
+	"nodeList": [
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+			"id": 0,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 0,
+			"nodeDescription": "",
+			"nodeName": "Firebrand"
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 1,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Description",
+			"nodeName": "Searing Brand",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "",
+						"nodeName": "Firebrand"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Firebrand deals more melee damage per stack of Firebrand (multiplicative with other modifiers), but costs more mana.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 2,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Charring",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 1,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Searing Brand",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Firebrand"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5110,
+					"statName": "Melee Damage Per Stack",
+					"tags": 0,
+					"value": "+4%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost Per Stack",
+					"tags": 0,
+					"value": "+2"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Shatter Strike",
+				"playerAbilityID": "ss3tre"
+			},
+			"altText": "Each stack of Frostbite deals cold damage over 4 seconds and reduces freeze avoidance by 200, increasing the enemy's chance to be frozen.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Using {Shatter Strike} consumes stacks of Firebrand to inflict {Frostbite} on hit.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 4,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Hypothermia",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "This does not grant you ward if an extra stack above your maximum would cause an old stack to be replaced.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You gain ward when a stack of Firebrand expires or is consumed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 28,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "",
+						"nodeName": "Fading Flame",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You gain ward when Firebrand hits at least one enemy.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 14,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Pyroshielding",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 39,
+											"statName": "Ward Gain",
+											"tags": 0,
+											"value": "8"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 92,
+								"statName": "Ward Per Stack Consumed or Expired",
+								"tags": 0,
+								"value": "12"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 10023,
+					"statName": "Frostbite Chance Per Stack",
+					"tags": 0,
+					"value": "+100%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Stacks Consumed",
+					"tags": 0,
+					"value": "1"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Firebrand has increased melee critical strike chance per stack of Firebrand.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 5,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Kindling",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand deals more melee damage per stack of Firebrand (multiplicative with other modifiers), but costs more mana.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Charring",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 1,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Searing Brand",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5110,
+								"statName": "Melee Damage Per Stack",
+								"tags": 0,
+								"value": "+4%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost Per Stack",
+								"tags": 0,
+								"value": "+2"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 5022,
+					"statName": "Increased Melee Crit Chance Per Stack",
+					"tags": 0,
+					"value": "5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Firebrand has additional melee critical strike multiplier per stack of Firebrand.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 6,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Description",
+			"nodeName": "Inflame",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand has increased melee critical strike chance per stack of Firebrand.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 5,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Kindling",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand deals more melee damage per stack of Firebrand (multiplicative with other modifiers), but costs more mana.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Charring",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 1,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Description",
+												"nodeName": "Searing Brand",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Firebrand"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+10%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5110,
+											"statName": "Melee Damage Per Stack",
+											"tags": 0,
+											"value": "+4%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost Per Stack",
+											"tags": 0,
+											"value": "+2"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 5022,
+								"statName": "Increased Melee Crit Chance Per Stack",
+								"tags": 0,
+								"value": "5%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5,
+					"statName": "Melee Critical Multiplier",
+					"tags": 0,
+					"value": "+5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Consuming 3 or more stacks of Firebrand with {Incineration} guarantees a critical strike.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 8,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Illuminating Fire",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your next melee attack, that is not Firebrand, consumes all stacks of Firebrand and deals more damage per stack consumed (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Description",
+						"nodeName": "Incineration",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 1,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Searing Brand",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 3
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand can have more maximum stacks.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 9,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "Description",
+									"nodeName": "Wildfire",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "You gain ward when Firebrand hits at least one enemy.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 14,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Description",
+												"nodeName": "Pyroshielding",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Firebrand"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 39,
+														"statName": "Ward Gain",
+														"tags": 0,
+														"value": "8"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Maximum Stacks",
+											"tags": 0,
+											"value": "+1"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage Per Stack",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 4,
+					"statName": "Guaranteed Critical Strike With 3 Stacks",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Firebrand can have more maximum stacks.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 9,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Description",
+			"nodeName": "Wildfire",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Your next melee attack, that is not Firebrand, consumes all stacks of Firebrand and deals more damage per stack consumed (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Description",
+						"nodeName": "Incineration",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 1,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Searing Brand",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 3
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage Per Stack",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You gain ward when Firebrand hits at least one enemy.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Pyroshielding",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Firebrand"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 39,
+								"statName": "Ward Gain",
+								"tags": 0,
+								"value": "8"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Maximum Stacks",
+					"tags": 0,
+					"value": "+1"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Firebrand grants additional armor and fire resistance per stack of Firebrand.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 10,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Description",
+			"nodeName": "Insulation",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand can have more maximum stacks.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 9,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Description",
+						"nodeName": "Wildfire",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your next melee attack, that is not Firebrand, consumes all stacks of Firebrand and deals more damage per stack consumed (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 7,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Description",
+									"nodeName": "Incineration",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 1,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Description",
+												"nodeName": "Searing Brand",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Firebrand"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+10%"
+													}
+												]
+											},
+											"requirement": 3
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage Per Stack",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You gain ward when Firebrand hits at least one enemy.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 14,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Pyroshielding",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 39,
+											"statName": "Ward Gain",
+											"tags": 0,
+											"value": "8"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Maximum Stacks",
+								"tags": 0,
+								"value": "+1"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10,
+					"statName": "Armor Per Stack",
+					"tags": 0,
+					"value": "+10"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 13,
+					"statName": "Fire Resistance Per Stack",
+					"tags": 0,
+					"value": "5%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Mana Strike",
+				"playerAbilityID": "ms26"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Gain ward per stack of Firebrand when you hit at least 1 enemy with {Mana Strike}.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 12,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Mana Shell",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Shock reduces lightning resistance by 5%, increases chance to be stunned by 10%, lasts 4 seconds, and can stack up to 20 times. It has 60% reduced effect against bosses and players.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrands's base fire damage and added melee fire damage from stacks is converted to lightning. Consequently this damage scales with increases to lightning damage, but not increases to fire damage.\n\nAll ignite chance from this tree is converted to shock chance and effects related to ignite now depend on shock instead.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 11,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Description",
+						"nodeName": "Galvanize",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand can have more maximum stacks.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 9,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "Description",
+									"nodeName": "Wildfire",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Your next melee attack, that is not Firebrand, consumes all stacks of Firebrand and deals more damage per stack consumed (multiplicative with other modifiers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 7,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Description",
+												"nodeName": "Incineration",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 1,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 5,
+															"nodeDescription": "Description",
+															"nodeName": "Searing Brand",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "",
+																		"nodeName": "Firebrand"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Damage",
+																	"tags": 0,
+																	"value": "+10%"
+																}
+															]
+														},
+														"requirement": 3
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage Per Stack",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "You gain ward when Firebrand hits at least one enemy.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 14,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Description",
+												"nodeName": "Pyroshielding",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Firebrand"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 39,
+														"statName": "Ward Gain",
+														"tags": 0,
+														"value": "8"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Maximum Stacks",
+											"tags": 0,
+											"value": "+1"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5091,
+								"statName": "Fire -> Lightning Conversion",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10005,
+								"statName": "Ignite -> Shock Chance",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 39,
+					"statName": "Ward Gain Per Stack",
+					"tags": 0,
+					"value": "3"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Static",
+				"playerAbilityID": "st47ic"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Gain stacks of {Static} if Firebrand hits at least one enemy.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 13,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Electrostatic",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Shock reduces lightning resistance by 5%, increases chance to be stunned by 10%, lasts 4 seconds, and can stack up to 20 times. It has 60% reduced effect against bosses and players.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrands's base fire damage and added melee fire damage from stacks is converted to lightning. Consequently this damage scales with increases to lightning damage, but not increases to fire damage.\n\nAll ignite chance from this tree is converted to shock chance and effects related to ignite now depend on shock instead.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 11,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Description",
+						"nodeName": "Galvanize",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand can have more maximum stacks.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 9,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "Description",
+									"nodeName": "Wildfire",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Your next melee attack, that is not Firebrand, consumes all stacks of Firebrand and deals more damage per stack consumed (multiplicative with other modifiers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 7,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Description",
+												"nodeName": "Incineration",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 1,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 5,
+															"nodeDescription": "Description",
+															"nodeName": "Searing Brand",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "",
+																		"nodeName": "Firebrand"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Damage",
+																	"tags": 0,
+																	"value": "+10%"
+																}
+															]
+														},
+														"requirement": 3
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage Per Stack",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "You gain ward when Firebrand hits at least one enemy.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 14,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Description",
+												"nodeName": "Pyroshielding",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Firebrand"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 39,
+														"statName": "Ward Gain",
+														"tags": 0,
+														"value": "8"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Maximum Stacks",
+											"tags": 0,
+											"value": "+1"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5091,
+								"statName": "Fire -> Lightning Conversion",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10005,
+								"statName": "Ignite -> Shock Chance",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 5089,
+					"statName": "Static Charges",
+					"tags": 0,
+					"value": "+2"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You gain ward when Firebrand hits at least one enemy.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 14,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Description",
+			"nodeName": "Pyroshielding",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "",
+						"nodeName": "Firebrand"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 39,
+					"statName": "Ward Gain",
+					"tags": 0,
+					"value": "8"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You gain ward per second per stack of Firebrand.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 15,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Warding Flames",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You gain ward when Firebrand hits at least one enemy.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Pyroshielding",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Firebrand"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 39,
+								"statName": "Ward Gain",
+								"tags": 0,
+								"value": "8"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 92,
+					"statName": "Ward Per Second Per Stack",
+					"tags": 0,
+					"value": "3"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Stacks of Firebrand last longer.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 16,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Description",
+			"nodeName": "Undying Fire",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You gain ward when Firebrand hits at least one enemy.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Pyroshielding",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Firebrand"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 39,
+								"statName": "Ward Gain",
+								"tags": 0,
+								"value": "8"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "Also prevents the base attack rate of weapons from affecting Firebrand.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand can have more maximum stacks, but no longer scales with attack speed. \n\nFirebrand can still gain attack speed from the {Fulmination} node.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 18,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "",
+						"nodeName": "Ardent Branding",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "Attack speed bonus applies even if you have the {Ardent Branding} node.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand attacks faster per stack of Firebrand, up to a maximum.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 19,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Fulmination",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed Per Stack",
+											"tags": 0,
+											"value": "+3%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Maximum Added Speed",
+											"tags": 0,
+											"value": "9%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Maximum Stacks",
+								"tags": 0,
+								"value": "+3"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "No Attack Speed Benefits",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5093,
+					"statName": "Stack Duration",
+					"tags": 0,
+					"value": "+15%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You refresh the duration of all stacks of Firebrand when gaining a new stack.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 17,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Everflames",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Stacks of Firebrand last longer.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 16,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Undying Fire",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You gain ward when Firebrand hits at least one enemy.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 14,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Pyroshielding",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 39,
+											"statName": "Ward Gain",
+											"tags": 0,
+											"value": "8"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "Also prevents the base attack rate of weapons from affecting Firebrand.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand can have more maximum stacks, but no longer scales with attack speed. \n\nFirebrand can still gain attack speed from the {Fulmination} node.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 18,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "",
+									"nodeName": "Ardent Branding",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "Attack speed bonus applies even if you have the {Ardent Branding} node.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Firebrand attacks faster per stack of Firebrand, up to a maximum.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 19,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Fulmination",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Firebrand"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed Per Stack",
+														"tags": 0,
+														"value": "+3%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Maximum Added Speed",
+														"tags": 0,
+														"value": "9%"
+													}
+												]
+											},
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Maximum Stacks",
+											"tags": 0,
+											"value": "+3"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "No Attack Speed Benefits",
+											"tags": 0,
+											"value": ""
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5093,
+								"statName": "Stack Duration",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 4
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 5026,
+					"statName": "Stacks Refreshed",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "Attack speed bonus applies even if you have the {Ardent Branding} node.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Firebrand attacks faster per stack of Firebrand, up to a maximum.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 19,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Fulmination",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "",
+						"nodeName": "Firebrand"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Attack Speed Per Stack",
+					"tags": 0,
+					"value": "+3%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Maximum Added Speed",
+					"tags": 0,
+					"value": "9%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Firebrand grants global spell critical strike multiplier per stack of Firebrand.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 21,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Arcane Sharpshooter",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Stacks of Firebrand add adaptive spell damage rather than melee fire damage.\n\nIf you have taken the {Galvanize} node, this is instead converted to lightning damage rather than adaptive spell damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Description",
+						"nodeName": "Brand of Arcanus",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Attack speed bonus applies even if you have the {Ardent Branding} node.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand attacks faster per stack of Firebrand, up to a maximum.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 19,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Fulmination",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed Per Stack",
+											"tags": 0,
+											"value": "+3%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Maximum Added Speed",
+											"tags": 0,
+											"value": "9%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 41,
+								"statName": "Melee Fire -> Adaptive Spell Damage",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5,
+					"statName": "Spell Critical Multiplier",
+					"tags": 0,
+					"value": "+3%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Flame Wave",
+				"playerAbilityID": "fi9"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "If Firebrand hits at least one enemy, it consumes 10 mana to cast {Flame Wave}, a spell that deals fire damage in a line.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 22,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Pyre",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Stacks of Firebrand add adaptive spell damage rather than melee fire damage.\n\nIf you have taken the {Galvanize} node, this is instead converted to lightning damage rather than adaptive spell damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Description",
+						"nodeName": "Brand of Arcanus",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Attack speed bonus applies even if you have the {Ardent Branding} node.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand attacks faster per stack of Firebrand, up to a maximum.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 19,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Fulmination",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed Per Stack",
+											"tags": 0,
+											"value": "+3%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Maximum Added Speed",
+											"tags": 0,
+											"value": "9%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 41,
+								"statName": "Melee Fire -> Adaptive Spell Damage",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Flame Wave On Hit",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Firebrand has a chance to ignite enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 23,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Description",
+			"nodeName": "Flare",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Attack speed bonus applies even if you have the {Ardent Branding} node.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand attacks faster per stack of Firebrand, up to a maximum.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Fulmination",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Firebrand"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Attack Speed Per Stack",
+								"tags": 0,
+								"value": "+3%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Maximum Added Speed",
+								"tags": 0,
+								"value": "9%"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You gain an additional stack of Firebrand when attacking, but Firebrand costs more mana.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 27,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Description",
+						"nodeName": "Conflagrate",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 1,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Searing Brand",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Stacks Per Attack",
+								"tags": 0,
+								"value": "+1"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost",
+								"tags": 0,
+								"value": "+10"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10001,
+					"statName": "Ignite Chance",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Stacks of Firebrand also grant increased fire damage over time.\n\nFirebrand has a chance to inflict {Spreading Flames} when hitting an ignited enemy.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 24,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Description",
+			"nodeName": "Inferno",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand has a chance to ignite enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 23,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Flare",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Attack speed bonus applies even if you have the {Ardent Branding} node.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand attacks faster per stack of Firebrand, up to a maximum.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 19,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Fulmination",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed Per Stack",
+											"tags": 0,
+											"value": "+3%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Maximum Added Speed",
+											"tags": 0,
+											"value": "9%"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You gain an additional stack of Firebrand when attacking, but Firebrand costs more mana.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 27,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Description",
+									"nodeName": "Conflagrate",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 1,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Description",
+												"nodeName": "Searing Brand",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Firebrand"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+10%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Stacks Per Attack",
+											"tags": 0,
+											"value": "+1"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "+10"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10001,
+								"statName": "Ignite Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5037,
+					"statName": "Fire Damage Over Time Per Stack",
+					"tags": 0,
+					"value": "+5%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10024,
+					"statName": "Spreading Flames Chance",
+					"tags": 0,
+					"value": "+7%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have global ignite per stack of Firebrand.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 25,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Crossfire",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand has a chance to ignite enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 23,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Flare",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Attack speed bonus applies even if you have the {Ardent Branding} node.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand attacks faster per stack of Firebrand, up to a maximum.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 19,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Fulmination",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed Per Stack",
+											"tags": 0,
+											"value": "+3%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Maximum Added Speed",
+											"tags": 0,
+											"value": "9%"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You gain an additional stack of Firebrand when attacking, but Firebrand costs more mana.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 27,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Description",
+									"nodeName": "Conflagrate",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 1,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Description",
+												"nodeName": "Searing Brand",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Firebrand"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+10%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Stacks Per Attack",
+											"tags": 0,
+											"value": "+1"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "+10"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10001,
+								"statName": "Ignite Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10001,
+					"statName": "Ignite Chance Per Stack",
+					"tags": 0,
+					"value": "+5%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Flame Reave",
+				"playerAbilityID": "fr11mv"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Using {Flame Reave} consumes stacks of Firebrand to add ignite chance per stack consumed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 26,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Description",
+			"nodeName": "Exothermic",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You have global ignite per stack of Firebrand.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 25,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Crossfire",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand has a chance to ignite enemies.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 23,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Flare",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "Attack speed bonus applies even if you have the {Ardent Branding} node.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Firebrand attacks faster per stack of Firebrand, up to a maximum.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 19,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Description",
+												"nodeName": "Fulmination",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Firebrand"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 2,
+														"statName": "Attack Speed Per Stack",
+														"tags": 0,
+														"value": "+3%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Maximum Added Speed",
+														"tags": 0,
+														"value": "9%"
+													}
+												]
+											},
+											"requirement": 2
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "You gain an additional stack of Firebrand when attacking, but Firebrand costs more mana.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 27,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Description",
+												"nodeName": "Conflagrate",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"requirement": 1
+													},
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 1,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 5,
+															"nodeDescription": "Description",
+															"nodeName": "Searing Brand",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "",
+																		"nodeName": "Firebrand"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Damage",
+																	"tags": 0,
+																	"value": "+10%"
+																}
+															]
+														},
+														"requirement": 2
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Stacks Per Attack",
+														"tags": 0,
+														"value": "+1"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 66,
+														"statName": "Mana Cost",
+														"tags": 0,
+														"value": "+10"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10001,
+											"statName": "Ignite Chance",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10001,
+								"statName": "Ignite Chance Per Stack",
+								"tags": 0,
+								"value": "+5%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Stacks Consumed",
+					"tags": 0,
+					"value": "1"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 10001,
+					"statName": "Ignite Chance Per Stack",
+					"tags": 0,
+					"value": "+100%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You gain an additional stack of Firebrand when attacking, but Firebrand costs more mana.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 27,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Conflagrate",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand has a chance to ignite enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 23,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Flare",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Attack speed bonus applies even if you have the {Ardent Branding} node.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand attacks faster per stack of Firebrand, up to a maximum.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 19,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Description",
+									"nodeName": "Fulmination",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Attack Speed Per Stack",
+											"tags": 0,
+											"value": "+3%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Maximum Added Speed",
+											"tags": 0,
+											"value": "9%"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10001,
+								"statName": "Ignite Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 1,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Searing Brand",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Firebrand"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Stacks Per Attack",
+					"tags": 0,
+					"value": "+1"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "+10"
+				}
+			]
+		},
+		{
+			"altText": "This does not grant you ward if an extra stack above your maximum would cause an old stack to be replaced.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You gain ward when a stack of Firebrand expires or is consumed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 28,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "",
+			"nodeName": "Fading Flame",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You gain ward when Firebrand hits at least one enemy.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Pyroshielding",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Firebrand"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 39,
+								"statName": "Ward Gain",
+								"tags": 0,
+								"value": "8"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 92,
+					"statName": "Ward Per Stack Consumed or Expired",
+					"tags": 0,
+					"value": "12"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Firebrand now shoots three lines instead of one in a cone in front of you, but costs more mana.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 3,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Triple Strike",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand deals more melee damage per stack of Firebrand (multiplicative with other modifiers), but costs more mana.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Charring",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 1,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Searing Brand",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+10%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5110,
+								"statName": "Melee Damage Per Stack",
+								"tags": 0,
+								"value": "+4%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost Per Stack",
+								"tags": 0,
+								"value": "+2"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Firebrand lines",
+					"tags": 0,
+					"value": "3"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "+10"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your next melee attack, that is not Firebrand, consumes all stacks of Firebrand and deals more damage per stack consumed (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 7,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Incineration",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 1,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Searing Brand",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Firebrand"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 3
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand can have more maximum stacks.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 9,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Description",
+						"nodeName": "Wildfire",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You gain ward when Firebrand hits at least one enemy.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 14,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Pyroshielding",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 39,
+											"statName": "Ward Gain",
+											"tags": 0,
+											"value": "8"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Maximum Stacks",
+								"tags": 0,
+								"value": "+1"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage Per Stack",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "Shock reduces lightning resistance by 5%, increases chance to be stunned by 10%, lasts 4 seconds, and can stack up to 20 times. It has 60% reduced effect against bosses and players.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Firebrands's base fire damage and added melee fire damage from stacks is converted to lightning. Consequently this damage scales with increases to lightning damage, but not increases to fire damage.\n\nAll ignite chance from this tree is converted to shock chance and effects related to ignite now depend on shock instead.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 11,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Galvanize",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand can have more maximum stacks.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 9,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Description",
+						"nodeName": "Wildfire",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Your next melee attack, that is not Firebrand, consumes all stacks of Firebrand and deals more damage per stack consumed (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 7,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Description",
+									"nodeName": "Incineration",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Firebrand deals more damage (multiplicative with other modifiers)",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 1,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Description",
+												"nodeName": "Searing Brand",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "",
+															"nodeName": "Firebrand"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+10%"
+													}
+												]
+											},
+											"requirement": 3
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage Per Stack",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You gain ward when Firebrand hits at least one enemy.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 14,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Pyroshielding",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 39,
+											"statName": "Ward Gain",
+											"tags": 0,
+											"value": "8"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Maximum Stacks",
+								"tags": 0,
+								"value": "+1"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5091,
+					"statName": "Fire -> Lightning Conversion",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10005,
+					"statName": "Ignite -> Shock Chance",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "Also prevents the base attack rate of weapons from affecting Firebrand.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Firebrand can have more maximum stacks, but no longer scales with attack speed. \n\nFirebrand can still gain attack speed from the {Fulmination} node.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 18,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "",
+			"nodeName": "Ardent Branding",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Stacks of Firebrand last longer.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 16,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Description",
+						"nodeName": "Undying Fire",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "You gain ward when Firebrand hits at least one enemy.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 14,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Description",
+									"nodeName": "Pyroshielding",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "",
+												"nodeName": "Firebrand"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 39,
+											"statName": "Ward Gain",
+											"tags": 0,
+											"value": "8"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5093,
+								"statName": "Stack Duration",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "Attack speed bonus applies even if you have the {Ardent Branding} node.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand attacks faster per stack of Firebrand, up to a maximum.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Fulmination",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Firebrand"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Attack Speed Per Stack",
+								"tags": 0,
+								"value": "+3%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Maximum Added Speed",
+								"tags": 0,
+								"value": "9%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Maximum Stacks",
+					"tags": 0,
+					"value": "+3"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "No Attack Speed Benefits",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Stacks of Firebrand add adaptive spell damage rather than melee fire damage.\n\nIf you have taken the {Galvanize} node, this is instead converted to lightning damage rather than adaptive spell damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 20,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Description",
+			"nodeName": "Brand of Arcanus",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Attack speed bonus applies even if you have the {Ardent Branding} node.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Firebrand attacks faster per stack of Firebrand, up to a maximum.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Description",
+						"nodeName": "Fulmination",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "A melee attack which grants you a stack of firebrand buff if it hits an enemy. Firebrand buff increases the size of subsequent firebrand attacks and adds melee fire damage.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "",
+									"nodeName": "Firebrand"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Attack Speed Per Stack",
+								"tags": 0,
+								"value": "+3%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Maximum Added Speed",
+								"tags": 0,
+								"value": "9%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 41,
+					"statName": "Melee Fire -> Adaptive Spell Damage",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		}
+	],
+	"specialised": 0,
+	"treeID": "f1b4d",
+	"unspentPoints": 1,
+	"version": 2
+}

@@ -1,0 +1,4518 @@
+{
+	"ability": {
+		"abilityName": "Rip Blood",
+		"playerAbilityID": "rb31pl"
+	},
+	"nodeList": [
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+			"id": 0,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "The life blood of your foes need not be wasted",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 0,
+			"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+			"nodeName": "Rip Blood"
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Blood Splatter",
+				"playerAbilityID": "fn10"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Splatter} deals damage in a larger area.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 4,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Blood splatter has [25%] increased area per point",
+			"nodeName": "Crimson Flood",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood hits have a chance to create a {Blood Splatter} at the target, dealing damage to other enemies around it, but not the original target. ",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "+[20%] chance per point to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+						"nodeName": "Splatter",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The life blood of your foes need not be wasted",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+									"nodeName": "Rip Blood"
+								},
+								"requirement": 0
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5061,
+								"statName": "Blood Splatter chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood has a significantly higher chance to make a {Blood Splatter}, but costs more mana\r.\n",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 3,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Adds 6 to mana cost. +100% chance to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+						"nodeName": "Eviscerate",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The life blood of your foes need not be wasted",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+									"nodeName": "Rip Blood"
+								},
+								"requirement": 0
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 5061,
+								"statName": "Blood Splatter Chance",
+								"tags": 0,
+								"value": "+100%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost",
+								"tags": 0,
+								"value": "+6"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5015,
+					"statName": "Blood Splatter Area",
+					"tags": 0,
+					"value": "+25%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Blood Splatter",
+				"playerAbilityID": "fn10"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Splatter} deals more damage (multiplicative with other modifiers) and have an increased chance to stun enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 5,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Blood splatter deals [15%] increased damage per point, and has [15%] increased stun chance per point.",
+			"nodeName": "Revile",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Blood Splatter",
+							"playerAbilityID": "fn10"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Splatter} deals damage in a larger area.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 4,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Blood splatter has [25%] increased area per point",
+						"nodeName": "Crimson Flood",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood hits have a chance to create a {Blood Splatter} at the target, dealing damage to other enemies around it, but not the original target. ",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "+[20%] chance per point to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+									"nodeName": "Splatter",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5061,
+											"statName": "Blood Splatter chance",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood has a significantly higher chance to make a {Blood Splatter}, but costs more mana\r.\n",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Adds 6 to mana cost. +100% chance to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+									"nodeName": "Eviscerate",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 0,
+											"property": 5061,
+											"statName": "Blood Splatter Chance",
+											"tags": 0,
+											"value": "+100%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "+6"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5015,
+								"statName": "Blood Splatter Area",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Blood Splatter Damage",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 45,
+					"statName": "Blood Splatter Increased Stun Chance",
+					"tags": 0,
+					"value": "15%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Blood Splatter",
+				"playerAbilityID": "fn10"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Splatter} grants your minions {Blood Infusion} when it hits them. The {Blood Infusion} buff increases their damage by 30% for 4 seconds. ",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 12,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Your minions that are hit by the blood splatter gain the Blood Infusion buff for 4 seconds. Blood Infusion grants 30% increased damage. Allies cannot have multiple instances of Blood Infusion at once.",
+			"nodeName": "Blood Infusion",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Blood Splatter",
+							"playerAbilityID": "fn10"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Splatter} deals damage in a larger area.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 4,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Blood splatter has [25%] increased area per point",
+						"nodeName": "Crimson Flood",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood hits have a chance to create a {Blood Splatter} at the target, dealing damage to other enemies around it, but not the original target. ",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "+[20%] chance per point to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+									"nodeName": "Splatter",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5061,
+											"statName": "Blood Splatter chance",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood has a significantly higher chance to make a {Blood Splatter}, but costs more mana\r.\n",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Adds 6 to mana cost. +100% chance to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+									"nodeName": "Eviscerate",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 0,
+											"property": 5061,
+											"statName": "Blood Splatter Chance",
+											"tags": 0,
+											"value": "+100%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "+6"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5015,
+								"statName": "Blood Splatter Area",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Grants Minions Blood Infusion",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Blood Splatter",
+				"playerAbilityID": "fn10"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Splatter} deals more damage for each minion you currently control (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 13,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Blood splatter deals [2%] increased damage for each minion you currently control",
+			"nodeName": "Necrotic Unity",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Blood Splatter",
+							"playerAbilityID": "fn10"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Splatter} grants your minions {Blood Infusion} when it hits them. The {Blood Infusion} buff increases their damage by 30% for 4 seconds. ",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 12,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Your minions that are hit by the blood splatter gain the Blood Infusion buff for 4 seconds. Blood Infusion grants 30% increased damage. Allies cannot have multiple instances of Blood Infusion at once.",
+						"nodeName": "Blood Infusion",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"abilityGrantedByNode": {
+										"abilityName": "Blood Splatter",
+										"playerAbilityID": "fn10"
+									},
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "{Blood Splatter} deals damage in a larger area.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 4,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Blood splatter has [25%] increased area per point",
+									"nodeName": "Crimson Flood",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rip Blood hits have a chance to create a {Blood Splatter} at the target, dealing damage to other enemies around it, but not the original target. ",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "+[20%] chance per point to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+												"nodeName": "Splatter",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The life blood of your foes need not be wasted",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+															"nodeName": "Rip Blood"
+														},
+														"requirement": 0
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5061,
+														"statName": "Blood Splatter chance",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rip Blood has a significantly higher chance to make a {Blood Splatter}, but costs more mana\r.\n",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 3,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Adds 6 to mana cost. +100% chance to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+												"nodeName": "Eviscerate",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The life blood of your foes need not be wasted",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+															"nodeName": "Rip Blood"
+														},
+														"requirement": 0
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 1,
+														"overrideSprite": 0,
+														"property": 5061,
+														"statName": "Blood Splatter Chance",
+														"tags": 0,
+														"value": "+100%"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 66,
+														"statName": "Mana Cost",
+														"tags": 0,
+														"value": "+6"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5015,
+											"statName": "Blood Splatter Area",
+											"tags": 0,
+											"value": "+25%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Grants Minions Blood Infusion",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Blood Splatter Damage Per Minion",
+					"tags": 0,
+					"value": "+2%"
+				}
+			]
+		},
+		{
+			"altText": "{Blood Infusion} increases damage by 30% for 4 seconds by default.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Infusion} grants increased attack and cast speed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 14,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Blood Infusion also grants [10%] increased attack and cast speed per point.",
+			"nodeName": "Infused Frenzy",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Blood Splatter",
+							"playerAbilityID": "fn10"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Splatter} grants your minions {Blood Infusion} when it hits them. The {Blood Infusion} buff increases their damage by 30% for 4 seconds. ",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 12,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Your minions that are hit by the blood splatter gain the Blood Infusion buff for 4 seconds. Blood Infusion grants 30% increased damage. Allies cannot have multiple instances of Blood Infusion at once.",
+						"nodeName": "Blood Infusion",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"abilityGrantedByNode": {
+										"abilityName": "Blood Splatter",
+										"playerAbilityID": "fn10"
+									},
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "{Blood Splatter} deals damage in a larger area.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 4,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Blood splatter has [25%] increased area per point",
+									"nodeName": "Crimson Flood",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rip Blood hits have a chance to create a {Blood Splatter} at the target, dealing damage to other enemies around it, but not the original target. ",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "+[20%] chance per point to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+												"nodeName": "Splatter",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The life blood of your foes need not be wasted",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+															"nodeName": "Rip Blood"
+														},
+														"requirement": 0
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5061,
+														"statName": "Blood Splatter chance",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rip Blood has a significantly higher chance to make a {Blood Splatter}, but costs more mana\r.\n",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 3,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Adds 6 to mana cost. +100% chance to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+												"nodeName": "Eviscerate",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The life blood of your foes need not be wasted",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+															"nodeName": "Rip Blood"
+														},
+														"requirement": 0
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 1,
+														"overrideSprite": 0,
+														"property": 5061,
+														"statName": "Blood Splatter Chance",
+														"tags": 0,
+														"value": "+100%"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 66,
+														"statName": "Mana Cost",
+														"tags": 0,
+														"value": "+6"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5015,
+											"statName": "Blood Splatter Area",
+											"tags": 0,
+											"value": "+25%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Grants Minions Blood Infusion",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Blood Infusion Attack Speed",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 3,
+					"statName": "Blood Infusion Cast Speed",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "{Blood Infusion} increases damage by 30% for 4 seconds by default.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Infusion} causes your minions to leech a portion of the physical damage they deal as health.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 15,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Blood Infusion also grants [5%] of physical damage leeched as health per point.",
+			"nodeName": "Hemophagy",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "{Blood Infusion} increases damage by 30% for 4 seconds by default.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Infusion} grants increased attack and cast speed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Blood Infusion also grants [10%] increased attack and cast speed per point.",
+						"nodeName": "Infused Frenzy",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"abilityGrantedByNode": {
+										"abilityName": "Blood Splatter",
+										"playerAbilityID": "fn10"
+									},
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "{Blood Splatter} grants your minions {Blood Infusion} when it hits them. The {Blood Infusion} buff increases their damage by 30% for 4 seconds. ",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 12,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Your minions that are hit by the blood splatter gain the Blood Infusion buff for 4 seconds. Blood Infusion grants 30% increased damage. Allies cannot have multiple instances of Blood Infusion at once.",
+									"nodeName": "Blood Infusion",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"abilityGrantedByNode": {
+													"abilityName": "Blood Splatter",
+													"playerAbilityID": "fn10"
+												},
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "{Blood Splatter} deals damage in a larger area.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 4,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Blood splatter has [25%] increased area per point",
+												"nodeName": "Crimson Flood",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Rip Blood hits have a chance to create a {Blood Splatter} at the target, dealing damage to other enemies around it, but not the original target. ",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 2,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 5,
+															"nodeDescription": "+[20%] chance per point to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+															"nodeName": "Splatter",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "The life blood of your foes need not be wasted",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+																		"nodeName": "Rip Blood"
+																	},
+																	"requirement": 0
+																},
+																{
+																	"requirement": 1
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5061,
+																	"statName": "Blood Splatter chance",
+																	"tags": 0,
+																	"value": "+20%"
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"node": {
+															"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Rip Blood has a significantly higher chance to make a {Blood Splatter}, but costs more mana\r.\n",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 3,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 1,
+															"nodeDescription": "Adds 6 to mana cost. +100% chance to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+															"nodeName": "Eviscerate",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "The life blood of your foes need not be wasted",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+																		"nodeName": "Rip Blood"
+																	},
+																	"requirement": 0
+																},
+																{
+																	"requirement": 1
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 1,
+																	"overrideSprite": 0,
+																	"property": 5061,
+																	"statName": "Blood Splatter Chance",
+																	"tags": 0,
+																	"value": "+100%"
+																},
+																{
+																	"downside": 1,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 66,
+																	"statName": "Mana Cost",
+																	"tags": 0,
+																	"value": "+6"
+																}
+															]
+														},
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5015,
+														"statName": "Blood Splatter Area",
+														"tags": 0,
+														"value": "+25%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Grants Minions Blood Infusion",
+											"tags": 0,
+											"value": ""
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Blood Infusion Attack Speed",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 3,
+								"statName": "Blood Infusion Cast Speed",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 51,
+					"statName": "Blood Infusion Physical Leech",
+					"tags": 0,
+					"value": "+5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rip Blood has increased cast speed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 16,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "[6%] increased cast speed per point",
+			"nodeName": "Hemomancer",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The life blood of your foes need not be wasted",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+						"nodeName": "Rip Blood"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 3,
+					"statName": "Cast Speed",
+					"tags": 0,
+					"value": "+6%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rip Blood costs less mana and has increased cast speed\r.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 17,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "-[1] mana cost per point\n\n[3%] increased cast speed per point",
+			"nodeName": "Thirst",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood has increased cast speed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 16,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[6%] increased cast speed per point",
+						"nodeName": "Hemomancer",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The life blood of your foes need not be wasted",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+									"nodeName": "Rip Blood"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 3,
+								"statName": "Cast Speed",
+								"tags": 0,
+								"value": "+6%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "-1"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 3,
+					"statName": "Cast Speed",
+					"tags": 0,
+					"value": "+3%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Blood Splatter",
+				"playerAbilityID": "fn10"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "When you are out of mana Rip Blood is free, but cannot cause {Blood Splatters}.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 18,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "When you are out of mana Rip Blood is free, but cannot cause a blood splatter.",
+			"nodeName": "Carrion Hunger",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood costs less mana and has increased cast speed\r.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 17,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "-[1] mana cost per point\n\n[3%] increased cast speed per point",
+						"nodeName": "Thirst",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood has increased cast speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 16,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "[6%] increased cast speed per point",
+									"nodeName": "Hemomancer",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 3,
+											"statName": "Cast Speed",
+											"tags": 0,
+											"value": "+6%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost",
+								"tags": 0,
+								"value": "-1"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 3,
+								"statName": "Cast Speed",
+								"tags": 0,
+								"value": "+3%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Out-of-Mana Mana Cost ",
+					"tags": 0,
+					"value": "0"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5061,
+					"statName": "Cannot Blood Splatter",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Orbs} grant additional health and the {Blood Orb} returns faster.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 19,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "The orb of blood created by rip blood restores [4] additional health per point and returns to you [20%] faster per point.",
+			"nodeName": "Quenching",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood has increased cast speed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 16,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[6%] increased cast speed per point",
+						"nodeName": "Hemomancer",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The life blood of your foes need not be wasted",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+									"nodeName": "Rip Blood"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 3,
+								"statName": "Cast Speed",
+								"tags": 0,
+								"value": "+6%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 38,
+					"statName": "Health Granted",
+					"tags": 0,
+					"value": "+4"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Blood Orb Travel Speed",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Orbs} restore more health based on your Intelligence stat\r.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 20,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "The health restored by the orb of blood created by rip blood is increased by 5% for each point of Intelligence",
+			"nodeName": "Hematology",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Orbs} grant additional health and the {Blood Orb} returns faster.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "The orb of blood created by rip blood restores [4] additional health per point and returns to you [20%] faster per point.",
+						"nodeName": "Quenching",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood has increased cast speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 16,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "[6%] increased cast speed per point",
+									"nodeName": "Hemomancer",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 3,
+											"statName": "Cast Speed",
+											"tags": 0,
+											"value": "+6%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 38,
+								"statName": "Health Granted",
+								"tags": 0,
+								"value": "+4"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Blood Orb Travel Speed",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 4
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 38,
+					"statName": "Health Restored Per Intelligence",
+					"tags": 0,
+					"value": "+5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Orbs} now also grant you mana when you directly cast Rip Blood.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 21,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "The orb of blood created by rip blood restores [2] mana per point",
+			"nodeName": "Mana Feast",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Orbs} grant additional health and the {Blood Orb} returns faster.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "The orb of blood created by rip blood restores [4] additional health per point and returns to you [20%] faster per point.",
+						"nodeName": "Quenching",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood has increased cast speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 16,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "[6%] increased cast speed per point",
+									"nodeName": "Hemomancer",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 3,
+											"statName": "Cast Speed",
+											"tags": 0,
+											"value": "+6%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 38,
+								"statName": "Health Granted",
+								"tags": 0,
+								"value": "+4"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Blood Orb Travel Speed",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 40,
+					"statName": "Mana Granted",
+					"tags": 0,
+					"value": "3"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rip Blood hits have a chance to cause enemies to bleed\r.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 23,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Rip blood has [20%] additional chance to cause bleeding per point",
+			"nodeName": "Gushing Wound",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood has increased cast speed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 16,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[6%] increased cast speed per point",
+						"nodeName": "Hemomancer",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The life blood of your foes need not be wasted",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+									"nodeName": "Rip Blood"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 3,
+								"statName": "Cast Speed",
+								"tags": 0,
+								"value": "+6%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10002,
+					"statName": "Bleed Chance",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Bleed chance granted by the {Gushing Wounds} node is converted to poison chance.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 24,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Bleed chance added by the Gushing Wound node is converted to poison chance",
+			"nodeName": "Septic Wound",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood hits have a chance to cause enemies to bleed\r.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 23,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Rip blood has [20%] additional chance to cause bleeding per point",
+						"nodeName": "Gushing Wound",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood has increased cast speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 16,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "[6%] increased cast speed per point",
+									"nodeName": "Hemomancer",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 3,
+											"statName": "Cast Speed",
+											"tags": 0,
+											"value": "+6%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Bleed Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 5039,
+					"statName": "Bleed -> Poison Chance",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Blood Splatter",
+				"playerAbilityID": "fn10"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Splatter} has a chance to poison enemies.\r",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 25,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Blood splatter has [20%] additional chance per point to poison on hit.\\n\\nThis has no effect on the poison chance of rip blood.",
+			"nodeName": "Septic Blood",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Blood Splatter",
+							"playerAbilityID": "fn10"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Splatter} deals more damage (multiplicative with other modifiers) and have an increased chance to stun enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 5,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Blood splatter deals [15%] increased damage per point, and has [15%] increased stun chance per point.",
+						"nodeName": "Revile",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"abilityGrantedByNode": {
+										"abilityName": "Blood Splatter",
+										"playerAbilityID": "fn10"
+									},
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "{Blood Splatter} deals damage in a larger area.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 4,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Blood splatter has [25%] increased area per point",
+									"nodeName": "Crimson Flood",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rip Blood hits have a chance to create a {Blood Splatter} at the target, dealing damage to other enemies around it, but not the original target. ",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "+[20%] chance per point to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+												"nodeName": "Splatter",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The life blood of your foes need not be wasted",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+															"nodeName": "Rip Blood"
+														},
+														"requirement": 0
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5061,
+														"statName": "Blood Splatter chance",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rip Blood has a significantly higher chance to make a {Blood Splatter}, but costs more mana\r.\n",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 3,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Adds 6 to mana cost. +100% chance to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+												"nodeName": "Eviscerate",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The life blood of your foes need not be wasted",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+															"nodeName": "Rip Blood"
+														},
+														"requirement": 0
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 1,
+														"overrideSprite": 0,
+														"property": 5061,
+														"statName": "Blood Splatter Chance",
+														"tags": 0,
+														"value": "+100%"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 66,
+														"statName": "Mana Cost",
+														"tags": 0,
+														"value": "+6"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5015,
+											"statName": "Blood Splatter Area",
+											"tags": 0,
+											"value": "+25%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Blood Splatter Damage",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 45,
+								"statName": "Blood Splatter Increased Stun Chance",
+								"tags": 0,
+								"value": "15%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Blood Splatter Poison Chance",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rip Blood hits grant you increased spell damage for 4 seconds. This effect can stack.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 26,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "You gain [5%] increased spell damage per point for 4 seconds when you hit an enemy with rip blood",
+			"nodeName": "Arcane Absorption",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The life blood of your foes need not be wasted",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+						"nodeName": "Rip Blood"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5048,
+					"statName": "Global Increased Spell Damage",
+					"tags": 0,
+					"value": "+5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rip Blood deals more damage (multiplicative with other modifiers)\r.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 27,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Rip Blood deals [15%] increased damage per point",
+			"nodeName": "Run Dry",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood hits grant you increased spell damage for 4 seconds. This effect can stack.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 26,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "You gain [5%] increased spell damage per point for 4 seconds when you hit an enemy with rip blood",
+						"nodeName": "Arcane Absorption",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The life blood of your foes need not be wasted",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+									"nodeName": "Rip Blood"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5048,
+								"statName": "Global Increased Spell Damage",
+								"tags": 0,
+								"value": "+5%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage",
+					"tags": 0,
+					"value": "+8%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rip Blood deals more damage for each minion you currently control (multiplicative with other modifiers). ",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 28,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Rip Blood deals [1.5%] increased damage for each minion you currently control.",
+			"nodeName": "Necrotic Inspiration",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood deals more damage (multiplicative with other modifiers)\r.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 27,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Rip Blood deals [15%] increased damage per point",
+						"nodeName": "Run Dry",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood hits grant you increased spell damage for 4 seconds. This effect can stack.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 26,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "You gain [5%] increased spell damage per point for 4 seconds when you hit an enemy with rip blood",
+									"nodeName": "Arcane Absorption",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5048,
+											"statName": "Global Increased Spell Damage",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+8%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage Per Minion",
+					"tags": 0,
+					"value": "+1.5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Orbs} now grant ward instead of health, equal to half of the health they would have restored.\n\nBeing at or close to full health does not affect the amount of the ward the {Blood Orbs} grant.\r",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 31,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "The orb of blood created by rip blood no longer restores health, but instead grants ward equal to half the health it would have restored.\\n\\nBeing at or close to full health does not affect the amount of the ward the orb grants.",
+			"nodeName": "Arcane Fortress",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood's and {Blood Splatter's} base physical damage is converted to necrotic damage. Consequently this damage scales with increases to necrotic damage, but not increases to physical damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 30,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "The base physical damage dealt by Rip Blood and {Blood Splatter} is converted to necrotic damage. Consequently this damage scales with increases to necrotic damage, but not increases to physical damage.",
+						"nodeName": "Rip Spirit",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood hits grant you increased spell damage for 4 seconds. This effect can stack.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 26,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "You gain [5%] increased spell damage per point for 4 seconds when you hit an enemy with rip blood",
+									"nodeName": "Arcane Absorption",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5048,
+											"statName": "Global Increased Spell Damage",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 5027,
+								"statName": "Physical -> Necrotic Damage",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 39,
+					"statName": "Health Granted -> Ward Granted",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rip Blood hits have a chance to create a {Blood Splatter} at the target, dealing damage to other enemies around it, but not the original target. ",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 2,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "+[20%] chance per point to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+			"nodeName": "Splatter",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The life blood of your foes need not be wasted",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+						"nodeName": "Rip Blood"
+					},
+					"requirement": 0
+				},
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Blood Splatter",
+							"playerAbilityID": "fn10"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Splatter} deals damage in a larger area.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 4,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Blood splatter has [25%] increased area per point",
+						"nodeName": "Crimson Flood",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood has a significantly higher chance to make a {Blood Splatter}, but costs more mana\r.\n",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Adds 6 to mana cost. +100% chance to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+									"nodeName": "Eviscerate",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 0,
+											"property": 5061,
+											"statName": "Blood Splatter Chance",
+											"tags": 0,
+											"value": "+100%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "+6"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5015,
+								"statName": "Blood Splatter Area",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5061,
+					"statName": "Blood Splatter chance",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rip Blood has a significantly higher chance to make a {Blood Splatter}, but costs more mana\r.\n",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 3,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Adds 6 to mana cost. +100% chance to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+			"nodeName": "Eviscerate",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The life blood of your foes need not be wasted",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+						"nodeName": "Rip Blood"
+					},
+					"requirement": 0
+				},
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Blood Splatter",
+							"playerAbilityID": "fn10"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Splatter} deals damage in a larger area.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 4,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Blood splatter has [25%] increased area per point",
+						"nodeName": "Crimson Flood",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Nodes on this tree do not apply to {Blood Splatter} unless stated otherwise.\n\nHitting or killing an enemy with {Blood Splatter} does not count as hitting or killing an enemy with Rip Blood.\n\nIf you have more than 100% chance to cause {Blood Splatter} you can cause multiple {Blood Splatters}.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood hits have a chance to create a {Blood Splatter} at the target, dealing damage to other enemies around it, but not the original target. ",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "+[20%] chance per point to cause blood splatter to splatter out and hit nearby enemies, but not the target.",
+									"nodeName": "Splatter",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5061,
+											"statName": "Blood Splatter chance",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5015,
+								"statName": "Blood Splatter Area",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 5061,
+					"statName": "Blood Splatter Chance",
+					"tags": 0,
+					"value": "+100%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "+6"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rip Blood can be cast on your minions, but no longer can be cast on enemies. {Blood Orbs} restore significantly more health. ",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 22,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Rip blood targets and damages your minions instead of enemies. The health restored by the orb of blood created by rip blood is increased by 100%.\\n\\nBlood splatter still functions as normal.",
+			"nodeName": "Marrow Drinker",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Orbs} grant additional health and the {Blood Orb} returns faster.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "The orb of blood created by rip blood restores [4] additional health per point and returns to you [20%] faster per point.",
+						"nodeName": "Quenching",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood has increased cast speed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 16,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "[6%] increased cast speed per point",
+									"nodeName": "Hemomancer",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 3,
+											"statName": "Cast Speed",
+											"tags": 0,
+											"value": "+6%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 38,
+								"statName": "Health Granted",
+								"tags": 0,
+								"value": "+4"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Blood Orb Travel Speed",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 38,
+					"statName": "Health Granted",
+					"tags": 0,
+					"value": "+100%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Targets Minions Instead",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rip Blood will automatically cast itself on a nearby enemy if it kills an enemy, but no longer creates {Blood Orbs}.\n\nThis effect can repeat and chain to other enemies. This effect cannot trigger if you are out of mana.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 29,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Rip Blood no longer creates an orb of blood, and so can no longer return health, ward, or mana. If Rip Blood kills its target it is cast again for free at a new target near the dead one. This new cast can itself trigger an additional cast if it kills its target. This effect cannot trigger while you are out of mana.",
+			"nodeName": "Blood Catalyst",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood deals more damage (multiplicative with other modifiers)\r.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 27,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Rip Blood deals [15%] increased damage per point",
+						"nodeName": "Run Dry",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rip Blood hits grant you increased spell damage for 4 seconds. This effect can stack.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 26,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "You gain [5%] increased spell damage per point for 4 seconds when you hit an enemy with rip blood",
+									"nodeName": "Arcane Absorption",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The life blood of your foes need not be wasted",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+												"nodeName": "Rip Blood"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5048,
+											"statName": "Global Increased Spell Damage",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+8%"
+							}
+						]
+					},
+					"requirement": 4
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Automatically Recasts On Kill",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 1,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "No Blood Orbs",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rip Blood's and {Blood Splatter's} base physical damage is converted to necrotic damage. Consequently this damage scales with increases to necrotic damage, but not increases to physical damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 30,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "The base physical damage dealt by Rip Blood and {Blood Splatter} is converted to necrotic damage. Consequently this damage scales with increases to necrotic damage, but not increases to physical damage.",
+			"nodeName": "Rip Spirit",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood hits grant you increased spell damage for 4 seconds. This effect can stack.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 26,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "You gain [5%] increased spell damage per point for 4 seconds when you hit an enemy with rip blood",
+						"nodeName": "Arcane Absorption",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The life blood of your foes need not be wasted",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+									"nodeName": "Rip Blood"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5048,
+								"statName": "Global Increased Spell Damage",
+								"tags": 0,
+								"value": "+5%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 5027,
+					"statName": "Physical -> Necrotic Damage",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Rip Blood leaves a stench on the target enemy that causes your minions to prioritise attacking it. ",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 32,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Rip blood leaves a stench on the target enemy that causes your minions to prioritise attacking it",
+			"nodeName": "Stench of Blood",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Rip Blood has increased cast speed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 16,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[6%] increased cast speed per point",
+						"nodeName": "Hemomancer",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Rips blood out of a target enemy dealing physical damage to it. A {Blood Orb} is drawn back to you which restores 10 health when it reaches you.",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The life blood of your foes need not be wasted",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Rips blood out of a target enemy dealing physical damage to it. An orb of the blood is drawn back to you, restoring 10 health when it reaches you",
+									"nodeName": "Rip Blood"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 3,
+								"statName": "Cast Speed",
+								"tags": 0,
+								"value": "+6%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5031,
+					"statName": "Minions Prioritize Target",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		}
+	],
+	"specialised": 0,
+	"treeID": "rb31pl",
+	"unspentPoints": 1,
+	"version": 2
+}

@@ -1,0 +1,6310 @@
+{
+	"ability": {
+		"abilityName": "Harvest",
+		"playerAbilityID": "ha84"
+	},
+	"nodeList": [
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"id": 0,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "Reap the death mark",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 0,
+			"nodeDescription": "Harvest your enemies with a spectral scythe.",
+			"nodeName": "Harvest"
+		},
+		{
+			"altText": "Necrotic Resistance Shred reduces necrotic resistance by 5% (2% against bosses and players), lasts 4 seconds, and can stack up to 20 times.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest hits have a chance to reduce enemy necrotic resistance.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 2,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "[20%] chance to shred necrotic protection on hit per point",
+			"nodeName": "Harrowing Blade",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Reap the death mark",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Harvest your enemies with a spectral scythe.",
+						"nodeName": "Harvest"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10029,
+					"statName": "Necrotic Resistance Shred Chance",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest grants you health each time it hits a cursed enemy.\r\n\r\nHealth gained scales with your intelligence stat.\r",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 3,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Heal for 1 health per point of intelligence when you hit an enemy Marked for Death.",
+			"nodeName": "Life Eater",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Necrotic Resistance Shred reduces necrotic resistance by 5% (2% against bosses and players), lasts 4 seconds, and can stack up to 20 times.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest hits have a chance to reduce enemy necrotic resistance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[20%] chance to shred necrotic protection on hit per point",
+						"nodeName": "Harrowing Blade",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10029,
+								"statName": "Necrotic Resistance Shred Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 4
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 38,
+					"statName": "Health Gained Per Point Of Intelligence",
+					"tags": 0,
+					"value": "1"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest deals damage in a larger area. ",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 5,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "[20%] increased area per point",
+			"nodeName": "Great Scythe",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest grants you ward when it hits a Cursed enemy.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 10,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+						"nodeName": "Mind Harvest",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 39,
+								"statName": "Ward Gained",
+								"tags": 0,
+								"value": "+2"
+							}
+						]
+					},
+					"requirement": 3
+				},
+				{
+					"node": {
+						"altText": "Necrotic Resistance Shred reduces necrotic resistance by 5% (2% against bosses and players), lasts 4 seconds, and can stack up to 20 times.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest hits have a chance to reduce enemy necrotic resistance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[20%] chance to shred necrotic protection on hit per point",
+						"nodeName": "Harrowing Blade",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10029,
+								"statName": "Necrotic Resistance Shred Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Improves Harvest's base critical strike chance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 6,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "+[3%] critical strike chance per point",
+						"nodeName": "Spectral Whetstone",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 3
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest hits deal more damage against Cursed enemies (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 9,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 7,
+									"nodeDescription": "The damage bonus to marked targets is increased by [13%] per point",
+									"nodeName": "Symbol of Loss",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest grants you ward when it hits a Cursed enemy.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 10,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+												"nodeName": "Mind Harvest",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Reap the death mark",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Harvest your enemies with a spectral scythe.",
+															"nodeName": "Harvest"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 39,
+														"statName": "Ward Gained",
+														"tags": 0,
+														"value": "+2"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 20017,
+											"statName": "Marked Enemy Damage",
+											"tags": 0,
+											"value": "+13%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5007,
+								"statName": "Base Crit Chance",
+								"tags": 0,
+								"value": "+3%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5015,
+					"statName": "Area",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Improves Harvest's base critical strike chance.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 6,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "+[3%] critical strike chance per point",
+			"nodeName": "Spectral Whetstone",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest deals damage in a larger area. ",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 5,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[20%] increased area per point",
+						"nodeName": "Great Scythe",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest grants you ward when it hits a Cursed enemy.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 10,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+									"nodeName": "Mind Harvest",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Reap the death mark",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Harvest your enemies with a spectral scythe.",
+												"nodeName": "Harvest"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 39,
+											"statName": "Ward Gained",
+											"tags": 0,
+											"value": "+2"
+										}
+									]
+								},
+								"requirement": 3
+							},
+							{
+								"node": {
+									"altText": "Necrotic Resistance Shred reduces necrotic resistance by 5% (2% against bosses and players), lasts 4 seconds, and can stack up to 20 times.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest hits have a chance to reduce enemy necrotic resistance.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "[20%] chance to shred necrotic protection on hit per point",
+									"nodeName": "Harrowing Blade",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Reap the death mark",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Harvest your enemies with a spectral scythe.",
+												"nodeName": "Harvest"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10029,
+											"statName": "Necrotic Resistance Shred Chance",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5015,
+								"statName": "Area",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 3
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest hits deal more damage against Cursed enemies (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 9,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 7,
+						"nodeDescription": "The damage bonus to marked targets is increased by [13%] per point",
+						"nodeName": "Symbol of Loss",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest grants you ward when it hits a Cursed enemy.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 10,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+									"nodeName": "Mind Harvest",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Reap the death mark",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Harvest your enemies with a spectral scythe.",
+												"nodeName": "Harvest"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 39,
+											"statName": "Ward Gained",
+											"tags": 0,
+											"value": "+2"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 20017,
+								"statName": "Marked Enemy Damage",
+								"tags": 0,
+								"value": "+13%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5007,
+					"statName": "Base Crit Chance",
+					"tags": 0,
+					"value": "+3%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have increased critical strike chance if you have hit an enemy with Harvest recently (past 4 seconds).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 7,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "[10%] increased critical strike chance per point if you hit an enemy with Harvest recently",
+			"nodeName": "Learned Weakness",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Improves Harvest's base critical strike chance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 6,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "+[3%] critical strike chance per point",
+						"nodeName": "Spectral Whetstone",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest deals damage in a larger area. ",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 5,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "[20%] increased area per point",
+									"nodeName": "Great Scythe",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest grants you ward when it hits a Cursed enemy.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 10,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+												"nodeName": "Mind Harvest",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Reap the death mark",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Harvest your enemies with a spectral scythe.",
+															"nodeName": "Harvest"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 39,
+														"statName": "Ward Gained",
+														"tags": 0,
+														"value": "+2"
+													}
+												]
+											},
+											"requirement": 3
+										},
+										{
+											"node": {
+												"altText": "Necrotic Resistance Shred reduces necrotic resistance by 5% (2% against bosses and players), lasts 4 seconds, and can stack up to 20 times.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest hits have a chance to reduce enemy necrotic resistance.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "[20%] chance to shred necrotic protection on hit per point",
+												"nodeName": "Harrowing Blade",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Reap the death mark",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Harvest your enemies with a spectral scythe.",
+															"nodeName": "Harvest"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10029,
+														"statName": "Necrotic Resistance Shred Chance",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5015,
+											"statName": "Area",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 3
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest hits deal more damage against Cursed enemies (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 9,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 7,
+									"nodeDescription": "The damage bonus to marked targets is increased by [13%] per point",
+									"nodeName": "Symbol of Loss",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest grants you ward when it hits a Cursed enemy.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 10,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+												"nodeName": "Mind Harvest",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Reap the death mark",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Harvest your enemies with a spectral scythe.",
+															"nodeName": "Harvest"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 39,
+														"statName": "Ward Gained",
+														"tags": 0,
+														"value": "+2"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 20017,
+											"statName": "Marked Enemy Damage",
+											"tags": 0,
+											"value": "+13%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5007,
+								"statName": "Base Crit Chance",
+								"tags": 0,
+								"value": "+3%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5028,
+					"statName": "Global Increased Crit Chance",
+					"tags": 0,
+					"value": "10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have more movement speed if you have landed a critical strike with Harvest recently (past 4 seconds).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 8,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "[10%] increased move speed per point if you have critically hit with Harvest recently",
+			"nodeName": "Steal Youth",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You have increased critical strike chance if you have hit an enemy with Harvest recently (past 4 seconds).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[10%] increased critical strike chance per point if you hit an enemy with Harvest recently",
+						"nodeName": "Learned Weakness",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Improves Harvest's base critical strike chance.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 6,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "+[3%] critical strike chance per point",
+									"nodeName": "Spectral Whetstone",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest deals damage in a larger area. ",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 5,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "[20%] increased area per point",
+												"nodeName": "Great Scythe",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Harvest grants you ward when it hits a Cursed enemy.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 10,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 4,
+															"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+															"nodeName": "Mind Harvest",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "Reap the death mark",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Harvest your enemies with a spectral scythe.",
+																		"nodeName": "Harvest"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 39,
+																	"statName": "Ward Gained",
+																	"tags": 0,
+																	"value": "+2"
+																}
+															]
+														},
+														"requirement": 3
+													},
+													{
+														"node": {
+															"altText": "Necrotic Resistance Shred reduces necrotic resistance by 5% (2% against bosses and players), lasts 4 seconds, and can stack up to 20 times.",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Harvest hits have a chance to reduce enemy necrotic resistance.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 2,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 5,
+															"nodeDescription": "[20%] chance to shred necrotic protection on hit per point",
+															"nodeName": "Harrowing Blade",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "Reap the death mark",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Harvest your enemies with a spectral scythe.",
+																		"nodeName": "Harvest"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 10029,
+																	"statName": "Necrotic Resistance Shred Chance",
+																	"tags": 0,
+																	"value": "+20%"
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"requirement": 3
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5015,
+														"statName": "Area",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 3
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest hits deal more damage against Cursed enemies (multiplicative with other modifiers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 9,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 7,
+												"nodeDescription": "The damage bonus to marked targets is increased by [13%] per point",
+												"nodeName": "Symbol of Loss",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Harvest grants you ward when it hits a Cursed enemy.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 10,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 4,
+															"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+															"nodeName": "Mind Harvest",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "Reap the death mark",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Harvest your enemies with a spectral scythe.",
+																		"nodeName": "Harvest"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 39,
+																	"statName": "Ward Gained",
+																	"tags": 0,
+																	"value": "+2"
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"requirement": 2
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 20017,
+														"statName": "Marked Enemy Damage",
+														"tags": 0,
+														"value": "+13%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5007,
+											"statName": "Base Crit Chance",
+											"tags": 0,
+											"value": "+3%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5028,
+								"statName": "Global Increased Crit Chance",
+								"tags": 0,
+								"value": "10%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 9,
+					"statName": "Movespeed On Crit",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest grants you ward when it hits a Cursed enemy.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 10,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+			"nodeName": "Mind Harvest",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Reap the death mark",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Harvest your enemies with a spectral scythe.",
+						"nodeName": "Harvest"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 39,
+					"statName": "Ward Gained",
+					"tags": 0,
+					"value": "+2"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest grants you ward based on your maximum health when it hits a Cursed enemy.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 11,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Gain [1%] of your current health per point as ward when you hit an enemy marked for death.",
+			"nodeName": "Mirror Soul",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest grants you ward when it hits a Cursed enemy.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 10,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+						"nodeName": "Mind Harvest",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 39,
+								"statName": "Ward Gained",
+								"tags": 0,
+								"value": "+2"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 39,
+					"statName": "Percent Of Health Granted As Ward",
+					"tags": 0,
+					"value": "1%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Ward granted by this skill tree is also granted to your minions.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 12,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Ward gained from this tree is also gained by your minions",
+			"nodeName": "Ghost Conduit",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest grants you ward when it hits a Cursed enemy.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 10,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+						"nodeName": "Mind Harvest",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 39,
+								"statName": "Ward Gained",
+								"tags": 0,
+								"value": "+2"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Minion Ward Granted",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Your minions are granted more ward from Harvest.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 13,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Minions gain [50%] increased ward from Harvest per point",
+			"nodeName": "Undead Veins",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Ward granted by this skill tree is also granted to your minions.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 12,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Ward gained from this tree is also gained by your minions",
+						"nodeName": "Ghost Conduit",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest grants you ward when it hits a Cursed enemy.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 10,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+									"nodeName": "Mind Harvest",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Reap the death mark",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Harvest your enemies with a spectral scythe.",
+												"nodeName": "Harvest"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 39,
+											"statName": "Ward Gained",
+											"tags": 0,
+											"value": "+2"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Minion Ward Granted",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Minion Ward Granted From Harvest",
+					"tags": 0,
+					"value": "+50%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest has a chance to poison enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 14,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "[20%] chance to poison on hit per point.",
+			"nodeName": "Putrid Reaper",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Reap the death mark",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Harvest your enemies with a spectral scythe.",
+						"nodeName": "Harvest"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Poison Chance",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "Poison Resistance Shred reduces poison resistance by 5% (2% against bosses and players), lasts 4 seconds, and can stack up to 20 times.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest has a chance to reduce enemy poison resistance.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 15,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "[20%] chance to shred poison protection on hit per point",
+			"nodeName": "Death Inside",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest has a chance to poison enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[20%] chance to poison on hit per point.",
+						"nodeName": "Putrid Reaper",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10028,
+					"statName": "Poison Resistance Shred Chance",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Poisons and Bleeds caused by Harvest last longer.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 16,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "[10%] increased poison and bleed duration.",
+			"nodeName": "Waning",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest has a chance to poison enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[20%] chance to poison on hit per point.",
+						"nodeName": "Putrid Reaper",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 3
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest has a chance to cause enemies to bleed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 17,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[20%] chance to bleed on hit per point.",
+						"nodeName": "Blood Bringer",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Bleed Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Poison Duration",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10002,
+					"statName": "Bleed Duration",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest has a chance to cause enemies to bleed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 17,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "[20%] chance to bleed on hit per point.",
+			"nodeName": "Blood Bringer",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Reap the death mark",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Harvest your enemies with a spectral scythe.",
+						"nodeName": "Harvest"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10002,
+					"statName": "Bleed Chance",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. The self-inflicted bleed does not scale with your stats.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 18,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "100% chance to bleed on hit.\n\nYou inflict yourself with bleeding when you hit an enemy. This self inflicted bleed is not improved by your stats.",
+			"nodeName": "Double Edged Scythe",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest has a chance to cause enemies to bleed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 17,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[20%] chance to bleed on hit per point.",
+						"nodeName": "Blood Bringer",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Bleed Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 3
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest consumes all of your remaining mana on use, and you gain ward equal to twice the mana consumed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Harvest consumes all your remaining mana to gain ward equal to twice the mana consumed\n\nThis effect cannot be triggered when you have less than 10 mana",
+						"nodeName": "Wraith Skin",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Improves Harvest's base critical strike chance., but also costs health to use.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 20,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "[10] health lost on attack per point\n\n+[10%] critical strike chance per point",
+									"nodeName": "Iron Mouths",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Minions have increased critical strike chance if you have landed a critical strike with Harvest recently (past 4 seconds).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 21,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Minions have [50%] increased critical strike chance per point if you have crit with Harvest recently",
+												"nodeName": "Legion of the Lich",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"requirement": 2
+													},
+													{
+														"node": {
+															"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 22,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 3,
+															"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+															"nodeName": "Finality",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "Reap the death mark",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Harvest your enemies with a spectral scythe.",
+																		"nodeName": "Harvest"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5029,
+																	"statName": "Kill Threshold",
+																	"tags": 0,
+																	"value": "4%"
+																}
+															]
+														},
+														"requirement": 2
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Increased Minion Crit Chance",
+														"tags": 0,
+														"value": "+50%"
+													}
+												]
+											},
+											"requirement": 2
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 4,
+											"statName": "Base Crit Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5018,
+											"statName": "Health Cost",
+											"tags": 0,
+											"value": "+10"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Mana Converted To Ward",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Harvest Consumes All Mana",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10002,
+					"statName": "Bleed Chance",
+					"tags": 0,
+					"value": "+100%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Self Bleed Chance",
+					"tags": 0,
+					"value": "+100%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Improves Harvest's base critical strike chance., but also costs health to use.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 20,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "[10] health lost on attack per point\n\n+[10%] critical strike chance per point",
+			"nodeName": "Iron Mouths",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Minions have increased critical strike chance if you have landed a critical strike with Harvest recently (past 4 seconds).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 21,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Minions have [50%] increased critical strike chance per point if you have crit with Harvest recently",
+						"nodeName": "Legion of the Lich",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 22,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+									"nodeName": "Finality",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Reap the death mark",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Harvest your enemies with a spectral scythe.",
+												"nodeName": "Harvest"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5029,
+											"statName": "Kill Threshold",
+											"tags": 0,
+											"value": "4%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Increased Minion Crit Chance",
+								"tags": 0,
+								"value": "+50%"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest consumes all of your remaining mana on use, and you gain ward equal to twice the mana consumed.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Harvest consumes all your remaining mana to gain ward equal to twice the mana consumed\n\nThis effect cannot be triggered when you have less than 10 mana",
+						"nodeName": "Wraith Skin",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. The self-inflicted bleed does not scale with your stats.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 18,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "100% chance to bleed on hit.\n\nYou inflict yourself with bleeding when you hit an enemy. This self inflicted bleed is not improved by your stats.",
+									"nodeName": "Double Edged Scythe",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest has a chance to cause enemies to bleed.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 17,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "[20%] chance to bleed on hit per point.",
+												"nodeName": "Blood Bringer",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Reap the death mark",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Harvest your enemies with a spectral scythe.",
+															"nodeName": "Harvest"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10002,
+														"statName": "Bleed Chance",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 3
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10002,
+											"statName": "Bleed Chance",
+											"tags": 0,
+											"value": "+100%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Self Bleed Chance",
+											"tags": 0,
+											"value": "+100%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Mana Converted To Ward",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Harvest Consumes All Mana",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 4,
+					"statName": "Base Crit Chance",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5018,
+					"statName": "Health Cost",
+					"tags": 0,
+					"value": "+10"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Minions have increased critical strike chance if you have landed a critical strike with Harvest recently (past 4 seconds).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 21,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Minions have [50%] increased critical strike chance per point if you have crit with Harvest recently",
+			"nodeName": "Legion of the Lich",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Improves Harvest's base critical strike chance., but also costs health to use.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[10] health lost on attack per point\n\n+[10%] critical strike chance per point",
+						"nodeName": "Iron Mouths",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest consumes all of your remaining mana on use, and you gain ward equal to twice the mana consumed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 19,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Harvest consumes all your remaining mana to gain ward equal to twice the mana consumed\n\nThis effect cannot be triggered when you have less than 10 mana",
+									"nodeName": "Wraith Skin",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. The self-inflicted bleed does not scale with your stats.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 18,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "100% chance to bleed on hit.\n\nYou inflict yourself with bleeding when you hit an enemy. This self inflicted bleed is not improved by your stats.",
+												"nodeName": "Double Edged Scythe",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Harvest has a chance to cause enemies to bleed.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 17,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 5,
+															"nodeDescription": "[20%] chance to bleed on hit per point.",
+															"nodeName": "Blood Bringer",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "Reap the death mark",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Harvest your enemies with a spectral scythe.",
+																		"nodeName": "Harvest"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 10002,
+																	"statName": "Bleed Chance",
+																	"tags": 0,
+																	"value": "+20%"
+																}
+															]
+														},
+														"requirement": 3
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10002,
+														"statName": "Bleed Chance",
+														"tags": 0,
+														"value": "+100%"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Self Bleed Chance",
+														"tags": 0,
+														"value": "+100%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Mana Converted To Ward",
+											"tags": 0,
+											"value": ""
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Harvest Consumes All Mana",
+											"tags": 0,
+											"value": ""
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 4,
+								"statName": "Base Crit Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5018,
+								"statName": "Health Cost",
+								"tags": 0,
+								"value": "+10"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 22,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+						"nodeName": "Finality",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5029,
+								"statName": "Kill Threshold",
+								"tags": 0,
+								"value": "4%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Increased Minion Crit Chance",
+					"tags": 0,
+					"value": "+50%"
+				}
+			]
+		},
+		{
+			"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 22,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+			"nodeName": "Finality",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "Reap the death mark",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Harvest your enemies with a spectral scythe.",
+						"nodeName": "Harvest"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5029,
+					"statName": "Kill Threshold",
+					"tags": 0,
+					"value": "4%"
+				}
+			]
+		},
+		{
+			"altText": "Minions can have multiple instances of this buff at once.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest hits grant Skull Stacks. Skull Stacks are automatically consumed when you reach 6 stacks to make your next Harvest Hit and your minions deal more damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 23,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Gain a skull stack if Harvest hits an enemy. When you have 6 skull stacks, your next harvest consumes all the stacks to deal [60%] increased damage per point and grant your minions [60%] increased damage per point for 3 seconds.",
+			"nodeName": "Skull Shards",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 22,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+						"nodeName": "Finality",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5029,
+								"statName": "Kill Threshold",
+								"tags": 0,
+								"value": "4%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 5030,
+					"statName": "Skull Stack Threshold",
+					"tags": 0,
+					"value": "6"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5001,
+					"statName": "Next Harvest Hit Damage",
+					"tags": 0,
+					"value": "+60%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Increased Minion Damage",
+					"tags": 0,
+					"value": "+60%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest hits leave a trace on enemies, causing enemies to take increased damage and be prioritized by your minions. Traces last for 5 seconds.",
+			"fadeOverlay": null,
+			"id": 24,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Harvest leaves a trace on enemies it hits that caused them to take [5%] increased damage for 5 second and be prioritised by your minions",
+			"nodeName": "Undead Harvest",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Minions can have multiple instances of this buff at once.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest hits grant Skull Stacks. Skull Stacks are automatically consumed when you reach 6 stacks to make your next Harvest Hit and your minions deal more damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 23,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Gain a skull stack if Harvest hits an enemy. When you have 6 skull stacks, your next harvest consumes all the stacks to deal [60%] increased damage per point and grant your minions [60%] increased damage per point for 3 seconds.",
+						"nodeName": "Skull Shards",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 22,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+									"nodeName": "Finality",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Reap the death mark",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Harvest your enemies with a spectral scythe.",
+												"nodeName": "Harvest"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5029,
+											"statName": "Kill Threshold",
+											"tags": 0,
+											"value": "4%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 5030,
+								"statName": "Skull Stack Threshold",
+								"tags": 0,
+								"value": "6"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5001,
+								"statName": "Next Harvest Hit Damage",
+								"tags": 0,
+								"value": "+60%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Increased Minion Damage",
+								"tags": 0,
+								"value": "+60%"
+							}
+						]
+					},
+					"requirement": 3
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Minions have increased critical strike chance if you have landed a critical strike with Harvest recently (past 4 seconds).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 21,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Minions have [50%] increased critical strike chance per point if you have crit with Harvest recently",
+						"nodeName": "Legion of the Lich",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Improves Harvest's base critical strike chance., but also costs health to use.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 20,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "[10] health lost on attack per point\n\n+[10%] critical strike chance per point",
+									"nodeName": "Iron Mouths",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 2
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest consumes all of your remaining mana on use, and you gain ward equal to twice the mana consumed.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 19,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Harvest consumes all your remaining mana to gain ward equal to twice the mana consumed\n\nThis effect cannot be triggered when you have less than 10 mana",
+												"nodeName": "Wraith Skin",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. The self-inflicted bleed does not scale with your stats.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 18,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 1,
+															"nodeDescription": "100% chance to bleed on hit.\n\nYou inflict yourself with bleeding when you hit an enemy. This self inflicted bleed is not improved by your stats.",
+															"nodeName": "Double Edged Scythe",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"animations": [
+																			null
+																		],
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "Harvest has a chance to cause enemies to bleed.",
+																		"fadeOverlay": null,
+																		"highlightGlow": null,
+																		"id": 17,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 5,
+																		"nodeDescription": "[20%] chance to bleed on hit per point.",
+																		"nodeName": "Blood Bringer",
+																		"pointsText": {
+																			"tmp": null
+																		},
+																		"requirements": [
+																			{
+																				"node": {
+																					"altText": "",
+																					"connectionPrefab": {
+																						"SkillTreeConnection": {
+																							"dotsImage": null,
+																							"endConnectionImage": null,
+																							"singleRail": null,
+																							"startConnectionImage": null
+																						}
+																					},
+																					"description": "",
+																					"id": 0,
+																					"isBaseLockNode": 0,
+																					"isLockNode": 0,
+																					"loreText": "Reap the death mark",
+																					"mastery": 0,
+																					"masteryRequirement": 0,
+																					"maxPoints": 0,
+																					"nodeDescription": "Harvest your enemies with a spectral scythe.",
+																					"nodeName": "Harvest"
+																				},
+																				"requirement": 0
+																			}
+																		],
+																		"stats": [
+																			{
+																				"downside": 0,
+																				"noScaling": 0,
+																				"overrideSprite": 0,
+																				"property": 10002,
+																				"statName": "Bleed Chance",
+																				"tags": 0,
+																				"value": "+20%"
+																			}
+																		]
+																	},
+																	"requirement": 3
+																},
+																{
+																	"requirement": 1
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 10002,
+																	"statName": "Bleed Chance",
+																	"tags": 0,
+																	"value": "+100%"
+																},
+																{
+																	"downside": 1,
+																	"noScaling": 0,
+																	"overrideSprite": 1,
+																	"property": 54,
+																	"statName": "Self Bleed Chance",
+																	"tags": 0,
+																	"value": "+100%"
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Mana Converted To Ward",
+														"tags": 0,
+														"value": ""
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Harvest Consumes All Mana",
+														"tags": 0,
+														"value": ""
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 4,
+											"statName": "Base Crit Chance",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5018,
+											"statName": "Health Cost",
+											"tags": 0,
+											"value": "+10"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 22,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+									"nodeName": "Finality",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Reap the death mark",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Harvest your enemies with a spectral scythe.",
+												"nodeName": "Harvest"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5029,
+											"statName": "Kill Threshold",
+											"tags": 0,
+											"value": "4%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Increased Minion Crit Chance",
+								"tags": 0,
+								"value": "+50%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5031,
+					"statName": "Minions Prioritize Target",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5090,
+					"statName": "Enemy Damage Taken",
+					"tags": 0,
+					"value": "+5%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Summon Blood Wraith",
+				"playerAbilityID": ""
+			},
+			"altText": "{Blood Wraiths} have a base of 100 health, decay over time, and use melee attacks.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Wraiths} summoned by Harvest have a significantly increased critical strike chance.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 26,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Blood wraiths summoned with Harvest have [100%] increased critical strike chance per point",
+			"nodeName": "Red Reapers",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "{Blood Wraith}s have a base of 100 health, decay over time, and use melee attacks.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest has a chance to summon a {Blood Wraith} when it kills an enemy. You cannot summon more than one Blood Wraith every 2 seconds.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 25,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "You have a [10%] chance per point to summon a blood wraith on kill\n\nYou cannot summon more than one blood wraith every 2 seconds",
+						"nodeName": "Blood Sculptor",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Minions can have multiple instances of this buff at once.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest hits grant Skull Stacks. Skull Stacks are automatically consumed when you reach 6 stacks to make your next Harvest Hit and your minions deal more damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 23,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Gain a skull stack if Harvest hits an enemy. When you have 6 skull stacks, your next harvest consumes all the stacks to deal [60%] increased damage per point and grant your minions [60%] increased damage per point for 3 seconds.",
+									"nodeName": "Skull Shards",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 22,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+												"nodeName": "Finality",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Reap the death mark",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Harvest your enemies with a spectral scythe.",
+															"nodeName": "Harvest"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5029,
+														"statName": "Kill Threshold",
+														"tags": 0,
+														"value": "4%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 0,
+											"property": 5030,
+											"statName": "Skull Stack Threshold",
+											"tags": 0,
+											"value": "6"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5001,
+											"statName": "Next Harvest Hit Damage",
+											"tags": 0,
+											"value": "+60%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Increased Minion Damage",
+											"tags": 0,
+											"value": "+60%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5032,
+								"statName": "Summon Blood Wraith Chance",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5028,
+					"statName": "Blood Wraith Increased Crit Chance",
+					"tags": 0,
+					"value": "100%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Summon Blood Wraith",
+				"playerAbilityID": ""
+			},
+			"altText": "{Blood Wraiths} have a base of 100 health, decay over time, and use melee attacks.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Wraiths} summoned by Harvest leech a signficant portion of the damage they deal as health.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 27,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Blood wraiths summoned with Harvest leech [50%] of damage dealt as health per point",
+			"nodeName": "Wraith Feast",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Summon Blood Wraith",
+							"playerAbilityID": ""
+						},
+						"altText": "{Blood Wraiths} have a base of 100 health, decay over time, and use melee attacks.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Wraiths} summoned by Harvest deal additional melee necrotic damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 28,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Blood wraiths summoned with Harvest deal [7] additional melee necrotic damage per point",
+						"nodeName": "Necrotic Blood",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "{Blood Wraith}s have a base of 100 health, decay over time, and use melee attacks.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest has a chance to summon a {Blood Wraith} when it kills an enemy. You cannot summon more than one Blood Wraith every 2 seconds.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 25,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "You have a [10%] chance per point to summon a blood wraith on kill\n\nYou cannot summon more than one blood wraith every 2 seconds",
+									"nodeName": "Blood Sculptor",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "Minions can have multiple instances of this buff at once.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest hits grant Skull Stacks. Skull Stacks are automatically consumed when you reach 6 stacks to make your next Harvest Hit and your minions deal more damage.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 23,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Gain a skull stack if Harvest hits an enemy. When you have 6 skull stacks, your next harvest consumes all the stacks to deal [60%] increased damage per point and grant your minions [60%] increased damage per point for 3 seconds.",
+												"nodeName": "Skull Shards",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 22,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 3,
+															"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+															"nodeName": "Finality",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "Reap the death mark",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Harvest your enemies with a spectral scythe.",
+																		"nodeName": "Harvest"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5029,
+																	"statName": "Kill Threshold",
+																	"tags": 0,
+																	"value": "4%"
+																}
+															]
+														},
+														"requirement": 2
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 1,
+														"overrideSprite": 0,
+														"property": 5030,
+														"statName": "Skull Stack Threshold",
+														"tags": 0,
+														"value": "6"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5001,
+														"statName": "Next Harvest Hit Damage",
+														"tags": 0,
+														"value": "+60%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Increased Minion Damage",
+														"tags": 0,
+														"value": "+60%"
+													}
+												]
+											},
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5032,
+											"statName": "Summon Blood Wraith Chance",
+											"tags": 0,
+											"value": "+15%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5027,
+								"statName": "Melee Necrotic Damage",
+								"tags": 0,
+								"value": "+7"
+							}
+						]
+					},
+					"requirement": 3
+				},
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Summon Blood Wraith",
+							"playerAbilityID": ""
+						},
+						"altText": "{Blood Wraiths} have a base of 100 health, decay over time, and use melee attacks.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Blood Wraiths} summoned by Harvest have a significantly increased critical strike chance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 26,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Blood wraiths summoned with Harvest have [100%] increased critical strike chance per point",
+						"nodeName": "Red Reapers",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "{Blood Wraith}s have a base of 100 health, decay over time, and use melee attacks.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest has a chance to summon a {Blood Wraith} when it kills an enemy. You cannot summon more than one Blood Wraith every 2 seconds.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 25,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "You have a [10%] chance per point to summon a blood wraith on kill\n\nYou cannot summon more than one blood wraith every 2 seconds",
+									"nodeName": "Blood Sculptor",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "Minions can have multiple instances of this buff at once.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest hits grant Skull Stacks. Skull Stacks are automatically consumed when you reach 6 stacks to make your next Harvest Hit and your minions deal more damage.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 23,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Gain a skull stack if Harvest hits an enemy. When you have 6 skull stacks, your next harvest consumes all the stacks to deal [60%] increased damage per point and grant your minions [60%] increased damage per point for 3 seconds.",
+												"nodeName": "Skull Shards",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 22,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 3,
+															"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+															"nodeName": "Finality",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "Reap the death mark",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Harvest your enemies with a spectral scythe.",
+																		"nodeName": "Harvest"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5029,
+																	"statName": "Kill Threshold",
+																	"tags": 0,
+																	"value": "4%"
+																}
+															]
+														},
+														"requirement": 2
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 1,
+														"overrideSprite": 0,
+														"property": 5030,
+														"statName": "Skull Stack Threshold",
+														"tags": 0,
+														"value": "6"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5001,
+														"statName": "Next Harvest Hit Damage",
+														"tags": 0,
+														"value": "+60%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Increased Minion Damage",
+														"tags": 0,
+														"value": "+60%"
+													}
+												]
+											},
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5032,
+											"statName": "Summon Blood Wraith Chance",
+											"tags": 0,
+											"value": "+15%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5028,
+								"statName": "Blood Wraith Increased Crit Chance",
+								"tags": 0,
+								"value": "100%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 51,
+					"statName": "Blood Wraith Health Leech",
+					"tags": 0,
+					"value": "+50%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Summon Blood Wraith",
+				"playerAbilityID": ""
+			},
+			"altText": "{Blood Wraiths} have a base of 100 health, decay over time, and use melee attacks.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Blood Wraiths} summoned by Harvest deal additional melee necrotic damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 28,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Blood wraiths summoned with Harvest deal [7] additional melee necrotic damage per point",
+			"nodeName": "Necrotic Blood",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "{Blood Wraith}s have a base of 100 health, decay over time, and use melee attacks.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest has a chance to summon a {Blood Wraith} when it kills an enemy. You cannot summon more than one Blood Wraith every 2 seconds.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 25,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "You have a [10%] chance per point to summon a blood wraith on kill\n\nYou cannot summon more than one blood wraith every 2 seconds",
+						"nodeName": "Blood Sculptor",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Minions can have multiple instances of this buff at once.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest hits grant Skull Stacks. Skull Stacks are automatically consumed when you reach 6 stacks to make your next Harvest Hit and your minions deal more damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 23,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Gain a skull stack if Harvest hits an enemy. When you have 6 skull stacks, your next harvest consumes all the stacks to deal [60%] increased damage per point and grant your minions [60%] increased damage per point for 3 seconds.",
+									"nodeName": "Skull Shards",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 22,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+												"nodeName": "Finality",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Reap the death mark",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Harvest your enemies with a spectral scythe.",
+															"nodeName": "Harvest"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5029,
+														"statName": "Kill Threshold",
+														"tags": 0,
+														"value": "4%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 0,
+											"property": 5030,
+											"statName": "Skull Stack Threshold",
+											"tags": 0,
+											"value": "6"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5001,
+											"statName": "Next Harvest Hit Damage",
+											"tags": 0,
+											"value": "+60%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Increased Minion Damage",
+											"tags": 0,
+											"value": "+60%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5032,
+								"statName": "Summon Blood Wraith Chance",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5027,
+					"statName": "Melee Necrotic Damage",
+					"tags": 0,
+					"value": "+7"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvests' base physical damage and added damage is converted to necrotic. Consequently this damage scales with increases to necrotic damage, but not increases to physical damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 4,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "",
+			"nodeName": "Elements of Death",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Necrotic Resistance Shred reduces necrotic resistance by 5% (2% against bosses and players), lasts 4 seconds, and can stack up to 20 times.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest hits have a chance to reduce enemy necrotic resistance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[20%] chance to shred necrotic protection on hit per point",
+						"nodeName": "Harrowing Blade",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10029,
+								"statName": "Necrotic Resistance Shred Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 4
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5027,
+					"statName": "Damage Converted To Necrotic",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest hits deal more damage against Cursed enemies (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 9,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 7,
+			"nodeDescription": "The damage bonus to marked targets is increased by [13%] per point",
+			"nodeName": "Symbol of Loss",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest grants you ward when it hits a Cursed enemy.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 10,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+						"nodeName": "Mind Harvest",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "Reap the death mark",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Harvest your enemies with a spectral scythe.",
+									"nodeName": "Harvest"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 39,
+								"statName": "Ward Gained",
+								"tags": 0,
+								"value": "+2"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Improves Harvest's base critical strike chance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 6,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "+[3%] critical strike chance per point",
+						"nodeName": "Spectral Whetstone",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest deals damage in a larger area. ",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 5,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "[20%] increased area per point",
+									"nodeName": "Great Scythe",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest grants you ward when it hits a Cursed enemy.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 10,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 4,
+												"nodeDescription": "Gain [2] ward per point when you hit an enemy marked for death",
+												"nodeName": "Mind Harvest",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Reap the death mark",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Harvest your enemies with a spectral scythe.",
+															"nodeName": "Harvest"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 39,
+														"statName": "Ward Gained",
+														"tags": 0,
+														"value": "+2"
+													}
+												]
+											},
+											"requirement": 3
+										},
+										{
+											"node": {
+												"altText": "Necrotic Resistance Shred reduces necrotic resistance by 5% (2% against bosses and players), lasts 4 seconds, and can stack up to 20 times.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest hits have a chance to reduce enemy necrotic resistance.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "[20%] chance to shred necrotic protection on hit per point",
+												"nodeName": "Harrowing Blade",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Reap the death mark",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Harvest your enemies with a spectral scythe.",
+															"nodeName": "Harvest"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10029,
+														"statName": "Necrotic Resistance Shred Chance",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5015,
+											"statName": "Area",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 3
+							},
+							{
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5007,
+								"statName": "Base Crit Chance",
+								"tags": 0,
+								"value": "+3%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 20017,
+					"statName": "Marked Enemy Damage",
+					"tags": 0,
+					"value": "+13%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest consumes all of your remaining mana on use, and you gain ward equal to twice the mana consumed.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 19,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Harvest consumes all your remaining mana to gain ward equal to twice the mana consumed\n\nThis effect cannot be triggered when you have less than 10 mana",
+			"nodeName": "Wraith Skin",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. The self-inflicted bleed does not scale with your stats.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 18,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "100% chance to bleed on hit.\n\nYou inflict yourself with bleeding when you hit an enemy. This self inflicted bleed is not improved by your stats.",
+						"nodeName": "Double Edged Scythe",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest has a chance to cause enemies to bleed.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 17,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "[20%] chance to bleed on hit per point.",
+									"nodeName": "Blood Bringer",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Reap the death mark",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Harvest your enemies with a spectral scythe.",
+												"nodeName": "Harvest"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10002,
+											"statName": "Bleed Chance",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 3
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Bleed Chance",
+								"tags": 0,
+								"value": "+100%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Self Bleed Chance",
+								"tags": 0,
+								"value": "+100%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Improves Harvest's base critical strike chance., but also costs health to use.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[10] health lost on attack per point\n\n+[10%] critical strike chance per point",
+						"nodeName": "Iron Mouths",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Minions have increased critical strike chance if you have landed a critical strike with Harvest recently (past 4 seconds).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 21,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Minions have [50%] increased critical strike chance per point if you have crit with Harvest recently",
+									"nodeName": "Legion of the Lich",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 2
+										},
+										{
+											"node": {
+												"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 22,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+												"nodeName": "Finality",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "Reap the death mark",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Harvest your enemies with a spectral scythe.",
+															"nodeName": "Harvest"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5029,
+														"statName": "Kill Threshold",
+														"tags": 0,
+														"value": "4%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Increased Minion Crit Chance",
+											"tags": 0,
+											"value": "+50%"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 4,
+								"statName": "Base Crit Chance",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5018,
+								"statName": "Health Cost",
+								"tags": 0,
+								"value": "+10"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Mana Converted To Ward",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Harvest Consumes All Mana",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "{Blood Wraith}s have a base of 100 health, decay over time, and use melee attacks.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Harvest has a chance to summon a {Blood Wraith} when it kills an enemy. You cannot summon more than one Blood Wraith every 2 seconds.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 25,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "You have a [10%] chance per point to summon a blood wraith on kill\n\nYou cannot summon more than one blood wraith every 2 seconds",
+			"nodeName": "Blood Sculptor",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Minions can have multiple instances of this buff at once.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Harvest hits grant Skull Stacks. Skull Stacks are automatically consumed when you reach 6 stacks to make your next Harvest Hit and your minions deal more damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 23,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Gain a skull stack if Harvest hits an enemy. When you have 6 skull stacks, your next harvest consumes all the stacks to deal [60%] increased damage per point and grant your minions [60%] increased damage per point for 3 seconds.",
+						"nodeName": "Skull Shards",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "If you have a similar effect from an item or passive node then the highest threshold is used.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Harvest hits instantly kill enemies that are below a health threshold (a percentage of their maximum health).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 22,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Instantly kill enemies that are below a health threshold ([4%] of their maximum health per point).",
+									"nodeName": "Finality",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "Reap the death mark",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Harvest your enemies with a spectral scythe.",
+												"nodeName": "Harvest"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5029,
+											"statName": "Kill Threshold",
+											"tags": 0,
+											"value": "4%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 5030,
+								"statName": "Skull Stack Threshold",
+								"tags": 0,
+								"value": "6"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5001,
+								"statName": "Next Harvest Hit Damage",
+								"tags": 0,
+								"value": "+60%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Increased Minion Damage",
+								"tags": 0,
+								"value": "+60%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5032,
+					"statName": "Summon Blood Wraith Chance",
+					"tags": 0,
+					"value": "+15%"
+				}
+			]
+		}
+	],
+	"specialised": 0,
+	"treeID": "ha84",
+	"unspentPoints": 1,
+	"version": 0
+}

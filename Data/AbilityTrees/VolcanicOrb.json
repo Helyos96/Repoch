@@ -1,0 +1,5513 @@
+{
+	"ability": {
+		"abilityName": "Volcanic Orb",
+		"playerAbilityID": "vo54"
+	},
+	"nodeList": [
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"id": 2,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "The might of a volcano swirling in the palm of your hand",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 0,
+			"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+			"nodeName": "Volcanic Orb"
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Shrapnel}, {Explosive Orb} and {Fire Glyph} have a chance to chill enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 4,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Volcanic orb's shrapnel has [20%] chance to chill per point",
+			"nodeName": "Winter's Fury",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Frozen orb scales with increases to cold damage not fire damage.\\n\\nThe orb itself has a freeze rate of 40, the shrapnel has a freeze rate of 32, and explosions created at the start or end have a freeze rate of 100.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb is converted into Frozen Orb. Base fire damage is converted to cold for Frozen Orb and the skill effects it creates. Consequently this damage scales with increases to cold damage, but not with increases to fire damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 3,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "100% of fire damage converted to cold for volcanic orb and all other skill effects it creates.",
+						"nodeName": "Frozen Orb",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The might of a volcano swirling in the palm of your hand",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+									"nodeName": "Volcanic Orb"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Volcanic Orb -> Frozen Orb",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10003,
+					"statName": "Shrapnel and Explosion Chill Chance",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Shrapnel",
+				"playerAbilityID": "sh32"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Shrapnels} hits deal more damage against chilled enemies (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 5,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Volcanic orb's shrapnel deals [25%] more damage to chilled enemies per point",
+			"nodeName": "Glacial Might",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Shrapnel}, {Explosive Orb} and {Fire Glyph} have a chance to chill enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 4,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Volcanic orb's shrapnel has [20%] chance to chill per point",
+						"nodeName": "Winter's Fury",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Frozen orb scales with increases to cold damage not fire damage.\\n\\nThe orb itself has a freeze rate of 40, the shrapnel has a freeze rate of 32, and explosions created at the start or end have a freeze rate of 100.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Volcanic Orb is converted into Frozen Orb. Base fire damage is converted to cold for Frozen Orb and the skill effects it creates. Consequently this damage scales with increases to cold damage, but not with increases to fire damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "100% of fire damage converted to cold for volcanic orb and all other skill effects it creates.",
+									"nodeName": "Frozen Orb",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The might of a volcano swirling in the palm of your hand",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+												"nodeName": "Volcanic Orb"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Volcanic Orb -> Frozen Orb",
+											"tags": 0,
+											"value": ""
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10003,
+								"statName": "Shrapnel and Explosion Chill Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5001,
+					"statName": "Shrapnel Hit Damage Against Chilled",
+					"tags": 0,
+					"value": "+25%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Shrapnel",
+				"playerAbilityID": "sh32"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Shrapnel} travels faster, causing it to also travel further. Shrapnel is created more frequently.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 6,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Shrapnel emitted by the volcanic orb travels [5%] faster and further per point. Volcanic orb emits shrapnel [5%] more frequently per point.",
+			"nodeName": "Volatile Emission",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The might of a volcano swirling in the palm of your hand",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+						"nodeName": "Volcanic Orb"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5014,
+					"statName": "Shrapnel Speed and Range",
+					"tags": 0,
+					"value": "+5%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5077,
+					"statName": "Shrapnel Frequency",
+					"tags": 0,
+					"value": "+5%"
+				}
+			]
+		},
+		{
+			"altText": "If you have taken the {Explosive Ground} node, Volcanic Orb leaves Explosive Ground more frequently.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb core and {Shrapnel} deal more damage (multiplicative with other modifiers), but Volcanic Orb has a duration of 2 seconds. \n\nIf you have taken the {Explosive Ground} node, Volcanic Orb leaves Explosive Ground more frequently.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 7,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Volcanic orb's base duration is reduced to 2 seconds, but it deals 30% increased damage with the orb and shrapnel.",
+			"nodeName": "Orb of Speed",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Shrapnel",
+							"playerAbilityID": "sh32"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Shrapnel} travels faster, causing it to also travel further. Shrapnel is created more frequently.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 6,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Shrapnel emitted by the volcanic orb travels [5%] faster and further per point. Volcanic orb emits shrapnel [5%] more frequently per point.",
+						"nodeName": "Volatile Emission",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The might of a volcano swirling in the palm of your hand",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+									"nodeName": "Volcanic Orb"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5014,
+								"statName": "Shrapnel Speed and Range",
+								"tags": 0,
+								"value": "+5%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5077,
+								"statName": "Shrapnel Frequency",
+								"tags": 0,
+								"value": "+5%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb's core deals more damage (multiplicative with other modifiers), and it accelerates, moving faster for each second it exists.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 24,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "The central orb deals [35%] increased damage on hit per point. Every second, Volcanic Orb's speed is increased by [15%] per point.",
+						"nodeName": "Volcanic Acceleration",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Volcanic Orb's core deals more damage (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 19,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "The central orb of volcanic orb deals [35%] increased damage on hit per point.",
+									"nodeName": "Molten Core",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The might of a volcano swirling in the palm of your hand",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+												"nodeName": "Volcanic Orb"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Orb Damage",
+											"tags": 0,
+											"value": "+25%"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Orb Damage",
+								"tags": 0,
+								"value": "+25%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5014,
+								"statName": "Speed Per Second",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Orb Damage",
+					"tags": 0,
+					"value": "+25%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Shrapnel Damage",
+					"tags": 0,
+					"value": "+25%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5078,
+					"statName": "Explosive Ground Frequency",
+					"tags": 0,
+					"value": "+20%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5013,
+					"statName": "Duration",
+					"tags": 0,
+					"value": "2"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb travels faster, causing it to also travel further.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 8,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Volcanic orb travels [20%] faster and further per point",
+			"nodeName": "Pyroclastic Speed",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "If you have taken the {Explosive Ground} node, Volcanic Orb leaves Explosive Ground more frequently.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb core and {Shrapnel} deal more damage (multiplicative with other modifiers), but Volcanic Orb has a duration of 2 seconds. \n\nIf you have taken the {Explosive Ground} node, Volcanic Orb leaves Explosive Ground more frequently.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Volcanic orb's base duration is reduced to 2 seconds, but it deals 30% increased damage with the orb and shrapnel.",
+						"nodeName": "Orb of Speed",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"abilityGrantedByNode": {
+										"abilityName": "Shrapnel",
+										"playerAbilityID": "sh32"
+									},
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "{Shrapnel} travels faster, causing it to also travel further. Shrapnel is created more frequently.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 6,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Shrapnel emitted by the volcanic orb travels [5%] faster and further per point. Volcanic orb emits shrapnel [5%] more frequently per point.",
+									"nodeName": "Volatile Emission",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The might of a volcano swirling in the palm of your hand",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+												"nodeName": "Volcanic Orb"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5014,
+											"statName": "Shrapnel Speed and Range",
+											"tags": 0,
+											"value": "+5%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5077,
+											"statName": "Shrapnel Frequency",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Volcanic Orb's core deals more damage (multiplicative with other modifiers), and it accelerates, moving faster for each second it exists.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 24,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "The central orb deals [35%] increased damage on hit per point. Every second, Volcanic Orb's speed is increased by [15%] per point.",
+									"nodeName": "Volcanic Acceleration",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Volcanic Orb's core deals more damage (multiplicative with other modifiers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 19,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "The central orb of volcanic orb deals [35%] increased damage on hit per point.",
+												"nodeName": "Molten Core",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 2,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The might of a volcano swirling in the palm of your hand",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+															"nodeName": "Volcanic Orb"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Orb Damage",
+														"tags": 0,
+														"value": "+25%"
+													}
+												]
+											},
+											"requirement": 2
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Orb Damage",
+											"tags": 0,
+											"value": "+25%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5014,
+											"statName": "Speed Per Second",
+											"tags": 0,
+											"value": "+15%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Orb Damage",
+								"tags": 0,
+								"value": "+25%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Shrapnel Damage",
+								"tags": 0,
+								"value": "+25%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5078,
+								"statName": "Explosive Ground Frequency",
+								"tags": 0,
+								"value": "+20%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5013,
+								"statName": "Duration",
+								"tags": 0,
+								"value": "2"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5014,
+					"statName": "Speed and Range",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Shrapnel",
+				"playerAbilityID": "sh32"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Shrapnel} has an increased chance to stun enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 9,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Volcanic orb's shrapnel has [35%] increased stun chance per point",
+			"nodeName": "Ash Pelting",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Shrapnel",
+							"playerAbilityID": "sh32"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Shrapnel} travels faster, causing it to also travel further. Shrapnel is created more frequently.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 6,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Shrapnel emitted by the volcanic orb travels [5%] faster and further per point. Volcanic orb emits shrapnel [5%] more frequently per point.",
+						"nodeName": "Volatile Emission",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The might of a volcano swirling in the palm of your hand",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+									"nodeName": "Volcanic Orb"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5014,
+								"statName": "Shrapnel Speed and Range",
+								"tags": 0,
+								"value": "+5%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5077,
+								"statName": "Shrapnel Frequency",
+								"tags": 0,
+								"value": "+5%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 45,
+					"statName": "Shrapnel Increased Stun Chance",
+					"tags": 0,
+					"value": "35%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Shrapnel",
+				"playerAbilityID": "sh32"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Shrapnel} deals more damage (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 10,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 8,
+			"nodeDescription": "Volcanic orb's shrapnel deals [15%] increased damage per point",
+			"nodeName": "Eruption",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Shrapnel",
+							"playerAbilityID": "sh32"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Shrapnel} has an increased chance to stun enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 9,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Volcanic orb's shrapnel has [35%] increased stun chance per point",
+						"nodeName": "Ash Pelting",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"abilityGrantedByNode": {
+										"abilityName": "Shrapnel",
+										"playerAbilityID": "sh32"
+									},
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "{Shrapnel} travels faster, causing it to also travel further. Shrapnel is created more frequently.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 6,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Shrapnel emitted by the volcanic orb travels [5%] faster and further per point. Volcanic orb emits shrapnel [5%] more frequently per point.",
+									"nodeName": "Volatile Emission",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The might of a volcano swirling in the palm of your hand",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+												"nodeName": "Volcanic Orb"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5014,
+											"statName": "Shrapnel Speed and Range",
+											"tags": 0,
+											"value": "+5%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5077,
+											"statName": "Shrapnel Frequency",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 45,
+								"statName": "Shrapnel Increased Stun Chance",
+								"tags": 0,
+								"value": "35%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Shrapnel Damage",
+					"tags": 0,
+					"value": "+12%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Shrapnel",
+				"playerAbilityID": "sh32"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "{Shrapnel} pierces enemies (continues through enemies it hits).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 11,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Volcanic orb's shrapnel pierces through enemies",
+			"nodeName": "Piercing Embers",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Shrapnel",
+							"playerAbilityID": "sh32"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb's core and {Shrapnel} deal more damage (multiplicative with other modifiers), but Shrapnel is created less frequently.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 21,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Volcanic Orb emits shrapnel [20%] less frequently per point. Damage dealt by shrapnel and the central orb is increased by [35%] per point.",
+						"nodeName": "Monolithic Eruption",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The might of a volcano swirling in the palm of your hand",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+									"nodeName": "Volcanic Orb"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Orb Damage",
+								"tags": 0,
+								"value": "+25%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Shrapnel Damage",
+								"tags": 0,
+								"value": "+25%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5077,
+								"statName": "Shrapnel Frequency",
+								"tags": 0,
+								"value": "-20%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5002,
+					"statName": "Shrapnel Pierces",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Explosive Ground",
+				"playerAbilityID": ""
+			},
+			"altText": "{Explosive Ground} scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb leaves {Explosive Ground} more frequently, but costs more mana.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 13,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Volcanic orb leaves explosive ground [30%] more frequently per point. [5%] increased mana cost per point.",
+			"nodeName": "Tectonic Orb",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "{Explosive Ground} scales with increases to fire damage and spell damage, but not with other nodes on this tree.\n\nModifiers to the damage of Volcanic Orb's core also apply to Explosive Ground.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb leaves {Explosive Ground} as it travels, which explode after 3 seconds, dealing fire damage to enemies within its area of effect. Volcanic Orb costs significantly more mana.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 12,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Volcanic orb leaves explosive ground as it travels. 50% increased mana cost.",
+						"nodeName": "Explosive Ground",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Volcanic Orb's core, {Shrapnel} and {Explosive Orb} hits deal more damage, but Volcanic Orb costs more mana and has less cast speed (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 20,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "",
+									"nodeName": "Infernal Caster",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Volcanic Orb's core deals more damage (multiplicative with other modifiers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 19,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "The central orb of volcanic orb deals [35%] increased damage on hit per point.",
+												"nodeName": "Molten Core",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 2,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The might of a volcano swirling in the palm of your hand",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+															"nodeName": "Volcanic Orb"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Orb Damage",
+														"tags": 0,
+														"value": "+25%"
+													}
+												]
+											},
+											"requirement": 3
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5001,
+											"statName": "Hit Damage",
+											"tags": 0,
+											"value": "+35%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "+50%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 3,
+											"statName": "Cast Speed",
+											"tags": 0,
+											"value": "-40%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5078,
+								"statName": "Creates Explosive Ground",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost",
+								"tags": 0,
+								"value": "+50%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5056,
+					"statName": "Explosive Ground Frequency",
+					"tags": 0,
+					"value": "+30%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "+5%"
+				}
+			]
+		},
+		{
+			"altText": "If you have taken the {Explosive Ground} node, Volcanic Orb leaves Explosive Ground more frequently.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb costs less mana, but moves slower and has a duration of 2 seconds.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 14,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Volcanic Orb's base duration is reduced to 2 seconds and it moves 20% slower. 30% increased mana efficiency.",
+			"nodeName": "Controlled Eruption",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The might of a volcano swirling in the palm of your hand",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+						"nodeName": "Volcanic Orb"
+					},
+					"requirement": 0
+				},
+				{
+					"node": {
+						"altText": "The explosive scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb creates a large explosion at the end of its duration, dealing fire damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 15,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Volcanic orb creates a large explosion at the end of its duration",
+						"nodeName": "Explosive Orb",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Explosions from {Explosive Orb} and {Glyph of Fire} have a chance to ignite enemies.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 18,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Explosions from Explosive Orb and Glyph of Fire have [34%] chance to ignite per point",
+									"nodeName": "Mark of the Inferno",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Explosions from {Explosive Orb} and {Glyph of Fire} deal more damage (multiplicative with other modifiers).",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 17,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 7,
+												"nodeDescription": "Explosions from Explosive Orb and Glyph of Fire deal [30%] increased damage per point",
+												"nodeName": "Fiery Runes",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "The explosion scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Casting Volcanic Orb creates a {Fire Glyph} at your feet which explodes after 1.3 seconds, creating a {Fire Nova}.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 16,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 1,
+															"nodeDescription": "When you cast volcanic orb you create a fire glyph at your feet which explodes after 1.3 seconds, dealing large amounts of fire damage.",
+															"nodeName": "Glyph of Fire",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"abilityGrantedByNode": {
+																			"abilityName": "Shrapnel",
+																			"playerAbilityID": "sh32"
+																		},
+																		"altText": "",
+																		"animations": [
+																			null
+																		],
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "Volcanic Orb's core and {Shrapnel} deal more damage (multiplicative with other modifiers), but Shrapnel is created less frequently.",
+																		"fadeOverlay": null,
+																		"highlightGlow": null,
+																		"id": 21,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 2,
+																		"nodeDescription": "Volcanic Orb emits shrapnel [20%] less frequently per point. Damage dealt by shrapnel and the central orb is increased by [35%] per point.",
+																		"nodeName": "Monolithic Eruption",
+																		"pointsText": {
+																			"tmp": null
+																		},
+																		"requirements": [
+																			{
+																				"node": {
+																					"altText": "",
+																					"connectionPrefab": {
+																						"SkillTreeConnection": {
+																							"dotsImage": null,
+																							"endConnectionImage": null,
+																							"singleRail": null,
+																							"startConnectionImage": null
+																						}
+																					},
+																					"description": "",
+																					"id": 2,
+																					"isBaseLockNode": 0,
+																					"isLockNode": 0,
+																					"loreText": "The might of a volcano swirling in the palm of your hand",
+																					"mastery": 0,
+																					"masteryRequirement": 0,
+																					"maxPoints": 0,
+																					"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+																					"nodeName": "Volcanic Orb"
+																				},
+																				"requirement": 0
+																			}
+																		],
+																		"stats": [
+																			{
+																				"downside": 0,
+																				"noScaling": 0,
+																				"overrideSprite": 0,
+																				"property": 0,
+																				"statName": "Orb Damage",
+																				"tags": 0,
+																				"value": "+25%"
+																			},
+																			{
+																				"downside": 0,
+																				"noScaling": 0,
+																				"overrideSprite": 0,
+																				"property": 0,
+																				"statName": "Shrapnel Damage",
+																				"tags": 0,
+																				"value": "+25%"
+																			},
+																			{
+																				"downside": 1,
+																				"noScaling": 0,
+																				"overrideSprite": 0,
+																				"property": 5077,
+																				"statName": "Shrapnel Frequency",
+																				"tags": 0,
+																				"value": "-20%"
+																			}
+																		]
+																	},
+																	"requirement": 1
+																},
+																{
+																	"requirement": 1
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5079,
+																	"statName": "Creates Fire Glyph",
+																	"tags": 0,
+																	"value": ""
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"requirement": 2
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Explosion Damage",
+														"tags": 0,
+														"value": "+25%"
+													}
+												]
+											},
+											"requirement": 2
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10001,
+											"statName": "Explosion Ignite Chance",
+											"tags": 0,
+											"value": "+34#"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Creates End Explosion",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 69,
+					"statName": "Mana Efficiency",
+					"tags": 0,
+					"value": "+30%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5056,
+					"statName": "Explosive Ground Frequency",
+					"tags": 0,
+					"value": "+20%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5014,
+					"statName": "Speed and Range",
+					"tags": 0,
+					"value": "-20%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5013,
+					"statName": "Duration",
+					"tags": 0,
+					"value": "2"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Explosions from {Explosive Orb} and {Glyph of Fire} deal more damage (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 17,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 7,
+			"nodeDescription": "Explosions from Explosive Orb and Glyph of Fire deal [30%] increased damage per point",
+			"nodeName": "Fiery Runes",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "The explosion scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Casting Volcanic Orb creates a {Fire Glyph} at your feet which explodes after 1.3 seconds, creating a {Fire Nova}.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 16,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "When you cast volcanic orb you create a fire glyph at your feet which explodes after 1.3 seconds, dealing large amounts of fire damage.",
+						"nodeName": "Glyph of Fire",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"abilityGrantedByNode": {
+										"abilityName": "Shrapnel",
+										"playerAbilityID": "sh32"
+									},
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Volcanic Orb's core and {Shrapnel} deal more damage (multiplicative with other modifiers), but Shrapnel is created less frequently.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 21,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "Volcanic Orb emits shrapnel [20%] less frequently per point. Damage dealt by shrapnel and the central orb is increased by [35%] per point.",
+									"nodeName": "Monolithic Eruption",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The might of a volcano swirling in the palm of your hand",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+												"nodeName": "Volcanic Orb"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Orb Damage",
+											"tags": 0,
+											"value": "+25%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Shrapnel Damage",
+											"tags": 0,
+											"value": "+25%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5077,
+											"statName": "Shrapnel Frequency",
+											"tags": 0,
+											"value": "-20%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5079,
+								"statName": "Creates Fire Glyph",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Explosions from {Explosive Orb} and {Glyph of Fire} have a chance to ignite enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 18,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Explosions from Explosive Orb and Glyph of Fire have [34%] chance to ignite per point",
+						"nodeName": "Mark of the Inferno",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "The explosive scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Volcanic Orb creates a large explosion at the end of its duration, dealing fire damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 15,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Volcanic orb creates a large explosion at the end of its duration",
+									"nodeName": "Explosive Orb",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "If you have taken the {Explosive Ground} node, Volcanic Orb leaves Explosive Ground more frequently.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Volcanic Orb costs less mana, but moves slower and has a duration of 2 seconds.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 14,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Volcanic Orb's base duration is reduced to 2 seconds and it moves 20% slower. 30% increased mana efficiency.",
+												"nodeName": "Controlled Eruption",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 2,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The might of a volcano swirling in the palm of your hand",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+															"nodeName": "Volcanic Orb"
+														},
+														"requirement": 0
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 69,
+														"statName": "Mana Efficiency",
+														"tags": 0,
+														"value": "+30%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5056,
+														"statName": "Explosive Ground Frequency",
+														"tags": 0,
+														"value": "+20%"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5014,
+														"statName": "Speed and Range",
+														"tags": 0,
+														"value": "-20%"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5013,
+														"statName": "Duration",
+														"tags": 0,
+														"value": "2"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Creates End Explosion",
+											"tags": 0,
+											"value": ""
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10001,
+								"statName": "Explosion Ignite Chance",
+								"tags": 0,
+								"value": "+34#"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Explosion Damage",
+					"tags": 0,
+					"value": "+25%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Explosions from {Explosive Orb} and {Glyph of Fire} have a chance to ignite enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 18,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Explosions from Explosive Orb and Glyph of Fire have [34%] chance to ignite per point",
+			"nodeName": "Mark of the Inferno",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Explosions from {Explosive Orb} and {Glyph of Fire} deal more damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 17,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 7,
+						"nodeDescription": "Explosions from Explosive Orb and Glyph of Fire deal [30%] increased damage per point",
+						"nodeName": "Fiery Runes",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "The explosion scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Casting Volcanic Orb creates a {Fire Glyph} at your feet which explodes after 1.3 seconds, creating a {Fire Nova}.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 16,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "When you cast volcanic orb you create a fire glyph at your feet which explodes after 1.3 seconds, dealing large amounts of fire damage.",
+									"nodeName": "Glyph of Fire",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"abilityGrantedByNode": {
+													"abilityName": "Shrapnel",
+													"playerAbilityID": "sh32"
+												},
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Volcanic Orb's core and {Shrapnel} deal more damage (multiplicative with other modifiers), but Shrapnel is created less frequently.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 21,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 2,
+												"nodeDescription": "Volcanic Orb emits shrapnel [20%] less frequently per point. Damage dealt by shrapnel and the central orb is increased by [35%] per point.",
+												"nodeName": "Monolithic Eruption",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 2,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The might of a volcano swirling in the palm of your hand",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+															"nodeName": "Volcanic Orb"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Orb Damage",
+														"tags": 0,
+														"value": "+25%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Shrapnel Damage",
+														"tags": 0,
+														"value": "+25%"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5077,
+														"statName": "Shrapnel Frequency",
+														"tags": 0,
+														"value": "-20%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5079,
+											"statName": "Creates Fire Glyph",
+											"tags": 0,
+											"value": ""
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Explosion Damage",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "The explosive scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb creates a large explosion at the end of its duration, dealing fire damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 15,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Volcanic orb creates a large explosion at the end of its duration",
+						"nodeName": "Explosive Orb",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "If you have taken the {Explosive Ground} node, Volcanic Orb leaves Explosive Ground more frequently.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Volcanic Orb costs less mana, but moves slower and has a duration of 2 seconds.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 14,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Volcanic Orb's base duration is reduced to 2 seconds and it moves 20% slower. 30% increased mana efficiency.",
+									"nodeName": "Controlled Eruption",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The might of a volcano swirling in the palm of your hand",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+												"nodeName": "Volcanic Orb"
+											},
+											"requirement": 0
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 69,
+											"statName": "Mana Efficiency",
+											"tags": 0,
+											"value": "+30%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5056,
+											"statName": "Explosive Ground Frequency",
+											"tags": 0,
+											"value": "+20%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5014,
+											"statName": "Speed and Range",
+											"tags": 0,
+											"value": "-20%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5013,
+											"statName": "Duration",
+											"tags": 0,
+											"value": "2"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Creates End Explosion",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10001,
+					"statName": "Explosion Ignite Chance",
+					"tags": 0,
+					"value": "+34#"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb's core deals more damage (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 19,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "The central orb of volcanic orb deals [35%] increased damage on hit per point.",
+			"nodeName": "Molten Core",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The might of a volcano swirling in the palm of your hand",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+						"nodeName": "Volcanic Orb"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Orb Damage",
+					"tags": 0,
+					"value": "+25%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb's core, {Shrapnel} and {Explosive Orb} hits deal more damage, but Volcanic Orb costs more mana and has less cast speed (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 20,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "",
+			"nodeName": "Infernal Caster",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb's core deals more damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "The central orb of volcanic orb deals [35%] increased damage on hit per point.",
+						"nodeName": "Molten Core",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The might of a volcano swirling in the palm of your hand",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+									"nodeName": "Volcanic Orb"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Orb Damage",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5001,
+					"statName": "Hit Damage",
+					"tags": 0,
+					"value": "+35%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "+50%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 3,
+					"statName": "Cast Speed",
+					"tags": 0,
+					"value": "-40%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Shrapnel",
+				"playerAbilityID": "sh32"
+			},
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb's core and {Shrapnel} deal more damage (multiplicative with other modifiers), but Shrapnel is created less frequently.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 21,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Volcanic Orb emits shrapnel [20%] less frequently per point. Damage dealt by shrapnel and the central orb is increased by [35%] per point.",
+			"nodeName": "Monolithic Eruption",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The might of a volcano swirling in the palm of your hand",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+						"nodeName": "Volcanic Orb"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Orb Damage",
+					"tags": 0,
+					"value": "+25%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Shrapnel Damage",
+					"tags": 0,
+					"value": "+25%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5077,
+					"statName": "Shrapnel Frequency",
+					"tags": 0,
+					"value": "-20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Frozen Orb has an increased chance to freeze enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 22,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "+[40%] freeze rate multiplier per point",
+			"nodeName": "Freezing Orb",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Shrapnel}, {Explosive Orb} and {Fire Glyph} have a chance to chill enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 4,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Volcanic orb's shrapnel has [20%] chance to chill per point",
+						"nodeName": "Winter's Fury",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "Frozen orb scales with increases to cold damage not fire damage.\\n\\nThe orb itself has a freeze rate of 40, the shrapnel has a freeze rate of 32, and explosions created at the start or end have a freeze rate of 100.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Volcanic Orb is converted into Frozen Orb. Base fire damage is converted to cold for Frozen Orb and the skill effects it creates. Consequently this damage scales with increases to cold damage, but not with increases to fire damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "100% of fire damage converted to cold for volcanic orb and all other skill effects it creates.",
+									"nodeName": "Frozen Orb",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The might of a volcano swirling in the palm of your hand",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+												"nodeName": "Volcanic Orb"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Volcanic Orb -> Frozen Orb",
+											"tags": 0,
+											"value": ""
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10003,
+								"statName": "Shrapnel and Explosion Chill Chance",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 67,
+					"statName": "Freeze Rate Multiplier",
+					"tags": 0,
+					"value": "+40%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb moves slower for each second it exists.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 23,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Every second, Volcanic Orb's speed is reduced by [25%] per point.",
+			"nodeName": "Volcanic Tether",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "If you have taken the {Explosive Ground} node, Volcanic Orb leaves Explosive Ground more frequently.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb costs less mana, but moves slower and has a duration of 2 seconds.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Volcanic Orb's base duration is reduced to 2 seconds and it moves 20% slower. 30% increased mana efficiency.",
+						"nodeName": "Controlled Eruption",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The might of a volcano swirling in the palm of your hand",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+									"nodeName": "Volcanic Orb"
+								},
+								"requirement": 0
+							},
+							{
+								"node": {
+									"altText": "The explosive scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Volcanic Orb creates a large explosion at the end of its duration, dealing fire damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 15,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Volcanic orb creates a large explosion at the end of its duration",
+									"nodeName": "Explosive Orb",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Explosions from {Explosive Orb} and {Glyph of Fire} have a chance to ignite enemies.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 18,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Explosions from Explosive Orb and Glyph of Fire have [34%] chance to ignite per point",
+												"nodeName": "Mark of the Inferno",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Explosions from {Explosive Orb} and {Glyph of Fire} deal more damage (multiplicative with other modifiers).",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 17,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 7,
+															"nodeDescription": "Explosions from Explosive Orb and Glyph of Fire deal [30%] increased damage per point",
+															"nodeName": "Fiery Runes",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "The explosion scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+																		"animations": [
+																			null
+																		],
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "Casting Volcanic Orb creates a {Fire Glyph} at your feet which explodes after 1.3 seconds, creating a {Fire Nova}.",
+																		"fadeOverlay": null,
+																		"highlightGlow": null,
+																		"id": 16,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 1,
+																		"nodeDescription": "When you cast volcanic orb you create a fire glyph at your feet which explodes after 1.3 seconds, dealing large amounts of fire damage.",
+																		"nodeName": "Glyph of Fire",
+																		"pointsText": {
+																			"tmp": null
+																		},
+																		"requirements": [
+																			{
+																				"node": {
+																					"abilityGrantedByNode": {
+																						"abilityName": "Shrapnel",
+																						"playerAbilityID": "sh32"
+																					},
+																					"altText": "",
+																					"animations": [
+																						null
+																					],
+																					"connectionPrefab": {
+																						"SkillTreeConnection": {
+																							"dotsImage": null,
+																							"endConnectionImage": null,
+																							"singleRail": null,
+																							"startConnectionImage": null
+																						}
+																					},
+																					"description": "Volcanic Orb's core and {Shrapnel} deal more damage (multiplicative with other modifiers), but Shrapnel is created less frequently.",
+																					"fadeOverlay": null,
+																					"highlightGlow": null,
+																					"id": 21,
+																					"isBaseLockNode": 0,
+																					"isLockNode": 0,
+																					"loreText": "",
+																					"mastery": 0,
+																					"masteryRequirement": 0,
+																					"maxPoints": 2,
+																					"nodeDescription": "Volcanic Orb emits shrapnel [20%] less frequently per point. Damage dealt by shrapnel and the central orb is increased by [35%] per point.",
+																					"nodeName": "Monolithic Eruption",
+																					"pointsText": {
+																						"tmp": null
+																					},
+																					"requirements": [
+																						{
+																							"node": {
+																								"altText": "",
+																								"connectionPrefab": {
+																									"SkillTreeConnection": {
+																										"dotsImage": null,
+																										"endConnectionImage": null,
+																										"singleRail": null,
+																										"startConnectionImage": null
+																									}
+																								},
+																								"description": "",
+																								"id": 2,
+																								"isBaseLockNode": 0,
+																								"isLockNode": 0,
+																								"loreText": "The might of a volcano swirling in the palm of your hand",
+																								"mastery": 0,
+																								"masteryRequirement": 0,
+																								"maxPoints": 0,
+																								"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+																								"nodeName": "Volcanic Orb"
+																							},
+																							"requirement": 0
+																						}
+																					],
+																					"stats": [
+																						{
+																							"downside": 0,
+																							"noScaling": 0,
+																							"overrideSprite": 0,
+																							"property": 0,
+																							"statName": "Orb Damage",
+																							"tags": 0,
+																							"value": "+25%"
+																						},
+																						{
+																							"downside": 0,
+																							"noScaling": 0,
+																							"overrideSprite": 0,
+																							"property": 0,
+																							"statName": "Shrapnel Damage",
+																							"tags": 0,
+																							"value": "+25%"
+																						},
+																						{
+																							"downside": 1,
+																							"noScaling": 0,
+																							"overrideSprite": 0,
+																							"property": 5077,
+																							"statName": "Shrapnel Frequency",
+																							"tags": 0,
+																							"value": "-20%"
+																						}
+																					]
+																				},
+																				"requirement": 1
+																			},
+																			{
+																				"requirement": 1
+																			}
+																		],
+																		"stats": [
+																			{
+																				"downside": 0,
+																				"noScaling": 0,
+																				"overrideSprite": 0,
+																				"property": 5079,
+																				"statName": "Creates Fire Glyph",
+																				"tags": 0,
+																				"value": ""
+																			}
+																		]
+																	},
+																	"requirement": 1
+																},
+																{
+																	"requirement": 2
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Explosion Damage",
+																	"tags": 0,
+																	"value": "+25%"
+																}
+															]
+														},
+														"requirement": 2
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 10001,
+														"statName": "Explosion Ignite Chance",
+														"tags": 0,
+														"value": "+34#"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Creates End Explosion",
+											"tags": 0,
+											"value": ""
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 69,
+								"statName": "Mana Efficiency",
+								"tags": 0,
+								"value": "+30%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5056,
+								"statName": "Explosive Ground Frequency",
+								"tags": 0,
+								"value": "+20%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5014,
+								"statName": "Speed and Range",
+								"tags": 0,
+								"value": "-20%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5013,
+								"statName": "Duration",
+								"tags": 0,
+								"value": "2"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5014,
+					"statName": "Speed Per Second",
+					"tags": 0,
+					"value": "-25%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb's core deals more damage (multiplicative with other modifiers), and it accelerates, moving faster for each second it exists.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 24,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "The central orb deals [35%] increased damage on hit per point. Every second, Volcanic Orb's speed is increased by [15%] per point.",
+			"nodeName": "Volcanic Acceleration",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb's core deals more damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "The central orb of volcanic orb deals [35%] increased damage on hit per point.",
+						"nodeName": "Molten Core",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The might of a volcano swirling in the palm of your hand",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+									"nodeName": "Volcanic Orb"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Orb Damage",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "If you have taken the {Explosive Ground} node, Volcanic Orb leaves Explosive Ground more frequently.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb core and {Shrapnel} deal more damage (multiplicative with other modifiers), but Volcanic Orb has a duration of 2 seconds. \n\nIf you have taken the {Explosive Ground} node, Volcanic Orb leaves Explosive Ground more frequently.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Volcanic orb's base duration is reduced to 2 seconds, but it deals 30% increased damage with the orb and shrapnel.",
+						"nodeName": "Orb of Speed",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"abilityGrantedByNode": {
+										"abilityName": "Shrapnel",
+										"playerAbilityID": "sh32"
+									},
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "{Shrapnel} travels faster, causing it to also travel further. Shrapnel is created more frequently.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 6,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Shrapnel emitted by the volcanic orb travels [5%] faster and further per point. Volcanic orb emits shrapnel [5%] more frequently per point.",
+									"nodeName": "Volatile Emission",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The might of a volcano swirling in the palm of your hand",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+												"nodeName": "Volcanic Orb"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5014,
+											"statName": "Shrapnel Speed and Range",
+											"tags": 0,
+											"value": "+5%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5077,
+											"statName": "Shrapnel Frequency",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Orb Damage",
+								"tags": 0,
+								"value": "+25%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Shrapnel Damage",
+								"tags": 0,
+								"value": "+25%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5078,
+								"statName": "Explosive Ground Frequency",
+								"tags": 0,
+								"value": "+20%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5013,
+								"statName": "Duration",
+								"tags": 0,
+								"value": "2"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Orb Damage",
+					"tags": 0,
+					"value": "+25%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5014,
+					"statName": "Speed Per Second",
+					"tags": 0,
+					"value": "+15%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb has a shorter cooldown.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 25,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "[75%] increased cooldown recovery speed per point.",
+			"nodeName": "Volcanic Frenzy",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb's core deals more damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "The central orb of volcanic orb deals [35%] increased damage on hit per point.",
+						"nodeName": "Molten Core",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The might of a volcano swirling in the palm of your hand",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+									"nodeName": "Volcanic Orb"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Orb Damage",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 70,
+					"statName": "Cooldown Recovery Speed",
+					"tags": 0,
+					"value": "+75%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb costs less mana.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 27,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "[20%] increased mana efficiency per point",
+			"nodeName": "Lava Flow",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Shrapnel",
+							"playerAbilityID": "sh32"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb's core and {Shrapnel} deal more damage (multiplicative with other modifiers), but Shrapnel is created less frequently.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 21,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Volcanic Orb emits shrapnel [20%] less frequently per point. Damage dealt by shrapnel and the central orb is increased by [35%] per point.",
+						"nodeName": "Monolithic Eruption",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The might of a volcano swirling in the palm of your hand",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+									"nodeName": "Volcanic Orb"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Orb Damage",
+								"tags": 0,
+								"value": "+25%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Shrapnel Damage",
+								"tags": 0,
+								"value": "+25%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5077,
+								"statName": "Shrapnel Frequency",
+								"tags": 0,
+								"value": "-20%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 69,
+					"statName": "Mana Efficiency",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb fires additional {Shrapnel} from its final explosion.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 0,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Adds [2] extra shrapnel shards to the final explosion per point.",
+			"nodeName": "Dense Orb",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Shrapnel",
+							"playerAbilityID": "sh32"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "{Shrapnel} has an increased chance to stun enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 9,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Volcanic orb's shrapnel has [35%] increased stun chance per point",
+						"nodeName": "Ash Pelting",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"abilityGrantedByNode": {
+										"abilityName": "Shrapnel",
+										"playerAbilityID": "sh32"
+									},
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "{Shrapnel} travels faster, causing it to also travel further. Shrapnel is created more frequently.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 6,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Shrapnel emitted by the volcanic orb travels [5%] faster and further per point. Volcanic orb emits shrapnel [5%] more frequently per point.",
+									"nodeName": "Volatile Emission",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The might of a volcano swirling in the palm of your hand",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+												"nodeName": "Volcanic Orb"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5014,
+											"statName": "Shrapnel Speed and Range",
+											"tags": 0,
+											"value": "+5%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5077,
+											"statName": "Shrapnel Frequency",
+											"tags": 0,
+											"value": "+5%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 45,
+								"statName": "Shrapnel Increased Stun Chance",
+								"tags": 0,
+								"value": "35%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5000,
+					"statName": "Extra Projectiles",
+					"tags": 0,
+					"value": "+2"
+				}
+			]
+		},
+		{
+			"altText": "Frozen orb scales with increases to cold damage not fire damage.\\n\\nThe orb itself has a freeze rate of 40, the shrapnel has a freeze rate of 32, and explosions created at the start or end have a freeze rate of 100.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb is converted into Frozen Orb. Base fire damage is converted to cold for Frozen Orb and the skill effects it creates. Consequently this damage scales with increases to cold damage, but not with increases to fire damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 3,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "100% of fire damage converted to cold for volcanic orb and all other skill effects it creates.",
+			"nodeName": "Frozen Orb",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The might of a volcano swirling in the palm of your hand",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+						"nodeName": "Volcanic Orb"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Volcanic Orb -> Frozen Orb",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "{Explosive Ground} scales with increases to fire damage and spell damage, but not with other nodes on this tree.\n\nModifiers to the damage of Volcanic Orb's core also apply to Explosive Ground.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb leaves {Explosive Ground} as it travels, which explode after 3 seconds, dealing fire damage to enemies within its area of effect. Volcanic Orb costs significantly more mana.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 12,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Volcanic orb leaves explosive ground as it travels. 50% increased mana cost.",
+			"nodeName": "Explosive Ground",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb's core, {Shrapnel} and {Explosive Orb} hits deal more damage, but Volcanic Orb costs more mana and has less cast speed (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "",
+						"nodeName": "Infernal Caster",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Volcanic Orb's core deals more damage (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 19,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "The central orb of volcanic orb deals [35%] increased damage on hit per point.",
+									"nodeName": "Molten Core",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The might of a volcano swirling in the palm of your hand",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+												"nodeName": "Volcanic Orb"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Orb Damage",
+											"tags": 0,
+											"value": "+25%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5001,
+								"statName": "Hit Damage",
+								"tags": 0,
+								"value": "+35%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost",
+								"tags": 0,
+								"value": "+50%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 3,
+								"statName": "Cast Speed",
+								"tags": 0,
+								"value": "-40%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5078,
+					"statName": "Creates Explosive Ground",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "+50%"
+				}
+			]
+		},
+		{
+			"altText": "The explosive scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb creates a large explosion at the end of its duration, dealing fire damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 15,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Volcanic orb creates a large explosion at the end of its duration",
+			"nodeName": "Explosive Orb",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "If you have taken the {Explosive Ground} node, Volcanic Orb leaves Explosive Ground more frequently.",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb costs less mana, but moves slower and has a duration of 2 seconds.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Volcanic Orb's base duration is reduced to 2 seconds and it moves 20% slower. 30% increased mana efficiency.",
+						"nodeName": "Controlled Eruption",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The might of a volcano swirling in the palm of your hand",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+									"nodeName": "Volcanic Orb"
+								},
+								"requirement": 0
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 69,
+								"statName": "Mana Efficiency",
+								"tags": 0,
+								"value": "+30%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5056,
+								"statName": "Explosive Ground Frequency",
+								"tags": 0,
+								"value": "+20%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5014,
+								"statName": "Speed and Range",
+								"tags": 0,
+								"value": "-20%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5013,
+								"statName": "Duration",
+								"tags": 0,
+								"value": "2"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Explosions from {Explosive Orb} and {Glyph of Fire} have a chance to ignite enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 18,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Explosions from Explosive Orb and Glyph of Fire have [34%] chance to ignite per point",
+						"nodeName": "Mark of the Inferno",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Explosions from {Explosive Orb} and {Glyph of Fire} deal more damage (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 17,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 7,
+									"nodeDescription": "Explosions from Explosive Orb and Glyph of Fire deal [30%] increased damage per point",
+									"nodeName": "Fiery Runes",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "The explosion scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Casting Volcanic Orb creates a {Fire Glyph} at your feet which explodes after 1.3 seconds, creating a {Fire Nova}.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 16,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "When you cast volcanic orb you create a fire glyph at your feet which explodes after 1.3 seconds, dealing large amounts of fire damage.",
+												"nodeName": "Glyph of Fire",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"abilityGrantedByNode": {
+																"abilityName": "Shrapnel",
+																"playerAbilityID": "sh32"
+															},
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Volcanic Orb's core and {Shrapnel} deal more damage (multiplicative with other modifiers), but Shrapnel is created less frequently.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 21,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 2,
+															"nodeDescription": "Volcanic Orb emits shrapnel [20%] less frequently per point. Damage dealt by shrapnel and the central orb is increased by [35%] per point.",
+															"nodeName": "Monolithic Eruption",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 2,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "The might of a volcano swirling in the palm of your hand",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+																		"nodeName": "Volcanic Orb"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Orb Damage",
+																	"tags": 0,
+																	"value": "+25%"
+																},
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 0,
+																	"statName": "Shrapnel Damage",
+																	"tags": 0,
+																	"value": "+25%"
+																},
+																{
+																	"downside": 1,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5077,
+																	"statName": "Shrapnel Frequency",
+																	"tags": 0,
+																	"value": "-20%"
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5079,
+														"statName": "Creates Fire Glyph",
+														"tags": 0,
+														"value": ""
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Explosion Damage",
+											"tags": 0,
+											"value": "+25%"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10001,
+								"statName": "Explosion Ignite Chance",
+								"tags": 0,
+								"value": "+34#"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Creates End Explosion",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "The explosion scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Casting Volcanic Orb creates a {Fire Glyph} at your feet which explodes after 1.3 seconds, creating a {Fire Nova}.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 16,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "When you cast volcanic orb you create a fire glyph at your feet which explodes after 1.3 seconds, dealing large amounts of fire damage.",
+			"nodeName": "Glyph of Fire",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Shrapnel",
+							"playerAbilityID": "sh32"
+						},
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb's core and {Shrapnel} deal more damage (multiplicative with other modifiers), but Shrapnel is created less frequently.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 21,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Volcanic Orb emits shrapnel [20%] less frequently per point. Damage dealt by shrapnel and the central orb is increased by [35%] per point.",
+						"nodeName": "Monolithic Eruption",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The might of a volcano swirling in the palm of your hand",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+									"nodeName": "Volcanic Orb"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Orb Damage",
+								"tags": 0,
+								"value": "+25%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Shrapnel Damage",
+								"tags": 0,
+								"value": "+25%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5077,
+								"statName": "Shrapnel Frequency",
+								"tags": 0,
+								"value": "-20%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Explosions from {Explosive Orb} and {Glyph of Fire} deal more damage (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 17,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 7,
+						"nodeDescription": "Explosions from Explosive Orb and Glyph of Fire deal [30%] increased damage per point",
+						"nodeName": "Fiery Runes",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Explosions from {Explosive Orb} and {Glyph of Fire} have a chance to ignite enemies.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 18,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Explosions from Explosive Orb and Glyph of Fire have [34%] chance to ignite per point",
+									"nodeName": "Mark of the Inferno",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 2
+										},
+										{
+											"node": {
+												"altText": "The explosive scales with increases to fire damage and spell damage, but not with other nodes on this tree.",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Volcanic Orb creates a large explosion at the end of its duration, dealing fire damage.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 15,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Volcanic orb creates a large explosion at the end of its duration",
+												"nodeName": "Explosive Orb",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "If you have taken the {Explosive Ground} node, Volcanic Orb leaves Explosive Ground more frequently.",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Volcanic Orb costs less mana, but moves slower and has a duration of 2 seconds.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 14,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 1,
+															"nodeDescription": "Volcanic Orb's base duration is reduced to 2 seconds and it moves 20% slower. 30% increased mana efficiency.",
+															"nodeName": "Controlled Eruption",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 2,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "The might of a volcano swirling in the palm of your hand",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+																		"nodeName": "Volcanic Orb"
+																	},
+																	"requirement": 0
+																},
+																{
+																	"requirement": 1
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 69,
+																	"statName": "Mana Efficiency",
+																	"tags": 0,
+																	"value": "+30%"
+																},
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5056,
+																	"statName": "Explosive Ground Frequency",
+																	"tags": 0,
+																	"value": "+20%"
+																},
+																{
+																	"downside": 1,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5014,
+																	"statName": "Speed and Range",
+																	"tags": 0,
+																	"value": "-20%"
+																},
+																{
+																	"downside": 1,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5013,
+																	"statName": "Duration",
+																	"tags": 0,
+																	"value": "2"
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Creates End Explosion",
+														"tags": 0,
+														"value": ""
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10001,
+											"statName": "Explosion Ignite Chance",
+											"tags": 0,
+											"value": "+34#"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Explosion Damage",
+								"tags": 0,
+								"value": "+25%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5079,
+					"statName": "Creates Fire Glyph",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Volcanic Orb's core hits deals more damage (multiplicative with other modifiers), but Volcanic Orb no longer creates {Shrapnel} when it ends.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 26,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "The central orb deals 50% increased damage on hit. There is no longer a final shrapnel explosion.",
+			"nodeName": "Concentrated Effect",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Volcanic Orb has a shorter cooldown.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 25,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[75%] increased cooldown recovery speed per point.",
+						"nodeName": "Volcanic Frenzy",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Volcanic Orb's core deals more damage (multiplicative with other modifiers).",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 19,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "The central orb of volcanic orb deals [35%] increased damage on hit per point.",
+									"nodeName": "Molten Core",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The might of a volcano swirling in the palm of your hand",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Casts a fiery orb that spews burning shrapnel in all directions.",
+												"nodeName": "Volcanic Orb"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Orb Damage",
+											"tags": 0,
+											"value": "+25%"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 70,
+								"statName": "Cooldown Recovery Speed",
+								"tags": 0,
+								"value": "+75%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5001,
+					"statName": "Hit Damage",
+					"tags": 0,
+					"value": "+50%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5077,
+					"statName": "Final Shrapnel Disabled",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		}
+	],
+	"specialised": 0,
+	"treeID": "vo54",
+	"unspentPoints": 1,
+	"version": 1
+}

@@ -1,0 +1,6360 @@
+{
+	"ability": {
+		"abilityName": "Hungering Souls",
+		"playerAbilityID": "hs18gu"
+	},
+	"nodeList": [
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"id": 0,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "The souls of the dead hunger for flesh.",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 0,
+			"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+			"nodeName": "Hungering Souls"
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 2,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+			"nodeName": "Necrotic Pact",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The souls of the dead hunger for flesh.",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+						"nodeName": "Hungering Souls"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5055,
+					"statName": "Base Necrotic Damage",
+					"tags": 0,
+					"value": "+5"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5000,
+					"statName": "Extra Projectiles",
+					"tags": 0,
+					"value": "-2"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Improves Hungering Souls' base critical strike chance.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 4,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Adds [3%] to base critical strike chance per point.",
+			"nodeName": "Piercing Gaze",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls are significantly larger and deal more hit damage, but only one is created with each cast.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 3,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Hungering Souls only calls forth one soul, but it is much larger and deals 100% increased damage on hit.",
+						"nodeName": "Isolation",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+									"nodeName": "Necrotic Pact",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5055,
+											"statName": "Base Necrotic Damage",
+											"tags": 0,
+											"value": "+5"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5000,
+											"statName": "Extra Projectiles",
+											"tags": 0,
+											"value": "-2"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5001,
+								"statName": "Hit Damage",
+								"tags": 0,
+								"value": "+100%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5054,
+								"statName": "Size",
+								"tags": 0,
+								"value": "+100%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Soul Limit",
+								"tags": 0,
+								"value": "1"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5007,
+					"statName": "Base Crit Chance",
+					"tags": 0,
+					"value": "+3%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls' critical strikes deal more damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 5,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "[30%] additional critical strike multiplier per point.",
+			"nodeName": "Hungering Eyes",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Improves Hungering Souls' base critical strike chance.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 4,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Adds [3%] to base critical strike chance per point.",
+						"nodeName": "Piercing Gaze",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls are significantly larger and deal more hit damage, but only one is created with each cast.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Hungering Souls only calls forth one soul, but it is much larger and deals 100% increased damage on hit.",
+									"nodeName": "Isolation",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+												"nodeName": "Necrotic Pact",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The souls of the dead hunger for flesh.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+															"nodeName": "Hungering Souls"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5055,
+														"statName": "Base Necrotic Damage",
+														"tags": 0,
+														"value": "+5"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5000,
+														"statName": "Extra Projectiles",
+														"tags": 0,
+														"value": "-2"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5001,
+											"statName": "Hit Damage",
+											"tags": 0,
+											"value": "+100%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5054,
+											"statName": "Size",
+											"tags": 0,
+											"value": "+100%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Soul Limit",
+											"tags": 0,
+											"value": "1"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5007,
+								"statName": "Base Crit Chance",
+								"tags": 0,
+								"value": "+3%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5,
+					"statName": "Critical Multiplier",
+					"tags": 0,
+					"value": "+30%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls are larger and deal more hit damage, but Hungering Souls costs more mana.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 6,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "[20%] increased size per point. [20%] increased damage on hit per point. Adds [2] to mana cost mana per point.",
+			"nodeName": "Great Soul",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls are significantly larger and deal more hit damage, but only one is created with each cast.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 3,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Hungering Souls only calls forth one soul, but it is much larger and deals 100% increased damage on hit.",
+						"nodeName": "Isolation",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+									"nodeName": "Necrotic Pact",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5055,
+											"statName": "Base Necrotic Damage",
+											"tags": 0,
+											"value": "+5"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5000,
+											"statName": "Extra Projectiles",
+											"tags": 0,
+											"value": "-2"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5001,
+								"statName": "Hit Damage",
+								"tags": 0,
+								"value": "+100%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5054,
+								"statName": "Size",
+								"tags": 0,
+								"value": "+100%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Soul Limit",
+								"tags": 0,
+								"value": "1"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5001,
+					"statName": "Hit Damage",
+					"tags": 0,
+					"value": "+25%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5054,
+					"statName": "Size",
+					"tags": 0,
+					"value": "+20%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "+2"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls grant you more mana when they kill an enemy.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 8,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Soul Drain returns [2] additional mana per point",
+			"nodeName": "Mind Harvest",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls have a chance to grant you mana when they kill an enemy.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 7,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Hungering Soul has a 10% chance to return 3 mana when it kills an enemy.",
+						"nodeName": "Soul Drain",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls are significantly larger and deal more hit damage, but only one is created with each cast.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Hungering Souls only calls forth one soul, but it is much larger and deals 100% increased damage on hit.",
+									"nodeName": "Isolation",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+												"nodeName": "Necrotic Pact",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The souls of the dead hunger for flesh.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+															"nodeName": "Hungering Souls"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5055,
+														"statName": "Base Necrotic Damage",
+														"tags": 0,
+														"value": "+5"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5000,
+														"statName": "Extra Projectiles",
+														"tags": 0,
+														"value": "-2"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5001,
+											"statName": "Hit Damage",
+											"tags": 0,
+											"value": "+100%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5054,
+											"statName": "Size",
+											"tags": 0,
+											"value": "+100%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Soul Limit",
+											"tags": 0,
+											"value": "1"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Chance To Grant Mana On Kill",
+								"tags": 0,
+								"value": "10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 40,
+								"statName": "Mana Gained",
+								"tags": 0,
+								"value": "3"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 40,
+					"statName": "Mana Gained",
+					"tags": 0,
+					"value": "+2"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Hungering Souls fires projectiles in a narrower cone.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 9,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Reduces the angle of the cone by [20] degrees per point",
+			"nodeName": "Focused Wrath",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls have a chance to poison enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 10,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[15%] chance to poison per point.",
+						"nodeName": "Caustic Wretches",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Casting Hungering Souls causes you to deal increased damage over time for 5 seconds. This effect does not stack.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 12,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "You deal [10%] increased damage over time per point for 5 seconds when you cast Hungering Souls.",
+									"nodeName": "Inspired Hunger",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5038,
+											"statName": "Global Increased Damage Over Time",
+											"tags": 0,
+											"value": "+15%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Chance",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+						"nodeName": "Necrotic Pact",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The souls of the dead hunger for flesh.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+									"nodeName": "Hungering Souls"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5055,
+								"statName": "Base Necrotic Damage",
+								"tags": 0,
+								"value": "+5"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5000,
+								"statName": "Extra Projectiles",
+								"tags": 0,
+								"value": "-2"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5015,
+					"statName": "Cone Area (Degrees)",
+					"tags": 0,
+					"value": "-15"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls have a chance to poison enemies.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 10,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "[15%] chance to poison per point.",
+			"nodeName": "Caustic Wretches",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Casting Hungering Souls causes you to deal increased damage over time for 5 seconds. This effect does not stack.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 12,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "You deal [10%] increased damage over time per point for 5 seconds when you cast Hungering Souls.",
+						"nodeName": "Inspired Hunger",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The souls of the dead hunger for flesh.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+									"nodeName": "Hungering Souls"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5038,
+								"statName": "Global Increased Damage Over Time",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Hungering Souls fires projectiles in a narrower cone.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 9,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Reduces the angle of the cone by [20] degrees per point",
+						"nodeName": "Focused Wrath",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+									"nodeName": "Necrotic Pact",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5055,
+											"statName": "Base Necrotic Damage",
+											"tags": 0,
+											"value": "+5"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5000,
+											"statName": "Extra Projectiles",
+											"tags": 0,
+											"value": "-2"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5015,
+								"statName": "Cone Area (Degrees)",
+								"tags": 0,
+								"value": "-15"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Poison Chance",
+					"tags": 0,
+					"value": "+15%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls have an increased chance to poison enemies, and they cost less mana.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 11,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Subtracts [1] from mana cost per point. [5%] additional chance to poison per point.",
+			"nodeName": "Decayed Mind",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls have a chance to poison enemies.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 10,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "[15%] chance to poison per point.",
+						"nodeName": "Caustic Wretches",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Casting Hungering Souls causes you to deal increased damage over time for 5 seconds. This effect does not stack.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 12,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "You deal [10%] increased damage over time per point for 5 seconds when you cast Hungering Souls.",
+									"nodeName": "Inspired Hunger",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5038,
+											"statName": "Global Increased Damage Over Time",
+											"tags": 0,
+											"value": "+15%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Hungering Souls fires projectiles in a narrower cone.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 9,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "Reduces the angle of the cone by [20] degrees per point",
+									"nodeName": "Focused Wrath",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+												"nodeName": "Necrotic Pact",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The souls of the dead hunger for flesh.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+															"nodeName": "Hungering Souls"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5055,
+														"statName": "Base Necrotic Damage",
+														"tags": 0,
+														"value": "+5"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5000,
+														"statName": "Extra Projectiles",
+														"tags": 0,
+														"value": "-2"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5015,
+											"statName": "Cone Area (Degrees)",
+											"tags": 0,
+											"value": "-15"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10007,
+								"statName": "Poison Chance",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Poison Chance",
+					"tags": 0,
+					"value": "+5%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "-1"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Casting Hungering Souls causes you to deal increased damage over time for 5 seconds. This effect does not stack.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 12,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "You deal [10%] increased damage over time per point for 5 seconds when you cast Hungering Souls.",
+			"nodeName": "Inspired Hunger",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The souls of the dead hunger for flesh.",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+						"nodeName": "Hungering Souls"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5038,
+					"statName": "Global Increased Damage Over Time",
+					"tags": 0,
+					"value": "+15%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Hungering Souls has a chance to fire additional projectiles.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 13,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "[20%] chance per point to call forth 6 additional souls.\n\nNo effect if you have the Isolation node.",
+			"nodeName": "Risen Cemetery",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Casting Hungering Souls causes you to deal increased damage over time for 5 seconds. This effect does not stack.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 12,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "You deal [10%] increased damage over time per point for 5 seconds when you cast Hungering Souls.",
+						"nodeName": "Inspired Hunger",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The souls of the dead hunger for flesh.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+									"nodeName": "Hungering Souls"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5038,
+								"statName": "Global Increased Damage Over Time",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Hungering Souls costs less mana, and fires projectiles in a wider cone.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 15,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Increases the angle of the cone by [20] degrees per point. Subtracts [1] from mana cost per point.",
+						"nodeName": "Dominion Of Undeath",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Hungering Souls fires additional projectiles, but costs more mana.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 14,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "Calls forth [2] additional souls per point. Adds [2] to mana cost per point.\n\nNo effect if you have the Isolation node.",
+									"nodeName": "Soul Swarm",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5000,
+											"statName": "Extra Projectiles",
+											"tags": 0,
+											"value": "+2"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "+2"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls hits instantly kill enemies that are below a health threshold (a percentage of their maximum health). \r\n\r\nIf you have a similar effect from an item or passive node then the highest threshold is used. \r",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 17,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Hits instantly kill enemies that are below a health threshold ([5%] of their maximum health per point).\\n\\nIf you have a similar effect from an item or mastery node then the highest threshold is used.",
+									"nodeName": "Reaper's Gaze",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 2
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Souls deal additional spell necrotic hit damage.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 18,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Adds [2] base necrotic damage per point.",
+												"nodeName": "Ravenous",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The souls of the dead hunger for flesh.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+															"nodeName": "Hungering Souls"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5055,
+														"statName": "Spell Necrotic Hit Damage",
+														"tags": 0,
+														"value": "+6"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5029,
+											"statName": "Kill Threshold",
+											"tags": 0,
+											"value": "5%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5015,
+								"statName": "Cone Area (Degrees)",
+								"tags": 0,
+								"value": "+10"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost",
+								"tags": 0,
+								"value": "-1"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 5000,
+					"statName": "Extra Projectiles",
+					"tags": 0,
+					"value": "6"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Chance Of Extra Projectiles",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Hungering Souls costs less mana, and fires projectiles in a wider cone.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 15,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Increases the angle of the cone by [20] degrees per point. Subtracts [1] from mana cost per point.",
+			"nodeName": "Dominion Of Undeath",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Hungering Souls fires additional projectiles, but costs more mana.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 14,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "Calls forth [2] additional souls per point. Adds [2] to mana cost per point.\n\nNo effect if you have the Isolation node.",
+						"nodeName": "Soul Swarm",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The souls of the dead hunger for flesh.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+									"nodeName": "Hungering Souls"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5000,
+								"statName": "Extra Projectiles",
+								"tags": 0,
+								"value": "+2"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost",
+								"tags": 0,
+								"value": "+2"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Hungering Souls has a chance to fire additional projectiles.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 13,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "[20%] chance per point to call forth 6 additional souls.\n\nNo effect if you have the Isolation node.",
+						"nodeName": "Risen Cemetery",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Casting Hungering Souls causes you to deal increased damage over time for 5 seconds. This effect does not stack.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 12,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "You deal [10%] increased damage over time per point for 5 seconds when you cast Hungering Souls.",
+									"nodeName": "Inspired Hunger",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5038,
+											"statName": "Global Increased Damage Over Time",
+											"tags": 0,
+											"value": "+15%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 5000,
+								"statName": "Extra Projectiles",
+								"tags": 0,
+								"value": "6"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Chance Of Extra Projectiles",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls hits instantly kill enemies that are below a health threshold (a percentage of their maximum health). \r\n\r\nIf you have a similar effect from an item or passive node then the highest threshold is used. \r",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 17,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Hits instantly kill enemies that are below a health threshold ([5%] of their maximum health per point).\\n\\nIf you have a similar effect from an item or mastery node then the highest threshold is used.",
+						"nodeName": "Reaper's Gaze",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls deal additional spell necrotic hit damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 18,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Adds [2] base necrotic damage per point.",
+									"nodeName": "Ravenous",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5055,
+											"statName": "Spell Necrotic Hit Damage",
+											"tags": 0,
+											"value": "+6"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5029,
+								"statName": "Kill Threshold",
+								"tags": 0,
+								"value": "5%"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5015,
+					"statName": "Cone Area (Degrees)",
+					"tags": 0,
+					"value": "+10"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "-1"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Hungering Souls has increased cast speed and its souls travel faster, causing them to go further before they expire.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 16,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "Souls travel [15%] faster and further per point. [4%] increased cast speed per point.",
+			"nodeName": "Life Hunt",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Hungering Souls costs less mana, and fires projectiles in a wider cone.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 15,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Increases the angle of the cone by [20] degrees per point. Subtracts [1] from mana cost per point.",
+						"nodeName": "Dominion Of Undeath",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Hungering Souls fires additional projectiles, but costs more mana.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 14,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "Calls forth [2] additional souls per point. Adds [2] to mana cost per point.\n\nNo effect if you have the Isolation node.",
+									"nodeName": "Soul Swarm",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5000,
+											"statName": "Extra Projectiles",
+											"tags": 0,
+											"value": "+2"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "+2"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Hungering Souls has a chance to fire additional projectiles.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 13,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "[20%] chance per point to call forth 6 additional souls.\n\nNo effect if you have the Isolation node.",
+									"nodeName": "Risen Cemetery",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Casting Hungering Souls causes you to deal increased damage over time for 5 seconds. This effect does not stack.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 12,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "You deal [10%] increased damage over time per point for 5 seconds when you cast Hungering Souls.",
+												"nodeName": "Inspired Hunger",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The souls of the dead hunger for flesh.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+															"nodeName": "Hungering Souls"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5038,
+														"statName": "Global Increased Damage Over Time",
+														"tags": 0,
+														"value": "+15%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 0,
+											"property": 5000,
+											"statName": "Extra Projectiles",
+											"tags": 0,
+											"value": "6"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Chance Of Extra Projectiles",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls hits instantly kill enemies that are below a health threshold (a percentage of their maximum health). \r\n\r\nIf you have a similar effect from an item or passive node then the highest threshold is used. \r",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 17,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Hits instantly kill enemies that are below a health threshold ([5%] of their maximum health per point).\\n\\nIf you have a similar effect from an item or mastery node then the highest threshold is used.",
+									"nodeName": "Reaper's Gaze",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"requirement": 2
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Souls deal additional spell necrotic hit damage.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 18,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "Adds [2] base necrotic damage per point.",
+												"nodeName": "Ravenous",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The souls of the dead hunger for flesh.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+															"nodeName": "Hungering Souls"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5055,
+														"statName": "Spell Necrotic Hit Damage",
+														"tags": 0,
+														"value": "+6"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5029,
+											"statName": "Kill Threshold",
+											"tags": 0,
+											"value": "5%"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5015,
+								"statName": "Cone Area (Degrees)",
+								"tags": 0,
+								"value": "+10"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost",
+								"tags": 0,
+								"value": "-1"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 3,
+					"statName": "Cast Speed",
+					"tags": 0,
+					"value": "+5%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5014,
+					"statName": "Speed and Range",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls hits instantly kill enemies that are below a health threshold (a percentage of their maximum health). \r\n\r\nIf you have a similar effect from an item or passive node then the highest threshold is used. \r",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 17,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "Hits instantly kill enemies that are below a health threshold ([5%] of their maximum health per point).\\n\\nIf you have a similar effect from an item or mastery node then the highest threshold is used.",
+			"nodeName": "Reaper's Gaze",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Hungering Souls costs less mana, and fires projectiles in a wider cone.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 15,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Increases the angle of the cone by [20] degrees per point. Subtracts [1] from mana cost per point.",
+						"nodeName": "Dominion Of Undeath",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Hungering Souls fires additional projectiles, but costs more mana.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 14,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "Calls forth [2] additional souls per point. Adds [2] to mana cost per point.\n\nNo effect if you have the Isolation node.",
+									"nodeName": "Soul Swarm",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5000,
+											"statName": "Extra Projectiles",
+											"tags": 0,
+											"value": "+2"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "+2"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Hungering Souls has a chance to fire additional projectiles.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 13,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 2,
+									"nodeDescription": "[20%] chance per point to call forth 6 additional souls.\n\nNo effect if you have the Isolation node.",
+									"nodeName": "Risen Cemetery",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Casting Hungering Souls causes you to deal increased damage over time for 5 seconds. This effect does not stack.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 12,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 5,
+												"nodeDescription": "You deal [10%] increased damage over time per point for 5 seconds when you cast Hungering Souls.",
+												"nodeName": "Inspired Hunger",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The souls of the dead hunger for flesh.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+															"nodeName": "Hungering Souls"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5038,
+														"statName": "Global Increased Damage Over Time",
+														"tags": 0,
+														"value": "+15%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 0,
+											"property": 5000,
+											"statName": "Extra Projectiles",
+											"tags": 0,
+											"value": "6"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Chance Of Extra Projectiles",
+											"tags": 0,
+											"value": "+20%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5015,
+								"statName": "Cone Area (Degrees)",
+								"tags": 0,
+								"value": "+10"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost",
+								"tags": 0,
+								"value": "-1"
+							}
+						]
+					},
+					"requirement": 2
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls deal additional spell necrotic hit damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 18,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Adds [2] base necrotic damage per point.",
+						"nodeName": "Ravenous",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The souls of the dead hunger for flesh.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+									"nodeName": "Hungering Souls"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5055,
+								"statName": "Spell Necrotic Hit Damage",
+								"tags": 0,
+								"value": "+6"
+							}
+						]
+					},
+					"requirement": 2
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5029,
+					"statName": "Kill Threshold",
+					"tags": 0,
+					"value": "5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls deal additional spell necrotic hit damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 18,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Adds [2] base necrotic damage per point.",
+			"nodeName": "Ravenous",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The souls of the dead hunger for flesh.",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+						"nodeName": "Hungering Souls"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5055,
+					"statName": "Spell Necrotic Hit Damage",
+					"tags": 0,
+					"value": "+6"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have a higher chance to cast Hungering Souls when hit, but Souls deal less damage over time (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 21,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "",
+			"nodeName": "Lament",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You have a chance to cast Hungering Souls when hit, but Souls can no longer deal critical strikes.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "5% chance to cast Hungering Souls when hit. Hungering Souls can no longer critically strike.",
+						"nodeName": "Vengeful Souls",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls deal additional spell necrotic hit damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 18,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Adds [2] base necrotic damage per point.",
+									"nodeName": "Ravenous",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5055,
+											"statName": "Spell Necrotic Hit Damage",
+											"tags": 0,
+											"value": "+6"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Chance To Cast Hungering Souls When Hit",
+								"tags": 0,
+								"value": "5%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 4,
+								"statName": "Cannot Crit",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Chance To Cast Hungering Souls When Hit",
+					"tags": 0,
+					"value": "+5%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5038,
+					"statName": "Damage Over Time",
+					"tags": 0,
+					"value": "-20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have a higher chance to cast Hungering Souls when hit, but Souls deal less hit damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 22,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "[6%] chance per point to cast Hungering Souls when hit. [20%] reduced damage on hit per point.",
+			"nodeName": "Risen Hatred",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You have a chance to cast Hungering Souls when hit, but Souls can no longer deal critical strikes.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 19,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "5% chance to cast Hungering Souls when hit. Hungering Souls can no longer critically strike.",
+						"nodeName": "Vengeful Souls",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls deal additional spell necrotic hit damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 18,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Adds [2] base necrotic damage per point.",
+									"nodeName": "Ravenous",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5055,
+											"statName": "Spell Necrotic Hit Damage",
+											"tags": 0,
+											"value": "+6"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Chance To Cast Hungering Souls When Hit",
+								"tags": 0,
+								"value": "5%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 4,
+								"statName": "Cannot Crit",
+								"tags": 0,
+								"value": ""
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Chance To Cast Hungering Souls When Hit",
+					"tags": 0,
+					"value": "+5%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5001,
+					"statName": "Hit Damage",
+					"tags": 0,
+					"value": "-20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls deal more damage (multiplicative with other modifiers) if you have at least one minion.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 23,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 4,
+			"nodeDescription": "",
+			"nodeName": "Grave Bond",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+						"nodeName": "Necrotic Pact",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The souls of the dead hunger for flesh.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+									"nodeName": "Hungering Souls"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5055,
+								"statName": "Base Necrotic Damage",
+								"tags": 0,
+								"value": "+5"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5000,
+								"statName": "Extra Projectiles",
+								"tags": 0,
+								"value": "-2"
+							}
+						]
+					},
+					"requirement": 1
+				},
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls deal additional spell necrotic hit damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 18,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Adds [2] base necrotic damage per point.",
+						"nodeName": "Ravenous",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The souls of the dead hunger for flesh.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+									"nodeName": "Hungering Souls"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5055,
+								"statName": "Spell Necrotic Hit Damage",
+								"tags": 0,
+								"value": "+6"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage",
+					"tags": 0,
+					"value": "+15%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls deal more damage (multiplicative with other modifiers) for each minion you have.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 24,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "[1.5%] increased damage on hit per point for each minion you currently control",
+			"nodeName": "Necromantic Emanation",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls deal more damage (multiplicative with other modifiers) if you have at least one minion.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 23,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "",
+						"nodeName": "Grave Bond",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+									"nodeName": "Necrotic Pact",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5055,
+											"statName": "Base Necrotic Damage",
+											"tags": 0,
+											"value": "+5"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5000,
+											"statName": "Extra Projectiles",
+											"tags": 0,
+											"value": "-2"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls deal additional spell necrotic hit damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 18,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Adds [2] base necrotic damage per point.",
+									"nodeName": "Ravenous",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5055,
+											"statName": "Spell Necrotic Hit Damage",
+											"tags": 0,
+											"value": "+6"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage Per Minion",
+					"tags": 0,
+					"value": "+2%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls deal more damage (multiplicative with other modifiers) if you have exactly three minions.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 25,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "[33%] increased damage on hit per point if you control exactly 3 minions",
+			"nodeName": "Unholy Trinity",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls deal more damage (multiplicative with other modifiers) if you have at least one minion.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 23,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "",
+						"nodeName": "Grave Bond",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+									"nodeName": "Necrotic Pact",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5055,
+											"statName": "Base Necrotic Damage",
+											"tags": 0,
+											"value": "+5"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5000,
+											"statName": "Extra Projectiles",
+											"tags": 0,
+											"value": "-2"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls deal additional spell necrotic hit damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 18,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Adds [2] base necrotic damage per point.",
+									"nodeName": "Ravenous",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5055,
+											"statName": "Spell Necrotic Hit Damage",
+											"tags": 0,
+											"value": "+6"
+										}
+									]
+								},
+								"requirement": 3
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage with Three Minions",
+					"tags": 0,
+					"value": "+50%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Hungering Souls cost less mana and has a chance to grant ward on kill.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 20,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "",
+			"nodeName": "Soul Catcher",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls hits instantly kill enemies that are below a health threshold (a percentage of their maximum health). \r\n\r\nIf you have a similar effect from an item or passive node then the highest threshold is used. \r",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 17,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 3,
+						"nodeDescription": "Hits instantly kill enemies that are below a health threshold ([5%] of their maximum health per point).\\n\\nIf you have a similar effect from an item or mastery node then the highest threshold is used.",
+						"nodeName": "Reaper's Gaze",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Hungering Souls costs less mana, and fires projectiles in a wider cone.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 15,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Increases the angle of the cone by [20] degrees per point. Subtracts [1] from mana cost per point.",
+									"nodeName": "Dominion Of Undeath",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Hungering Souls fires additional projectiles, but costs more mana.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 14,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 2,
+												"nodeDescription": "Calls forth [2] additional souls per point. Adds [2] to mana cost per point.\n\nNo effect if you have the Isolation node.",
+												"nodeName": "Soul Swarm",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The souls of the dead hunger for flesh.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+															"nodeName": "Hungering Souls"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5000,
+														"statName": "Extra Projectiles",
+														"tags": 0,
+														"value": "+2"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 66,
+														"statName": "Mana Cost",
+														"tags": 0,
+														"value": "+2"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Hungering Souls has a chance to fire additional projectiles.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 13,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 2,
+												"nodeDescription": "[20%] chance per point to call forth 6 additional souls.\n\nNo effect if you have the Isolation node.",
+												"nodeName": "Risen Cemetery",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Casting Hungering Souls causes you to deal increased damage over time for 5 seconds. This effect does not stack.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 12,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 5,
+															"nodeDescription": "You deal [10%] increased damage over time per point for 5 seconds when you cast Hungering Souls.",
+															"nodeName": "Inspired Hunger",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "The souls of the dead hunger for flesh.",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+																		"nodeName": "Hungering Souls"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5038,
+																	"statName": "Global Increased Damage Over Time",
+																	"tags": 0,
+																	"value": "+15%"
+																}
+															]
+														},
+														"requirement": 1
+													},
+													{
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 1,
+														"overrideSprite": 0,
+														"property": 5000,
+														"statName": "Extra Projectiles",
+														"tags": 0,
+														"value": "6"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Chance Of Extra Projectiles",
+														"tags": 0,
+														"value": "+20%"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5015,
+											"statName": "Cone Area (Degrees)",
+											"tags": 0,
+											"value": "+10"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "-1"
+										}
+									]
+								},
+								"requirement": 2
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls deal additional spell necrotic hit damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 18,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "Adds [2] base necrotic damage per point.",
+									"nodeName": "Ravenous",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5055,
+											"statName": "Spell Necrotic Hit Damage",
+											"tags": 0,
+											"value": "+6"
+										}
+									]
+								},
+								"requirement": 2
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5029,
+								"statName": "Kill Threshold",
+								"tags": 0,
+								"value": "5%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "-1"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 25203,
+					"statName": "Ward On Kill Chance",
+					"tags": 0,
+					"value": "15%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Ward Amount",
+					"tags": 0,
+					"value": "20"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Ignites inflicted by Hungering Souls deal more damage and last longer",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 28,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "Soul Drain returns [2] additional mana per point",
+			"nodeName": "Eternal Pyre",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Hungering Souls' base damage is increased and converted to fire and its hits ignite instead of possessing. Consequently this damage scales with increases to fire damage, but not increases to necrotic damage.\n\nSouls deal more hit damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 27,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "",
+						"nodeName": "Fire Skull",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls are larger and deal more hit damage, but Hungering Souls costs more mana.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 6,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 4,
+									"nodeDescription": "[20%] increased size per point. [20%] increased damage on hit per point. Adds [2] to mana cost mana per point.",
+									"nodeName": "Great Soul",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Souls are significantly larger and deal more hit damage, but only one is created with each cast.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 3,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Hungering Souls only calls forth one soul, but it is much larger and deals 100% increased damage on hit.",
+												"nodeName": "Isolation",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 2,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 1,
+															"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+															"nodeName": "Necrotic Pact",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "The souls of the dead hunger for flesh.",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+																		"nodeName": "Hungering Souls"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5055,
+																	"statName": "Base Necrotic Damage",
+																	"tags": 0,
+																	"value": "+5"
+																},
+																{
+																	"downside": 1,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5000,
+																	"statName": "Extra Projectiles",
+																	"tags": 0,
+																	"value": "-2"
+																}
+															]
+														},
+														"requirement": 1
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5001,
+														"statName": "Hit Damage",
+														"tags": 0,
+														"value": "+100%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5054,
+														"statName": "Size",
+														"tags": 0,
+														"value": "+100%"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 1,
+														"property": 54,
+														"statName": "Soul Limit",
+														"tags": 0,
+														"value": "1"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5001,
+											"statName": "Hit Damage",
+											"tags": 0,
+											"value": "+25%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5054,
+											"statName": "Size",
+											"tags": 0,
+											"value": "+20%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "+2"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 5037,
+								"statName": "Base Damage Converted To Fire",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 10001,
+								"statName": "Possess -> Ignite",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5001,
+								"statName": "Hit Damage",
+								"tags": 0,
+								"value": "+50%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 20001,
+					"statName": "Increased Ignite Effect",
+					"tags": 0,
+					"value": "20%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 15001,
+					"statName": "Increased Ignite Duration",
+					"tags": 0,
+					"value": "20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls deal more damage over time (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 29,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "",
+			"nodeName": "Descent Into Madness",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Hungering Souls has a chance to fire additional projectiles.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 13,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 2,
+						"nodeDescription": "[20%] chance per point to call forth 6 additional souls.\n\nNo effect if you have the Isolation node.",
+						"nodeName": "Risen Cemetery",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Casting Hungering Souls causes you to deal increased damage over time for 5 seconds. This effect does not stack.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 12,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "You deal [10%] increased damage over time per point for 5 seconds when you cast Hungering Souls.",
+									"nodeName": "Inspired Hunger",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5038,
+											"statName": "Global Increased Damage Over Time",
+											"tags": 0,
+											"value": "+15%"
+										}
+									]
+								},
+								"requirement": 1
+							},
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Hungering Souls costs less mana, and fires projectiles in a wider cone.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 15,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 3,
+									"nodeDescription": "Increases the angle of the cone by [20] degrees per point. Subtracts [1] from mana cost per point.",
+									"nodeName": "Dominion Of Undeath",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Hungering Souls fires additional projectiles, but costs more mana.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 14,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 2,
+												"nodeDescription": "Calls forth [2] additional souls per point. Adds [2] to mana cost per point.\n\nNo effect if you have the Isolation node.",
+												"nodeName": "Soul Swarm",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The souls of the dead hunger for flesh.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+															"nodeName": "Hungering Souls"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5000,
+														"statName": "Extra Projectiles",
+														"tags": 0,
+														"value": "+2"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 66,
+														"statName": "Mana Cost",
+														"tags": 0,
+														"value": "+2"
+													}
+												]
+											},
+											"requirement": 1
+										},
+										{
+											"requirement": 1
+										},
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Souls hits instantly kill enemies that are below a health threshold (a percentage of their maximum health). \r\n\r\nIf you have a similar effect from an item or passive node then the highest threshold is used. \r",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 17,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 3,
+												"nodeDescription": "Hits instantly kill enemies that are below a health threshold ([5%] of their maximum health per point).\\n\\nIf you have a similar effect from an item or mastery node then the highest threshold is used.",
+												"nodeName": "Reaper's Gaze",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"requirement": 2
+													},
+													{
+														"node": {
+															"altText": "",
+															"animations": [
+																null
+															],
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "Souls deal additional spell necrotic hit damage.",
+															"fadeOverlay": null,
+															"highlightGlow": null,
+															"id": 18,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 5,
+															"nodeDescription": "Adds [2] base necrotic damage per point.",
+															"nodeName": "Ravenous",
+															"pointsText": {
+																"tmp": null
+															},
+															"requirements": [
+																{
+																	"node": {
+																		"altText": "",
+																		"connectionPrefab": {
+																			"SkillTreeConnection": {
+																				"dotsImage": null,
+																				"endConnectionImage": null,
+																				"singleRail": null,
+																				"startConnectionImage": null
+																			}
+																		},
+																		"description": "",
+																		"id": 0,
+																		"isBaseLockNode": 0,
+																		"isLockNode": 0,
+																		"loreText": "The souls of the dead hunger for flesh.",
+																		"mastery": 0,
+																		"masteryRequirement": 0,
+																		"maxPoints": 0,
+																		"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+																		"nodeName": "Hungering Souls"
+																	},
+																	"requirement": 0
+																}
+															],
+															"stats": [
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 5055,
+																	"statName": "Spell Necrotic Hit Damage",
+																	"tags": 0,
+																	"value": "+6"
+																}
+															]
+														},
+														"requirement": 2
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5029,
+														"statName": "Kill Threshold",
+														"tags": 0,
+														"value": "5%"
+													}
+												]
+											},
+											"requirement": 2
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5015,
+											"statName": "Cone Area (Degrees)",
+											"tags": 0,
+											"value": "+10"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 66,
+											"statName": "Mana Cost",
+											"tags": 0,
+											"value": "-1"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 5000,
+								"statName": "Extra Projectiles",
+								"tags": 0,
+								"value": "6"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Chance Of Extra Projectiles",
+								"tags": 0,
+								"value": "+20%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5038,
+					"statName": "Damage Over Time",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls are significantly larger and deal more hit damage, but only one is created with each cast.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 3,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Hungering Souls only calls forth one soul, but it is much larger and deals 100% increased damage on hit.",
+			"nodeName": "Isolation",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 2,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+						"nodeName": "Necrotic Pact",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The souls of the dead hunger for flesh.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+									"nodeName": "Hungering Souls"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5055,
+								"statName": "Base Necrotic Damage",
+								"tags": 0,
+								"value": "+5"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5000,
+								"statName": "Extra Projectiles",
+								"tags": 0,
+								"value": "-2"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5001,
+					"statName": "Hit Damage",
+					"tags": 0,
+					"value": "+100%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5054,
+					"statName": "Size",
+					"tags": 0,
+					"value": "+100%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Soul Limit",
+					"tags": 0,
+					"value": "1"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Souls have a chance to grant you mana when they kill an enemy.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 7,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "Hungering Soul has a 10% chance to return 3 mana when it kills an enemy.",
+			"nodeName": "Soul Drain",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls are significantly larger and deal more hit damage, but only one is created with each cast.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 3,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 1,
+						"nodeDescription": "Hungering Souls only calls forth one soul, but it is much larger and deals 100% increased damage on hit.",
+						"nodeName": "Isolation",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 2,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+									"nodeName": "Necrotic Pact",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The souls of the dead hunger for flesh.",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+												"nodeName": "Hungering Souls"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5055,
+											"statName": "Base Necrotic Damage",
+											"tags": 0,
+											"value": "+5"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5000,
+											"statName": "Extra Projectiles",
+											"tags": 0,
+											"value": "-2"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5001,
+								"statName": "Hit Damage",
+								"tags": 0,
+								"value": "+100%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5054,
+								"statName": "Size",
+								"tags": 0,
+								"value": "+100%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Soul Limit",
+								"tags": 0,
+								"value": "1"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Chance To Grant Mana On Kill",
+					"tags": 0,
+					"value": "10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 40,
+					"statName": "Mana Gained",
+					"tags": 0,
+					"value": "3"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Hungering Souls fires additional projectiles, but costs more mana.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 14,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 2,
+			"nodeDescription": "Calls forth [2] additional souls per point. Adds [2] to mana cost per point.\n\nNo effect if you have the Isolation node.",
+			"nodeName": "Soul Swarm",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The souls of the dead hunger for flesh.",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+						"nodeName": "Hungering Souls"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5000,
+					"statName": "Extra Projectiles",
+					"tags": 0,
+					"value": "+2"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Mana Cost",
+					"tags": 0,
+					"value": "+2"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have a chance to cast Hungering Souls when hit, but Souls can no longer deal critical strikes.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 19,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "5% chance to cast Hungering Souls when hit. Hungering Souls can no longer critically strike.",
+			"nodeName": "Vengeful Souls",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls deal additional spell necrotic hit damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 18,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "Adds [2] base necrotic damage per point.",
+						"nodeName": "Ravenous",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The souls of the dead hunger for flesh.",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+									"nodeName": "Hungering Souls"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5055,
+								"statName": "Spell Necrotic Hit Damage",
+								"tags": 0,
+								"value": "+6"
+							}
+						]
+					},
+					"requirement": 3
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Chance To Cast Hungering Souls When Hit",
+					"tags": 0,
+					"value": "5%"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 4,
+					"statName": "Cannot Crit",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Hungering Souls' base damage is increased and converted to fire and its hits ignite instead of possessing. Consequently this damage scales with increases to fire damage, but not increases to necrotic damage.\n\nSouls deal more hit damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 27,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 1,
+			"nodeDescription": "",
+			"nodeName": "Fire Skull",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"animations": [
+							null
+						],
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Souls are larger and deal more hit damage, but Hungering Souls costs more mana.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 6,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 4,
+						"nodeDescription": "[20%] increased size per point. [20%] increased damage on hit per point. Adds [2] to mana cost mana per point.",
+						"nodeName": "Great Soul",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"animations": [
+										null
+									],
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "Souls are significantly larger and deal more hit damage, but only one is created with each cast.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 3,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 1,
+									"nodeDescription": "Hungering Souls only calls forth one soul, but it is much larger and deals 100% increased damage on hit.",
+									"nodeName": "Isolation",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"animations": [
+													null
+												],
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "Souls deal additional base necrotic damage, but fewer Souls are created with each cast.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 2,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 1,
+												"nodeDescription": "Calls forth 2 fewer souls. Deals 30% increased damage.",
+												"nodeName": "Necrotic Pact",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The souls of the dead hunger for flesh.",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Calls forth five hungering souls that seeks out enemies, on hit they deal necrotic damage and then possesses the target.\n\nPossessed enemies take necrotic damage over time for 1.5 seconds. Enemies cannot be possessed by multiple souls at once.",
+															"nodeName": "Hungering Souls"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5055,
+														"statName": "Base Necrotic Damage",
+														"tags": 0,
+														"value": "+5"
+													},
+													{
+														"downside": 1,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 5000,
+														"statName": "Extra Projectiles",
+														"tags": 0,
+														"value": "-2"
+													}
+												]
+											},
+											"requirement": 1
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5001,
+											"statName": "Hit Damage",
+											"tags": 0,
+											"value": "+100%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5054,
+											"statName": "Size",
+											"tags": 0,
+											"value": "+100%"
+										},
+										{
+											"downside": 1,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Soul Limit",
+											"tags": 0,
+											"value": "1"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5001,
+								"statName": "Hit Damage",
+								"tags": 0,
+								"value": "+25%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5054,
+								"statName": "Size",
+								"tags": 0,
+								"value": "+20%"
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 66,
+								"statName": "Mana Cost",
+								"tags": 0,
+								"value": "+2"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 5037,
+					"statName": "Base Damage Converted To Fire",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 10001,
+					"statName": "Possess -> Ignite",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5001,
+					"statName": "Hit Damage",
+					"tags": 0,
+					"value": "+50%"
+				}
+			]
+		}
+	],
+	"specialised": 0,
+	"treeID": "hs18gu",
+	"unspentPoints": 1,
+	"version": 1
+}
