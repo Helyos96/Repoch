@@ -18,6 +18,8 @@ with open("Data/Items.json", encoding='utf-8') as fd:
 	items = json.load(fd)
 with open("Data/Properties.json", encoding='utf-8') as fd:
 	properties = json.load(fd)
+with open("Data/PlayerProperties.json", encoding='utf-8') as fd:
+	player_properties = json.load(fd)
 with open("Data/Uniques.json", encoding='utf-8') as fd:
 	uniques = json.load(fd)
 
@@ -43,14 +45,15 @@ def get_unique(id : int):
 	for u in uniques["uniques"]:
 		if u["uniqueID"] == id:
 			return u
-	print("Couldn't find property " + str(id))
+	print("Couldn't find unique " + str(id))
 	return None
 
-def get_property(id : int):
+def get_property(id : int, tags : int = 0):
+	if id == 98:
+		return player_properties["list"][tags]
 	for p in properties["propertyInfoList"]:
 		if p["property"] == id:
 			return p
-	print("Couldn't find property " + str(id))
 	return None
 
 def get_affix_property(pid : int, tags : int):
@@ -104,11 +107,11 @@ def print_mod(p, type, min, max, roll : int, modifier : float, display : str):
 		final = -final
 		reduced = 1
 
-	if p["dontDisplayPlus"] == 0 and type == ModType.FLAT:
+	if not (p and p["dontDisplayPlus"] == 1) and type == ModType.FLAT:
 		print('+', end='')
 
 	if isinstance(min, float):
-		if p["displayAddedAsTenthOfValue"] == 1:
+		if p and p["displayAddedAsTenthOfValue"] == 1:
 			final = round(final * 10, 1)
 		else:
 			final = round(final * 100)
@@ -128,16 +131,16 @@ def print_mod(p, type, min, max, roll : int, modifier : float, display : str):
 		else:
 			print (" more", end='')
 
-	if p["displayAsPercentageOf"]:
+	if p and p["displayAsPercentageOf"]:
 		print(" of", end='')
-	elif p["displayAsAddedTo"]:
+	elif p and p["displayAsAddedTo"]:
 		print(" to", end='')
 
 	print(' ' + display)
 
 def parse_mod_implicit(imp, roll : int):
 	mod = get_affix_property(imp["property"], imp["tags"])
-	p = get_property(imp["property"])
+	p = get_property(imp["property"], imp["tags"])
 	if not p:
 		return
 
@@ -162,7 +165,7 @@ def parse_mod_unique(m, roll : int):
 		return
 
 	mod = get_affix_property(m["property"], m["tags"])
-	p = get_property(m["property"])
+	p = get_property(m["property"], m["tags"])
 	if not p:
 		return
 
@@ -182,11 +185,13 @@ def parse_mod(data : int, affix_id : int, roll : int, modifier : float):
 	modifier = modifier - mod["standardAffixEffectModifier"]
 	props = []
 	if "property" in mod:
-		props.append(get_property(mod["property"]))
+		props.append(get_property(mod["property"], mod["tags"]))
 	else:
 		for ap in mod["affixProperties"]:
-			props.append(get_property(ap["property"]))
+			props.append(get_property(ap["property"], ap["tags"]))
 
+	if tier >= len(mod["tiers"]):
+		tier = len(mod["tiers"]) - 1
 	for (i, p) in zip(range(0, 8), props):
 		type = ModType.FLAT
 		display = ""
