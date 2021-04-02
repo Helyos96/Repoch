@@ -164,7 +164,7 @@ class Dumper(ExtractorInterface):
 		print(paths)
 		self.env = UnityPy.load(*paths)
 
-	def build_monoscript(self):
+	def load_monoscript(self):
 		print("Loading scripts..")
 		self.scripts = {}
 		for obj in self.env.objects:
@@ -173,30 +173,29 @@ class Dumper(ExtractorInterface):
 				self.scripts[obj.path_id] = data.class_name
 		print("Loaded " + str(len(self.scripts)) + " scripts")
 
-	def __init__(self, typetreepath, assetfolder, assetnames, seek_override = {}, blacklist = [], whitelist = [], pptr_override = {}):
+	def load_typetree(self, typetreepath):
 		print("Loading typetree..")
-		self.nodes = []
+		self.nodes = {}
 		with open(typetreepath, 'r') as typetreefd:
-			while typetreefd.tell() != os.fstat(typetreefd.fileno()).st_size:
-				self.nodes.append(Node(typetreefd))
+			size = os.fstat(typetreefd.fileno()).st_size
+			while typetreefd.tell() != size:
+				n = Node(typetreefd)
+				self.nodes[n.name] = n
+
+	def __init__(self, typetreepath, assetfolder, assetnames, seek_override = {}, blacklist = [], whitelist = [], pptr_override = {}):
+		self.load_typetree(typetreepath)
 		self.load_files(assetfolder, assetnames)
-		self.build_monoscript()
+		self.load_monoscript()
 		self.seek_override = seek_override
 		self.blacklist = blacklist
 		self.whitelist = whitelist
 		self.pptr_override = pptr_override
 
-	def get_basenode(self, name : str):
-		for n in self.nodes:
-			if n.name == name:
-				return n
-		return None
-
 	# Dump a raw monobehaviour (fd) as a python object using basename script class
 	def dump_mb_python(self, fd, basename, ignore_pptr, pptrs = [], parse_go = True, objref = None, keep_only = []):
-		basenode = self.get_basenode(basename)
-		if not basenode:
+		if basename not in self.nodes:
 			return None
+		basenode = self.nodes[basename]
 		return basenode.dump(fd, ignore_pptr, self, pptrs = pptrs, parse_go = parse_go, objref = objref, keep_only = keep_only)
 
 	def dump_obj(self, obj, ignore_pptr = False, ignore_lists = False, pptrs = [], parse_go = True):
@@ -214,8 +213,7 @@ class Dumper(ExtractorInterface):
 		if not ignore_lists:
 			if (self.whitelist and script_name not in self.whitelist) or script_name in self.blacklist:
 				return None
-		else:
-			if script_name in self.pptr_override:
+		elif script_name in self.pptr_override:
 				keep_only = self.pptr_override[script_name]
 
 		fd.seek(0x1C)
@@ -244,12 +242,12 @@ class Dumper(ExtractorInterface):
 				if external_name in parent.files:
 					manager = parent.files[external_name]
 			else:
-				if external_name not in env.files:
+				if external_name not in self.env.files:
 					typ, reader = ImportHelper.check_file_type(external_name)
 					if typ == FileType.AssetsFile:
-						env.files[external_name] = files.SerializedFile(reader)
-				if external_name in env.files:
-					manager = env.files[external_name]
+						self.env.files[external_name] = files.SerializedFile(reader)
+				if external_name in self.env.files:
+					manager = self.env.files[external_name]
 
 		if manager and path_id in manager.objects:
 			obj = manager.objects[path_id]
