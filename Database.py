@@ -94,6 +94,8 @@ class Database:
 			self.properties = json.load(fd)
 		with open("Data/PlayerProperties.json", encoding='utf-8') as fd:
 			self.player_properties = json.load(fd)
+		with open("Data/AbilityProperties.json", encoding='utf-8') as fd:
+			self.ability_properties = json.load(fd)
 		with open("Data/Uniques.json", encoding='utf-8') as fd:
 			self.uniques = json.load(fd)
 
@@ -116,12 +118,18 @@ class Database:
 		print("Couldn't find unique " + str(id))
 		return None
 
-	def get_property(self, id : int, tags : int = 0):
+	def get_property(self, id : int, tags : int = 0, specialtag : int = 0):
 		if id == 98:
 			return self.player_properties["list"][tags]
-		for p in self.properties["propertyInfoList"]:
-			if p["property"] == id:
-				return p
+		elif id == 58:
+			for ap in self.ability_properties["list"]:
+				if ap["abilityID"] == tags and specialtag < len(ap["properties"]):
+					return ap["properties"][specialtag]
+		else:
+			for p in self.properties["propertyInfoList"]:
+				if p["property"] == id:
+					return p
+		print("Couldn't find property id={}, tags={}, specialtag={}".format(id, tags, specialtag))
 		return None
 
 	def get_affix_property(self, pid : int, tags : int):

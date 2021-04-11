@@ -54,7 +54,7 @@ def print_mod(p, type, min, max, roll : int, modifier : float, display : str):
 
 def parse_mod_implicit(db, imp, roll : int):
 	mod = db.get_affix_property(imp["property"], imp["tags"])
-	p = db.get_property(imp["property"], imp["tags"])
+	p = db.get_property(imp["property"], imp["tags"], imp["specialTag"])
 	if not p:
 		return
 
@@ -79,7 +79,7 @@ def parse_mod_unique(db, m, roll : int):
 		return
 
 	mod = db.get_affix_property(m["property"], m["tags"])
-	p = db.get_property(m["property"], m["tags"])
+	p = db.get_property(m["property"], m["tags"], m["specialTag"])
 	if not p:
 		return
 
@@ -99,10 +99,10 @@ def parse_mod(db, data : int, affix_id : int, roll : int, modifier : float):
 	modifier = modifier - mod["standardAffixEffectModifier"]
 	props = []
 	if "property" in mod:
-		props.append(db.get_property(mod["property"], mod["tags"]))
+		props.append(db.get_property(mod["property"], mod["tags"], mod["specialTag"]))
 	else:
 		for ap in mod["affixProperties"]:
-			props.append(db.get_property(ap["property"], ap["tags"]))
+			props.append(db.get_property(ap["property"], ap["tags"], ap["specialTag"]))
 
 	if tier >= len(mod["tiers"]):
 		tier = len(mod["tiers"]) - 1
