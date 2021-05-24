@@ -2,7 +2,7 @@
 	"abilityName": "Death Beam",
 	"abilityPrefab": {
 		"DamageEnemyOnHit": {
-			"alwaysShowDamageNumber": 0,
+			"alwaysShowDamageNumber": 1,
 			"baseDamageStats": {
 				"addedDamageScaling": 1,
 				"additionalLeech": 0,
@@ -27,14 +27,14 @@
 				"increasedStunDuration": 0,
 				"isHit": 1
 			},
-			"canDamageSameEnemyAgain": 1,
-			"canDamageSameEnemyAgainAfterDuration": 0,
+			"canDamageSameEnemyAgain": 0,
+			"canDamageSameEnemyAgainAfterDuration": 1.401298464324817e-45,
 			"damageModifier": 0,
 			"damageTags": 4352,
 			"disableHitVfx": 0,
 			"guaranteedHitVfxType": 0,
 			"guarenteedHitVFXOfSpecificType": 0,
-			"highPriorityDoT": 1,
+			"highPriorityDoT": 0,
 			"hitVFXDirectionType": 0
 		},
 		"ToggleCollidersAfterDuration": {
@@ -128,6 +128,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
@@ -163,7 +164,7 @@
 	"skillTreeConversionDamageTags": 0,
 	"speedMultiplier": 1.2000000476837158,
 	"speedScaler": 3,
-	"split": 0,
+	"split": 1,
 	"stayAtGroundHeight": 0,
 	"stopAtEdgeOfNavmesh": 0,
 	"stopAtEdgeOfNavmeshConnection": 0,
@@ -187,6 +188,35 @@
 	"useMinionForwardForTargeting": 0,
 	"useSound": "",
 	"useWeaponSwingSound": 0,
+	"visualObject": {
+		"AbilityVisuals": {
+			"creationReferences": {
+				"locationCreatedFrom": {
+					"x": 0,
+					"y": 0
+				},
+				"oType": 0,
+				"useType": 0
+			},
+			"faceVelocityDirection": 0,
+			"locationDetector": {
+				"reachedTargetLocation": 0,
+				"startLocation": {
+					"x": 0,
+					"y": 0
+				},
+				"targetLocationOffset": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			"selfDestroyer": {
+				"autoPool": 0,
+				"failedAbility": 0,
+				"getFromParent": 0
+			}
+		}
+	},
 	"weaponRangeStretchesZCapsuleCollider": 0,
 	"weaponTypeCanOverrideBeginUseSound": 0,
 	"weaponTypeCanOverrideUseSound": 0,

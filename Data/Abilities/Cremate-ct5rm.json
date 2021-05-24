@@ -2,9 +2,8 @@
 	"abilityName": "Cremate",
 	"abilityPrefab": {
 		"CastAfterDuration": {
-			"ability": {
-				"abilityName": "Summon Burning Skeleton",
-				"playerAbilityID": ""
+			"abilityRef": {
+				"key": 1052169117
 			},
 			"aimingMethod": 0,
 			"animationForCastPoint": 0,
@@ -62,7 +61,8 @@
 			"timePassedByPerUnitMoved": 0,
 			"useCreatorAbilityObjectConstructor": 0,
 			"useLocalMutator": 0,
-			"useParentAbilityObjectConstructor": 0
+			"useParentAbilityObjectConstructor": 0,
+			"useSummonerAbilityObjectConstructor": 0
 		},
 		"EraseParentCorpse": {
 			"detach": 1
@@ -71,7 +71,7 @@
 			"alsoDamageParent": 0,
 			"alwaysShowDamageNumber": 0,
 			"baseDamageStats": {
-				"addedDamageScaling": 0.5,
+				"addedDamageScaling": 0.75,
 				"additionalLeech": 0,
 				"convertAllAddedDamage": 0,
 				"critChance": 0.05000000074505806,
@@ -80,7 +80,7 @@
 				"cullPercent": 0,
 				"damage": [
 					0,
-					10,
+					15,
 					0,
 					0,
 					0,
@@ -95,21 +95,21 @@
 				"isHit": 0
 			},
 			"damageAtStart": 0,
-			"damageIncreasePerInterval": 0,
-			"damageInterval": 0.6000000238418579,
-			"damageModifier": 0,
-			"damageTags": 4352,
+			"damageIncreasePerInterval": 0.6000000238418579,
+			"damageInterval": 0,
+			"damageModifier": 6.098450916741604e-42,
+			"damageTags": 0,
 			"delay": 0,
 			"highPriorityDoT": 0,
 			"limitMaxDamageIncreaseFromInterval": 0,
 			"maxDamageIncreaseFromInterval": 0,
 			"maxTargets": 0,
-			"minRadius": 0,
+			"minRadius": 2,
 			"offset": {
 				"x": 0,
 				"y": 0
 			},
-			"radius": 2,
+			"radius": 0,
 			"undodgeable": 0
 		}
 	},
@@ -119,6 +119,34 @@
 	"animation": 0,
 	"animationDurationMatchesMovement": 0,
 	"attachCastingVFXToCaster": 1,
+	"attributeScaling": [
+		{
+			"attribute": 2,
+			"stats": [
+				{
+					"addedValue": 0,
+					"increasedValue": 0.03999999910593033,
+					"property": 0,
+					"specialTag": 0,
+					"tags": 0
+				},
+				{
+					"addedValue": 0,
+					"increasedValue": 0.03999999910593033,
+					"property": 0,
+					"specialTag": 0,
+					"tags": 8192
+				},
+				{
+					"addedValue": 20,
+					"increasedValue": 0,
+					"property": 7,
+					"specialTag": 0,
+					"tags": 8192
+				}
+			]
+		}
+	],
 	"automaticallyGetTargetLocationInDirection": 0,
 	"baseMovementAnimationLength": 1,
 	"baseMovementDuration": 0,
@@ -142,7 +170,7 @@
 	"countsAsMovementAbility": 0,
 	"delayedCastDuration": 0.25,
 	"delayedCasts": 0,
-	"description": "Burns a corpse, dealing fire damage to surrounding enemies, and raising an ash zombie from the remains.",
+	"description": "Burns a corpse, dealing fire damage to surrounding enemies.\n\nHas a 10% chance to raise a burning skeleton from the remains.",
 	"destroyCastingVFXOnAbilityUse": 0,
 	"displayAlternateDamageDescriptorInTooltip": 0,
 	"doNotLookAtTargetWhileChannelling": 0,
@@ -160,6 +188,19 @@
 	"keepPositionInSync": 0,
 	"keepRotationInSync": 0,
 	"landingDistanceFromTarget": 0,
+	"levelScaling": [
+		{
+			"stats": [
+				{
+					"addedValue": 20,
+					"increasedValue": 0,
+					"property": 7,
+					"specialTag": 0,
+					"tags": 8192
+				}
+			]
+		}
+	],
 	"limitRangeForPlayers": 0,
 	"manaCost": 10,
 	"manaCostPerDistance": 0,
@@ -168,7 +209,8 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
-	"minionTagsDisplay": 0,
+	"minionAbilityUseType": 0,
+	"minionTagsDisplay": 264,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
 	"moveOrAttackCompatible": 0,
@@ -198,7 +240,7 @@
 	"settleLowPriorityRatio": 0.699999988079071,
 	"sharedCooldown": 0,
 	"sharedHitDetector": 1,
-	"showMinionTagInScalingTooltip": 0,
+	"showMinionTagInScalingTooltip": 1,
 	"skillLore": "",
 	"skillTreeConversionDamageTags": 0,
 	"speedMultiplier": 1,
@@ -212,7 +254,7 @@
 	"stopRangeAffectedByWeaponRange": 0,
 	"stopWhenOutOfMana": 0,
 	"subtractStopRangeForManaCostPerDistance": 0,
-	"tags": 264,
+	"tags": 4360,
 	"targetMustBeUsingAbility": 0,
 	"targetsAllies": 0,
 	"targetsSelfOnly": 0,

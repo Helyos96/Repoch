@@ -47,7 +47,7 @@
 			"loreText": "",
 			"mastery": 0,
 			"masteryRequirement": 0,
-			"maxPoints": 6,
+			"maxPoints": 5,
 			"nodeDescription": "Add [25%] critical strike multiplier per point",
 			"nodeName": "Brutal Impact",
 			"pointsText": {
@@ -77,7 +77,7 @@
 						"loreText": "",
 						"mastery": 0,
 						"masteryRequirement": 0,
-						"maxPoints": 6,
+						"maxPoints": 5,
 						"nodeDescription": "[12%] increased damage per point",
 						"nodeName": "Savage Impact",
 						"pointsText": {
@@ -224,7 +224,7 @@
 								"startConnectionImage": null
 							}
 						},
-						"description": "Fury Leap has an increased chance to stun enemies when you land.",
+						"description": "Fury Leap has an increased chance to stun enemies and stuns it inflicts last longer.",
 						"fadeOverlay": null,
 						"highlightGlow": null,
 						"id": 10,
@@ -233,7 +233,7 @@
 						"loreText": "",
 						"mastery": 0,
 						"masteryRequirement": 0,
-						"maxPoints": 6,
+						"maxPoints": 5,
 						"nodeDescription": "[35%] increased stun chance per point",
 						"nodeName": "Crushing Impact",
 						"pointsText": {
@@ -243,6 +243,9 @@
 							{
 								"node": {
 									"altText": "",
+									"animations": [
+										null
+									],
 									"connectionPrefab": {
 										"SkillTreeConnection": {
 											"dotsImage": null,
@@ -251,18 +254,69 @@
 											"startConnectionImage": null
 										}
 									},
-									"description": "",
-									"id": 0,
+									"description": "Fury Leap deals more damage (multiplicative with other modifiers) and has a shorter cooldown.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 20,
 									"isBaseLockNode": 0,
 									"isLockNode": 0,
-									"loreText": "The fury of nature crushes all",
+									"loreText": "",
 									"mastery": 0,
 									"masteryRequirement": 0,
-									"maxPoints": 0,
-									"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
-									"nodeName": "Fury Leap"
+									"maxPoints": 3,
+									"nodeDescription": "",
+									"nodeName": "Panther Strike",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The fury of nature crushes all",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
+												"nodeName": "Fury Leap"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 70,
+											"statName": "Cooldown Recovery Speed",
+											"tags": 0,
+											"value": "+6%"
+										}
+									]
 								},
-								"requirement": 0
+								"requirement": 1
 							}
 						],
 						"stats": [
@@ -273,7 +327,16 @@
 								"property": 45,
 								"statName": "Increased Stun Chance",
 								"tags": 0,
-								"value": "35%"
+								"value": "30%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 95,
+								"statName": "Increased Stun Duration",
+								"tags": 0,
+								"value": "30%"
 							}
 						]
 					},
@@ -327,6 +390,10 @@
 			"requirements": [
 				{
 					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Lightning Bolt",
+							"playerAbilityID": ""
+						},
 						"altText": "{Lightning Bolts} scale with increases to spell damage and lightning damage, but not with other nodes on this tree.",
 						"animations": [
 							null
@@ -521,6 +588,10 @@
 						"requirements": [
 							{
 								"node": {
+									"abilityGrantedByNode": {
+										"abilityName": "Lightning Bolt",
+										"playerAbilityID": ""
+									},
 									"altText": "{Lightning Bolts} scale with increases to spell damage and lightning damage, but not with other nodes on this tree.",
 									"animations": [
 										null
@@ -683,7 +754,7 @@
 			"loreText": "",
 			"mastery": 0,
 			"masteryRequirement": 0,
-			"maxPoints": 7,
+			"maxPoints": 5,
 			"nodeDescription": "When you land you and your minions gain [15%] increased damage per point for 3 seconds. You cannot have multiple instances of this buff at once.",
 			"nodeName": "Warrior's Entrance",
 			"pointsText": {
@@ -723,7 +794,7 @@
 					"property": 0,
 					"statName": "Global Increased Damage",
 					"tags": 0,
-					"value": "+15%"
+					"value": "20%"
 				}
 			]
 		},
@@ -779,7 +850,7 @@
 						"loreText": "",
 						"mastery": 0,
 						"masteryRequirement": 0,
-						"maxPoints": 7,
+						"maxPoints": 5,
 						"nodeDescription": "When you land you and your minions gain [15%] increased damage per point for 3 seconds. You cannot have multiple instances of this buff at once.",
 						"nodeName": "Warrior's Entrance",
 						"pointsText": {
@@ -819,7 +890,7 @@
 								"property": 0,
 								"statName": "Global Increased Damage",
 								"tags": 0,
-								"value": "+15%"
+								"value": "20%"
 							}
 						]
 					},
@@ -860,7 +931,7 @@
 					"startConnectionImage": null
 				}
 			},
-			"description": "Fury Leap has an increased chance to stun enemies when you land.",
+			"description": "Fury Leap has an increased chance to stun enemies and stuns it inflicts last longer.",
 			"fadeOverlay": null,
 			"highlightGlow": null,
 			"id": 10,
@@ -869,7 +940,7 @@
 			"loreText": "",
 			"mastery": 0,
 			"masteryRequirement": 0,
-			"maxPoints": 6,
+			"maxPoints": 5,
 			"nodeDescription": "[35%] increased stun chance per point",
 			"nodeName": "Crushing Impact",
 			"pointsText": {
@@ -879,6 +950,9 @@
 				{
 					"node": {
 						"altText": "",
+						"animations": [
+							null
+						],
 						"connectionPrefab": {
 							"SkillTreeConnection": {
 								"dotsImage": null,
@@ -887,18 +961,69 @@
 								"startConnectionImage": null
 							}
 						},
-						"description": "",
-						"id": 0,
+						"description": "Fury Leap deals more damage (multiplicative with other modifiers) and has a shorter cooldown.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
 						"isBaseLockNode": 0,
 						"isLockNode": 0,
-						"loreText": "The fury of nature crushes all",
+						"loreText": "",
 						"mastery": 0,
 						"masteryRequirement": 0,
-						"maxPoints": 0,
-						"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
-						"nodeName": "Fury Leap"
+						"maxPoints": 3,
+						"nodeDescription": "",
+						"nodeName": "Panther Strike",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The fury of nature crushes all",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
+									"nodeName": "Fury Leap"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 70,
+								"statName": "Cooldown Recovery Speed",
+								"tags": 0,
+								"value": "+6%"
+							}
+						]
 					},
-					"requirement": 0
+					"requirement": 1
 				}
 			],
 			"stats": [
@@ -909,7 +1034,16 @@
 					"property": 45,
 					"statName": "Increased Stun Chance",
 					"tags": 0,
-					"value": "35%"
+					"value": "30%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 95,
+					"statName": "Increased Stun Duration",
+					"tags": 0,
+					"value": "30%"
 				}
 			]
 		},
@@ -975,6 +1109,9 @@
 							{
 								"node": {
 									"altText": "",
+									"animations": [
+										null
+									],
 									"connectionPrefab": {
 										"SkillTreeConnection": {
 											"dotsImage": null,
@@ -983,18 +1120,69 @@
 											"startConnectionImage": null
 										}
 									},
-									"description": "",
-									"id": 0,
+									"description": "Fury Leap deals more damage (multiplicative with other modifiers) and has a shorter cooldown.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 20,
 									"isBaseLockNode": 0,
 									"isLockNode": 0,
-									"loreText": "The fury of nature crushes all",
+									"loreText": "",
 									"mastery": 0,
 									"masteryRequirement": 0,
-									"maxPoints": 0,
-									"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
-									"nodeName": "Fury Leap"
+									"maxPoints": 3,
+									"nodeDescription": "",
+									"nodeName": "Panther Strike",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The fury of nature crushes all",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
+												"nodeName": "Fury Leap"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 70,
+											"statName": "Cooldown Recovery Speed",
+											"tags": 0,
+											"value": "+6%"
+										}
+									]
 								},
-								"requirement": 0
+								"requirement": 2
 							}
 						],
 						"stats": [
@@ -1059,6 +1247,10 @@
 			"requirements": [
 				{
 					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Summon Vines",
+							"playerAbilityID": "vi41"
+						},
 						"altText": "The vines are stationary melee minions whose attacks poison on hit.\\n\\nThe vines scale with your bonuses to minions, but not with other nodes on this tree.",
 						"animations": [
 							null
@@ -1120,6 +1312,9 @@
 										{
 											"node": {
 												"altText": "",
+												"animations": [
+													null
+												],
 												"connectionPrefab": {
 													"SkillTreeConnection": {
 														"dotsImage": null,
@@ -1128,18 +1323,69 @@
 														"startConnectionImage": null
 													}
 												},
-												"description": "",
-												"id": 0,
+												"description": "Fury Leap deals more damage (multiplicative with other modifiers) and has a shorter cooldown.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 20,
 												"isBaseLockNode": 0,
 												"isLockNode": 0,
-												"loreText": "The fury of nature crushes all",
+												"loreText": "",
 												"mastery": 0,
 												"masteryRequirement": 0,
-												"maxPoints": 0,
-												"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
-												"nodeName": "Fury Leap"
+												"maxPoints": 3,
+												"nodeDescription": "",
+												"nodeName": "Panther Strike",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The fury of nature crushes all",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
+															"nodeName": "Fury Leap"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+10%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 70,
+														"statName": "Cooldown Recovery Speed",
+														"tags": 0,
+														"value": "+6%"
+													}
+												]
 											},
-											"requirement": 0
+											"requirement": 2
 										}
 									],
 									"stats": [
@@ -1154,7 +1400,7 @@
 										}
 									]
 								},
-								"requirement": 3
+								"requirement": 2
 							},
 							{
 								"node": {
@@ -1170,7 +1416,7 @@
 											"startConnectionImage": null
 										}
 									},
-									"description": "Fury Leap has an increased chance to stun enemies when you land.",
+									"description": "Fury Leap has an increased chance to stun enemies and stuns it inflicts last longer.",
 									"fadeOverlay": null,
 									"highlightGlow": null,
 									"id": 10,
@@ -1179,7 +1425,7 @@
 									"loreText": "",
 									"mastery": 0,
 									"masteryRequirement": 0,
-									"maxPoints": 6,
+									"maxPoints": 5,
 									"nodeDescription": "[35%] increased stun chance per point",
 									"nodeName": "Crushing Impact",
 									"pointsText": {
@@ -1189,6 +1435,9 @@
 										{
 											"node": {
 												"altText": "",
+												"animations": [
+													null
+												],
 												"connectionPrefab": {
 													"SkillTreeConnection": {
 														"dotsImage": null,
@@ -1197,18 +1446,69 @@
 														"startConnectionImage": null
 													}
 												},
-												"description": "",
-												"id": 0,
+												"description": "Fury Leap deals more damage (multiplicative with other modifiers) and has a shorter cooldown.",
+												"fadeOverlay": null,
+												"highlightGlow": null,
+												"id": 20,
 												"isBaseLockNode": 0,
 												"isLockNode": 0,
-												"loreText": "The fury of nature crushes all",
+												"loreText": "",
 												"mastery": 0,
 												"masteryRequirement": 0,
-												"maxPoints": 0,
-												"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
-												"nodeName": "Fury Leap"
+												"maxPoints": 3,
+												"nodeDescription": "",
+												"nodeName": "Panther Strike",
+												"pointsText": {
+													"tmp": null
+												},
+												"requirements": [
+													{
+														"node": {
+															"altText": "",
+															"connectionPrefab": {
+																"SkillTreeConnection": {
+																	"dotsImage": null,
+																	"endConnectionImage": null,
+																	"singleRail": null,
+																	"startConnectionImage": null
+																}
+															},
+															"description": "",
+															"id": 0,
+															"isBaseLockNode": 0,
+															"isLockNode": 0,
+															"loreText": "The fury of nature crushes all",
+															"mastery": 0,
+															"masteryRequirement": 0,
+															"maxPoints": 0,
+															"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
+															"nodeName": "Fury Leap"
+														},
+														"requirement": 0
+													}
+												],
+												"stats": [
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 0,
+														"statName": "Damage",
+														"tags": 0,
+														"value": "+10%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 70,
+														"statName": "Cooldown Recovery Speed",
+														"tags": 0,
+														"value": "+6%"
+													}
+												]
 											},
-											"requirement": 0
+											"requirement": 1
 										}
 									],
 									"stats": [
@@ -1219,7 +1519,16 @@
 											"property": 45,
 											"statName": "Increased Stun Chance",
 											"tags": 0,
-											"value": "35%"
+											"value": "30%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 95,
+											"statName": "Increased Stun Duration",
+											"tags": 0,
+											"value": "30%"
 										}
 									]
 								},
@@ -1351,6 +1660,9 @@
 				{
 					"node": {
 						"altText": "",
+						"animations": [
+							null
+						],
 						"connectionPrefab": {
 							"SkillTreeConnection": {
 								"dotsImage": null,
@@ -1359,18 +1671,69 @@
 								"startConnectionImage": null
 							}
 						},
-						"description": "",
-						"id": 0,
+						"description": "Fury Leap deals more damage (multiplicative with other modifiers) and has a shorter cooldown.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
 						"isBaseLockNode": 0,
 						"isLockNode": 0,
-						"loreText": "The fury of nature crushes all",
+						"loreText": "",
 						"mastery": 0,
 						"masteryRequirement": 0,
-						"maxPoints": 0,
-						"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
-						"nodeName": "Fury Leap"
+						"maxPoints": 3,
+						"nodeDescription": "",
+						"nodeName": "Panther Strike",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"id": 0,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "The fury of nature crushes all",
+									"mastery": 0,
+									"masteryRequirement": 0,
+									"maxPoints": 0,
+									"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
+									"nodeName": "Fury Leap"
+								},
+								"requirement": 0
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Damage",
+								"tags": 0,
+								"value": "+10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 70,
+								"statName": "Cooldown Recovery Speed",
+								"tags": 0,
+								"value": "+6%"
+							}
+						]
 					},
-					"requirement": 0
+					"requirement": 2
 				}
 			],
 			"stats": [
@@ -1407,7 +1770,7 @@
 			"loreText": "",
 			"mastery": 0,
 			"masteryRequirement": 0,
-			"maxPoints": 6,
+			"maxPoints": 5,
 			"nodeDescription": "[12%] increased damage per point",
 			"nodeName": "Savage Impact",
 			"pointsText": {
@@ -1548,7 +1911,7 @@
 						"loreText": "",
 						"mastery": 0,
 						"masteryRequirement": 0,
-						"maxPoints": 6,
+						"maxPoints": 5,
 						"nodeDescription": "Add [25%] critical strike multiplier per point",
 						"nodeName": "Brutal Impact",
 						"pointsText": {
@@ -1578,7 +1941,7 @@
 									"loreText": "",
 									"mastery": 0,
 									"masteryRequirement": 0,
-									"maxPoints": 6,
+									"maxPoints": 5,
 									"nodeDescription": "[12%] increased damage per point",
 									"nodeName": "Savage Impact",
 									"pointsText": {
@@ -1749,7 +2112,7 @@
 						"loreText": "",
 						"mastery": 0,
 						"masteryRequirement": 0,
-						"maxPoints": 6,
+						"maxPoints": 5,
 						"nodeDescription": "[12%] increased damage per point",
 						"nodeName": "Savage Impact",
 						"pointsText": {
@@ -1838,7 +2201,7 @@
 							}
 						]
 					},
-					"requirement": 5
+					"requirement": 4
 				}
 			],
 			"stats": [
@@ -1905,7 +2268,7 @@
 						"loreText": "",
 						"mastery": 0,
 						"masteryRequirement": 0,
-						"maxPoints": 7,
+						"maxPoints": 5,
 						"nodeDescription": "When you land you and your minions gain [15%] increased damage per point for 3 seconds. You cannot have multiple instances of this buff at once.",
 						"nodeName": "Warrior's Entrance",
 						"pointsText": {
@@ -1945,7 +2308,7 @@
 								"property": 0,
 								"statName": "Global Increased Damage",
 								"tags": 0,
-								"value": "+15%"
+								"value": "20%"
 							}
 						]
 					},
@@ -1965,6 +2328,10 @@
 			]
 		},
 		{
+			"abilityGrantedByNode": {
+				"abilityName": "Summon Vines",
+				"playerAbilityID": "vi41"
+			},
 			"altText": "The vines are stationary melee minions whose attacks poison on hit.\\n\\nThe vines scale with your bonuses to minions, but not with other nodes on this tree.",
 			"animations": [
 				null
@@ -2026,6 +2393,9 @@
 							{
 								"node": {
 									"altText": "",
+									"animations": [
+										null
+									],
 									"connectionPrefab": {
 										"SkillTreeConnection": {
 											"dotsImage": null,
@@ -2034,18 +2404,69 @@
 											"startConnectionImage": null
 										}
 									},
-									"description": "",
-									"id": 0,
+									"description": "Fury Leap deals more damage (multiplicative with other modifiers) and has a shorter cooldown.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 20,
 									"isBaseLockNode": 0,
 									"isLockNode": 0,
-									"loreText": "The fury of nature crushes all",
+									"loreText": "",
 									"mastery": 0,
 									"masteryRequirement": 0,
-									"maxPoints": 0,
-									"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
-									"nodeName": "Fury Leap"
+									"maxPoints": 3,
+									"nodeDescription": "",
+									"nodeName": "Panther Strike",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The fury of nature crushes all",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
+												"nodeName": "Fury Leap"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 70,
+											"statName": "Cooldown Recovery Speed",
+											"tags": 0,
+											"value": "+6%"
+										}
+									]
 								},
-								"requirement": 0
+								"requirement": 2
 							}
 						],
 						"stats": [
@@ -2060,7 +2481,7 @@
 							}
 						]
 					},
-					"requirement": 3
+					"requirement": 2
 				},
 				{
 					"node": {
@@ -2076,7 +2497,7 @@
 								"startConnectionImage": null
 							}
 						},
-						"description": "Fury Leap has an increased chance to stun enemies when you land.",
+						"description": "Fury Leap has an increased chance to stun enemies and stuns it inflicts last longer.",
 						"fadeOverlay": null,
 						"highlightGlow": null,
 						"id": 10,
@@ -2085,7 +2506,7 @@
 						"loreText": "",
 						"mastery": 0,
 						"masteryRequirement": 0,
-						"maxPoints": 6,
+						"maxPoints": 5,
 						"nodeDescription": "[35%] increased stun chance per point",
 						"nodeName": "Crushing Impact",
 						"pointsText": {
@@ -2095,6 +2516,9 @@
 							{
 								"node": {
 									"altText": "",
+									"animations": [
+										null
+									],
 									"connectionPrefab": {
 										"SkillTreeConnection": {
 											"dotsImage": null,
@@ -2103,18 +2527,69 @@
 											"startConnectionImage": null
 										}
 									},
-									"description": "",
-									"id": 0,
+									"description": "Fury Leap deals more damage (multiplicative with other modifiers) and has a shorter cooldown.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 20,
 									"isBaseLockNode": 0,
 									"isLockNode": 0,
-									"loreText": "The fury of nature crushes all",
+									"loreText": "",
 									"mastery": 0,
 									"masteryRequirement": 0,
-									"maxPoints": 0,
-									"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
-									"nodeName": "Fury Leap"
+									"maxPoints": 3,
+									"nodeDescription": "",
+									"nodeName": "Panther Strike",
+									"pointsText": {
+										"tmp": null
+									},
+									"requirements": [
+										{
+											"node": {
+												"altText": "",
+												"connectionPrefab": {
+													"SkillTreeConnection": {
+														"dotsImage": null,
+														"endConnectionImage": null,
+														"singleRail": null,
+														"startConnectionImage": null
+													}
+												},
+												"description": "",
+												"id": 0,
+												"isBaseLockNode": 0,
+												"isLockNode": 0,
+												"loreText": "The fury of nature crushes all",
+												"mastery": 0,
+												"masteryRequirement": 0,
+												"maxPoints": 0,
+												"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
+												"nodeName": "Fury Leap"
+											},
+											"requirement": 0
+										}
+									],
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Damage",
+											"tags": 0,
+											"value": "+10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 70,
+											"statName": "Cooldown Recovery Speed",
+											"tags": 0,
+											"value": "+6%"
+										}
+									]
 								},
-								"requirement": 0
+								"requirement": 1
 							}
 						],
 						"stats": [
@@ -2125,7 +2600,16 @@
 								"property": 45,
 								"statName": "Increased Stun Chance",
 								"tags": 0,
-								"value": "35%"
+								"value": "30%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 95,
+								"statName": "Increased Stun Duration",
+								"tags": 0,
+								"value": "30%"
 							}
 						]
 					},
@@ -2145,6 +2629,10 @@
 			]
 		},
 		{
+			"abilityGrantedByNode": {
+				"abilityName": "Lightning Bolt",
+				"playerAbilityID": ""
+			},
 			"altText": "{Lightning Bolts} scale with increases to spell damage and lightning damage, but not with other nodes on this tree.",
 			"animations": [
 				null
@@ -2254,10 +2742,85 @@
 					"value": ""
 				}
 			]
+		},
+		{
+			"altText": "",
+			"animations": [
+				null
+			],
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Fury Leap deals more damage (multiplicative with other modifiers) and has a shorter cooldown.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 20,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 0,
+			"maxPoints": 3,
+			"nodeDescription": "",
+			"nodeName": "Panther Strike",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"id": 0,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "The fury of nature crushes all",
+						"mastery": 0,
+						"masteryRequirement": 0,
+						"maxPoints": 0,
+						"nodeDescription": "Leap to the target location, dealing damage to nearby enemies when you hit the ground. Doubles any added damage.",
+						"nodeName": "Fury Leap"
+					},
+					"requirement": 0
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage",
+					"tags": 0,
+					"value": "+10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 70,
+					"statName": "Cooldown Recovery Speed",
+					"tags": 0,
+					"value": "+6%"
+				}
+			]
 		}
 	],
 	"specialised": 0,
 	"treeID": "fl13",
 	"unspentPoints": 1,
-	"version": 0
+	"version": 2
 }

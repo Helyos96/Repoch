@@ -1,9 +1,18 @@
 {
 	"abilityName": "Soul Feast",
 	"abilityPrefab": {
-		"AttachAttachableOnEnemyHit": {
-			"canAttachToSameEnemyAgain": 0,
-			"onlyHitsPlayers": 0
+		"CreateOnHit": {
+			"attachOnHit": 0,
+			"canHitAlliesMultipleTimes": 0,
+			"canHitEnemiesMultipleTimes": 0,
+			"createAtTarget": 0,
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"onAllyHit": 0,
+			"onEnemyHit": 0,
+			"useAutoPool": 0
 		},
 		"CreateResourceReturnAbilityObjectOnEnemyHit": {
 			"abilityObject": {
@@ -167,6 +176,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,

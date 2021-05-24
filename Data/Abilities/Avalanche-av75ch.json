@@ -4,50 +4,14 @@
 		"AbilityMutatorManager": {
 			"onSubObject": 0
 		},
-		"AvalancheSnowballMutator": {
-			"ability": {
-				"abilityName": "Avalanche",
-				"playerAbilityID": "me27"
-			},
-			"addedChargeRegen": 0,
-			"addedCharges": 0,
-			"addedLightningDamageWithStormTotem": 0,
-			"addedManaCostDivider": 0,
-			"chanceToFreezeGround": 0,
-			"chanceToRecastBouldersOnCrit": 0,
-			"chanceToSummonElemental": 0,
-			"changeLocation": 0,
-			"changeTargetLocation": 0,
-			"coldConversion": 0,
-			"fissureEvery5Hits": 0,
-			"increasedDamageRadius": 0,
-			"increasedDamageWithATotem": 0,
-			"increasedFallSpeed": 0,
-			"increasedFreezeChance": 0,
-			"increasedFrozenGroundDuration": 0,
-			"increasedManaCost": 0,
-			"increasedStunChance": 0,
-			"moreDamageAtMaxRange": 0,
-			"moreDamageToFrozen": 0,
-			"newLocation": {
-				"x": 0,
-				"y": 0
-			},
-			"newTargetLocation": {
-				"x": 0,
-				"y": 0
-			},
-			"physicalConversion": 0
-		},
 		"CastAtRandomPointAfterDuration": {
-			"ability": {
-				"abilityName": "Avalanche",
-				"playerAbilityID": "me27"
+			"abilityRef": {
+				"key": -1705826254
 			},
 			"age": 0,
 			"castAllAtStart": 0,
 			"castsAtStart": 1,
-			"distance": 4,
+			"distance": 3.5,
 			"doNotRaycast": 0,
 			"duration": 0.20000000298023224,
 			"length": 7,
@@ -64,13 +28,24 @@
 			"raycastHeight": 10,
 			"remainingCasts": 0,
 			"restrictToNavmeshAccessiblePoints": 0,
-			"shape": 0,
+			"shape": 3,
 			"targetCursorInstead": 0,
 			"targetOffset": {
 				"x": 0,
 				"y": 0
 			},
-			"useCreatorAOC": 0
+			"useCreatorAOC": 1
+		},
+		"ExistsWhileChannelling": {
+			"age": 0,
+			"disabled": 0,
+			"maxSpeed": 0,
+			"maximumDuration": 0,
+			"minimumDurationBeforeStopWhenOutOfMana": 0,
+			"moveToTargetLocation": 0,
+			"stopHealthThresholdPercent": 0,
+			"stopManaThreshold": -10,
+			"stopWhenOutOfMana": 1
 		}
 	},
 	"abilityReplacementWeaponCondition": 0,
@@ -108,14 +83,14 @@
 	"bypassCooldownOnComboReset": 0,
 	"canBeUsedInLowPrioritySettle": 0,
 	"canMoveBack": 0,
-	"canUpdateTargetWhileChannelling": 0,
+	"canUpdateTargetWhileChannelling": 1,
 	"cannotBuffer": 0,
 	"cannotBufferSelf": 0,
 	"cannotResetCooldown": 0,
 	"castTowardsCastPoint": 0,
 	"changeDestinationWhileMoving": 0,
-	"channelCost": 0,
-	"channelled": 0,
+	"channelCost": 20,
+	"channelled": 1,
 	"chargesGainedPerSecond": 0,
 	"comboAbility": 0,
 	"comboTimeLimit": 0,
@@ -123,7 +98,7 @@
 	"countsAsMovementAbility": 0,
 	"delayedCastDuration": 0.20000000298023224,
 	"delayedCasts": 0,
-	"description": "Channel to summon the might of winter and pummel your foes in ice and snow.\n\nDrains 30 mana per second while channelling. Initial mana cost cannot be reduced below 1.",
+	"description": "Channel to summon the might of winter and pummel your foes in ice and snow.\n\nYou have no mana regen while channelling. Initial mana cost cannot be reduced below 1.",
 	"destroyCastingVFXOnAbilityUse": 0,
 	"displayAlternateDamageDescriptorInTooltip": 0,
 	"doNotLookAtTargetWhileChannelling": 0,
@@ -149,6 +124,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 1,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
@@ -157,13 +133,13 @@
 	"movementDurationPerUnitDistance": 0,
 	"movementDuringUse": 0,
 	"needMouseUpdates": 0,
-	"noManaRegenWhileChanneling": 0,
+	"noManaRegenWhileChanneling": 1,
 	"nonStackingAttachable": 0,
 	"onlyTargetMinions": 0,
 	"onlyTargetSpecificActors": 0,
 	"playerAbilityID": "av75ch",
 	"playerCanCancelDelayedCasts": 0,
-	"playerCastVfx": 0,
+	"playerCastVfx": 2,
 	"playerRequiresEnemyTarget": 0,
 	"rangeLimitForPlayers": 0,
 	"replacementCondition": 0,
@@ -181,7 +157,7 @@
 	"sharedHitDetector": 0,
 	"showMinionTagInScalingTooltip": 0,
 	"skillLore": "",
-	"skillTreeConversionDamageTags": 0,
+	"skillTreeConversionDamageTags": 1,
 	"speedMultiplier": 1,
 	"speedScaler": 3,
 	"split": 0,
@@ -203,7 +179,7 @@
 	"typeOfAbilityTargetMustBeUsing": 0,
 	"useBeginUseVoiceLine": 0,
 	"useCastPoints": 1,
-	"useDelay": 0.20000000298023224,
+	"useDelay": 0.05000000074505806,
 	"useDuration": 0.75,
 	"useMinionForwardForTargeting": 0,
 	"useSound": "",

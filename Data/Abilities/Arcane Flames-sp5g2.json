@@ -1,5 +1,91 @@
 {
-	"abilityName": "Summon Storm Crow",
+	"abilityName": "Arcane Flames",
+	"abilityPrefab": {
+		"ChanceToApplyAilmentsOnHit": {
+			"ailments": [
+				{
+					"ailment": {
+						"applyPrefix": 0,
+						"baseDamage": {
+							"addedDamageScaling": 0,
+							"additionalLeech": 0,
+							"convertAllAddedDamage": 0,
+							"critChance": 0,
+							"critMultiplier": 1,
+							"critType": 1,
+							"cullPercent": 0,
+							"damage": [
+								0,
+								35,
+								0,
+								0,
+								0,
+								0,
+								0
+							],
+							"damageTypeToConvertTo": 0,
+							"flatCull": 0,
+							"freezeRate": 0,
+							"increasedStunChance": 0,
+							"increasedStunDuration": 0,
+							"isHit": 0
+						},
+						"blinds": 0,
+						"dealsAllDamageAtEnd": 0,
+						"dealsDamage": 1,
+						"dealsDamageWhenHit": 0,
+						"description": "Deals fire damage over time",
+						"displayName": "Ignite",
+						"duration": 3,
+						"effectOfEffectivenessOnProc": 0,
+						"expirationAbilityProcsOnDeath": 0,
+						"hitsRequiredToStop": 0,
+						"id": 1,
+						"instanceName": "An Ignite",
+						"isCurse": 0,
+						"isSilverShroud": 0,
+						"maxInstances": 0,
+						"maxSpreadPerInstance": 0,
+						"modifyingStatDisplay": 0,
+						"moreBuffEffectAgainstBosses": 0,
+						"moreBuffEffectAgainstPlayers": 0,
+						"moreDamageWhenHitByCreator": 0,
+						"mutationType": 0,
+						"offsetForExpirationAbility": {
+							"x": 0,
+							"y": 0
+						},
+						"offsetForStackProccedAbility": {
+							"x": 0,
+							"y": 0
+						},
+						"onlyPlayExpirationVfxOnAbilityProc": 0,
+						"overrideAbilitySource": 0,
+						"playExpirationVfxOnDeath": 0,
+						"positive": 0,
+						"procsAbilityOnExpiration": 0,
+						"procsAbilityWhenStacksReached": 0,
+						"roots": 0,
+						"showsInBuffUI": 1,
+						"spreadDelay": 0,
+						"spreadIfDiedBeforeDelay": 0,
+						"spreadRange": 0,
+						"spreads": 0,
+						"stacksRequiredForProc": 0,
+						"stopsWhenHit": 0,
+						"tags": 0
+					},
+					"chance": 1,
+					"increasedDuration": 0,
+					"increasedEffect": 0,
+					"rolledSeparately": 0
+				}
+			],
+			"canApplyToSameEnemyAgain": 0,
+			"chanceModifier": 0,
+			"targetType": 0
+		}
+	},
 	"abilityReplacementWeaponCondition": 0,
 	"allowCastToMaxRangeWhenTargetIsOutOfRange": 0,
 	"altText": "",
@@ -8,21 +94,14 @@
 	"attachCastingVFXToCaster": 1,
 	"attributeScaling": [
 		{
-			"attribute": 4,
+			"attribute": 2,
 			"stats": [
-				{
-					"addedValue": 5,
-					"increasedValue": 0,
-					"property": 7,
-					"specialTag": 0,
-					"tags": 8192
-				},
 				{
 					"addedValue": 0,
 					"increasedValue": 0.03999999910593033,
 					"property": 0,
 					"specialTag": 0,
-					"tags": 8192
+					"tags": 0
 				}
 			]
 		}
@@ -43,14 +122,14 @@
 	"changeDestinationWhileMoving": 0,
 	"channelCost": 0,
 	"channelled": 0,
-	"chargesGainedPerSecond": 0.10000000149011612,
+	"chargesGainedPerSecond": 0.125,
 	"comboAbility": 0,
 	"comboTimeLimit": 0,
 	"companion": 0,
 	"countsAsMovementAbility": 0,
 	"delayedCastDuration": 0.25,
 	"delayedCasts": 0,
-	"description": "Summons 3 crows that last for 10 seconds. Crows blind enemies.",
+	"description": "When you use a fire ability, enemies nearby that area are also ignited.",
 	"destroyCastingVFXOnAbilityUse": 0,
 	"displayAlternateDamageDescriptorInTooltip": 0,
 	"doNotLookAtTargetWhileChannelling": 0,
@@ -59,7 +138,7 @@
 	"dontStopAtDestination": 0,
 	"dontTargetSelf": 0,
 	"excludeCastVFXFromPooling": 0,
-	"fakeTags": 8192,
+	"fakeTags": 0,
 	"fixedDistanceDashDistance": 0,
 	"immuneDuringMovement": 0,
 	"increasedMovementSpeedAffectsMovement": 0,
@@ -68,31 +147,19 @@
 	"keepPositionInSync": 0,
 	"keepRotationInSync": 0,
 	"landingDistanceFromTarget": 0,
-	"levelScaling": [
-		{
-			"stats": [
-				{
-					"addedValue": 5,
-					"increasedValue": 0,
-					"property": 7,
-					"specialTag": 0,
-					"tags": 8192
-				}
-			]
-		}
-	],
 	"limitRangeForPlayers": 1,
-	"manaCost": 36,
+	"manaCost": 3,
 	"manaCostPerDistance": 0,
 	"maxAccessibleTargetPathLength": 0,
 	"maxCharges": 1,
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
-	"minionTagsDisplay": 513,
+	"minionAbilityUseType": 0,
+	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
-	"moveOrAttackCompatible": 0,
+	"moveOrAttackCompatible": 1,
 	"moveOrAttackFallback": 0,
 	"movementDurationPerUnitDistance": 0,
 	"movementDuringUse": 0,
@@ -101,9 +168,9 @@
 	"nonStackingAttachable": 0,
 	"onlyTargetMinions": 0,
 	"onlyTargetSpecificActors": 0,
-	"playerAbilityID": "ssc50",
+	"playerAbilityID": "sp5g2",
 	"playerCanCancelDelayedCasts": 0,
-	"playerCastVfx": 0,
+	"playerCastVfx": 4,
 	"playerRequiresEnemyTarget": 0,
 	"rangeLimitForPlayers": 20,
 	"replacementCondition": 0,
@@ -111,14 +178,14 @@
 	"requireWeaponType": 0,
 	"requiredEnemyTargetMustBeAccessible": 0,
 	"requiredLifeState": 0,
-	"requiresAccessibleTargetLocation": 1,
+	"requiresAccessibleTargetLocation": 0,
 	"requiresButtonPress": 0,
 	"requiresDualWielding": 0,
 	"requiresSheild": 0,
 	"sendAbilityObjectCreated": 0,
-	"settleLowPriorityRatio": 0.699999988079071,
+	"settleLowPriorityRatio": 0.5,
 	"sharedCooldown": 0,
-	"sharedHitDetector": 0,
+	"sharedHitDetector": 1,
 	"showMinionTagInScalingTooltip": 0,
 	"skillLore": "",
 	"skillTreeConversionDamageTags": 0,
@@ -133,7 +200,7 @@
 	"stopRangeAffectedByWeaponRange": 0,
 	"stopWhenOutOfMana": 0,
 	"subtractStopRangeForManaCostPerDistance": 0,
-	"tags": 0,
+	"tags": 4104,
 	"targetMustBeUsingAbility": 0,
 	"targetsAllies": 0,
 	"targetsSelfOnly": 0,
@@ -143,7 +210,7 @@
 	"typeOfAbilityTargetMustBeUsing": 0,
 	"useBeginUseVoiceLine": 0,
 	"useCastPoints": 1,
-	"useDelay": 0.4300000071525574,
+	"useDelay": 0.20000000298023224,
 	"useDuration": 0.75,
 	"useMinionForwardForTargeting": 0,
 	"useSound": "",

@@ -1,52 +1,82 @@
 {
-	"abilityName": "Summon Skeleton Mage",
+	"abilityName": "Corrupting Bomb",
 	"abilityPrefab": {
-		"CreateRandomAbilityObjectOnDeath": {
-			"aimingMethod": 0,
-			"createAtTarget": 1,
+		"CastAfterDuration": {
+			"abilityRef": {
+				"key": 1075359560
+			},
+			"aimingMethod": 2,
+			"animationForCastPoint": 0,
+			"castAtCreatorTargetLocation": 0,
+			"castChance": 1,
+			"castFromCreatorCastPoint": 0,
+			"castFromTargetLocation": 0,
+			"castOnStartAsWell": 0,
+			"castRemainingExtrasAllOnDeath": 0,
+			"destroySelfAfterLastCast": 0,
+			"doNotRaycast": 0,
+			"failedCastConsumesARemainingCast": 0,
+			"forceObjectToFaceTarget": 1,
+			"forceTargetOffsetToMatchCastYpos": 0,
+			"interval": 0.5,
+			"intervalModifierOnCast": 0,
+			"limitCasts": 1,
+			"manaToPayOnCast": 0,
+			"maxRandomTargetRange": 8,
+			"maxRandomTargetRangeIncreaseRate": 0,
+			"maxTargetingRange": 20,
+			"maxTargettingAngle": 0,
+			"minTargetingRange": 4,
+			"minTargetingRangeForExtraCasts": 0,
+			"noAimingAtHitTargets": 0,
+			"noRandomInitialAngle": 0,
+			"noRepeatTargets": 0,
 			"offset": {
 				"x": 0,
 				"y": 0
 			},
-			"possibleAbilities": [
-				{
-					"abilityName": "Summon Skeleton",
-					"playerAbilityID": ""
-				}
-			],
-			"weights": [
-				1,
-				1
-			]
+			"offsetCastpointForward": 0,
+			"offsetCastpointRight": 0,
+			"overrideAnimationForCastPoint": 0,
+			"percentVelocityToPassOn": 0,
+			"randomAiming": 1,
+			"randomExtraCasts": 0,
+			"refreshScaling": 0,
+			"refreshScalingInterval": 0,
+			"remainingCasts": 4,
+			"requireTarget": 0,
+			"reverseSpiralDiraction": 0,
+			"scaleRadiusToMatchXScale": 0,
+			"scalingProperty": 54,
+			"scalingTags": 0,
+			"secondaryAiming": 1,
+			"seedAngle": 0,
+			"spiralAngleInterval": 0,
+			"spiralTargetDistance": 0,
+			"startAtBackInstead": 0,
+			"targetOffset": {
+				"x": 0,
+				"y": 0
+			},
+			"timePassedByPerUnitMoved": 0,
+			"useCreatorAbilityObjectConstructor": 0,
+			"useLocalMutator": 0,
+			"useParentAbilityObjectConstructor": 0,
+			"useSummonerAbilityObjectConstructor": 0
+		},
+		"DestroyGameobjectInteraction": {
+			"quickDestroy": 0
+		},
+		"DestroyOnCasterDeath": {
+			"failAbilityOnCasterDeath": 0
 		}
 	},
 	"abilityReplacementWeaponCondition": 0,
 	"allowCastToMaxRangeWhenTargetIsOutOfRange": 0,
-	"altText": "Skeleton mages have 100 base health. Press A to give your minions an attack command.\n\nYou will always summon the skeleton type you have the fewest of.",
-	"animation": 11,
+	"altText": "",
+	"animation": 0,
 	"animationDurationMatchesMovement": 0,
-	"attachCastingVFXToCaster": 1,
-	"attributeScaling": [
-		{
-			"attribute": 2,
-			"stats": [
-				{
-					"addedValue": 5,
-					"increasedValue": 0,
-					"property": 7,
-					"specialTag": 0,
-					"tags": 8192
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0.03999999910593033,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 8192
-				}
-			]
-		}
-	],
+	"attachCastingVFXToCaster": 0,
 	"automaticallyGetTargetLocationInDirection": 0,
 	"baseMovementAnimationLength": 1,
 	"baseMovementDuration": 0,
@@ -63,23 +93,23 @@
 	"changeDestinationWhileMoving": 0,
 	"channelCost": 0,
 	"channelled": 0,
-	"chargesGainedPerSecond": 0,
+	"chargesGainedPerSecond": 0.06666667014360428,
 	"comboAbility": 0,
 	"comboTimeLimit": 0,
 	"companion": 0,
 	"countsAsMovementAbility": 0,
 	"delayedCastDuration": 0.25,
 	"delayedCasts": 0,
-	"description": "Summons a skeleton mage to assist you. You are limited to 2 mages at a time.",
+	"description": "",
 	"destroyCastingVFXOnAbilityUse": 0,
 	"displayAlternateDamageDescriptorInTooltip": 0,
 	"doNotLookAtTargetWhileChannelling": 0,
 	"doNotUpdateTargetLocation": 0,
-	"doNotUpdateTargetLocationAfterDelay": 0,
+	"doNotUpdateTargetLocationAfterDelay": 0.3499999940395355,
 	"dontStopAtDestination": 0,
 	"dontTargetSelf": 0,
 	"excludeCastVFXFromPooling": 0,
-	"fakeTags": 8192,
+	"fakeTags": 0,
 	"fixedDistanceDashDistance": 0,
 	"immuneDuringMovement": 0,
 	"increasedMovementSpeedAffectsMovement": 0,
@@ -88,28 +118,16 @@
 	"keepPositionInSync": 0,
 	"keepRotationInSync": 0,
 	"landingDistanceFromTarget": 0,
-	"levelScaling": [
-		{
-			"stats": [
-				{
-					"addedValue": 5,
-					"increasedValue": 0,
-					"property": 7,
-					"specialTag": 0,
-					"tags": 8192
-				}
-			]
-		}
-	],
-	"limitRangeForPlayers": 1,
-	"manaCost": 27,
+	"limitRangeForPlayers": 0,
+	"manaCost": 7,
 	"manaCostPerDistance": 0,
 	"maxAccessibleTargetPathLength": 0,
-	"maxCharges": 0,
+	"maxCharges": 1,
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
-	"minionTagsDisplay": 288,
+	"minionAbilityUseType": 0,
+	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
 	"moveOrAttackCompatible": 0,
@@ -121,22 +139,22 @@
 	"nonStackingAttachable": 0,
 	"onlyTargetMinions": 0,
 	"onlyTargetSpecificActors": 0,
-	"playerAbilityID": "sm4g",
+	"playerAbilityID": "pc28ol",
 	"playerCanCancelDelayedCasts": 0,
-	"playerCastVfx": 4,
+	"playerCastVfx": 0,
 	"playerRequiresEnemyTarget": 0,
-	"rangeLimitForPlayers": 20,
+	"rangeLimitForPlayers": 0,
 	"replacementCondition": 0,
 	"requireSimplePath": 0,
 	"requireWeaponType": 0,
 	"requiredEnemyTargetMustBeAccessible": 0,
 	"requiredLifeState": 0,
-	"requiresAccessibleTargetLocation": 1,
+	"requiresAccessibleTargetLocation": 0,
 	"requiresButtonPress": 0,
 	"requiresDualWielding": 0,
 	"requiresSheild": 0,
 	"sendAbilityObjectCreated": 0,
-	"settleLowPriorityRatio": 0.5,
+	"settleLowPriorityRatio": 0,
 	"sharedCooldown": 0,
 	"sharedHitDetector": 0,
 	"showMinionTagInScalingTooltip": 0,
@@ -144,7 +162,7 @@
 	"skillTreeConversionDamageTags": 0,
 	"speedMultiplier": 1,
 	"speedScaler": 3,
-	"split": 0,
+	"split": 1,
 	"stayAtGroundHeight": 0,
 	"stopAtEdgeOfNavmesh": 0,
 	"stopAtEdgeOfNavmeshConnection": 0,
@@ -153,7 +171,7 @@
 	"stopRangeAffectedByWeaponRange": 0,
 	"stopWhenOutOfMana": 0,
 	"subtractStopRangeForManaCostPerDistance": 0,
-	"tags": 0,
+	"tags": 272,
 	"targetMustBeUsingAbility": 0,
 	"targetsAllies": 0,
 	"targetsSelfOnly": 0,
@@ -163,8 +181,8 @@
 	"typeOfAbilityTargetMustBeUsing": 0,
 	"useBeginUseVoiceLine": 0,
 	"useCastPoints": 1,
-	"useDelay": 0.20000000298023224,
-	"useDuration": 0.75,
+	"useDelay": 0.5,
+	"useDuration": 4,
 	"useMinionForwardForTargeting": 0,
 	"useSound": "",
 	"useWeaponSwingSound": 0,

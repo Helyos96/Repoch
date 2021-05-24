@@ -294,5 +294,5 @@ class Dumper(ExtractorInterface):
 				if not os.path.isdir(os.path.join(outputfolder, d[1])):
 					os.mkdir(os.path.join(outputfolder, d[1]))
 				jsonpath = os.path.join(outputfolder, d[1], d[1] + "-" + str(obj.path_id) + ".json")
-				with open(jsonpath, 'w', encoding='utf8') as json_file:
+				with open(jsonpath, 'w', encoding='utf8', newline='\n') as json_file:
 					json.dump(d[0], json_file, sort_keys=True, indent='\t', ensure_ascii=False)

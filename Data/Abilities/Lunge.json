@@ -1,109 +1,41 @@
 {
 	"abilityName": "Lunge",
 	"abilityPrefab": {
-		"AbilityMutatorManager": {
-			"onSubObject": 0
-		},
-		"AttachAttachableOnEnemyHit": {
-			"canAttachToSameEnemyAgain": 0,
-			"onlyHitsPlayers": 0
-		},
-		"CastAfterDuration": {
-			"ability": {
-				"abilityName": "Lunge",
-				"playerAbilityID": ""
+		"DamageEnemyOnHit": {
+			"alwaysShowDamageNumber": 0,
+			"baseDamageStats": {
+				"addedDamageScaling": 1,
+				"additionalLeech": 0,
+				"convertAllAddedDamage": 0,
+				"critChance": 0.05000000074505806,
+				"critMultiplier": 2,
+				"critType": 0,
+				"cullPercent": 0,
+				"damage": [
+					2,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"damageTypeToConvertTo": 0,
+				"flatCull": 0,
+				"freezeRate": 0,
+				"increasedStunChance": 0,
+				"increasedStunDuration": 0,
+				"isHit": 1
 			},
-			"aimingMethod": 0,
-			"animationForCastPoint": 0,
-			"castAtCreatorTargetLocation": 0,
-			"castChance": 1,
-			"castFromCreatorCastPoint": 0,
-			"castFromTargetLocation": 0,
-			"castOnStartAsWell": 0,
-			"castRemainingExtrasAllOnDeath": 0,
-			"destroySelfAfterLastCast": 0,
-			"doNotRaycast": 0,
-			"failedCastConsumesARemainingCast": 0,
-			"forceObjectToFaceTarget": 0,
-			"forceTargetOffsetToMatchCastYpos": 0,
-			"interval": 0.10000000149011612,
-			"intervalModifierOnCast": 0,
-			"limitCasts": 1,
-			"manaToPayOnCast": 0,
-			"maxRandomTargetRange": 0,
-			"maxRandomTargetRangeIncreaseRate": 0,
-			"maxTargetingRange": 0,
-			"maxTargettingAngle": 0,
-			"minTargetingRange": 0,
-			"minTargetingRangeForExtraCasts": 0,
-			"noAimingAtHitTargets": 0,
-			"noRandomInitialAngle": 0,
-			"noRepeatTargets": 0,
-			"offset": {
-				"x": 0,
-				"y": 0
-			},
-			"offsetCastpointForward": 0,
-			"offsetCastpointRight": 0,
-			"overrideAnimationForCastPoint": 0,
-			"percentVelocityToPassOn": 0,
-			"randomAiming": 0,
-			"randomExtraCasts": 0,
-			"refreshScaling": 0,
-			"refreshScalingInterval": 0,
-			"remainingCasts": 1,
-			"requireTarget": 0,
-			"reverseSpiralDiraction": 0,
-			"scaleRadiusToMatchXScale": 0,
-			"scalingProperty": 54,
-			"scalingTags": 0,
-			"secondaryAiming": 0,
-			"seedAngle": 0,
-			"spiralAngleInterval": 0,
-			"spiralTargetDistance": 0,
-			"startAtBackInstead": 0,
-			"targetOffset": {
-				"x": 0,
-				"y": 0
-			},
-			"timePassedByPerUnitMoved": 0,
-			"useCreatorAbilityObjectConstructor": 0,
-			"useLocalMutator": 0,
-			"useParentAbilityObjectConstructor": 0
-		},
-		"DancingStrikes4End1Mutator": {
-			"addedChargeRegen": 0,
-			"addedCharges": 0,
-			"addedManaCostDivider": 0,
-			"changeLocation": 0,
-			"changeTargetLocation": 0,
-			"increasedManaCost": 0,
-			"newLocation": {
-				"x": 0,
-				"y": 0
-			},
-			"newTargetLocation": {
-				"x": 0,
-				"y": 0
-			},
-			"poisonConversion": 0
-		},
-		"DancingStrikes4End2Mutator": {
-			"addedChargeRegen": 0,
-			"addedCharges": 0,
-			"addedManaCostDivider": 0,
-			"changeLocation": 0,
-			"changeTargetLocation": 0,
-			"increasedManaCost": 0,
-			"newLocation": {
-				"x": 0,
-				"y": 0
-			},
-			"newTargetLocation": {
-				"x": 0,
-				"y": 0
-			},
-			"poisonConversion": 0
+			"canDamageSameEnemyAgain": 0,
+			"canDamageSameEnemyAgainAfterDuration": 0,
+			"damageModifier": 0,
+			"damageTags": 512,
+			"disableHitVfx": 0,
+			"guaranteedHitVfxType": 0,
+			"guarenteedHitVFXOfSpecificType": 0,
+			"highPriorityDoT": 0,
+			"hitVFXDirectionType": 0
 		}
 	},
 	"abilityReplacementWeaponCondition": 0,
@@ -175,6 +107,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
@@ -229,7 +162,7 @@
 	"typeOfAbilityTargetMustBeUsing": 0,
 	"useBeginUseVoiceLine": 0,
 	"useCastPoints": 1,
-	"useDelay": 0,
+	"useDelay": 0.5,
 	"useDuration": 1,
 	"useMinionForwardForTargeting": 0,
 	"useSound": "",

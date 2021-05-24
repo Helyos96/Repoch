@@ -5,9 +5,8 @@
 			"onSubObject": 0
 		},
 		"BasicMeleeMutator": {
-			"ability": {
-				"abilityName": "Melee Attack",
-				"playerAbilityID": "fm8"
+			"abilityRef": {
+				"key": -1330063851
 			},
 			"addedChargeRegen": 0,
 			"addedCharges": 0,
@@ -84,10 +83,10 @@
 						"description": "Deals physical damage over time",
 						"displayName": "Bleed",
 						"duration": 4,
+						"effectOfEffectivenessOnProc": 0,
 						"expirationAbilityProcsOnDeath": 0,
 						"hitsRequiredToStop": 0,
 						"id": 2,
-						"increasedEffectReducesStackRequirement": 0,
 						"instanceName": "Bleeding",
 						"isCurse": 0,
 						"isSilverShroud": 0,
@@ -120,7 +119,7 @@
 						"spreads": 0,
 						"stacksRequiredForProc": 0,
 						"stopsWhenHit": 0,
-						"tags": 4096
+						"tags": 0
 					},
 					"chance": 1,
 					"increasedDuration": 0,
@@ -257,6 +256,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 1,

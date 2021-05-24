@@ -2,6 +2,68 @@
 	"activateWhenOpened": [
 		{
 			"CharacterTreeUnspentPointsText": {}
+		},
+		{
+			"MasteryBanner": {
+				"classDescriptionTMP": null,
+				"masteryButtons": [
+					{
+						"button": null,
+						"classDescription": "Unrivaled in bow and blade, the rogue strikes out from the shadows to find a higher purpose for her deadly talents.",
+						"classImage": null,
+						"isMasteryClass": 0,
+						"levelTMP": null,
+						"masteryBarDisplay": {
+							"masteryNumber": 0
+						}
+					},
+					{
+						"button": null,
+						"classDescription": "An artisan of shadows, they dash in and out of the reach of their enemies, each movement another deadly cut.",
+						"classImage": null,
+						"isMasteryClass": 1,
+						"levelTMP": null,
+						"masteryBarDisplay": {
+							"masteryNumber": 0
+						},
+						"passiveBonuses": [
+							"+1 max Shadows",
+							"+15 melee physical damage",
+							"15% more dodge rating (multiplicative with other modifiers)"
+						]
+					},
+					{
+						"button": null,
+						"classDescription": "A master of the bow, adept at engaging foes from a distance and keeping them there.",
+						"classImage": null,
+						"isMasteryClass": 1,
+						"levelTMP": null,
+						"masteryBarDisplay": {
+							"masteryNumber": 0
+						},
+						"passiveBonuses": [
+							"Using a bow attack grants 5% increased attack speed. Can stack 5 times. All stacks fall off after if you have not used a bow attack recently.",
+							"50% increased damage while using a bow"
+						]
+					},
+					{
+						"button": null,
+						"classDescription": "An Elder cresting his prime, the Mage wields the power of the arcane to make up for his past wrongs and to give the world a new future.",
+						"classImage": null,
+						"isMasteryClass": 1,
+						"levelTMP": null,
+						"masteryBarDisplay": {
+							"masteryNumber": 0
+						}
+					}
+				],
+				"passiveBonusTMPs": [
+					null,
+					null,
+					null,
+					null
+				]
+			}
 		}
 	],
 	"characterClass": {
@@ -50,6 +112,7 @@
 		"healthPerLevel": 8,
 		"healthRegen": 6,
 		"healthRegenPerLevel": 0.14000000059604645,
+		"hideThirdMasterySkillsInPanel": 1,
 		"knownAbilities": [
 			{
 				"abilityName": "Attack",
@@ -62,7 +125,7 @@
 		],
 		"lessMinionDamageTakenPerLevel": 0.004999999888241291,
 		"manaPerLevel": 0.5050600171089172,
-		"manaRegen": 10,
+		"manaRegen": 8,
 		"masteries": [
 			{
 				"abilities": [
@@ -240,84 +303,55 @@
 	"masteryButtons": [
 		{
 			"button": null,
-			"image": null,
-			"levelText": null,
+			"classDescription": "Unrivaled in bow and blade, the rogue strikes out from the shadows to find a higher purpose for her deadly talents.",
+			"classImage": null,
+			"isMasteryClass": 0,
+			"levelTMP": null,
 			"masteryBarDisplay": {
 				"masteryNumber": 0
 			}
 		},
 		{
 			"button": null,
-			"image": null,
-			"levelText": null,
+			"classDescription": "An artisan of shadows, they dash in and out of the reach of their enemies, each movement another deadly cut.",
+			"classImage": null,
+			"isMasteryClass": 1,
+			"levelTMP": null,
 			"masteryBarDisplay": {
 				"masteryNumber": 0
-			}
+			},
+			"passiveBonuses": [
+				"+1 max Shadows",
+				"+15 melee physical damage",
+				"15% more dodge rating (multiplicative with other modifiers)"
+			]
 		},
 		{
 			"button": null,
-			"image": null,
-			"levelText": null,
+			"classDescription": "A master of the bow, adept at engaging foes from a distance and keeping them there.",
+			"classImage": null,
+			"isMasteryClass": 1,
+			"levelTMP": null,
 			"masteryBarDisplay": {
 				"masteryNumber": 0
-			}
+			},
+			"passiveBonuses": [
+				"Using a bow attack grants 5% increased attack speed. Can stack 5 times. All stacks fall off after if you have not used a bow attack recently.",
+				"50% increased damage while using a bow"
+			]
 		},
 		{
 			"button": null,
-			"image": null,
-			"levelText": null,
+			"classDescription": "An Elder cresting his prime, the Mage wields the power of the arcane to make up for his past wrongs and to give the world a new future.",
+			"classImage": null,
+			"isMasteryClass": 1,
+			"levelTMP": null,
 			"masteryBarDisplay": {
 				"masteryNumber": 0
 			}
 		}
 	],
 	"nodeList": [
-		{
-			"altText": "Each point of Dexterity adds 4 dodge rating and improves skills that rely on the skillfull handling of weapons, such as Flurry and Shurikens.",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 0,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 0,
-			"masteryRequirement": 0,
-			"maxPoints": 8,
-			"nodeDescription": "",
-			"nodeName": "Steady Hand",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 22,
-					"statName": "Dexterity",
-					"tags": 0,
-					"value": "+1"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 7,
-					"statName": "Health",
-					"tags": 0,
-					"value": "+5"
-				}
-			]
-		},
 		{
 			"altText": "",
 			"connectionPrefab": {
@@ -365,99 +399,7 @@
 			]
 		},
 		{
-			"altText": "Flow only triggers when you actively use a skill.",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "Gain a stack of {Flow} whenever you use a unique skill. Using a fourth unique skill consumes all stacks causing the skill to deal greatly increased damage. Stacks fall off after 4 seconds of not using a new unique skill.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 2,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 1,
-			"masteryRequirement": 0,
-			"maxPoints": 5,
-			"nodeDescription": "",
-			"nodeName": "Flow",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 0,
-					"statName": "Increased Damage when Consuming Flow",
-					"tags": 0,
-					"value": "40%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 1,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Unique Skills Required",
-					"tags": 0,
-					"value": "4"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "You have increased bow attack speed and when you use a bow attack and hit at least one enemy you regain health.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 3,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 0,
-			"maxPoints": 8,
-			"nodeDescription": "",
-			"nodeName": "Draining Arrows",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 2,
-					"statName": "Increased Bow Attack Speed",
-					"tags": 2048,
-					"value": "3%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Health Gained",
-					"tags": 0,
-					"value": "5"
-				}
-			]
-		},
-		{
-			"altText": "",
+			"altText": "Each point of Dexterity adds 4 dodge rating and improves skills that rely on the skillfull handling of weapons, such as Flurry and Shurikens.",
 			"connectionPrefab": {
 				"SkillTreeConnection": {
 					"dotsImage": null,
@@ -469,15 +411,15 @@
 			"description": "",
 			"fadeOverlay": null,
 			"highlightGlow": null,
-			"id": 4,
+			"id": 0,
 			"isBaseLockNode": 0,
 			"isLockNode": 0,
 			"loreText": "",
-			"mastery": 3,
+			"mastery": 0,
 			"masteryRequirement": 0,
-			"maxPoints": 50,
-			"nodeDescription": "Gain [7%] increased throwing attack damage per point.",
-			"nodeName": "Melee and Bow Damage",
+			"maxPoints": 8,
+			"nodeDescription": "",
+			"nodeName": "Steady Hand",
 			"pointsText": {
 				"tmp": null
 			},
@@ -486,10 +428,19 @@
 					"downside": 0,
 					"noScaling": 0,
 					"overrideSprite": 0,
-					"property": 5114,
-					"statName": "Throwing Attack Damage",
+					"property": 22,
+					"statName": "Dexterity",
 					"tags": 0,
-					"value": "+7%"
+					"value": "+1"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 7,
+					"statName": "Health",
+					"tags": 0,
+					"value": "+5"
 				}
 			]
 		},
@@ -633,6 +584,61 @@
 					"statName": "Increased Dodge Rating",
 					"tags": 0,
 					"value": "5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You can dual wield melee weapons by equipping a sword or dagger in your off hand. You take more damage while dual wielding (multiplicative with other modifiers).",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 10,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 5,
+			"maxPoints": 1,
+			"nodeDescription": "",
+			"nodeName": "Twin Blade",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 4,
+					"statName": "Can Equip Swords in Offhand",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Can Equip Daggers in Offhand",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 6,
+					"statName": "Damage Taken While Dual Wielding",
+					"tags": 0,
+					"value": "+15%"
 				}
 			]
 		},
@@ -840,167 +846,6 @@
 					"startConnectionImage": null
 				}
 			},
-			"description": "You can dual wield melee weapons by equipping a sword or dagger in your off hand. You take more damage while dual wielding (multiplicative with other modifiers).",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 10,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 0,
-			"masteryRequirement": 5,
-			"maxPoints": 1,
-			"nodeDescription": "",
-			"nodeName": "Twin Blade",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 4,
-					"statName": "Can Equip Swords in Offhand",
-					"tags": 0,
-					"value": ""
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Can Equip Daggers in Offhand",
-					"tags": 0,
-					"value": ""
-				},
-				{
-					"downside": 1,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 6,
-					"statName": "Damage Taken While Dual Wielding",
-					"tags": 0,
-					"value": "+12%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 11,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 0,
-			"masteryRequirement": 15,
-			"maxPoints": 8,
-			"nodeDescription": "",
-			"nodeName": "Duellist",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "You can dual wield melee weapons by equipping a sword or dagger in your off hand. You take more damage while dual wielding (multiplicative with other modifiers).",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 10,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 0,
-						"masteryRequirement": 5,
-						"maxPoints": 1,
-						"nodeDescription": "",
-						"nodeName": "Twin Blade",
-						"pointsText": {
-							"tmp": null
-						},
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 1,
-								"property": 4,
-								"statName": "Can Equip Swords in Offhand",
-								"tags": 0,
-								"value": ""
-							},
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 1,
-								"property": 54,
-								"statName": "Can Equip Daggers in Offhand",
-								"tags": 0,
-								"value": ""
-							},
-							{
-								"downside": 1,
-								"noScaling": 0,
-								"overrideSprite": 1,
-								"property": 6,
-								"statName": "Damage Taken While Dual Wielding",
-								"tags": 0,
-								"value": "+12%"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 0,
-					"statName": "Increased Damage while Dual Wielding",
-					"tags": 0,
-					"value": "4%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 11,
-					"statName": "Increased Dodge Rating while Dual Wielding",
-					"tags": 0,
-					"value": "4%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
 			"description": "Every third melee, throwing, or bow attack deals increased damage.",
 			"fadeOverlay": null,
 			"highlightGlow": null,
@@ -1168,6 +1013,112 @@
 					"statName": "Mana Gain",
 					"tags": 0,
 					"value": "2"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 11,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 0,
+			"masteryRequirement": 15,
+			"maxPoints": 8,
+			"nodeDescription": "",
+			"nodeName": "Duellist",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You can dual wield melee weapons by equipping a sword or dagger in your off hand. You take more damage while dual wielding (multiplicative with other modifiers).",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 10,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 0,
+						"masteryRequirement": 5,
+						"maxPoints": 1,
+						"nodeDescription": "",
+						"nodeName": "Twin Blade",
+						"pointsText": {
+							"tmp": null
+						},
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 4,
+								"statName": "Can Equip Swords in Offhand",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Can Equip Daggers in Offhand",
+								"tags": 0,
+								"value": ""
+							},
+							{
+								"downside": 1,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 6,
+								"statName": "Damage Taken While Dual Wielding",
+								"tags": 0,
+								"value": "+15%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Increased Damage while Dual Wielding",
+					"tags": 0,
+					"value": "4%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 11,
+					"statName": "Increased Dodge Rating while Dual Wielding",
+					"tags": 0,
+					"value": "4%"
 				}
 			]
 		},
@@ -1551,7 +1502,7 @@
 			]
 		},
 		{
-			"altText": "",
+			"altText": "Flow only triggers when you actively use a skill.",
 			"connectionPrefab": {
 				"SkillTreeConnection": {
 					"dotsImage": null,
@@ -1560,18 +1511,18 @@
 					"startConnectionImage": null
 				}
 			},
-			"description": "",
+			"description": "Gain a stack of {Flow} whenever you use a unique skill. Using a fourth unique skill consumes all stacks causing the skill to deal greatly increased damage. Stacks fall off after 4 seconds of not using a new unique skill.",
 			"fadeOverlay": null,
 			"highlightGlow": null,
-			"id": 20,
+			"id": 2,
 			"isBaseLockNode": 0,
 			"isLockNode": 0,
 			"loreText": "",
-			"mastery": 2,
+			"mastery": 1,
 			"masteryRequirement": 0,
 			"maxPoints": 5,
 			"nodeDescription": "",
-			"nodeName": "Assassin's Quiver",
+			"nodeName": "Flow",
 			"pointsText": {
 				"tmp": null
 			},
@@ -1581,2184 +1532,18 @@
 					"noScaling": 0,
 					"overrideSprite": 0,
 					"property": 0,
-					"statName": "Bow Physical Damage",
-					"tags": 2049,
-					"value": "+1"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 4,
-					"statName": "Increased Critical Strike Chance",
+					"statName": "Increased Damage when Consuming Flow",
 					"tags": 0,
-					"value": "8%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "You have additional Dexterity and when you hit a boss or rare enemy you reduce its dodge rating for 8 seconds.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 21,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 0,
-			"maxPoints": 8,
-			"nodeDescription": "",
-			"nodeName": "Focus Fire",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 22,
-					"statName": "Dexterity",
-					"tags": 0,
-					"value": "+1"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Dodge Rating Debuff",
-					"tags": 0,
-					"value": "3%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "By default you have {Concentration}, which increases your damage. If you are hit by an enemy within 4m in you lose concentration for 4 seconds. Subsequent hits do not reset the cooldown.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 22,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 5,
-			"maxPoints": 8,
-			"nodeDescription": "",
-			"nodeName": "Concentration",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Increased Damage with Concentration",
-					"tags": 0,
-					"value": "12%"
+					"value": "40%"
 				},
 				{
 					"downside": 0,
 					"noScaling": 1,
-					"overrideSprite": 0,
-					"property": 5026,
-					"statName": "Concentration cooldown",
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Unique Skills Required",
 					"tags": 0,
 					"value": "4"
-				}
-			]
-		},
-		{
-			"altText": "Armour Shred reduces armour by 100, lasts 4 seconds, and can stack.",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "You have increased bow and throwing attack damage and you have a chance to shred armour on hit.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 23,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 5,
-			"maxPoints": 10,
-			"nodeDescription": "",
-			"nodeName": "Missile Mastery",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 0,
-					"statName": "Increased Bow Damage",
-					"tags": 2048,
-					"value": "5%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 0,
-					"statName": "Increased Throwing Damage",
-					"tags": 1024,
-					"value": "5%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 10008,
-					"statName": "Armour Shred Chance",
-					"tags": 0,
-					"value": "5%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "If you have a bow equipped you gain 1 {Elemental Arrow} per second while moving, up to a maximum of 3. Using a bow attack expends an Elemental Arrow to deal additional bow fire damage and bow lightning damage.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 24,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 5,
-			"maxPoints": 8,
-			"nodeDescription": "",
-			"nodeName": "Elemental Arrows",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 5037,
-					"statName": "Fire Damage with Elemental Arrow",
-					"tags": 0,
-					"value": "+2"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 5063,
-					"statName": "Lightning Damage with Elemental Arrow",
-					"tags": 0,
-					"value": "+2"
-				},
-				{
-					"downside": 0,
-					"noScaling": 1,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Elemental Arrows Per Second",
-					"tags": 0,
-					"value": "1"
-				},
-				{
-					"downside": 0,
-					"noScaling": 1,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Maximum Elemental Arrows",
-					"tags": 0,
-					"value": "3"
-				}
-			]
-		},
-		{
-			"altText": "Critical Vulnerability is a stacking ailment that adds a 5% additional chance to be crit and reduces critical strike avoidance by 10%.",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "You have a chance to inflict Critical Vulnerability on hit.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 25,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 10,
-			"maxPoints": 10,
-			"nodeDescription": "",
-			"nodeName": "Wound Maker",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 20,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 0,
-						"maxPoints": 5,
-						"nodeDescription": "",
-						"nodeName": "Assassin's Quiver",
-						"pointsText": {
-							"tmp": null
-						},
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 0,
-								"statName": "Bow Physical Damage",
-								"tags": 2049,
-								"value": "+1"
-							},
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 4,
-								"statName": "Increased Critical Strike Chance",
-								"tags": 0,
-								"value": "8%"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Critical Vulnerability Chance",
-					"tags": 0,
-					"value": "+10%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "You take less damage over time (multiplicative with other modifiers). While wielding a bow you deal increased damage over time.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 26,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 10,
-			"maxPoints": 8,
-			"nodeDescription": "",
-			"nodeName": "Prolonged Demise",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 6,
-					"statName": "Damage Over Time Taken",
-					"tags": 4096,
-					"value": "-1%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 0,
-					"statName": "Damage Over Time while wielding a Bow",
-					"tags": 4096,
-					"value": "+6%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "You deal increased bow damage and gain {Elemental Arrows} more frequently.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 27,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 10,
-			"maxPoints": 8,
-			"nodeDescription": "",
-			"nodeName": "Storm Fletcher",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "If you have a bow equipped you gain 1 {Elemental Arrow} per second while moving, up to a maximum of 3. Using a bow attack expends an Elemental Arrow to deal additional bow fire damage and bow lightning damage.",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 24,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 5,
-						"maxPoints": 8,
-						"nodeDescription": "",
-						"nodeName": "Elemental Arrows",
-						"pointsText": {
-							"tmp": null
-						},
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 5037,
-								"statName": "Fire Damage with Elemental Arrow",
-								"tags": 0,
-								"value": "+2"
-							},
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 5063,
-								"statName": "Lightning Damage with Elemental Arrow",
-								"tags": 0,
-								"value": "+2"
-							},
-							{
-								"downside": 0,
-								"noScaling": 1,
-								"overrideSprite": 1,
-								"property": 54,
-								"statName": "Elemental Arrows Per Second",
-								"tags": 0,
-								"value": "1"
-							},
-							{
-								"downside": 0,
-								"noScaling": 1,
-								"overrideSprite": 1,
-								"property": 54,
-								"statName": "Maximum Elemental Arrows",
-								"tags": 0,
-								"value": "3"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 0,
-					"statName": "Increased Bow Elemental Damage",
-					"tags": 2176,
-					"value": "7%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Elemental Arrow Generation Rate",
-					"tags": 0,
-					"value": "7%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 28,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 15,
-			"maxPoints": 8,
-			"nodeDescription": "",
-			"nodeName": "Meditation",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "By default you have {Concentration}, which increases your damage. If you are hit by an enemy within 4m in you lose concentration for 4 seconds. Subsequent hits do not reset the cooldown.",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 22,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 5,
-						"maxPoints": 8,
-						"nodeDescription": "",
-						"nodeName": "Concentration",
-						"pointsText": {
-							"tmp": null
-						},
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 1,
-								"property": 54,
-								"statName": "Increased Damage with Concentration",
-								"tags": 0,
-								"value": "12%"
-							},
-							{
-								"downside": 0,
-								"noScaling": 1,
-								"overrideSprite": 0,
-								"property": 5026,
-								"statName": "Concentration cooldown",
-								"tags": 0,
-								"value": "4"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 11,
-					"statName": "Dodge Rating",
-					"tags": 0,
-					"value": "15"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 70,
-					"statName": "Concentration cooldown",
-					"tags": 0,
-					"value": "-5%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "You can hold additional {Elemental Arrows} and you have additional elemental resistance for each arrow you are currently holding.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 29,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 15,
-			"maxPoints": 3,
-			"nodeDescription": "",
-			"nodeName": "Siege Quiver",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "If you have a bow equipped you gain 1 {Elemental Arrow} per second while moving, up to a maximum of 3. Using a bow attack expends an Elemental Arrow to deal additional bow fire damage and bow lightning damage.",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 24,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 5,
-						"maxPoints": 8,
-						"nodeDescription": "",
-						"nodeName": "Elemental Arrows",
-						"pointsText": {
-							"tmp": null
-						},
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 5037,
-								"statName": "Fire Damage with Elemental Arrow",
-								"tags": 0,
-								"value": "+2"
-							},
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 5063,
-								"statName": "Lightning Damage with Elemental Arrow",
-								"tags": 0,
-								"value": "+2"
-							},
-							{
-								"downside": 0,
-								"noScaling": 1,
-								"overrideSprite": 1,
-								"property": 54,
-								"statName": "Elemental Arrows Per Second",
-								"tags": 0,
-								"value": "1"
-							},
-							{
-								"downside": 0,
-								"noScaling": 1,
-								"overrideSprite": 1,
-								"property": 54,
-								"statName": "Maximum Elemental Arrows",
-								"tags": 0,
-								"value": "3"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Maximum Elemental Arrows",
-					"tags": 0,
-					"value": "+1"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Elemental Resistance Per Arrow",
-					"tags": 0,
-					"value": "+1%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "You have a chance to avoid critical strikes and your critical strikes with bow attacks deal more damage.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 30,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 20,
-			"maxPoints": 5,
-			"nodeDescription": "",
-			"nodeName": "Heightened Senses",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "Critical Vulnerability is a stacking ailment that adds a 5% additional chance to be crit and reduces critical strike avoidance by 10%.",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "You have a chance to inflict Critical Vulnerability on hit.",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 25,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 10,
-						"maxPoints": 10,
-						"nodeDescription": "",
-						"nodeName": "Wound Maker",
-						"pointsText": {
-							"tmp": null
-						},
-						"requirements": [
-							{
-								"node": {
-									"altText": "",
-									"connectionPrefab": {
-										"SkillTreeConnection": {
-											"dotsImage": null,
-											"endConnectionImage": null,
-											"singleRail": null,
-											"startConnectionImage": null
-										}
-									},
-									"description": "",
-									"fadeOverlay": null,
-									"highlightGlow": null,
-									"id": 20,
-									"isBaseLockNode": 0,
-									"isLockNode": 0,
-									"loreText": "",
-									"mastery": 2,
-									"masteryRequirement": 0,
-									"maxPoints": 5,
-									"nodeDescription": "",
-									"nodeName": "Assassin's Quiver",
-									"pointsText": {
-										"tmp": null
-									},
-									"stats": [
-										{
-											"downside": 0,
-											"noScaling": 0,
-											"overrideSprite": 0,
-											"property": 0,
-											"statName": "Bow Physical Damage",
-											"tags": 2049,
-											"value": "+1"
-										},
-										{
-											"downside": 0,
-											"noScaling": 0,
-											"overrideSprite": 0,
-											"property": 4,
-											"statName": "Increased Critical Strike Chance",
-											"tags": 0,
-											"value": "8%"
-										}
-									]
-								},
-								"requirement": 1
-							}
-						],
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 1,
-								"property": 54,
-								"statName": "Critical Vulnerability Chance",
-								"tags": 0,
-								"value": "+10%"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 89,
-					"statName": "Critical Strike Avoidance",
-					"tags": 0,
-					"value": "+7%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 5,
-					"statName": "Bow Critical Strike Multiplier",
-					"tags": 2048,
-					"value": "+5%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 31,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 20,
-			"maxPoints": 8,
-			"nodeDescription": "",
-			"nodeName": "Reflection",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 28,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 15,
-						"maxPoints": 8,
-						"nodeDescription": "",
-						"nodeName": "Meditation",
-						"pointsText": {
-							"tmp": null
-						},
-						"requirements": [
-							{
-								"node": {
-									"altText": "",
-									"connectionPrefab": {
-										"SkillTreeConnection": {
-											"dotsImage": null,
-											"endConnectionImage": null,
-											"singleRail": null,
-											"startConnectionImage": null
-										}
-									},
-									"description": "By default you have {Concentration}, which increases your damage. If you are hit by an enemy within 4m in you lose concentration for 4 seconds. Subsequent hits do not reset the cooldown.",
-									"fadeOverlay": null,
-									"highlightGlow": null,
-									"id": 22,
-									"isBaseLockNode": 0,
-									"isLockNode": 0,
-									"loreText": "",
-									"mastery": 2,
-									"masteryRequirement": 5,
-									"maxPoints": 8,
-									"nodeDescription": "",
-									"nodeName": "Concentration",
-									"pointsText": {
-										"tmp": null
-									},
-									"stats": [
-										{
-											"downside": 0,
-											"noScaling": 0,
-											"overrideSprite": 1,
-											"property": 54,
-											"statName": "Increased Damage with Concentration",
-											"tags": 0,
-											"value": "12%"
-										},
-										{
-											"downside": 0,
-											"noScaling": 1,
-											"overrideSprite": 0,
-											"property": 5026,
-											"statName": "Concentration cooldown",
-											"tags": 0,
-											"value": "4"
-										}
-									]
-								},
-								"requirement": 1
-							}
-						],
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 11,
-								"statName": "Dodge Rating",
-								"tags": 0,
-								"value": "15"
-							},
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 1,
-								"property": 70,
-								"statName": "Concentration cooldown",
-								"tags": 0,
-								"value": "-5%"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 11,
-					"statName": "Increased dodge rating with Concentration",
-					"tags": 0,
-					"value": "5%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 9,
-					"statName": "Increased movement speed with Concentration",
-					"tags": 0,
-					"value": "1%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "You can consume [1] additional {Elemental Arrow} with each bow attack. If you consume 3 arrows with a single attack it has 200% additional shock and ignite chance",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 32,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 20,
-			"maxPoints": 2,
-			"nodeDescription": "",
-			"nodeName": "Elemental Barrage",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "You deal increased bow damage and gain {Elemental Arrows} more frequently.",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 27,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 10,
-						"maxPoints": 8,
-						"nodeDescription": "",
-						"nodeName": "Storm Fletcher",
-						"pointsText": {
-							"tmp": null
-						},
-						"requirements": [
-							{
-								"node": {
-									"altText": "",
-									"connectionPrefab": {
-										"SkillTreeConnection": {
-											"dotsImage": null,
-											"endConnectionImage": null,
-											"singleRail": null,
-											"startConnectionImage": null
-										}
-									},
-									"description": "If you have a bow equipped you gain 1 {Elemental Arrow} per second while moving, up to a maximum of 3. Using a bow attack expends an Elemental Arrow to deal additional bow fire damage and bow lightning damage.",
-									"fadeOverlay": null,
-									"highlightGlow": null,
-									"id": 24,
-									"isBaseLockNode": 0,
-									"isLockNode": 0,
-									"loreText": "",
-									"mastery": 2,
-									"masteryRequirement": 5,
-									"maxPoints": 8,
-									"nodeDescription": "",
-									"nodeName": "Elemental Arrows",
-									"pointsText": {
-										"tmp": null
-									},
-									"stats": [
-										{
-											"downside": 0,
-											"noScaling": 0,
-											"overrideSprite": 0,
-											"property": 5037,
-											"statName": "Fire Damage with Elemental Arrow",
-											"tags": 0,
-											"value": "+2"
-										},
-										{
-											"downside": 0,
-											"noScaling": 0,
-											"overrideSprite": 0,
-											"property": 5063,
-											"statName": "Lightning Damage with Elemental Arrow",
-											"tags": 0,
-											"value": "+2"
-										},
-										{
-											"downside": 0,
-											"noScaling": 1,
-											"overrideSprite": 1,
-											"property": 54,
-											"statName": "Elemental Arrows Per Second",
-											"tags": 0,
-											"value": "1"
-										},
-										{
-											"downside": 0,
-											"noScaling": 1,
-											"overrideSprite": 1,
-											"property": 54,
-											"statName": "Maximum Elemental Arrows",
-											"tags": 0,
-											"value": "3"
-										}
-									]
-								},
-								"requirement": 1
-							}
-						],
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 1,
-								"property": 0,
-								"statName": "Increased Bow Elemental Damage",
-								"tags": 2176,
-								"value": "7%"
-							},
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 1,
-								"property": 54,
-								"statName": "Elemental Arrow Generation Rate",
-								"tags": 0,
-								"value": "7%"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Elemental Arrow consumed per bow attack",
-					"tags": 0,
-					"value": "+1"
-				},
-				{
-					"downside": 0,
-					"noScaling": 1,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Shock and Ignite chance when consuming 3 Arrows",
-					"tags": 0,
-					"value": "200%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "When you use a bow attack you gain {Arrow Storm} which increases your bow attack speed for 3 seconds. You can only gain Arrow Storm once every 10 seconds.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 33,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 25,
-			"maxPoints": 6,
-			"nodeDescription": "",
-			"nodeName": "Arrow Storm",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 2,
-					"statName": "Increased Bow Attack Speed with Arrow Storm",
-					"tags": 2048,
-					"value": "10%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 1,
-					"overrideSprite": 0,
-					"property": 5093,
-					"statName": "Arrow Storm Duration",
-					"tags": 0,
-					"value": "3"
-				},
-				{
-					"downside": 0,
-					"noScaling": 1,
-					"overrideSprite": 0,
-					"property": 5026,
-					"statName": "Arrow Storm Cooldown",
-					"tags": 0,
-					"value": "10"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 34,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 25,
-			"maxPoints": 10,
-			"nodeDescription": "",
-			"nodeName": "Thief's Quiver",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 7,
-					"statName": "Health",
-					"tags": 0,
-					"value": "+8"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 51,
-					"statName": "Bow Damage Leeched as Health",
-					"tags": 0,
-					"value": "0.5%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "Non-elemental bow attacks cannot consume {Elemental Arrows}, but instead generate an Elemental Arrow on use. Consuming an Elemental Arrow also increases the elemental damage of the attack that consumes them.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 35,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 25,
-			"maxPoints": 8,
-			"nodeDescription": "",
-			"nodeName": "Fire and Steel",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 5087,
-					"statName": "Increased Elemental Damage with Elemental Arrow",
-					"tags": 0,
-					"value": "15%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Non-Elemental Bow Attacks Generate Elemental Arrows",
-					"tags": 0,
-					"value": ""
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Only Elemental Bow Attacks Consume Elemental Arrows",
-					"tags": 0,
-					"value": ""
-				}
-			]
-		},
-		{
-			"altText": "Ward is an overshield shield that protects your health. It has no maximum and decays over time.",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "When you proc {Arrowstorm} you gain stacks of {Silver Shroud}. Silver Shroud is a buff that gives you 100% chance to dodge the next hit. Dodging a hit with Silver Shroud consumes all stacks, granting you 100 ward per stack.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 36,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 30,
-			"maxPoints": 10,
-			"nodeDescription": "",
-			"nodeName": "Covering Fire",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "When you use a bow attack you gain {Arrow Storm} which increases your bow attack speed for 3 seconds. You can only gain Arrow Storm once every 10 seconds.",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 33,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 25,
-						"maxPoints": 6,
-						"nodeDescription": "",
-						"nodeName": "Arrow Storm",
-						"pointsText": {
-							"tmp": null
-						},
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 2,
-								"statName": "Increased Bow Attack Speed with Arrow Storm",
-								"tags": 2048,
-								"value": "10%"
-							},
-							{
-								"downside": 0,
-								"noScaling": 1,
-								"overrideSprite": 0,
-								"property": 5093,
-								"statName": "Arrow Storm Duration",
-								"tags": 0,
-								"value": "3"
-							},
-							{
-								"downside": 0,
-								"noScaling": 1,
-								"overrideSprite": 0,
-								"property": 5026,
-								"statName": "Arrow Storm Cooldown",
-								"tags": 0,
-								"value": "10"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Silver Shroud Stacks Gained",
-					"tags": 0,
-					"value": "1"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 37,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 30,
-			"maxPoints": 6,
-			"nodeDescription": "",
-			"nodeName": "Sniper's Gambit",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 0,
-					"statName": "Bow Physical Damage",
-					"tags": 2048,
-					"value": "+5"
-				},
-				{
-					"downside": 1,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Increased damage taken from nearby enemies",
-					"tags": 0,
-					"value": "2%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "You have additional poison penetration and bow attacks have additional chance to poison on hit.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 38,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 30,
-			"maxPoints": 10,
-			"nodeDescription": "",
-			"nodeName": "Poison Tipped Arrows",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 10007,
-					"statName": "Bow Poison Chance",
-					"tags": 2048,
-					"value": "+8%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Poison Penetration",
-					"tags": 0,
-					"value": "+2%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "Chance to gain a stack of Sharpshooter when you hit an enemy based on your how far you are from that enemy, up to a maximum at 10m. Each stack of Sharpshooter increases bow damage and lasts 8 seconds.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 39,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 30,
-			"maxPoints": 5,
-			"nodeDescription": "",
-			"nodeName": "Sharpshooter",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 4,
-					"statName": "Maximum Chance to Gain Sharpshooter",
-					"tags": 0,
-					"value": "10%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 1,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Maximum Sharpshooter stacks",
-					"tags": 0,
-					"value": "10"
-				},
-				{
-					"downside": 0,
-					"noScaling": 1,
-					"overrideSprite": 0,
-					"property": 0,
-					"statName": "Increased Bow Damage per Stack",
-					"tags": 2048,
-					"value": "25%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "You have additional mana and bow attacks deal increased damage equal to a portion of their mana cost.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 40,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 35,
-			"maxPoints": 10,
-			"nodeDescription": "",
-			"nodeName": "Ethereal Arrows",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 8,
-					"statName": "Mana",
-					"tags": 0,
-					"value": "+5"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 0,
-					"statName": "Bow Mana Cost -> Increased Damage",
-					"tags": 0,
-					"value": "50%"
-				}
-			]
-		},
-		{
-			"altText": "Bow Mastery still increases bow attack speed",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "Adds {Barrage of Pain} to your Marksman Passive, Bow Mastery. You gain a stack and refresh all existing stacks of Bow Mastery by using a bow attack and hitting at least one enemy.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 41,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 35,
-			"maxPoints": 5,
-			"nodeDescription": "",
-			"nodeName": "Barrage of Pain",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 4,
-					"statName": "Increased Crit Chance per Stack",
-					"tags": 0,
-					"value": "3%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 1,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Maximum Barrage of Pain Stacks",
-					"tags": 0,
-					"value": "5"
-				}
-			]
-		},
-		{
-			"abilityGrantedByNode": {
-				"abilityName": "Rain of Arrows",
-				"playerAbilityID": "exvol8"
-			},
-			"altText": "Rain of Arrows is unrelated to the active skill Hail of Arrows and is not affected by its tree.",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "Adds a chance to cause a {Rain of Arrows} to descend upon your target when you proc {Arrow Storm}. Rain of Arrows is a physical bow attack that hits all enemies in an area around the target.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 42,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 40,
-			"maxPoints": 4,
-			"nodeDescription": "",
-			"nodeName": "Rain of Arrows",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "Ward is an overshield shield that protects your health. It has no maximum and decays over time.",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "When you proc {Arrowstorm} you gain stacks of {Silver Shroud}. Silver Shroud is a buff that gives you 100% chance to dodge the next hit. Dodging a hit with Silver Shroud consumes all stacks, granting you 100 ward per stack.",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 36,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 30,
-						"maxPoints": 10,
-						"nodeDescription": "",
-						"nodeName": "Covering Fire",
-						"pointsText": {
-							"tmp": null
-						},
-						"requirements": [
-							{
-								"node": {
-									"altText": "",
-									"connectionPrefab": {
-										"SkillTreeConnection": {
-											"dotsImage": null,
-											"endConnectionImage": null,
-											"singleRail": null,
-											"startConnectionImage": null
-										}
-									},
-									"description": "When you use a bow attack you gain {Arrow Storm} which increases your bow attack speed for 3 seconds. You can only gain Arrow Storm once every 10 seconds.",
-									"fadeOverlay": null,
-									"highlightGlow": null,
-									"id": 33,
-									"isBaseLockNode": 0,
-									"isLockNode": 0,
-									"loreText": "",
-									"mastery": 2,
-									"masteryRequirement": 25,
-									"maxPoints": 6,
-									"nodeDescription": "",
-									"nodeName": "Arrow Storm",
-									"pointsText": {
-										"tmp": null
-									},
-									"stats": [
-										{
-											"downside": 0,
-											"noScaling": 0,
-											"overrideSprite": 0,
-											"property": 2,
-											"statName": "Increased Bow Attack Speed with Arrow Storm",
-											"tags": 2048,
-											"value": "10%"
-										},
-										{
-											"downside": 0,
-											"noScaling": 1,
-											"overrideSprite": 0,
-											"property": 5093,
-											"statName": "Arrow Storm Duration",
-											"tags": 0,
-											"value": "3"
-										},
-										{
-											"downside": 0,
-											"noScaling": 1,
-											"overrideSprite": 0,
-											"property": 5026,
-											"statName": "Arrow Storm Cooldown",
-											"tags": 0,
-											"value": "10"
-										}
-									]
-								},
-								"requirement": 1
-							}
-						],
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 1,
-								"property": 54,
-								"statName": "Silver Shroud Stacks Gained",
-								"tags": 0,
-								"value": "1"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Rain of Arrows Chance",
-					"tags": 0,
-					"value": "25%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "When you use a skill that costs zero mana and hit an enemy you regain mana, but bow attacks cost more mana.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 43,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 40,
-			"maxPoints": 5,
-			"nodeDescription": "[15%] increased bow mana cost. If you use a 0 cost attack and hit at least 1 enemy you regain [3] mana",
-			"nodeName": "Mana Warp",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "You have additional mana and bow attacks deal increased damage equal to a portion of their mana cost.",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 40,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 35,
-						"maxPoints": 10,
-						"nodeDescription": "",
-						"nodeName": "Ethereal Arrows",
-						"pointsText": {
-							"tmp": null
-						},
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 8,
-								"statName": "Mana",
-								"tags": 0,
-								"value": "+5"
-							},
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 0,
-								"statName": "Bow Mana Cost -> Increased Damage",
-								"tags": 0,
-								"value": "50%"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 40,
-					"statName": "Mana Gain",
-					"tags": 0,
-					"value": "+3"
-				},
-				{
-					"downside": 1,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 66,
-					"statName": "Bow Attack Mana Cost",
-					"tags": 0,
-					"value": "+15%"
-				}
-			]
-		},
-		{
-			"altText": "Armour Shred reduces armour by 100, lasts 4 seconds, and can stack.",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "Each stack of Sharpshooter also increases stun chance and adds a chance to shred armour on hit",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 44,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 40,
-			"maxPoints": 5,
-			"nodeDescription": "",
-			"nodeName": "Death from Afar",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "Chance to gain a stack of Sharpshooter when you hit an enemy based on your how far you are from that enemy, up to a maximum at 10m. Each stack of Sharpshooter increases bow damage and lasts 8 seconds.",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 39,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 30,
-						"maxPoints": 5,
-						"nodeDescription": "",
-						"nodeName": "Sharpshooter",
-						"pointsText": {
-							"tmp": null
-						},
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 1,
-								"property": 4,
-								"statName": "Maximum Chance to Gain Sharpshooter",
-								"tags": 0,
-								"value": "10%"
-							},
-							{
-								"downside": 0,
-								"noScaling": 1,
-								"overrideSprite": 1,
-								"property": 54,
-								"statName": "Maximum Sharpshooter stacks",
-								"tags": 0,
-								"value": "10"
-							},
-							{
-								"downside": 0,
-								"noScaling": 1,
-								"overrideSprite": 0,
-								"property": 0,
-								"statName": "Increased Bow Damage per Stack",
-								"tags": 2048,
-								"value": "25%"
-							}
-						]
-					},
-					"requirement": 4
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 45,
-					"statName": "Increased Stun Chance per stack of Sharpshooter",
-					"tags": 0,
-					"value": "4%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 10008,
-					"statName": "Armour Shred Chance per stack of Sharpshooter",
-					"tags": 0,
-					"value": "4%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 45,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 45,
-			"maxPoints": 2,
-			"nodeDescription": "+[2] arrows with multi shot. [20%] increased area with detonating arrow and Hail of Arrows. (2 points allocable)",
-			"nodeName": "Master Archer",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "You have additional mana and bow attacks deal increased damage equal to a portion of their mana cost.",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 40,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 35,
-						"maxPoints": 10,
-						"nodeDescription": "",
-						"nodeName": "Ethereal Arrows",
-						"pointsText": {
-							"tmp": null
-						},
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 8,
-								"statName": "Mana",
-								"tags": 0,
-								"value": "+5"
-							},
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 0,
-								"statName": "Bow Mana Cost -> Increased Damage",
-								"tags": 0,
-								"value": "50%"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Additional Multishot Arrows",
-					"tags": 0,
-					"value": "+2"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Increased Detonating Arrow Explosion Area",
-					"tags": 0,
-					"value": "+20%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 1,
-					"property": 54,
-					"statName": "Increased Hail of Arrows Area",
-					"tags": 0,
-					"value": "+20%"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "Each stack of Bow Mastery with {Barrage of Pain} also grants additional critical strike multiplier and health gained on crit.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 46,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 2,
-			"masteryRequirement": 45,
-			"maxPoints": 5,
-			"nodeDescription": "",
-			"nodeName": "Perfect Aim",
-			"pointsText": {
-				"tmp": null
-			},
-			"requirements": [
-				{
-					"node": {
-						"altText": "Bow Mastery still increases bow attack speed",
-						"connectionPrefab": {
-							"SkillTreeConnection": {
-								"dotsImage": null,
-								"endConnectionImage": null,
-								"singleRail": null,
-								"startConnectionImage": null
-							}
-						},
-						"description": "Adds {Barrage of Pain} to your Marksman Passive, Bow Mastery. You gain a stack and refresh all existing stacks of Bow Mastery by using a bow attack and hitting at least one enemy.",
-						"fadeOverlay": null,
-						"highlightGlow": null,
-						"id": 41,
-						"isBaseLockNode": 0,
-						"isLockNode": 0,
-						"loreText": "",
-						"mastery": 2,
-						"masteryRequirement": 35,
-						"maxPoints": 5,
-						"nodeDescription": "",
-						"nodeName": "Barrage of Pain",
-						"pointsText": {
-							"tmp": null
-						},
-						"stats": [
-							{
-								"downside": 0,
-								"noScaling": 0,
-								"overrideSprite": 0,
-								"property": 4,
-								"statName": "Increased Crit Chance per Stack",
-								"tags": 0,
-								"value": "3%"
-							},
-							{
-								"downside": 0,
-								"noScaling": 1,
-								"overrideSprite": 1,
-								"property": 54,
-								"statName": "Maximum Barrage of Pain Stacks",
-								"tags": 0,
-								"value": "5"
-							}
-						]
-					},
-					"requirement": 1
-				}
-			],
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 4,
-					"statName": "Crit Multiplier per Stack",
-					"tags": 0,
-					"value": "3%"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 25002,
-					"statName": "Health on Crit per Stack",
-					"tags": 0,
-					"value": "3"
 				}
 			]
 		},
@@ -3864,6 +1649,52 @@
 					"startConnectionImage": null
 				}
 			},
+			"description": "When you create a shadow you regain health and skills used by shadows deal increased damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 53,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 1,
+			"masteryRequirement": 5,
+			"maxPoints": 6,
+			"nodeDescription": "",
+			"nodeName": "Skiasynthesis",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 38,
+					"statName": "Health Gain on Shadow Creation",
+					"tags": 0,
+					"value": "15"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5143,
+					"statName": "Increased Shadow Damage",
+					"tags": 0,
+					"value": "15%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
 			"description": "",
 			"fadeOverlay": null,
 			"highlightGlow": null,
@@ -3952,52 +1783,6 @@
 					"statName": "Dodge Rating if Hit Recently",
 					"tags": 0,
 					"value": "20"
-				}
-			]
-		},
-		{
-			"altText": "",
-			"connectionPrefab": {
-				"SkillTreeConnection": {
-					"dotsImage": null,
-					"endConnectionImage": null,
-					"singleRail": null,
-					"startConnectionImage": null
-				}
-			},
-			"description": "When you create a shadow you regain health and skills used by shadows deal increased damage.",
-			"fadeOverlay": null,
-			"highlightGlow": null,
-			"id": 53,
-			"isBaseLockNode": 0,
-			"isLockNode": 0,
-			"loreText": "",
-			"mastery": 1,
-			"masteryRequirement": 5,
-			"maxPoints": 6,
-			"nodeDescription": "",
-			"nodeName": "Skiasynthesis",
-			"pointsText": {
-				"tmp": null
-			},
-			"stats": [
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 38,
-					"statName": "Health Gain on Shadow Creation",
-					"tags": 0,
-					"value": "15"
-				},
-				{
-					"downside": 0,
-					"noScaling": 0,
-					"overrideSprite": 0,
-					"property": 5143,
-					"statName": "Increased Shadow Damage",
-					"tags": 0,
-					"value": "15%"
 				}
 			]
 		},
@@ -5329,7 +3114,7 @@
 					"startConnectionImage": null
 				}
 			},
-			"description": "When you use a melee attack and hit at least one enemy you gain a stack of Perfection, when you receive a hit you lose all stacks. Each stack of perfection increases your damage.",
+			"description": "When you use a melee attack and hit at least one enemy you gain a stack of Perfection. When you receive a hit you lose all stacks. Each stack of perfection increases your damage.",
 			"fadeOverlay": null,
 			"highlightGlow": null,
 			"id": 67,
@@ -5502,7 +3287,7 @@
 					"noScaling": 0,
 					"overrideSprite": 0,
 					"property": 54,
-					"statName": "Health Gained per Stack of Shroud.",
+					"statName": "Health Gained per Stack of Shroud",
 					"tags": 0,
 					"value": "1"
 				}
@@ -5545,7 +3330,7 @@
 								"startConnectionImage": null
 							}
 						},
-						"description": "When you use a melee attack and hit at least one enemy you gain a stack of Perfection, when you receive a hit you lose all stacks. Each stack of perfection increases your damage.",
+						"description": "When you use a melee attack and hit at least one enemy you gain a stack of Perfection. When you receive a hit you lose all stacks. Each stack of perfection increases your damage.",
 						"fadeOverlay": null,
 						"highlightGlow": null,
 						"id": 67,
@@ -5712,7 +3497,7 @@
 			]
 		},
 		{
-			"altText": "",
+			"altText": "Armour Shred reduces armour by 100, lasts 4 seconds, and can stack.",
 			"connectionPrefab": {
 				"SkillTreeConnection": {
 					"dotsImage": null,
@@ -5721,7 +3506,7 @@
 					"startConnectionImage": null
 				}
 			},
-			"description": "",
+			"description": "Your hits have a chance to shred armour and armour shred you apply is more effective.",
 			"fadeOverlay": null,
 			"highlightGlow": null,
 			"id": 72,
@@ -5742,7 +3527,7 @@
 					"noScaling": 0,
 					"overrideSprite": 0,
 					"property": 10008,
-					"statName": "Melee Armour Shred Chance",
+					"statName": "Armour Shred Chance",
 					"tags": 0,
 					"value": "10%"
 				},
@@ -5864,7 +3649,7 @@
 					"startConnectionImage": null
 				}
 			},
-			"description": "When you can have an additional shadow and skills used by shadows deal increased damage.",
+			"description": "You can have an additional shadow. Skills used by shadows deal increased damage.",
 			"fadeOverlay": null,
 			"highlightGlow": null,
 			"id": 74,
@@ -5964,7 +3749,7 @@
 											"startConnectionImage": null
 										}
 									},
-									"description": "When you use a melee attack and hit at least one enemy you gain a stack of Perfection, when you receive a hit you lose all stacks. Each stack of perfection increases your damage.",
+									"description": "When you use a melee attack and hit at least one enemy you gain a stack of Perfection. When you receive a hit you lose all stacks. Each stack of perfection increases your damage.",
 									"fadeOverlay": null,
 									"highlightGlow": null,
 									"id": 67,
@@ -6093,7 +3878,7 @@
 					"noScaling": 1,
 					"overrideSprite": 1,
 					"property": 54,
-					"statName": "2 Stacks of Perfection per Attack at Full Health",
+					"statName": "2 Stacks of Perfection per Melee Attack at Full Health",
 					"tags": 0,
 					"value": ""
 				},
@@ -6105,6 +3890,1324 @@
 					"statName": "Increased Damage at Full Health",
 					"tags": 0,
 					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 20,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 0,
+			"maxPoints": 5,
+			"nodeDescription": "",
+			"nodeName": "Assassin's Quiver",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Bow Physical Damage",
+					"tags": 2049,
+					"value": "+1"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 4,
+					"statName": "Increased Critical Strike Chance",
+					"tags": 0,
+					"value": "8%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have additional Dexterity and when you hit a boss or rare enemy you reduce its dodge rating for 8 seconds.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 21,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 0,
+			"maxPoints": 8,
+			"nodeDescription": "",
+			"nodeName": "Focus Fire",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 22,
+					"statName": "Dexterity",
+					"tags": 0,
+					"value": "+1"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Dodge Rating Debuff",
+					"tags": 0,
+					"value": "3%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have increased bow attack speed and when you use a bow attack and hit at least one enemy you regain health.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 3,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 0,
+			"maxPoints": 8,
+			"nodeDescription": "",
+			"nodeName": "Draining Arrows",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Increased Bow Attack Speed",
+					"tags": 2048,
+					"value": "3%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Health Gained",
+					"tags": 0,
+					"value": "5"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "By default you have {Concentration}, which increases your damage. If you are hit by an enemy within 4m you lose concentration for 4 seconds. Subsequent hits do not reset the cooldown.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 22,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 5,
+			"maxPoints": 8,
+			"nodeDescription": "",
+			"nodeName": "Concentration",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Increased Damage with Concentration",
+					"tags": 0,
+					"value": "12%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 5026,
+					"statName": "Concentration cooldown",
+					"tags": 0,
+					"value": "4"
+				}
+			]
+		},
+		{
+			"altText": "Armour Shred reduces armour by 100, lasts 4 seconds, and can stack.",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have increased bow and throwing attack damage and you have a chance to shred armour on hit.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 23,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 5,
+			"maxPoints": 10,
+			"nodeDescription": "",
+			"nodeName": "Missile Mastery",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Increased Bow Damage",
+					"tags": 2048,
+					"value": "5%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Increased Throwing Damage",
+					"tags": 1024,
+					"value": "5%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10008,
+					"statName": "Armour Shred Chance",
+					"tags": 0,
+					"value": "5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "If you have a bow equipped you gain 1 {Elemental Arrow} per second while moving, up to a maximum of 3. Using a bow attack expends an Elemental Arrow to deal additional bow fire damage and bow lightning damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 24,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 5,
+			"maxPoints": 8,
+			"nodeDescription": "",
+			"nodeName": "Elemental Arrows",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5037,
+					"statName": "Fire Damage with Elemental Arrow",
+					"tags": 0,
+					"value": "+2"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5063,
+					"statName": "Lightning Damage with Elemental Arrow",
+					"tags": 0,
+					"value": "+2"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Elemental Arrows Per Second",
+					"tags": 0,
+					"value": "1"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Maximum Elemental Arrows",
+					"tags": 0,
+					"value": "3"
+				}
+			]
+		},
+		{
+			"altText": "Critical Vulnerability is a stacking ailment that adds a 5% additional chance to be crit and reduces critical strike avoidance by 10%.",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have a chance to inflict Critical Vulnerability on hit.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 25,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 10,
+			"maxPoints": 10,
+			"nodeDescription": "",
+			"nodeName": "Wound Maker",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 20,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 0,
+						"maxPoints": 5,
+						"nodeDescription": "",
+						"nodeName": "Assassin's Quiver",
+						"pointsText": {
+							"tmp": null
+						},
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Bow Physical Damage",
+								"tags": 2049,
+								"value": "+1"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 4,
+								"statName": "Increased Critical Strike Chance",
+								"tags": 0,
+								"value": "8%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Critical Vulnerability Chance",
+					"tags": 0,
+					"value": "+10%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You take less damage over time (multiplicative with other modifiers). While wielding a bow you deal increased damage over time.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 26,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 10,
+			"maxPoints": 8,
+			"nodeDescription": "",
+			"nodeName": "Prolonged Demise",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 6,
+					"statName": "Damage Over Time Taken",
+					"tags": 4096,
+					"value": "-1%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Damage Over Time while wielding a Bow",
+					"tags": 4096,
+					"value": "+6%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You deal increased bow damage and gain {Elemental Arrows} more frequently.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 27,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 10,
+			"maxPoints": 8,
+			"nodeDescription": "",
+			"nodeName": "Storm Fletcher",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "If you have a bow equipped you gain 1 {Elemental Arrow} per second while moving, up to a maximum of 3. Using a bow attack expends an Elemental Arrow to deal additional bow fire damage and bow lightning damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 24,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 5,
+						"maxPoints": 8,
+						"nodeDescription": "",
+						"nodeName": "Elemental Arrows",
+						"pointsText": {
+							"tmp": null
+						},
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5037,
+								"statName": "Fire Damage with Elemental Arrow",
+								"tags": 0,
+								"value": "+2"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5063,
+								"statName": "Lightning Damage with Elemental Arrow",
+								"tags": 0,
+								"value": "+2"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Elemental Arrows Per Second",
+								"tags": 0,
+								"value": "1"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Maximum Elemental Arrows",
+								"tags": 0,
+								"value": "3"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 0,
+					"statName": "Increased Bow Elemental Damage",
+					"tags": 2176,
+					"value": "7%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Elemental Arrow Generation Rate",
+					"tags": 0,
+					"value": "7%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 28,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 15,
+			"maxPoints": 8,
+			"nodeDescription": "",
+			"nodeName": "Meditation",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "By default you have {Concentration}, which increases your damage. If you are hit by an enemy within 4m you lose concentration for 4 seconds. Subsequent hits do not reset the cooldown.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 22,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 5,
+						"maxPoints": 8,
+						"nodeDescription": "",
+						"nodeName": "Concentration",
+						"pointsText": {
+							"tmp": null
+						},
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Increased Damage with Concentration",
+								"tags": 0,
+								"value": "12%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 5026,
+								"statName": "Concentration cooldown",
+								"tags": 0,
+								"value": "4"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 11,
+					"statName": "Dodge Rating",
+					"tags": 0,
+					"value": "15"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 70,
+					"statName": "Concentration cooldown",
+					"tags": 0,
+					"value": "-5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You can hold additional {Elemental Arrows} and you have additional elemental resistance for each arrow you are currently holding.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 29,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 15,
+			"maxPoints": 3,
+			"nodeDescription": "",
+			"nodeName": "Siege Quiver",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "If you have a bow equipped you gain 1 {Elemental Arrow} per second while moving, up to a maximum of 3. Using a bow attack expends an Elemental Arrow to deal additional bow fire damage and bow lightning damage.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 24,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 5,
+						"maxPoints": 8,
+						"nodeDescription": "",
+						"nodeName": "Elemental Arrows",
+						"pointsText": {
+							"tmp": null
+						},
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5037,
+								"statName": "Fire Damage with Elemental Arrow",
+								"tags": 0,
+								"value": "+2"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 5063,
+								"statName": "Lightning Damage with Elemental Arrow",
+								"tags": 0,
+								"value": "+2"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Elemental Arrows Per Second",
+								"tags": 0,
+								"value": "1"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Maximum Elemental Arrows",
+								"tags": 0,
+								"value": "3"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Maximum Elemental Arrows",
+					"tags": 0,
+					"value": "+1"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Elemental Resistance Per Arrow",
+					"tags": 0,
+					"value": "+1%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have a chance to avoid critical strikes and your critical strikes with bow attacks deal more damage.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 30,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 20,
+			"maxPoints": 5,
+			"nodeDescription": "",
+			"nodeName": "Heightened Senses",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Critical Vulnerability is a stacking ailment that adds a 5% additional chance to be crit and reduces critical strike avoidance by 10%.",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You have a chance to inflict Critical Vulnerability on hit.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 25,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 10,
+						"maxPoints": 10,
+						"nodeDescription": "",
+						"nodeName": "Wound Maker",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 20,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 2,
+									"masteryRequirement": 0,
+									"maxPoints": 5,
+									"nodeDescription": "",
+									"nodeName": "Assassin's Quiver",
+									"pointsText": {
+										"tmp": null
+									},
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 0,
+											"statName": "Bow Physical Damage",
+											"tags": 2049,
+											"value": "+1"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 4,
+											"statName": "Increased Critical Strike Chance",
+											"tags": 0,
+											"value": "8%"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Critical Vulnerability Chance",
+								"tags": 0,
+								"value": "+10%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 89,
+					"statName": "Critical Strike Avoidance",
+					"tags": 0,
+					"value": "+7%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5,
+					"statName": "Bow Critical Strike Multiplier",
+					"tags": 2048,
+					"value": "+5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 31,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 20,
+			"maxPoints": 8,
+			"nodeDescription": "",
+			"nodeName": "Reflection",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 28,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 15,
+						"maxPoints": 8,
+						"nodeDescription": "",
+						"nodeName": "Meditation",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "By default you have {Concentration}, which increases your damage. If you are hit by an enemy within 4m you lose concentration for 4 seconds. Subsequent hits do not reset the cooldown.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 22,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 2,
+									"masteryRequirement": 5,
+									"maxPoints": 8,
+									"nodeDescription": "",
+									"nodeName": "Concentration",
+									"pointsText": {
+										"tmp": null
+									},
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Increased Damage with Concentration",
+											"tags": 0,
+											"value": "12%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 0,
+											"property": 5026,
+											"statName": "Concentration cooldown",
+											"tags": 0,
+											"value": "4"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 11,
+								"statName": "Dodge Rating",
+								"tags": 0,
+								"value": "15"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 70,
+								"statName": "Concentration cooldown",
+								"tags": 0,
+								"value": "-5%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 11,
+					"statName": "Increased dodge rating with Concentration",
+					"tags": 0,
+					"value": "5%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 9,
+					"statName": "Increased movement speed with Concentration",
+					"tags": 0,
+					"value": "1%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You can consume [1] additional {Elemental Arrow} with each bow attack. If you consume 3 arrows with a single attack it has 200% additional shock and ignite chance",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 32,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 20,
+			"maxPoints": 2,
+			"nodeDescription": "",
+			"nodeName": "Elemental Barrage",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You deal increased bow damage and gain {Elemental Arrows} more frequently.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 27,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 10,
+						"maxPoints": 8,
+						"nodeDescription": "",
+						"nodeName": "Storm Fletcher",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "If you have a bow equipped you gain 1 {Elemental Arrow} per second while moving, up to a maximum of 3. Using a bow attack expends an Elemental Arrow to deal additional bow fire damage and bow lightning damage.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 24,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 2,
+									"masteryRequirement": 5,
+									"maxPoints": 8,
+									"nodeDescription": "",
+									"nodeName": "Elemental Arrows",
+									"pointsText": {
+										"tmp": null
+									},
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5037,
+											"statName": "Fire Damage with Elemental Arrow",
+											"tags": 0,
+											"value": "+2"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 5063,
+											"statName": "Lightning Damage with Elemental Arrow",
+											"tags": 0,
+											"value": "+2"
+										},
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Elemental Arrows Per Second",
+											"tags": 0,
+											"value": "1"
+										},
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 1,
+											"property": 54,
+											"statName": "Maximum Elemental Arrows",
+											"tags": 0,
+											"value": "3"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 0,
+								"statName": "Increased Bow Elemental Damage",
+								"tags": 2176,
+								"value": "7%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Elemental Arrow Generation Rate",
+								"tags": 0,
+								"value": "7%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Elemental Arrow consumed per bow attack",
+					"tags": 0,
+					"value": "+1"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Shock and Ignite chance when consuming 3 Arrows",
+					"tags": 0,
+					"value": "200%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 34,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 25,
+			"maxPoints": 10,
+			"nodeDescription": "",
+			"nodeName": "Thief's Quiver",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 7,
+					"statName": "Health",
+					"tags": 0,
+					"value": "+8"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 51,
+					"statName": "Bow Damage Leeched as Health",
+					"tags": 0,
+					"value": "0.5%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "When you use a bow attack you gain {Arrow Storm} which increases your bow attack speed for 3 seconds. You can only gain Arrow Storm once every 10 seconds.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 33,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 25,
+			"maxPoints": 6,
+			"nodeDescription": "",
+			"nodeName": "Arrow Storm",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 2,
+					"statName": "Increased Bow Attack Speed with Arrow Storm",
+					"tags": 2048,
+					"value": "10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 5093,
+					"statName": "Arrow Storm Duration",
+					"tags": 0,
+					"value": "3"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 5026,
+					"statName": "Arrow Storm Cooldown",
+					"tags": 0,
+					"value": "10"
 				}
 			]
 		},
@@ -6153,6 +5256,1019 @@
 					"value": "5%"
 				}
 			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Non-elemental bow attacks cannot consume {Elemental Arrows}, but instead generate an Elemental Arrow on use. Consuming an Elemental Arrow also increases the elemental damage of the attack that consumes them.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 35,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 25,
+			"maxPoints": 8,
+			"nodeDescription": "",
+			"nodeName": "Fire and Steel",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 5087,
+					"statName": "Increased Elemental Damage with Elemental Arrow",
+					"tags": 0,
+					"value": "15%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Non-Elemental Bow Attacks Generate Elemental Arrows",
+					"tags": 0,
+					"value": ""
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Only Elemental Bow Attacks Consume Elemental Arrows",
+					"tags": 0,
+					"value": ""
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Chance to gain a stack of Sharpshooter when you hit an enemy based on your how far you are from that enemy, up to a maximum at 10m. Each stack of Sharpshooter increases bow damage and lasts 8 seconds.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 39,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 30,
+			"maxPoints": 5,
+			"nodeDescription": "",
+			"nodeName": "Sharpshooter",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 4,
+					"statName": "Maximum Chance to Gain Sharpshooter",
+					"tags": 0,
+					"value": "10%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Maximum Sharpshooter stacks",
+					"tags": 0,
+					"value": "10"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Increased Bow Damage per Stack",
+					"tags": 2048,
+					"value": "25%"
+				}
+			]
+		},
+		{
+			"altText": "Ward is an overshield shield that protects your health. It has no maximum and decays over time.",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "When you proc {Arrowstorm} you gain stacks of {Silver Shroud}. Silver Shroud is a buff that gives you 100% chance to dodge the next hit. Dodging a hit with Silver Shroud consumes all stacks, granting you 100 ward per stack.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 36,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 30,
+			"maxPoints": 10,
+			"nodeDescription": "",
+			"nodeName": "Covering Fire",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "When you use a bow attack you gain {Arrow Storm} which increases your bow attack speed for 3 seconds. You can only gain Arrow Storm once every 10 seconds.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 33,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 25,
+						"maxPoints": 6,
+						"nodeDescription": "",
+						"nodeName": "Arrow Storm",
+						"pointsText": {
+							"tmp": null
+						},
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 2,
+								"statName": "Increased Bow Attack Speed with Arrow Storm",
+								"tags": 2048,
+								"value": "10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 5093,
+								"statName": "Arrow Storm Duration",
+								"tags": 0,
+								"value": "3"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 5026,
+								"statName": "Arrow Storm Cooldown",
+								"tags": 0,
+								"value": "10"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Silver Shroud Stacks Gained",
+					"tags": 0,
+					"value": "1"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 37,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 30,
+			"maxPoints": 6,
+			"nodeDescription": "",
+			"nodeName": "Sniper's Gambit",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Bow Physical Damage",
+					"tags": 2048,
+					"value": "+5"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Increased damage taken from nearby enemies",
+					"tags": 0,
+					"value": "2%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have additional poison penetration and bow attacks have additional chance to poison on hit.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 38,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 30,
+			"maxPoints": 10,
+			"nodeDescription": "",
+			"nodeName": "Poison Tipped Arrows",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10007,
+					"statName": "Bow Poison Chance",
+					"tags": 2048,
+					"value": "+8%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Poison Penetration",
+					"tags": 0,
+					"value": "+2%"
+				}
+			]
+		},
+		{
+			"altText": "Bow Mastery still increases bow attack speed",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Adds {Barrage of Pain} to your Marksman Passive, Bow Mastery. You gain a stack and refresh all existing stacks of Bow Mastery by using a bow attack and hitting at least one enemy.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 41,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 35,
+			"maxPoints": 5,
+			"nodeDescription": "",
+			"nodeName": "Barrage of Pain",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 4,
+					"statName": "Increased Crit Chance per Stack",
+					"tags": 0,
+					"value": "3%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 1,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Maximum Barrage of Pain Stacks",
+					"tags": 0,
+					"value": "5"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have increased mana and mana regen and your bow attacks deal increased damage equal to a portion of their mana cost.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 40,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 35,
+			"maxPoints": 10,
+			"nodeDescription": "",
+			"nodeName": "Ethereal Arrows",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 8,
+					"statName": "Increased Mana",
+					"tags": 0,
+					"value": "2%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 18,
+					"statName": "Increased Mana Regen",
+					"tags": 0,
+					"value": "2%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 0,
+					"statName": "Bow Mana Cost -> Increased Damage",
+					"tags": 0,
+					"value": "50%"
+				}
+			]
+		},
+		{
+			"altText": "Armour Shred reduces armour by 100, lasts 4 seconds, and can stack.",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Each stack of Sharpshooter also increases stun chance and adds a chance to shred armour on hit",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 44,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 40,
+			"maxPoints": 5,
+			"nodeDescription": "",
+			"nodeName": "Death from Afar",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Chance to gain a stack of Sharpshooter when you hit an enemy based on your how far you are from that enemy, up to a maximum at 10m. Each stack of Sharpshooter increases bow damage and lasts 8 seconds.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 39,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 30,
+						"maxPoints": 5,
+						"nodeDescription": "",
+						"nodeName": "Sharpshooter",
+						"pointsText": {
+							"tmp": null
+						},
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 4,
+								"statName": "Maximum Chance to Gain Sharpshooter",
+								"tags": 0,
+								"value": "10%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Maximum Sharpshooter stacks",
+								"tags": 0,
+								"value": "10"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Increased Bow Damage per Stack",
+								"tags": 2048,
+								"value": "25%"
+							}
+						]
+					},
+					"requirement": 4
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 45,
+					"statName": "Increased Stun Chance per stack of Sharpshooter",
+					"tags": 0,
+					"value": "4%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10008,
+					"statName": "Armour Shred Chance per stack of Sharpshooter",
+					"tags": 0,
+					"value": "4%"
+				}
+			]
+		},
+		{
+			"abilityGrantedByNode": {
+				"abilityName": "Rain of Arrows",
+				"playerAbilityID": "exvol8"
+			},
+			"altText": "Rain of Arrows is unrelated to the active skill Hail of Arrows and is not affected by its tree.",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Adds a chance to cause a {Rain of Arrows} to descend upon your target when you proc {Arrow Storm}. Rain of Arrows is a physical bow attack that hits all enemies in an area around the target.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 42,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 40,
+			"maxPoints": 4,
+			"nodeDescription": "",
+			"nodeName": "Rain of Arrows",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Ward is an overshield shield that protects your health. It has no maximum and decays over time.",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "When you proc {Arrowstorm} you gain stacks of {Silver Shroud}. Silver Shroud is a buff that gives you 100% chance to dodge the next hit. Dodging a hit with Silver Shroud consumes all stacks, granting you 100 ward per stack.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 36,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 30,
+						"maxPoints": 10,
+						"nodeDescription": "",
+						"nodeName": "Covering Fire",
+						"pointsText": {
+							"tmp": null
+						},
+						"requirements": [
+							{
+								"node": {
+									"altText": "",
+									"connectionPrefab": {
+										"SkillTreeConnection": {
+											"dotsImage": null,
+											"endConnectionImage": null,
+											"singleRail": null,
+											"startConnectionImage": null
+										}
+									},
+									"description": "When you use a bow attack you gain {Arrow Storm} which increases your bow attack speed for 3 seconds. You can only gain Arrow Storm once every 10 seconds.",
+									"fadeOverlay": null,
+									"highlightGlow": null,
+									"id": 33,
+									"isBaseLockNode": 0,
+									"isLockNode": 0,
+									"loreText": "",
+									"mastery": 2,
+									"masteryRequirement": 25,
+									"maxPoints": 6,
+									"nodeDescription": "",
+									"nodeName": "Arrow Storm",
+									"pointsText": {
+										"tmp": null
+									},
+									"stats": [
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 2,
+											"statName": "Increased Bow Attack Speed with Arrow Storm",
+											"tags": 2048,
+											"value": "10%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 0,
+											"property": 5093,
+											"statName": "Arrow Storm Duration",
+											"tags": 0,
+											"value": "3"
+										},
+										{
+											"downside": 0,
+											"noScaling": 1,
+											"overrideSprite": 0,
+											"property": 5026,
+											"statName": "Arrow Storm Cooldown",
+											"tags": 0,
+											"value": "10"
+										}
+									]
+								},
+								"requirement": 1
+							}
+						],
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Silver Shroud Stacks Gained",
+								"tags": 0,
+								"value": "1"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Rain of Arrows Chance",
+					"tags": 0,
+					"value": "25%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "When you use a skill that costs zero mana and hit an enemy you regain mana, but bow attacks cost more mana.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 43,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 40,
+			"maxPoints": 5,
+			"nodeDescription": "[15%] increased bow mana cost. If you use a 0 cost attack and hit at least 1 enemy you regain [3] mana",
+			"nodeName": "Mana Warp",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You have increased mana and mana regen and your bow attacks deal increased damage equal to a portion of their mana cost.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 40,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 35,
+						"maxPoints": 10,
+						"nodeDescription": "",
+						"nodeName": "Ethereal Arrows",
+						"pointsText": {
+							"tmp": null
+						},
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 8,
+								"statName": "Increased Mana",
+								"tags": 0,
+								"value": "2%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 18,
+								"statName": "Increased Mana Regen",
+								"tags": 0,
+								"value": "2%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Bow Mana Cost -> Increased Damage",
+								"tags": 0,
+								"value": "50%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 40,
+					"statName": "Mana Gain",
+					"tags": 0,
+					"value": "+3"
+				},
+				{
+					"downside": 1,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 66,
+					"statName": "Bow Attack Mana Cost",
+					"tags": 0,
+					"value": "+15%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "Each stack of Bow Mastery with {Barrage of Pain} also grants additional critical strike multiplier and health gained on crit.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 46,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 45,
+			"maxPoints": 5,
+			"nodeDescription": "",
+			"nodeName": "Perfect Aim",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "Bow Mastery still increases bow attack speed",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "Adds {Barrage of Pain} to your Marksman Passive, Bow Mastery. You gain a stack and refresh all existing stacks of Bow Mastery by using a bow attack and hitting at least one enemy.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 41,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 35,
+						"maxPoints": 5,
+						"nodeDescription": "",
+						"nodeName": "Barrage of Pain",
+						"pointsText": {
+							"tmp": null
+						},
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 4,
+								"statName": "Increased Crit Chance per Stack",
+								"tags": 0,
+								"value": "3%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 1,
+								"overrideSprite": 1,
+								"property": 54,
+								"statName": "Maximum Barrage of Pain Stacks",
+								"tags": 0,
+								"value": "5"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 4,
+					"statName": "Crit Multiplier per Stack",
+					"tags": 0,
+					"value": "3%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 25002,
+					"statName": "Health on Crit per Stack",
+					"tags": 0,
+					"value": "3"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 45,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 2,
+			"masteryRequirement": 45,
+			"maxPoints": 2,
+			"nodeDescription": "+[2] arrows with multi shot. [20%] increased area with detonating arrow and Hail of Arrows. (2 points allocable)",
+			"nodeName": "Master Archer",
+			"pointsText": {
+				"tmp": null
+			},
+			"requirements": [
+				{
+					"node": {
+						"altText": "",
+						"connectionPrefab": {
+							"SkillTreeConnection": {
+								"dotsImage": null,
+								"endConnectionImage": null,
+								"singleRail": null,
+								"startConnectionImage": null
+							}
+						},
+						"description": "You have increased mana and mana regen and your bow attacks deal increased damage equal to a portion of their mana cost.",
+						"fadeOverlay": null,
+						"highlightGlow": null,
+						"id": 40,
+						"isBaseLockNode": 0,
+						"isLockNode": 0,
+						"loreText": "",
+						"mastery": 2,
+						"masteryRequirement": 35,
+						"maxPoints": 10,
+						"nodeDescription": "",
+						"nodeName": "Ethereal Arrows",
+						"pointsText": {
+							"tmp": null
+						},
+						"stats": [
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 8,
+								"statName": "Increased Mana",
+								"tags": 0,
+								"value": "2%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 1,
+								"property": 18,
+								"statName": "Increased Mana Regen",
+								"tags": 0,
+								"value": "2%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 0,
+								"statName": "Bow Mana Cost -> Increased Damage",
+								"tags": 0,
+								"value": "50%"
+							}
+						]
+					},
+					"requirement": 1
+				}
+			],
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Additional Multishot Arrows",
+					"tags": 0,
+					"value": "+2"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Increased Detonating Arrow Explosion Area",
+					"tags": 0,
+					"value": "+20%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 1,
+					"property": 54,
+					"statName": "Increased Hail of Arrows Area",
+					"tags": 0,
+					"value": "+20%"
+				}
+			]
+		},
+		{
+			"altText": "",
+			"connectionPrefab": {
+				"SkillTreeConnection": {
+					"dotsImage": null,
+					"endConnectionImage": null,
+					"singleRail": null,
+					"startConnectionImage": null
+				}
+			},
+			"description": "You have a increased mana regen and your melee hits have a chance to inflict {Frailty}. Frailty reduces damage dealt by 6% and stacks up to 3 times.",
+			"fadeOverlay": null,
+			"highlightGlow": null,
+			"id": 4,
+			"isBaseLockNode": 0,
+			"isLockNode": 0,
+			"loreText": "",
+			"mastery": 1,
+			"masteryRequirement": 35,
+			"maxPoints": 5,
+			"nodeDescription": "",
+			"nodeName": "Spell Breaker",
+			"pointsText": {
+				"tmp": null
+			},
+			"stats": [
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10016,
+					"statName": "Frailty Chance",
+					"tags": 0,
+					"value": "4%"
+				},
+				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 18,
+					"statName": "Increased Mana Regen",
+					"tags": 0,
+					"value": "4%"
+				}
+			]
 		}
 	],
 	"thirdMasteryUnlocked": 0,
@@ -6169,69 +6285,270 @@
 	},
 	"unlockableAbilityIcons": [
 		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Smoke Bomb",
+					"playerAbilityID": "smbmb"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
 			"icon": null,
-			"mastery": 3,
-			"requirement": 30
-		},
-		{
-			"icon": null,
-			"mastery": 1,
+			"mastery": 0,
+			"masteryReqTMP": null,
 			"requirement": 5
 		},
 		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Decoy",
+					"playerAbilityID": "deeco"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
 			"icon": null,
-			"mastery": 1,
-			"requirement": 5
+			"mastery": 0,
+			"masteryReqTMP": null,
+			"requirement": 10
 		},
 		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Ballista",
+					"playerAbilityID": "ba1574"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
 			"icon": null,
-			"mastery": 1,
+			"mastery": 0,
+			"masteryReqTMP": null,
+			"requirement": 15
+		},
+		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Smite",
+					"playerAbilityID": "sm87r4"
+				},
+				"presetAbility": 1,
+				"showLevelReq": 1
+			},
+			"icon": null,
+			"mastery": 0,
+			"masteryReqTMP": null,
 			"requirement": 20
 		},
 		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Shadow Cascade",
+					"playerAbilityID": "dagg3"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
 			"icon": null,
-			"mastery": 0,
-			"requirement": 10
-		},
-		{
-			"icon": null,
-			"mastery": 2,
+			"mastery": 1,
+			"masteryReqTMP": null,
 			"requirement": 5
 		},
 		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Synchronized Strike",
+					"playerAbilityID": "sync5"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
 			"icon": null,
-			"mastery": 2,
+			"mastery": 1,
+			"masteryReqTMP": null,
+			"requirement": 10
+		},
+		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Devouring Orb",
+					"playerAbilityID": "do5vr"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
+			"icon": null,
+			"mastery": 1,
+			"masteryReqTMP": null,
 			"requirement": 15
 		},
 		{
-			"icon": null,
-			"mastery": 0,
-			"requirement": 5
-		},
-		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Lethal Mirage",
+					"playerAbilityID": "mira59"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
 			"icon": null,
 			"mastery": 1,
-			"requirement": 10
+			"masteryReqTMP": null,
+			"requirement": 30
 		},
 		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Ravaging Stance",
+					"playerAbilityID": "ra31gn"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
 			"icon": null,
-			"mastery": 2,
-			"requirement": 10
-		},
-		{
-			"icon": null,
-			"mastery": 3,
+			"mastery": 1,
+			"masteryReqTMP": null,
 			"requirement": 35
 		},
 		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Multishot",
+					"playerAbilityID": "mush9"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
 			"icon": null,
-			"mastery": 3,
+			"mastery": 1,
+			"masteryReqTMP": null,
+			"requirement": 5
+		},
+		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Abyssal Echoes",
+					"playerAbilityID": "ab0lh"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
+			"icon": null,
+			"mastery": 1,
+			"masteryReqTMP": null,
+			"requirement": 10
+		},
+		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Dark Quiver",
+					"playerAbilityID": "dqv5"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
+			"icon": null,
+			"mastery": 1,
+			"masteryReqTMP": null,
 			"requirement": 15
 		},
 		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Hail of Arrows",
+					"playerAbilityID": "exvol8"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
 			"icon": null,
-			"mastery": 3,
+			"mastery": 1,
+			"masteryReqTMP": null,
+			"requirement": 30
+		},
+		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Ravaging Stance",
+					"playerAbilityID": "ra31gn"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
+			"icon": null,
+			"mastery": 1,
+			"masteryReqTMP": null,
+			"requirement": 35
+		},
+		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Volatile Reversal",
+					"playerAbilityID": "vr53sl"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
+			"icon": null,
+			"mastery": 1,
+			"masteryReqTMP": null,
 			"requirement": 5
+		},
+		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Abyssal Echoes",
+					"playerAbilityID": "ab0lh"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
+			"icon": null,
+			"mastery": 1,
+			"masteryReqTMP": null,
+			"requirement": 10
+		},
+		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Devouring Orb",
+					"playerAbilityID": "do5vr"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
+			"icon": null,
+			"mastery": 1,
+			"masteryReqTMP": null,
+			"requirement": 15
+		},
+		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Anomaly",
+					"playerAbilityID": "an0my"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
+			"icon": null,
+			"mastery": 1,
+			"masteryReqTMP": null,
+			"requirement": 30
+		},
+		{
+			"abilityTooltip": {
+				"currentAbility": {
+					"abilityName": "Ravaging Stance",
+					"playerAbilityID": "ra31gn"
+				},
+				"presetAbility": 0,
+				"showLevelReq": 1
+			},
+			"icon": null,
+			"mastery": 1,
+			"masteryReqTMP": null,
+			"requirement": 35
 		}
 	],
 	"unspentPoints": 0,

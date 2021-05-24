@@ -1,35 +1,23 @@
 {
 	"abilityName": "Piercing Void",
 	"abilityPrefab": {
-		"CreateOnHit": {
-			"attachOnHit": 0,
-			"canHitAlliesMultipleTimes": 0,
-			"canHitEnemiesMultipleTimes": 0,
-			"createAtTarget": 1,
-			"offset": {
-				"x": 0,
-				"y": 0
-			},
-			"onAllyHit": 0,
-			"onEnemyHit": 1
-		},
 		"DamageEnemyOnHit": {
 			"alwaysShowDamageNumber": 0,
 			"baseDamageStats": {
-				"addedDamageScaling": 1,
+				"addedDamageScaling": 0.6000000238418579,
 				"additionalLeech": 0,
 				"convertAllAddedDamage": 0,
-				"critChance": 0,
-				"critMultiplier": 1,
-				"critType": 1,
+				"critChance": 0.05000000074505806,
+				"critMultiplier": 2,
+				"critType": 0,
 				"cullPercent": 0,
 				"damage": [
+					12,
 					0,
 					0,
 					0,
 					0,
 					0,
-					400,
 					0
 				],
 				"damageTypeToConvertTo": 0,
@@ -50,8 +38,11 @@
 			"hitVFXDirectionType": 0
 		},
 		"ExtraProjectiles": {
+			"AOI": {
+				"visualsToSpawnID": 0
+			},
 			"adjustForParabolicMovement": 0,
-			"angle": 144,
+			"angle": 120,
 			"autoTarget": 0,
 			"delayExtraProjectiles": 0,
 			"delayWindow": 0.5,
@@ -61,7 +52,7 @@
 			"lineMode": 0,
 			"maxAngleDifferenceModifier": 0,
 			"maxAutoTargetRange": 0,
-			"numberOfExtraProjectiles": 4,
+			"numberOfExtraProjectiles": 2,
 			"randomAngles": 0,
 			"randomiseDelay": 0
 		}
@@ -69,7 +60,7 @@
 	"abilityReplacementWeaponCondition": 0,
 	"allowCastToMaxRangeWhenTargetIsOutOfRange": 0,
 	"altText": "",
-	"animation": 8,
+	"animation": 0,
 	"animationDurationMatchesMovement": 0,
 	"attachCastingVFXToCaster": 1,
 	"attributeScaling": [
@@ -89,7 +80,7 @@
 	"automaticallyGetTargetLocationInDirection": 0,
 	"baseMovementAnimationLength": 1,
 	"baseMovementDuration": 0,
-	"beginUseSound": "",
+	"beginUseSound": "event:/Sound Events/Shadow_Orobyss/sfx_combat_bossfight_shadoworobyss_piercingproj_launch",
 	"beginUseVoiceLine": "",
 	"bypassCooldownOnComboReset": 0,
 	"canBeUsedInLowPrioritySettle": 0,
@@ -99,41 +90,25 @@
 	"cannotBufferSelf": 0,
 	"cannotResetCooldown": 0,
 	"castTowardsCastPoint": 0,
-	"castingVFX": {
-		"PlaySoundWhileActive": null,
-		"RotatesToAngle": {
-			"active": 1,
-			"angle": {
-				"x": 0,
-				"y": 0
-			}
-		},
-		"StartForwardsFromCreator": {
-			"active": 1,
-			"addWeaponRange": 0,
-			"distance": 0.009999999776482582,
-			"yOffset": 0
-		}
-	},
 	"changeDestinationWhileMoving": 0,
 	"channelCost": 0,
 	"channelled": 0,
-	"chargesGainedPerSecond": 0.3333333432674408,
+	"chargesGainedPerSecond": 0.6666666865348816,
 	"comboAbility": 0,
 	"comboTimeLimit": 0,
 	"companion": 0,
 	"countsAsMovementAbility": 0,
 	"delayedCastDuration": 0.20000000298023224,
 	"delayedCasts": 0,
-	"description": "Cast a ball of fire towards the target",
-	"destroyCastingVFXOnAbilityUse": 1,
+	"description": "Cast a ball of fire towards the target. Added spell damage applies at 125% effectiveness.",
+	"destroyCastingVFXOnAbilityUse": 0,
 	"displayAlternateDamageDescriptorInTooltip": 0,
 	"doNotLookAtTargetWhileChannelling": 0,
 	"doNotUpdateTargetLocation": 0,
-	"doNotUpdateTargetLocationAfterDelay": 0.5,
+	"doNotUpdateTargetLocationAfterDelay": 0.6000000238418579,
 	"dontStopAtDestination": 0,
 	"dontTargetSelf": 0,
-	"excludeCastVFXFromPooling": 0,
+	"excludeCastVFXFromPooling": 1,
 	"fakeTags": 0,
 	"fixedDistanceDashDistance": 0,
 	"immuneDuringMovement": 0,
@@ -151,6 +126,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
@@ -183,10 +159,10 @@
 	"sharedHitDetector": 1,
 	"showMinionTagInScalingTooltip": 0,
 	"skillLore": "",
-	"skillTreeConversionDamageTags": 0,
-	"speedMultiplier": 0.75,
-	"speedScaler": 2,
-	"split": 0,
+	"skillTreeConversionDamageTags": 2,
+	"speedMultiplier": 1,
+	"speedScaler": 3,
+	"split": 1,
 	"stayAtGroundHeight": 0,
 	"stopAtEdgeOfNavmesh": 0,
 	"stopAtEdgeOfNavmeshConnection": 0,
@@ -201,15 +177,44 @@
 	"targetsSelfOnly": 0,
 	"temporaryIdleBetweenUses": 0,
 	"transformHasMovementSkill": 0,
-	"turnSpeedModifier": 0,
+	"turnSpeedModifier": 3,
 	"typeOfAbilityTargetMustBeUsing": 0,
 	"useBeginUseVoiceLine": 0,
-	"useCastPoints": 1,
-	"useDelay": 0.699999988079071,
-	"useDuration": 1.7999999523162842,
+	"useCastPoints": 0,
+	"useDelay": 0.4000000059604645,
+	"useDuration": 1.5,
 	"useMinionForwardForTargeting": 0,
-	"useSound": "event:/Enemy Sounds/Johns/Chapter_Z/Orian_Osprix/sfx_combat_enemy_ability_orianfirenova",
+	"useSound": "",
 	"useWeaponSwingSound": 0,
+	"visualObject": {
+		"AbilityVisuals": {
+			"creationReferences": {
+				"locationCreatedFrom": {
+					"x": 0,
+					"y": 0
+				},
+				"oType": 0,
+				"useType": 0
+			},
+			"faceVelocityDirection": 0,
+			"locationDetector": {
+				"reachedTargetLocation": 0,
+				"startLocation": {
+					"x": 0,
+					"y": 0
+				},
+				"targetLocationOffset": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			"selfDestroyer": {
+				"autoPool": 0,
+				"failedAbility": 0,
+				"getFromParent": 0
+			}
+		}
+	},
 	"weaponRangeStretchesZCapsuleCollider": 0,
 	"weaponTypeCanOverrideBeginUseSound": 0,
 	"weaponTypeCanOverrideUseSound": 0,

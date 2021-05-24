@@ -5,10 +5,6 @@
 			"ailments": [
 				{
 					"ailment": {
-						"abilityForMutation": {
-							"abilityName": "Spirit Plague",
-							"playerAbilityID": "sp5g2"
-						},
 						"applyPrefix": 1,
 						"baseDamage": {
 							"addedDamageScaling": 4.5,
@@ -41,20 +37,20 @@
 						"description": "You take necrotic damage over time.",
 						"displayName": "Spirit Plague",
 						"duration": 3,
+						"effectOfEffectivenessOnProc": 1,
 						"expirationAbilityProcsOnDeath": 0,
 						"hitsRequiredToStop": 0,
 						"id": 59,
-						"increasedEffectReducesStackRequirement": 0,
 						"instanceName": "Spirit Plague",
-						"isCurse": 1,
-						"isSilverShroud": 0,
+						"isCurse": 0,
+						"isSilverShroud": 1,
 						"maxInstances": 1,
 						"maxSpreadPerInstance": 1,
 						"modifyingStatDisplay": 0,
 						"moreBuffEffectAgainstBosses": 0,
 						"moreBuffEffectAgainstPlayers": 0,
 						"moreDamageWhenHitByCreator": 0,
-						"mutationType": 1,
+						"mutationType": 0,
 						"offsetForExpirationAbility": {
 							"x": 0,
 							"y": 0
@@ -71,13 +67,13 @@
 						"procsAbilityWhenStacksReached": 0,
 						"roots": 0,
 						"showsInBuffUI": 1,
-						"spreadDelay": 99999,
-						"spreadIfDiedBeforeDelay": 1,
-						"spreadRange": 9,
-						"spreads": 1,
+						"spreadDelay": 9,
+						"spreadIfDiedBeforeDelay": 128,
+						"spreadRange": 1.401298464324817e-45,
+						"spreads": 0,
 						"stacksRequiredForProc": 0,
 						"stopsWhenHit": 0,
-						"tags": 16781568
+						"tags": 0
 					},
 					"chance": 1,
 					"increasedDuration": 0,
@@ -159,6 +155,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,

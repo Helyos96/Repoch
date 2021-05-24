@@ -2,9 +2,8 @@
 	"abilityName": "Necrotic Spirit",
 	"abilityPrefab": {
 		"CastAfterDuration": {
-			"ability": {
-				"abilityName": "Decaying Bomb",
-				"playerAbilityID": "im19or"
+			"abilityRef": {
+				"key": 117766858
 			},
 			"aimingMethod": 2,
 			"animationForCastPoint": 0,
@@ -62,7 +61,8 @@
 			"timePassedByPerUnitMoved": 0,
 			"useCreatorAbilityObjectConstructor": 0,
 			"useLocalMutator": 0,
-			"useParentAbilityObjectConstructor": 0
+			"useParentAbilityObjectConstructor": 0,
+			"useSummonerAbilityObjectConstructor": 0
 		},
 		"DestroyGameobjectInteraction": {
 			"quickDestroy": 0
@@ -72,7 +72,7 @@
 		},
 		"RepeatedlyDamageEnemiesWithinRadius": {
 			"alsoDamageParent": 0,
-			"alwaysShowDamageNumber": 1,
+			"alwaysShowDamageNumber": 0,
 			"baseDamageStats": {
 				"addedDamageScaling": 0.25,
 				"additionalLeech": 0,
@@ -97,22 +97,22 @@
 				"increasedStunDuration": 0,
 				"isHit": 0
 			},
-			"damageAtStart": 0,
-			"damageIncreasePerInterval": 0.699999988079071,
-			"damageInterval": 0.4000000059604645,
-			"damageModifier": 0,
-			"damageTags": 37120,
+			"damageAtStart": 1,
+			"damageIncreasePerInterval": 0.4000000059604645,
+			"damageInterval": 0,
+			"damageModifier": 5.201619899573721e-41,
+			"damageTags": 0,
 			"delay": 0,
 			"highPriorityDoT": 0,
-			"limitMaxDamageIncreaseFromInterval": 1,
-			"maxDamageIncreaseFromInterval": 15,
+			"limitMaxDamageIncreaseFromInterval": 0,
+			"maxDamageIncreaseFromInterval": 0.699999988079071,
 			"maxTargets": 0,
-			"minRadius": 0,
+			"minRadius": 6.300000190734863,
 			"offset": {
 				"x": 0,
 				"y": 0
 			},
-			"radius": 6.300000190734863,
+			"radius": 1.401298464324817e-45,
 			"undodgeable": 0
 		},
 		"SceneValueReachedListener": {
@@ -179,6 +179,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,

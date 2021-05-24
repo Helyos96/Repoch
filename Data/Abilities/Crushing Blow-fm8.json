@@ -1,22 +1,23 @@
 {
 	"abilityName": "Crushing Blow",
 	"abilityPrefab": {
-		"DamageEnemyOnHit": {
+		"RepeatedlyDamageEnemiesWithinRadius": {
+			"alsoDamageParent": 0,
 			"alwaysShowDamageNumber": 0,
 			"baseDamageStats": {
-				"addedDamageScaling": 6,
+				"addedDamageScaling": 2,
 				"additionalLeech": 0,
 				"convertAllAddedDamage": 0,
-				"critChance": 0.05000000074505806,
-				"critMultiplier": 2,
+				"critChance": 0,
+				"critMultiplier": 1,
 				"critType": 0,
 				"cullPercent": 0,
 				"damage": [
-					70,
 					0,
 					0,
 					0,
-					37,
+					0,
+					40,
 					0,
 					0
 				],
@@ -25,17 +26,25 @@
 				"freezeRate": 0,
 				"increasedStunChance": 0,
 				"increasedStunDuration": 0,
-				"isHit": 1
+				"isHit": 0
 			},
-			"canDamageSameEnemyAgain": 0,
-			"canDamageSameEnemyAgainAfterDuration": 0,
-			"damageModifier": 0,
-			"damageTags": 512,
-			"disableHitVfx": 0,
-			"guaranteedHitVfxType": 0,
-			"guarenteedHitVFXOfSpecificType": 0,
+			"damageAtStart": 0,
+			"damageIncreasePerInterval": 0.25,
+			"damageInterval": 0,
+			"damageModifier": 4.484155085839415e-44,
+			"damageTags": 0,
+			"delay": 0,
 			"highPriorityDoT": 0,
-			"hitVFXDirectionType": 2
+			"limitMaxDamageIncreaseFromInterval": 0,
+			"maxDamageIncreaseFromInterval": 0,
+			"maxTargets": 0,
+			"minRadius": 3,
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"radius": 0,
+			"undodgeable": 0
 		}
 	},
 	"abilityReplacementWeaponCondition": 0,
@@ -43,7 +52,7 @@
 	"altText": "",
 	"animation": 0,
 	"animationDurationMatchesMovement": 0,
-	"attachCastingVFXToCaster": 0,
+	"attachCastingVFXToCaster": 1,
 	"automaticallyGetTargetLocationInDirection": 0,
 	"baseMovementAnimationLength": 1,
 	"baseMovementDuration": 0,
@@ -71,7 +80,7 @@
 	"destroyCastingVFXOnAbilityUse": 0,
 	"displayAlternateDamageDescriptorInTooltip": 0,
 	"doNotLookAtTargetWhileChannelling": 0,
-	"doNotUpdateTargetLocation": 1,
+	"doNotUpdateTargetLocation": 0,
 	"doNotUpdateTargetLocationAfterDelay": 0,
 	"dontStopAtDestination": 0,
 	"dontTargetSelf": 0,
@@ -93,6 +102,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
@@ -146,8 +156,8 @@
 	"turnSpeedModifier": 0,
 	"typeOfAbilityTargetMustBeUsing": 0,
 	"useBeginUseVoiceLine": 0,
-	"useCastPoints": 0,
-	"useDelay": 1.25,
+	"useCastPoints": 1,
+	"useDelay": 1.2999999523162842,
 	"useDuration": 6,
 	"useMinionForwardForTargeting": 0,
 	"useSound": "",

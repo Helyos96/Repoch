@@ -905,7 +905,7 @@
 					"startConnectionImage": null
 				}
 			},
-			"description": "You have increased critical strike chance if you have hit an enemy with Harvest recently (past 4 seconds).",
+			"description": "You have increased critical strike chance if you have hit a cursed enemy with Harvest recently (past 4 seconds).",
 			"fadeOverlay": null,
 			"highlightGlow": null,
 			"id": 7,
@@ -1325,7 +1325,7 @@
 								"startConnectionImage": null
 							}
 						},
-						"description": "You have increased critical strike chance if you have hit an enemy with Harvest recently (past 4 seconds).",
+						"description": "You have increased critical strike chance if you have hit a cursed enemy with Harvest recently (past 4 seconds).",
 						"fadeOverlay": null,
 						"highlightGlow": null,
 						"id": 7,
@@ -2606,7 +2606,7 @@
 					"startConnectionImage": null
 				}
 			},
-			"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. The self-inflicted bleed does not scale with your stats.",
+			"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. Bleed stacks on enemies inflicted by Harvest have increased effectiveness, causing them to deal more damage (multiplicative with other modifiers).\n\nThe self-inflicted bleed does not scale with your stats.",
 			"fadeOverlay": null,
 			"highlightGlow": null,
 			"id": 18,
@@ -2934,6 +2934,15 @@
 					"value": "+100%"
 				},
 				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 20002,
+					"statName": "Bleed Effect",
+					"tags": 0,
+					"value": "+50%"
+				},
+				{
 					"downside": 1,
 					"noScaling": 0,
 					"overrideSprite": 1,
@@ -3134,7 +3143,7 @@
 											"startConnectionImage": null
 										}
 									},
-									"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. The self-inflicted bleed does not scale with your stats.",
+									"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. Bleed stacks on enemies inflicted by Harvest have increased effectiveness, causing them to deal more damage (multiplicative with other modifiers).\n\nThe self-inflicted bleed does not scale with your stats.",
 									"fadeOverlay": null,
 									"highlightGlow": null,
 									"id": 18,
@@ -3232,6 +3241,15 @@
 											"statName": "Bleed Chance",
 											"tags": 0,
 											"value": "+100%"
+										},
+										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 20002,
+											"statName": "Bleed Effect",
+											"tags": 0,
+											"value": "+50%"
 										},
 										{
 											"downside": 1,
@@ -3401,7 +3419,7 @@
 														"startConnectionImage": null
 													}
 												},
-												"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. The self-inflicted bleed does not scale with your stats.",
+												"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. Bleed stacks on enemies inflicted by Harvest have increased effectiveness, causing them to deal more damage (multiplicative with other modifiers).\n\nThe self-inflicted bleed does not scale with your stats.",
 												"fadeOverlay": null,
 												"highlightGlow": null,
 												"id": 18,
@@ -3499,6 +3517,15 @@
 														"statName": "Bleed Chance",
 														"tags": 0,
 														"value": "+100%"
+													},
+													{
+														"downside": 0,
+														"noScaling": 0,
+														"overrideSprite": 0,
+														"property": 20002,
+														"statName": "Bleed Effect",
+														"tags": 0,
+														"value": "+50%"
 													},
 													{
 														"downside": 1,
@@ -3856,6 +3883,7 @@
 			},
 			"description": "Harvest hits leave a trace on enemies, causing enemies to take increased damage and be prioritized by your minions. Traces last for 5 seconds.",
 			"fadeOverlay": null,
+			"highlightGlow": null,
 			"id": 24,
 			"isBaseLockNode": 0,
 			"isLockNode": 0,
@@ -4108,7 +4136,7 @@
 																	"startConnectionImage": null
 																}
 															},
-															"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. The self-inflicted bleed does not scale with your stats.",
+															"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. Bleed stacks on enemies inflicted by Harvest have increased effectiveness, causing them to deal more damage (multiplicative with other modifiers).\n\nThe self-inflicted bleed does not scale with your stats.",
 															"fadeOverlay": null,
 															"highlightGlow": null,
 															"id": 18,
@@ -4206,6 +4234,15 @@
 																	"statName": "Bleed Chance",
 																	"tags": 0,
 																	"value": "+100%"
+																},
+																{
+																	"downside": 0,
+																	"noScaling": 0,
+																	"overrideSprite": 0,
+																	"property": 20002,
+																	"statName": "Bleed Effect",
+																	"tags": 0,
+																	"value": "+50%"
 																},
 																{
 																	"downside": 1,
@@ -5820,7 +5857,7 @@
 								"startConnectionImage": null
 							}
 						},
-						"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. The self-inflicted bleed does not scale with your stats.",
+						"description": "When you hit an enemy with Harvest both you and the enemy are inflicted with bleed. Bleed stacks on enemies inflicted by Harvest have increased effectiveness, causing them to deal more damage (multiplicative with other modifiers).\n\nThe self-inflicted bleed does not scale with your stats.",
 						"fadeOverlay": null,
 						"highlightGlow": null,
 						"id": 18,
@@ -5918,6 +5955,15 @@
 								"statName": "Bleed Chance",
 								"tags": 0,
 								"value": "+100%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 20002,
+								"statName": "Bleed Effect",
+								"tags": 0,
+								"value": "+50%"
 							},
 							{
 								"downside": 1,

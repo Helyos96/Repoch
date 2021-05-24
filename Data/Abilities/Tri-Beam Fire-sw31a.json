@@ -2,9 +2,8 @@
 	"abilityName": "Tri-Beam Fire",
 	"abilityPrefab": {
 		"CastAfterDuration": {
-			"ability": {
-				"abilityName": "Tri-Beam Cold",
-				"playerAbilityID": "sw31a"
+			"abilityRef": {
+				"key": 704483617
 			},
 			"aimingMethod": 0,
 			"animationForCastPoint": 0,
@@ -62,10 +61,11 @@
 			"timePassedByPerUnitMoved": 0,
 			"useCreatorAbilityObjectConstructor": 0,
 			"useLocalMutator": 0,
-			"useParentAbilityObjectConstructor": 0
+			"useParentAbilityObjectConstructor": 0,
+			"useSummonerAbilityObjectConstructor": 0
 		},
 		"DamageEnemiesWithBeam": {
-			"alwaysShowDamageNumber": 1,
+			"alwaysShowDamageNumber": 0,
 			"baseDamageStats": {
 				"addedDamageScaling": 1,
 				"additionalLeech": 0,
@@ -90,8 +90,8 @@
 				"increasedStunDuration": 0,
 				"isHit": 0
 			},
-			"damageAtStart": 0,
-			"damageInterval": 0.15000000596046448,
+			"damageAtStart": 154,
+			"damageInterval": 1.401298464324817e-45,
 			"damageModifier": 0,
 			"damageTags": 0,
 			"highPriorityDoT": 0
@@ -183,6 +183,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,

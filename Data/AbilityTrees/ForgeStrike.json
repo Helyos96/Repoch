@@ -1144,6 +1144,10 @@
 			"requirements": [
 				{
 					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Detonate Ground",
+							"playerAbilityID": "dg3nd"
+						},
 						"altText": "",
 						"animations": [
 							null
@@ -1367,6 +1371,10 @@
 			"requirements": [
 				{
 					"node": {
+						"abilityGrantedByNode": {
+							"abilityName": "Detonate Ground",
+							"playerAbilityID": "dg3nd"
+						},
 						"altText": "",
 						"animations": [
 							null
@@ -2074,7 +2082,7 @@
 								"startConnectionImage": null
 							}
 						},
-						"description": "Converts Forge Strike into a sword that falls from the sky instead. Forge Strike has more attack speed (multiplicative with other modifiers), cannot crit, and critical strike multiplier from the tree is converted to bleed chance.\n\nConverts to a polearm if you also have the {Spear Forge} node.",
+						"description": "Converts Forge Strike into a sword that falls from the sky instead. Forge Strike has more attack speed (multiplicative with other modifiers), cannot crit, and critical strike multiplier from the tree is converted to bleed effect.\n\nConverts to a polearm if you also have the {Spear Forge} node.",
 						"fadeOverlay": null,
 						"highlightGlow": null,
 						"id": 6,
@@ -2104,7 +2112,7 @@
 											"startConnectionImage": null
 										}
 									},
-									"description": "Improves Forge Strike's base critical chance, but Forge Strike can no longer summon {Forged Weapons}.",
+									"description": "Forge Strike has a higher base critical chance and inflicts bleeding on hit, but can no longer summon {Forged Weapons}.",
 									"fadeOverlay": null,
 									"highlightGlow": null,
 									"id": 5,
@@ -2210,6 +2218,15 @@
 											"value": "+6%"
 										},
 										{
+											"downside": 0,
+											"noScaling": 0,
+											"overrideSprite": 0,
+											"property": 10002,
+											"statName": "Bleed Chance",
+											"tags": 0,
+											"value": "+100%"
+										},
+										{
 											"downside": 1,
 											"noScaling": 0,
 											"overrideSprite": 1,
@@ -2247,7 +2264,7 @@
 								"noScaling": 0,
 								"overrideSprite": 0,
 								"property": 10002,
-								"statName": "Crit Multiplier -> Bleed Chance",
+								"statName": "Crit Multiplier -> Bleed Effect",
 								"tags": 0,
 								"value": ""
 							},
@@ -2509,7 +2526,7 @@
 					"startConnectionImage": null
 				}
 			},
-			"description": "You are now deal more fire damage for 4 seconds as well. ",
+			"description": "You deal more fire damage (multiplicative with other modifiers) if you have cast Forge Strike recently (last 4 seconds).",
 			"fadeOverlay": null,
 			"highlightGlow": null,
 			"id": 30,
@@ -2700,7 +2717,7 @@
 					"noScaling": 0,
 					"overrideSprite": 0,
 					"property": 5037,
-					"statName": "Fire Damage",
+					"statName": "Global Fire Damage",
 					"tags": 0,
 					"value": "25%"
 				}
@@ -2888,7 +2905,7 @@
 					"startConnectionImage": null
 				}
 			},
-			"description": "Improves Forge Strike's base critical chance, but Forge Strike can no longer summon {Forged Weapons}.",
+			"description": "Forge Strike has a higher base critical chance and inflicts bleeding on hit, but can no longer summon {Forged Weapons}.",
 			"fadeOverlay": null,
 			"highlightGlow": null,
 			"id": 5,
@@ -2994,6 +3011,15 @@
 					"value": "+6%"
 				},
 				{
+					"downside": 0,
+					"noScaling": 0,
+					"overrideSprite": 0,
+					"property": 10002,
+					"statName": "Bleed Chance",
+					"tags": 0,
+					"value": "+100%"
+				},
+				{
 					"downside": 1,
 					"noScaling": 0,
 					"overrideSprite": 1,
@@ -3017,7 +3043,7 @@
 					"startConnectionImage": null
 				}
 			},
-			"description": "Converts Forge Strike into a sword that falls from the sky instead. Forge Strike has more attack speed (multiplicative with other modifiers), cannot crit, and critical strike multiplier from the tree is converted to bleed chance.\n\nConverts to a polearm if you also have the {Spear Forge} node.",
+			"description": "Converts Forge Strike into a sword that falls from the sky instead. Forge Strike has more attack speed (multiplicative with other modifiers), cannot crit, and critical strike multiplier from the tree is converted to bleed effect.\n\nConverts to a polearm if you also have the {Spear Forge} node.",
 			"fadeOverlay": null,
 			"highlightGlow": null,
 			"id": 6,
@@ -3047,7 +3073,7 @@
 								"startConnectionImage": null
 							}
 						},
-						"description": "Improves Forge Strike's base critical chance, but Forge Strike can no longer summon {Forged Weapons}.",
+						"description": "Forge Strike has a higher base critical chance and inflicts bleeding on hit, but can no longer summon {Forged Weapons}.",
 						"fadeOverlay": null,
 						"highlightGlow": null,
 						"id": 5,
@@ -3153,6 +3179,15 @@
 								"value": "+6%"
 							},
 							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Bleed Chance",
+								"tags": 0,
+								"value": "+100%"
+							},
+							{
 								"downside": 1,
 								"noScaling": 0,
 								"overrideSprite": 1,
@@ -3190,7 +3225,7 @@
 					"noScaling": 0,
 					"overrideSprite": 0,
 					"property": 10002,
-					"statName": "Crit Multiplier -> Bleed Chance",
+					"statName": "Crit Multiplier -> Bleed Effect",
 					"tags": 0,
 					"value": ""
 				},
@@ -3248,7 +3283,7 @@
 								"startConnectionImage": null
 							}
 						},
-						"description": "Improves Forge Strike's base critical chance, but Forge Strike can no longer summon {Forged Weapons}.",
+						"description": "Forge Strike has a higher base critical chance and inflicts bleeding on hit, but can no longer summon {Forged Weapons}.",
 						"fadeOverlay": null,
 						"highlightGlow": null,
 						"id": 5,
@@ -3352,6 +3387,15 @@
 								"statName": "Base Crit Chance",
 								"tags": 0,
 								"value": "+6%"
+							},
+							{
+								"downside": 0,
+								"noScaling": 0,
+								"overrideSprite": 0,
+								"property": 10002,
+								"statName": "Bleed Chance",
+								"tags": 0,
+								"value": "+100%"
 							},
 							{
 								"downside": 1,
@@ -3875,6 +3919,10 @@
 			]
 		},
 		{
+			"abilityGrantedByNode": {
+				"abilityName": "Detonate Ground",
+				"playerAbilityID": "dg3nd"
+			},
 			"altText": "",
 			"animations": [
 				null

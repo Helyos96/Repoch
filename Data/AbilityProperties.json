@@ -728,6 +728,17 @@
 					"lessIsBetter": 0,
 					"propertyName": "Maximum Skeletons",
 					"roundAddedToInt": 1
+				},
+				{
+					"altText": "Only affects the Summon Skeleton skill",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 1,
+					"lessIsBetter": 0,
+					"propertyName": "chance when one of your Skeletons dies to resummon a new one after 3 seconds",
+					"roundAddedToInt": 0
 				}
 			]
 		},
@@ -787,6 +798,17 @@
 					"dontDisplayPlus": 1,
 					"lessIsBetter": 0,
 					"propertyName": "Increased spell damage per active Skeleton Mage",
+					"roundAddedToInt": 0
+				},
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 1,
+					"lessIsBetter": 0,
+					"propertyName": "Increased Skeleton Mage Damage",
 					"roundAddedToInt": 0
 				}
 			]
@@ -1062,7 +1084,7 @@
 					"dontDisplayPlus": 0,
 					"lessIsBetter": 0,
 					"propertyName": "Melee cold damage in Werebear Form",
-					"roundAddedToInt": 0
+					"roundAddedToInt": 1
 				},
 				{
 					"altText": "",
@@ -1139,6 +1161,17 @@
 					"lessIsBetter": 0,
 					"propertyName": "Critical Strike Chance with Swipe",
 					"roundAddedToInt": 0
+				},
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 0,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 0,
+					"lessIsBetter": 0,
+					"propertyName": "Melee Lightning Damage with Swipe (3 second cooldown)",
+					"roundAddedToInt": 1
 				}
 			]
 		},
@@ -1218,20 +1251,7 @@
 			]
 		},
 		{
-			"abilityID": 125,
-			"properties": [
-				{
-					"altText": "",
-					"displayAddedAsPercentage": 1,
-					"displayAddedAsTenthOfValue": 0,
-					"displayAsAddedTo": 0,
-					"displayAsPercentageOf": 0,
-					"dontDisplayPlus": 1,
-					"lessIsBetter": 0,
-					"propertyName": "Increased Skeleton Mage Damage",
-					"roundAddedToInt": 0
-				}
-			]
+			"abilityID": 0
 		},
 		{
 			"abilityID": 270,
@@ -1267,6 +1287,17 @@
 					"dontDisplayPlus": 0,
 					"lessIsBetter": 0,
 					"propertyName": "Lightning damage if Tempest Strike has Lightning Strike recently",
+					"roundAddedToInt": 1
+				},
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 0,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 0,
+					"lessIsBetter": 0,
+					"propertyName": "Adaptive Spell Damage with Tempest Strike",
 					"roundAddedToInt": 1
 				}
 			]
@@ -1497,6 +1528,17 @@
 					"lessIsBetter": 0,
 					"propertyName": "Increased Critical Strike chance with Flurry",
 					"roundAddedToInt": 0
+				},
+				{
+					"altText": "Additional arrows cannot hit the same target as the first",
+					"displayAddedAsPercentage": 0,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 0,
+					"lessIsBetter": 0,
+					"propertyName": "Arrows with Flurry while using a Bow",
+					"roundAddedToInt": 1
 				}
 			]
 		},
@@ -1522,7 +1564,7 @@
 					"displayAsPercentageOf": 0,
 					"dontDisplayPlus": 1,
 					"lessIsBetter": 0,
-					"propertyName": "Increased Cooldown Recovery Speed with Shift",
+					"propertyName": "Increased Cooldown Recovery Speed for Shift",
 					"roundAddedToInt": 0
 				},
 				{
@@ -1572,7 +1614,7 @@
 					"dontDisplayPlus": 0,
 					"lessIsBetter": 0,
 					"propertyName": "Bow physical damage for Ballistae",
-					"roundAddedToInt": 0
+					"roundAddedToInt": 1
 				}
 			]
 		},
@@ -2125,6 +2167,173 @@
 					"lessIsBetter": 0,
 					"propertyName": "Earthquake Converted To Fire",
 					"roundAddedToInt": 1
+				}
+			]
+		},
+		{
+			"abilityID": 8,
+			"properties": [
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 0,
+					"lessIsBetter": 0,
+					"propertyName": "Chance to Bleed on Hit for Squirrels",
+					"roundAddedToInt": 0
+				},
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 0,
+					"lessIsBetter": 0,
+					"propertyName": "Chance to Shred Physical Resistance on Hit for Squirrels",
+					"roundAddedToInt": 0
+				},
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 0,
+					"lessIsBetter": 0,
+					"propertyName": "Chance to Inflict Rabies on Hit for Squirrels",
+					"roundAddedToInt": 0
+				},
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 1,
+					"lessIsBetter": 0,
+					"propertyName": "more Hit Damage for Squirrels against Bosses and Rare Enemies",
+					"roundAddedToInt": 0
+				}
+			]
+		},
+		{
+			"abilityID": 510,
+			"properties": [
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 0,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 0,
+					"lessIsBetter": 0,
+					"propertyName": "Adaptive Spell Damage for Storm Crows",
+					"roundAddedToInt": 1
+				}
+			]
+		},
+		{
+			"abilityID": 408,
+			"properties": [
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 1,
+					"lessIsBetter": 0,
+					"propertyName": "increased Volatile Zombie Movement Speed",
+					"roundAddedToInt": 0
+				},
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 1,
+					"lessIsBetter": 0,
+					"propertyName": "increased Volatile Zombie Damage",
+					"roundAddedToInt": 0
+				},
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 1,
+					"lessIsBetter": 0,
+					"propertyName": "increased Volatile Zombie Explosion Area",
+					"roundAddedToInt": 0
+				}
+			]
+		},
+		{
+			"abilityID": 17,
+			"properties": [
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 1,
+					"lessIsBetter": 0,
+					"propertyName": "Increased Cooldown Recovery Speed for Fury Leap",
+					"roundAddedToInt": 0
+				}
+			]
+		},
+		{
+			"abilityID": 179,
+			"properties": [
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 1,
+					"lessIsBetter": 0,
+					"propertyName": "Increased Cooldown Recovery Speed for Teleport",
+					"roundAddedToInt": 0
+				}
+			]
+		},
+		{
+			"abilityID": 154,
+			"properties": [
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 1,
+					"lessIsBetter": 0,
+					"propertyName": "Increased Cooldown Recovery Speed for Lunge",
+					"roundAddedToInt": 0
+				}
+			]
+		},
+		{
+			"abilityID": 504,
+			"properties": [
+				{
+					"altText": "",
+					"displayAddedAsPercentage": 1,
+					"displayAddedAsTenthOfValue": 0,
+					"displayAsAddedTo": 0,
+					"displayAsPercentageOf": 0,
+					"dontDisplayPlus": 1,
+					"lessIsBetter": 0,
+					"propertyName": "Increased Cooldown Recovery Speed for Surge",
+					"roundAddedToInt": 0
 				}
 			]
 		}

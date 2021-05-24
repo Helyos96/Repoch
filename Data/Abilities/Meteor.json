@@ -1,45 +1,94 @@
 {
 	"abilityName": "Meteor",
 	"abilityPrefab": {
-		"DamageEnemyOnHit": {
-			"alwaysShowDamageNumber": 0,
-			"baseDamageStats": {
-				"addedDamageScaling": 5,
-				"additionalLeech": 0,
-				"convertAllAddedDamage": 0,
-				"critChance": 0.05000000074505806,
-				"critMultiplier": 2,
-				"critType": 0,
-				"cullPercent": 0,
-				"damage": [
-					100,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0
-				],
-				"damageTypeToConvertTo": 0,
-				"flatCull": 0,
-				"freezeRate": 0,
-				"increasedStunChance": 0,
-				"increasedStunDuration": 0,
-				"isHit": 1
-			},
-			"canDamageSameEnemyAgain": 0,
-			"canDamageSameEnemyAgainAfterDuration": 0,
-			"damageModifier": 0,
-			"damageTags": 33024,
-			"disableHitVfx": 0,
-			"guaranteedHitVfxType": 0,
-			"guarenteedHitVFXOfSpecificType": 0,
-			"highPriorityDoT": 0,
-			"hitVFXDirectionType": 0
-		},
-		"MoveCreatorToPositionOnDeath": {
-			"dontMoveCreatorIfDeath": 0,
-			"makeActorWait": 1
+		"RepeatedlyApplyAilmentsInRadius": {
+			"ailments": [
+				{
+					"ailment": {
+						"applyPrefix": 0,
+						"baseDamage": {
+							"addedDamageScaling": 1,
+							"additionalLeech": 0,
+							"convertAllAddedDamage": 0,
+							"critChance": 0,
+							"critMultiplier": 1,
+							"critType": 0,
+							"cullPercent": 0,
+							"damage": [
+								0,
+								0,
+								0,
+								0,
+								0,
+								0,
+								0
+							],
+							"damageTypeToConvertTo": 0,
+							"flatCull": 0,
+							"freezeRate": 0,
+							"increasedStunChance": 0,
+							"increasedStunDuration": 0,
+							"isHit": 0
+						},
+						"blinds": 0,
+						"dealsAllDamageAtEnd": 0,
+						"dealsDamage": 0,
+						"dealsDamageWhenHit": 0,
+						"description": "",
+						"displayName": "Blind",
+						"duration": 4,
+						"effectOfEffectivenessOnProc": -1090519040,
+						"expirationAbilityProcsOnDeath": 0,
+						"hitsRequiredToStop": 0,
+						"id": 14,
+						"instanceName": "Blindness",
+						"isCurse": 0,
+						"isSilverShroud": 0,
+						"maxInstances": 1,
+						"maxSpreadPerInstance": 1,
+						"modifyingStatDisplay": 0,
+						"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+						"moreBuffEffectAgainstPlayers": 5.605193857299268e-45,
+						"moreDamageWhenHitByCreator": 0,
+						"mutationType": 0,
+						"offsetForExpirationAbility": {
+							"x": 0,
+							"y": 0
+						},
+						"offsetForStackProccedAbility": {
+							"x": 0,
+							"y": 0
+						},
+						"onlyPlayExpirationVfxOnAbilityProc": 0,
+						"overrideAbilitySource": 0,
+						"playExpirationVfxOnDeath": 0,
+						"positive": 0,
+						"procsAbilityOnExpiration": 0,
+						"procsAbilityWhenStacksReached": 0,
+						"roots": 0,
+						"showsInBuffUI": 0,
+						"spreadDelay": 0,
+						"spreadIfDiedBeforeDelay": 0,
+						"spreadRange": 0,
+						"spreads": 0,
+						"stacksRequiredForProc": 0,
+						"stopsWhenHit": 0,
+						"tags": 0
+					},
+					"chance": 1,
+					"increasedDuration": 0,
+					"increasedEffect": 0,
+					"rolledSeparately": 0
+				}
+			],
+			"applicationInterval": 5,
+			"applyOnStart": 1,
+			"applyOutsideRadiusInstead": 0,
+			"delay": 0,
+			"radius": 4,
+			"scaleRadiusToMatchXScale": 0,
+			"targetType": 0,
+			"useTrailTracker": 0
 		}
 	},
 	"abilityReplacementWeaponCondition": 0,
@@ -97,8 +146,9 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
-	"minionsUseAbility": 1,
+	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
 	"moveOrAttackCompatible": 0,
 	"moveOrAttackFallback": 0,
@@ -141,7 +191,7 @@
 	"stopRangeAffectedByWeaponRange": 0,
 	"stopWhenOutOfMana": 0,
 	"subtractStopRangeForManaCostPerDistance": 0,
-	"tags": 264,
+	"tags": 131328,
 	"targetMustBeUsingAbility": 0,
 	"targetsAllies": 0,
 	"targetsSelfOnly": 0,
@@ -149,10 +199,6 @@
 	"transformHasMovementSkill": 0,
 	"turnSpeedModifier": 0,
 	"typeOfAbilityTargetMustBeUsing": 0,
-	"typeOfMinionThatUsesAbility": {
-		"abilityName": "Summon Wolf",
-		"playerAbilityID": "wo42"
-	},
 	"useBeginUseVoiceLine": 0,
 	"useCastPoints": 1,
 	"useDelay": 0.5,

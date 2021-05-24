@@ -33,10 +33,10 @@
 			"description": "Deals fire damage over time",
 			"displayName": "Ignite",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 1,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "An Ignite",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -69,7 +69,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 1,
@@ -142,10 +142,10 @@
 			"description": "Deals physical damage over time",
 			"displayName": "Bleed",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 2,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Bleeding",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -178,7 +178,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 2,
@@ -245,72 +245,40 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						-0.11999999731779099
-					],
-					"property": 2,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						-0.11999999731779099
-					],
-					"property": 3,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						-0.11999999731779099
-					],
-					"property": 9,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Reduces movement speed, attack speed, and cast speed.",
 			"displayName": "Chill",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": -1107967345,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 3,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Chill",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 3,
-			"maxSpreadPerInstance": 0,
+			"maxSpreadPerInstance": 1,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": -0.5,
+			"moreBuffEffectAgainstBosses": 4.203895392974451e-45,
+			"moreBuffEffectAgainstPlayers": 2.802596928649634e-45,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
-				"x": 0,
+				"x": 1.401298464324817e-45,
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
-				"y": 0
+				"x": 1.401298464324817e-45,
+				"y": 1.2611686178923354e-44
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
 			"overrideAbilitySource": 0,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 0,
+			"procsAbilityWhenStacksReached": 3,
 			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
@@ -376,10 +344,10 @@
 			"description": "",
 			"displayName": "Possess",
 			"duration": 1.5,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 4,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Possess",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -464,7 +432,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4352,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 4,
@@ -515,40 +483,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.10000000149011612,
-					"increasedValue": 0,
-					"property": 109,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0.05000000074505806,
-					"increasedValue": 0,
-					"property": 80,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Reduces elemental resistance\n\nIncreases chance to be stunned",
 			"displayName": "Shock",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 80,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 5,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Shock",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 20,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": -0.6000000238418579,
-			"moreBuffEffectAgainstPlayers": -0.6000000238418579,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
+			"moreBuffEffectAgainstPlayers": 1.5274153261140506e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -556,7 +508,7 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
+				"x": -0.6000000238418579,
 				"y": 0
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
@@ -567,7 +519,7 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.10000000149011612,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
@@ -640,36 +592,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						-0.20000000298023224
-					],
-					"property": 9,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Reduces movement speed",
 			"displayName": "Slow",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": -1102263091,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 6,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Slow",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 3,
-			"maxSpreadPerInstance": 0,
+			"maxSpreadPerInstance": 1,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": -0.5,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.2611686178923354e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -753,33 +693,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.05000000074505806,
-					"increasedValue": 0,
-					"property": 83,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 1,
 			"dealsDamageWhenHit": 0,
-			"description": "Deals poison damage over time and increases poison damage taken",
+			"description": "Deals poison damage over time and reduces poison resistance",
 			"displayName": "Poison",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": -1088841318,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 7,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Poison",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 0,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": -0.6000000238418579,
-			"moreBuffEffectAgainstPlayers": -0.6000000238418579,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.1630777253895982e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -795,16 +726,16 @@
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 0,
+			"procsAbilityWhenStacksReached": 154,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.05000000074505806,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 7,
@@ -879,33 +810,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 100,
-					"increasedValue": 0,
-					"property": 77,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
-			"description": "Reduces armour, increasing physical damage taken.",
+			"description": "Reduces armour, increasing damage taken from hits.",
 			"displayName": "Shred Armour",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 8,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Armour Shred",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 0,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 1,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.0789998175301091e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -924,7 +846,7 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 100,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
@@ -981,53 +903,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						-0.15000000596046448
-					],
-					"property": 2,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						-0.15000000596046448
-					],
-					"property": 3,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0.15000000596046448,
-					"increasedValue": 0,
-					"property": 71,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 1,
 			"dealsDamageWhenHit": 0,
 			"description": "",
 			"displayName": "Time Rot",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": -1105618534,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 9,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Time Rot",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
-			"maxSpreadPerInstance": 0,
+			"maxSpreadPerInstance": 1,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 4.203895392974451e-45,
+			"moreBuffEffectAgainstPlayers": 2.802596928649634e-45,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -1035,15 +928,15 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
-				"y": 0
+				"x": 1.401298464324817e-45,
+				"y": 9.949219096706201e-44
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
 			"overrideAbilitySource": 0,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 0,
+			"procsAbilityWhenStacksReached": 3,
 			"roots": 0,
 			"showsInBuffUI": 0,
 			"spreadDelay": 0,
@@ -1052,7 +945,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 9,
@@ -1127,16 +1020,16 @@
 				"isHit": 1
 			},
 			"blinds": 0,
-			"dealsAllDamageAtEnd": 1,
+			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 1,
-			"dealsDamageWhenHit": 0,
+			"dealsDamageWhenHit": 1,
 			"description": "",
 			"displayName": "Future Strike",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 10,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "A Future Strike",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -1264,10 +1157,10 @@
 			"description": "",
 			"displayName": "Laceration",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 11,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Laceration",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -1300,7 +1193,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4608,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 11,
@@ -1373,10 +1266,10 @@
 			"description": "",
 			"displayName": "Abyssal Decay",
 			"duration": 6,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 1,
 			"id": 12,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Abyssal Decay",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -1396,7 +1289,7 @@
 				"y": 0
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
-			"overrideAbilitySource": 0,
+			"overrideAbilitySource": 1,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
@@ -1408,8 +1301,8 @@
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
-			"stopsWhenHit": 1,
-			"tags": 4352,
+			"stopsWhenHit": 0,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 12,
@@ -1490,10 +1383,10 @@
 			"description": "",
 			"displayName": "Abyssal Decay",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 1,
 			"id": 13,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Abyssal Decay",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -1513,7 +1406,7 @@
 				"y": 0
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
-			"overrideAbilitySource": 0,
+			"overrideAbilitySource": 1,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
@@ -1525,8 +1418,8 @@
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
-			"stopsWhenHit": 1,
-			"tags": 4352,
+			"stopsWhenHit": 0,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 13,
@@ -1608,37 +1501,25 @@
 				"increasedStunDuration": 0,
 				"isHit": 0
 			},
-			"blinds": 1,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						-0.5
-					],
-					"property": 4,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
+			"blinds": 0,
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "",
 			"displayName": "Blind",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": -1090519040,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 14,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Blindness",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
-			"maxSpreadPerInstance": 0,
+			"maxSpreadPerInstance": 1,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 5.605193857299268e-45,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -1713,37 +1594,25 @@
 				"increasedStunDuration": 0,
 				"isHit": 0
 			},
-			"blinds": 1,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						-0.5
-					],
-					"property": 4,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
+			"blinds": 0,
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 1,
 			"dealsDamageWhenHit": 0,
 			"description": "",
 			"displayName": "Blinding Poison",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": -1090519040,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 15,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Blinding Poison",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
-			"maxSpreadPerInstance": 0,
+			"maxSpreadPerInstance": 1,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 5.605193857299268e-45,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -1768,7 +1637,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 15,
@@ -1827,35 +1696,23 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						-0.05999999865889549
-					],
-					"property": 0,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "You deal 6% less damage (multiplicative with other modifiers)",
 			"displayName": "Frailty",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": -1116355953,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 16,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Frailty",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 3,
-			"maxSpreadPerInstance": 0,
+			"maxSpreadPerInstance": 1,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
@@ -1948,33 +1805,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": -0.25,
-					"increasedValue": 0,
-					"property": 30,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Your resistances are 25% lower",
 			"displayName": "Marked For Death",
 			"duration": 8,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 17,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Mark For Death",
-			"isCurse": 1,
+			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 4.203895392974451e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -1993,7 +1841,7 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": -0.25,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
@@ -2064,15 +1912,15 @@
 			"description": "",
 			"displayName": "Plague",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 18,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "A Plague",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
-			"maxSpreadPerInstance": 0,
+			"maxSpreadPerInstance": 1,
 			"modifyingStatDisplay": 0,
 			"moreBuffEffectAgainstBosses": 0,
 			"moreBuffEffectAgainstPlayers": 0,
@@ -2094,13 +1942,13 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 0,
-			"spreadDelay": 0.6000000238418579,
-			"spreadIfDiedBeforeDelay": 1,
-			"spreadRange": 6,
-			"spreads": 1,
+			"spreadDelay": 6,
+			"spreadIfDiedBeforeDelay": 154,
+			"spreadRange": 1.401298464324817e-45,
+			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 18,
@@ -2157,10 +2005,10 @@
 			"description": "",
 			"displayName": "Ravage",
 			"duration": 6,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 19,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Ravage",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -2193,7 +2041,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4352,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 19,
@@ -2244,36 +2092,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						-0.9300000071525574
-					],
-					"property": 9,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "93% less movement speed",
 			"displayName": "Root",
 			"duration": 0.699999988079071,
+			"effectOfEffectivenessOnProc": -1083304837,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 20,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "A Root",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
-			"maxSpreadPerInstance": 0,
+			"maxSpreadPerInstance": 1,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.2611686178923354e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -2333,10 +2169,10 @@
 			"description": "",
 			"displayName": "Fear",
 			"duration": 5,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 21,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Fear",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -2428,32 +2264,23 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.10000000149011612,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "",
 			"displayName": "Damage Boost",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 22,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Damage Boost",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 10,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
@@ -2474,7 +2301,7 @@
 			"roots": 0,
 			"showsInBuffUI": 0,
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
+			"spreadIfDiedBeforeDelay": 205,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
@@ -2530,33 +2357,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": -200,
-					"increasedValue": 0,
-					"property": 68,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 1,
 			"dealsDamageWhenHit": 0,
 			"description": "Deals cold damage over time and reduces freeze avoidance",
 			"displayName": "Frostbite",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 23,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Frostbite",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 0,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 9.528829557408756e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -2575,13 +2393,13 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": -200,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 23,
@@ -2646,15 +2464,15 @@
 			"description": "",
 			"displayName": "Spreading Flames",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 24,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Spreading Flames",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
-			"maxSpreadPerInstance": 0,
+			"maxSpreadPerInstance": 1,
 			"modifyingStatDisplay": 0,
 			"moreBuffEffectAgainstBosses": 0,
 			"moreBuffEffectAgainstPlayers": 0,
@@ -2676,13 +2494,13 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 0,
-			"spreadDelay": 0.6000000238418579,
-			"spreadIfDiedBeforeDelay": 1,
-			"spreadRange": 5,
-			"spreads": 1,
+			"spreadDelay": 5,
+			"spreadIfDiedBeforeDelay": 154,
+			"spreadRange": 1.401298464324817e-45,
+			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 24,
@@ -2731,10 +2549,6 @@
 			}
 		},
 		{
-			"abilityToProcWhenStacksReached": {
-				"abilityName": "Fireball",
-				"playerAbilityID": ""
-			},
 			"applyPrefix": 0,
 			"baseDamage": {
 				"addedDamageScaling": 1,
@@ -2767,10 +2581,10 @@
 			"description": "",
 			"displayName": "Fireball Explosion Proc Ailment",
 			"duration": 60,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 25,
-			"increasedEffectReducesStackRequirement": 1,
 			"instanceName": "Fireball Explosion Proc Ailment",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -2786,22 +2600,22 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
-				"y": 0
+				"x": 7.006492321624085e-45,
+				"y": 1.2000000476837158
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
 			"overrideAbilitySource": 0,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 1,
+			"procsAbilityWhenStacksReached": 2,
 			"roots": 0,
 			"showsInBuffUI": 0,
 			"spreadDelay": 0,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
-			"stacksRequiredForProc": 5,
+			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
 			"tags": 0
 		},
@@ -2832,46 +2646,23 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.15000000596046448,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 16
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0.15000000596046448,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 512
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": -0.10000000149011612,
-					"property": 71,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases Void and Melee damage. Reduces received stun duration.",
 			"displayName": "Void Essence",
 			"duration": 7,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 26,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Void Essence",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 3,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
+			"moreBuffEffectAgainstBosses": 4.203895392974451e-45,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
@@ -2880,7 +2671,7 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
+				"x": 9.949219096706201e-44,
 				"y": 0
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
@@ -2892,12 +2683,12 @@
 			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
+			"spreadIfDiedBeforeDelay": 154,
+			"spreadRange": 2.2420775429197073e-44,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 26,
@@ -2922,10 +2713,6 @@
 			}
 		},
 		{
-			"abilityToProcWhenStacksReached": {
-				"abilityName": "Holy Flame Burst",
-				"playerAbilityID": ""
-			},
 			"applyPrefix": 0,
 			"baseDamage": {
 				"addedDamageScaling": 1,
@@ -2958,10 +2745,10 @@
 			"description": "",
 			"displayName": "Holy Aura Flame Burst Proc Ailment",
 			"duration": 20,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 27,
-			"increasedEffectReducesStackRequirement": 1,
 			"instanceName": "Holy Aura Flame Burst Proc Ailment",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -2977,22 +2764,22 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
-				"y": 0
+				"x": 1.1210387714598537e-44,
+				"y": 1.2000000476837158
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
 			"overrideAbilitySource": 0,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 1,
+			"procsAbilityWhenStacksReached": 2,
 			"roots": 0,
 			"showsInBuffUI": 0,
 			"spreadDelay": 0,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
-			"stacksRequiredForProc": 8,
+			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
 			"tags": 0
 		},
@@ -3023,33 +2810,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.05000000074505806,
-					"increasedValue": 0,
-					"property": 83,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Reduces Poison Resistance",
 			"displayName": "Shred Poison Resistance",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": -1088841318,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 28,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Poison Resistance Shred",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 20,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": -0.6000000238418579,
-			"moreBuffEffectAgainstPlayers": -0.6000000238418579,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.1630777253895982e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -3065,10 +2843,10 @@
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 0,
+			"procsAbilityWhenStacksReached": 154,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.05000000074505806,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
@@ -3125,33 +2903,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.05000000074505806,
-					"increasedValue": 0,
-					"property": 82,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Reduces Necrotic Resistance",
 			"displayName": "Shred Necrotic Resistance",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": -1088841318,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 29,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Necrotic Resistance Shred",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 20,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": -0.6000000238418579,
-			"moreBuffEffectAgainstPlayers": -0.6000000238418579,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.14906474074635e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -3167,10 +2936,10 @@
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 0,
+			"procsAbilityWhenStacksReached": 154,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.05000000074505806,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
@@ -3227,40 +2996,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": -100,
-					"increasedValue": 0,
-					"property": 10,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0.10000000149011612,
-					"property": 6,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "",
 			"displayName": "Stagger",
 			"duration": 10,
+			"effectOfEffectivenessOnProc": 6,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 31,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Stagger",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
+			"moreBuffEffectAgainstPlayers": 1.401298464324817e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -3279,7 +3032,7 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 0,
-			"spreadDelay": 0,
+			"spreadDelay": -100,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
@@ -3336,47 +3089,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.10000000149011612,
-					"property": 10,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0.10000000149011612,
-					"increasedValue": 0,
-					"property": 44,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": -0.10000000149011612,
-					"property": 71,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases Healing, Armor and Protections. Reduces received stun duration.",
 			"displayName": "Divine Essence",
 			"duration": 10,
+			"effectOfEffectivenessOnProc": 44,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 32,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Divine Essence",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 3,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 4.203895392974451e-45,
+			"moreBuffEffectAgainstPlayers": 1.401298464324817e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -3384,7 +3114,7 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
+				"x": 9.949219096706201e-44,
 				"y": 0
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
@@ -3396,12 +3126,12 @@
 			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
+			"spreadIfDiedBeforeDelay": 205,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 32,
@@ -3452,33 +3182,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.30000001192092896,
-					"property": 9,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases movement speed",
 			"displayName": "Haste",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 33,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Haste",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.2611686178923354e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -3498,12 +3219,12 @@
 			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
+			"spreadIfDiedBeforeDelay": 154,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 33,
@@ -3570,40 +3291,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.20000000298023224,
-					"property": 2,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0.20000000298023224,
-					"property": 3,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases attack and cast speed",
 			"displayName": "Frenzy",
 			"duration": 1,
+			"effectOfEffectivenessOnProc": 3,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 34,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Frenzy",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
+			"moreBuffEffectAgainstPlayers": 2.802596928649634e-45,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -3623,12 +3328,12 @@
 			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
+			"spreadIfDiedBeforeDelay": 205,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 34,
@@ -3703,33 +3408,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.009999999776482582,
-					"property": 9,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "",
 			"displayName": "Swiftness",
 			"duration": 30,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 35,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Swiftness",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 10,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.2611686178923354e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -3749,18 +3445,14 @@
 			"roots": 0,
 			"showsInBuffUI": 0,
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
+			"spreadIfDiedBeforeDelay": 10,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4352
+			"tags": 0
 		},
 		{
-			"abilityToProcWhenStacksReached": {
-				"abilityName": "Poison Nova",
-				"playerAbilityID": "pn32"
-			},
 			"applyPrefix": 0,
 			"baseDamage": {
 				"addedDamageScaling": 1,
@@ -3793,10 +3485,10 @@
 			"description": "",
 			"displayName": "Poison Explosion Proc Ailment",
 			"duration": 60,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 36,
-			"increasedEffectReducesStackRequirement": 1,
 			"instanceName": "Poison Explosion Proc Ailment",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -3812,30 +3504,26 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
-				"y": 0
+				"x": 7.006492321624085e-45,
+				"y": 1.2000000476837158
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
 			"overrideAbilitySource": 0,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 1,
+			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 0,
 			"spreadDelay": 0,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
-			"stacksRequiredForProc": 5,
+			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
 			"tags": 0
 		},
 		{
-			"abilityToProcWhenStacksReached": {
-				"abilityName": "Fissure",
-				"playerAbilityID": "fs47re"
-			},
 			"applyPrefix": 0,
 			"baseDamage": {
 				"addedDamageScaling": 1,
@@ -3868,10 +3556,10 @@
 			"description": "",
 			"displayName": "Avalanche Fissure Proc Ailment",
 			"duration": 60,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 37,
-			"increasedEffectReducesStackRequirement": 1,
 			"instanceName": "Avalanche Fissure Proc Ailment",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -3887,22 +3575,22 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
-				"y": 0
+				"x": 7.006492321624085e-45,
+				"y": 1.2000000476837158
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
 			"overrideAbilitySource": 0,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 1,
+			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 0,
 			"spreadDelay": 0,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
-			"stacksRequiredForProc": 5,
+			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
 			"tags": 0
 		},
@@ -3933,39 +3621,23 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 3,
-					"increasedValue": 0,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 516
-				},
-				{
-					"addedValue": 3,
-					"increasedValue": 0,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 514
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "",
 			"displayName": "Tempest's Might",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 38,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Tempest's Might",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
@@ -3985,13 +3657,13 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 0,
-			"spreadDelay": 0,
+			"spreadDelay": 3,
 			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
+			"spreadRange": 7.230700075916056e-43,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4352
+			"tags": 0
 		},
 		{
 			"applyPrefix": 1,
@@ -4020,33 +3692,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": -0.20000000298023224,
-					"property": 17,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 1,
 			"dealsDamageWhenHit": 0,
 			"description": "Deals necrotic damage over time and reduces health regen",
 			"displayName": "Damned",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 39,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Damned",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 0,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 2.382207389352189e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -4066,12 +3729,12 @@
 			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
+			"spreadIfDiedBeforeDelay": 205,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 39,
@@ -4152,10 +3815,10 @@
 			"description": "",
 			"displayName": "Pestilence",
 			"duration": 0.5,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 40,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Pestilence",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -4188,7 +3851,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 40,
@@ -4245,10 +3908,6 @@
 			}
 		},
 		{
-			"abilityToProcWhenStacksReached": {
-				"abilityName": "Fireball",
-				"playerAbilityID": ""
-			},
 			"applyPrefix": 0,
 			"baseDamage": {
 				"addedDamageScaling": 1,
@@ -4281,10 +3940,10 @@
 			"description": "",
 			"displayName": "Disintegrate Explosion Proc Ailment",
 			"duration": 60,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 41,
-			"increasedEffectReducesStackRequirement": 1,
 			"instanceName": "Disintegrate Explosion Proc Ailment",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -4300,22 +3959,22 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
-				"y": 0
+				"x": 3.363116314379561e-44,
+				"y": 1.2000000476837158
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
 			"overrideAbilitySource": 0,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 1,
+			"procsAbilityWhenStacksReached": 2,
 			"roots": 0,
 			"showsInBuffUI": 0,
 			"spreadDelay": 0,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
-			"stacksRequiredForProc": 24,
+			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
 			"tags": 0
 		},
@@ -4346,33 +4005,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.05000000074505806,
-					"increasedValue": 0,
-					"property": 78,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Reduces Fire Resistance",
 			"displayName": "Shred Fire Resistance",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": -1088841318,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 42,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Fire Resistance Shred",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 20,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": -0.6000000238418579,
-			"moreBuffEffectAgainstPlayers": -0.6000000238418579,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.0930128021733573e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -4388,10 +4038,10 @@
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 0,
+			"procsAbilityWhenStacksReached": 154,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.05000000074505806,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
@@ -4448,36 +4098,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						0.10000000149011612
-					],
-					"property": 6,
-					"specialTag": 0,
-					"tags": 512
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "",
 			"displayName": "Melee Defense Shred",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 1036831949,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 43,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Melee Defense Shred",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 0,
-			"maxSpreadPerInstance": 0,
+			"maxSpreadPerInstance": 1,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 8.407790785948902e-45,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -4498,7 +4136,7 @@
 			"showsInBuffUI": 0,
 			"spreadDelay": 0,
 			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
+			"spreadRange": 7.174648137343064e-43,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
@@ -4553,33 +4191,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.029999999329447746,
-					"property": 10,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases armour",
 			"displayName": "Stalwart",
 			"duration": 10,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 44,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Stalwart",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 0,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.401298464324817e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -4599,7 +4228,7 @@
 			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
+			"spreadIfDiedBeforeDelay": 143,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
@@ -4655,33 +4284,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.20000000298023224,
-					"increasedValue": 0,
-					"property": 70,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases cooldown recovery speed",
 			"displayName": "Inspiration",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 45,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Inspiration",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 9.80908925027372e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -4700,7 +4320,7 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.20000000298023224,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
@@ -4763,10 +4383,10 @@
 			"description": "",
 			"displayName": "Healing",
 			"duration": 90000,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 46,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Healing",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -4799,7 +4419,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 46,
@@ -4858,35 +4478,23 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						1
-					],
-					"property": 0,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "",
 			"displayName": "Deadly",
 			"duration": 90000,
+			"effectOfEffectivenessOnProc": 1065353216,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 47,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Deadly",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
-			"maxSpreadPerInstance": 0,
+			"maxSpreadPerInstance": 1,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
@@ -4912,7 +4520,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 47,
@@ -4977,10 +4585,10 @@
 			"description": "Reduces damage taken",
 			"displayName": "Aspect of the Boar",
 			"duration": 5,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 48,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Aspect of the Boar",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -5013,7 +4621,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 48,
@@ -5086,10 +4694,10 @@
 			"description": "Increases melee damage and attack speed",
 			"displayName": "Aspect of the Shark",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 49,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Aspect of the Shark",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -5122,7 +4730,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 49,
@@ -5203,10 +4811,10 @@
 			"description": "Increases melee damage and attack speed",
 			"displayName": "Aspect of the Shark",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 50,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Aspect of the Shark",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -5239,7 +4847,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 50,
@@ -5296,10 +4904,10 @@
 			"description": "Grants a chance to poison on hit and increases damage over time",
 			"displayName": "Aspect of the Viper",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 51,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Aspect of the Viper",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -5332,7 +4940,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 51,
@@ -5429,10 +5037,10 @@
 			"description": "Increases critical strike chance and dodge rating",
 			"displayName": "Aspect of the Lynx",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 52,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Aspect of the Lynx",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -5465,7 +5073,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 52,
@@ -5538,10 +5146,10 @@
 			"description": "Grants a chance to poison on hit and increases damage over time",
 			"displayName": "Arcane Mark",
 			"duration": 500,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 53,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Arcane Mark",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -5574,7 +5182,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 53,
@@ -5639,12 +5247,12 @@
 			"description": "Locks you in place.",
 			"displayName": "Immobilized",
 			"duration": 1,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 54,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Immobilized",
-			"isCurse": 0,
+			"isCurse": 1,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
@@ -5667,7 +5275,7 @@
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
 			"procsAbilityWhenStacksReached": 0,
-			"roots": 1,
+			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
 			"spreadIfDiedBeforeDelay": 0,
@@ -5678,10 +5286,6 @@
 			"tags": 0
 		},
 		{
-			"abilityToProcOnExpiration": {
-				"abilityName": "Spark Charge",
-				"playerAbilityID": "ln24"
-			},
 			"applyPrefix": 2,
 			"baseDamage": {
 				"addedDamageScaling": 1,
@@ -5714,10 +5318,10 @@
 			"description": "",
 			"displayName": "Spark Charge",
 			"duration": 1,
-			"expirationAbilityProcsOnDeath": 1,
+			"effectOfEffectivenessOnProc": 0,
+			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 55,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Spark Charge",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -5730,7 +5334,7 @@
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
 				"x": 0,
-				"y": 0
+				"y": 1.2000000476837158
 			},
 			"offsetForStackProccedAbility": {
 				"x": 0,
@@ -5740,8 +5344,8 @@
 			"overrideAbilitySource": 0,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
-			"procsAbilityOnExpiration": 1,
-			"procsAbilityWhenStacksReached": 0,
+			"procsAbilityOnExpiration": 0,
+			"procsAbilityWhenStacksReached": 1,
 			"roots": 0,
 			"showsInBuffUI": 0,
 			"spreadDelay": 0,
@@ -5749,7 +5353,7 @@
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
-			"stopsWhenHit": 0,
+			"stopsWhenHit": 1,
 			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
@@ -5841,33 +5445,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 1,
-					"property": 4,
-					"specialTag": 0,
-					"tags": 256
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases Critical Strike Chance with Spells",
 			"displayName": "Critical Effluence",
 			"duration": 6,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 56,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Critical Effluence",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 5.605193857299268e-45,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -5888,11 +5483,11 @@
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
 			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
+			"spreadRange": 3.587324068671532e-43,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 56,
@@ -5965,12 +5560,12 @@
 			"description": "Accelerating mana drain. Additional spell mana cost. Increased spell damage and increased cast speed. Deals lightning damage to nearby enemies.",
 			"displayName": "Arcane Ascendance",
 			"duration": 1,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 57,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Arcane Ascendance",
-			"isCurse": 0,
+			"isCurse": 1,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
@@ -5993,7 +5588,7 @@
 			"positive": 1,
 			"procsAbilityOnExpiration": 0,
 			"procsAbilityWhenStacksReached": 0,
-			"roots": 1,
+			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
 			"spreadIfDiedBeforeDelay": 0,
@@ -6030,47 +5625,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.30000001192092896,
-					"property": 9,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0.30000001192092896,
-					"property": 2,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0.30000001192092896,
-					"property": 3,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases movement speed, attack speed, and cast speed",
 			"displayName": "Shrine Haste",
 			"duration": 60,
+			"effectOfEffectivenessOnProc": 2,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 60,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Shrine Haste",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 4.203895392974451e-45,
+			"moreBuffEffectAgainstPlayers": 1.2611686178923354e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -6078,7 +5650,7 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
+				"x": 4.203895392974451e-45,
 				"y": 0
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
@@ -6090,12 +5662,12 @@
 			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
+			"spreadIfDiedBeforeDelay": 154,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 60,
@@ -6162,40 +5734,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.10000000149011612,
-					"increasedValue": 0,
-					"property": 30,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0.10000000149011612,
-					"property": 10,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases armor and all resistances by 10% per stack",
 			"displayName": "Contempt",
 			"duration": 500,
+			"effectOfEffectivenessOnProc": 10,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 61,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Contempt",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 6,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
+			"moreBuffEffectAgainstPlayers": 4.203895392974451e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -6214,19 +5770,15 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.10000000149011612,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096
+			"tags": 0
 		},
 		{
-			"abilityForMutation": {
-				"abilityName": "Spirit Plague",
-				"playerAbilityID": "sp5g2"
-			},
 			"applyPrefix": 1,
 			"baseDamage": {
 				"addedDamageScaling": 4.5,
@@ -6259,20 +5811,20 @@
 			"description": "You take necrotic damage over time.",
 			"displayName": "Spirit Plague",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": 1,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 59,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Spirit Plague",
-			"isCurse": 1,
-			"isSilverShroud": 0,
+			"isCurse": 0,
+			"isSilverShroud": 1,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 1,
 			"modifyingStatDisplay": 0,
 			"moreBuffEffectAgainstBosses": 0,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
-			"mutationType": 1,
+			"mutationType": 0,
 			"offsetForExpirationAbility": {
 				"x": 0,
 				"y": 0
@@ -6289,13 +5841,13 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 99999,
-			"spreadIfDiedBeforeDelay": 1,
-			"spreadRange": 9,
-			"spreads": 1,
+			"spreadDelay": 9,
+			"spreadIfDiedBeforeDelay": 128,
+			"spreadRange": 1.401298464324817e-45,
+			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 16781568,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 59,
@@ -6362,33 +5914,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 3,
-					"increasedValue": 0,
-					"property": 86,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Reflects 300% of Damage Taken",
 			"displayName": "Reflective Shrine",
 			"duration": 60,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 62,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Reflective Shrine",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.2051166793193427e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -6407,13 +5950,13 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 3,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 62,
@@ -6472,40 +6015,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 2,
-					"increasedValue": 0,
-					"property": 45,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 2,
-					"increasedValue": 0,
-					"property": 95,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "200% increased stun chance and stun duration",
 			"displayName": "Stunning Shrine",
 			"duration": 60,
+			"effectOfEffectivenessOnProc": 95,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 63,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Stunning Shrine",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
+			"moreBuffEffectAgainstPlayers": 6.305843089461677e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -6524,13 +6051,13 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 2,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 63,
@@ -6581,33 +6108,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 1,
-					"increasedValue": 0,
-					"property": 4,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Your hits always crit",
 			"displayName": "Critical Shrine",
 			"duration": 60,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 64,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Critical Shrine",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 5.605193857299268e-45,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -6626,13 +6144,13 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 1,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 64,
@@ -6683,40 +6201,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 1,
-					"property": 18,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 1,
-					"increasedValue": 0,
-					"property": 70,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "100% increased mana regen and cooldown recovery speed",
 			"displayName": "Water Shrine",
 			"duration": 45,
+			"effectOfEffectivenessOnProc": 70,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 65,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Water Shrine",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
+			"moreBuffEffectAgainstPlayers": 2.5223372357846707e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -6741,7 +6243,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 65,
@@ -6792,32 +6294,23 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.5,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 1
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Grants armour and protections and increases damage",
 			"displayName": "Shapeshifter",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 66,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Shapeshifter",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
@@ -6839,11 +6332,11 @@
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
 			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
+			"spreadRange": 1.401298464324817e-45,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 66,
@@ -6894,32 +6387,23 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.5,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 1
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases physical damage",
 			"displayName": "Ferocity",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 67,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Ferocity",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
@@ -6941,11 +6425,11 @@
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
 			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
+			"spreadRange": 1.401298464324817e-45,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 67,
@@ -6970,101 +6454,6 @@
 			}
 		},
 		{
-			"abilityForMutation": {
-				"abilityName": "Bone Curse",
-				"playerAbilityID": "bc53"
-			},
-			"applyPrefix": 0,
-			"baseDamage": {
-				"addedDamageScaling": 0.20000000298023224,
-				"additionalLeech": 0,
-				"convertAllAddedDamage": 0,
-				"critChance": 0.05000000074505806,
-				"critMultiplier": 2,
-				"critType": 0,
-				"cullPercent": 0,
-				"damage": [
-					4,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0
-				],
-				"damageTypeToConvertTo": 0,
-				"flatCull": 0,
-				"freezeRate": 0,
-				"increasedStunChance": 0,
-				"increasedStunDuration": 0,
-				"isHit": 1
-			},
-			"blinds": 0,
-			"dealsAllDamageAtEnd": 0,
-			"dealsDamage": 1,
-			"dealsDamageWhenHit": 1,
-			"description": "You take physical damage when hit.",
-			"displayName": "Bone Curse",
-			"duration": 8,
-			"expirationAbilityProcsOnDeath": 0,
-			"hitsRequiredToStop": 0,
-			"id": 58,
-			"increasedEffectReducesStackRequirement": 0,
-			"instanceName": "Bone Curse",
-			"isCurse": 1,
-			"isSilverShroud": 0,
-			"maxInstances": 1,
-			"maxSpreadPerInstance": 0,
-			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
-			"moreDamageWhenHitByCreator": 2,
-			"mutationType": 1,
-			"offsetForExpirationAbility": {
-				"x": 0,
-				"y": 0
-			},
-			"offsetForStackProccedAbility": {
-				"x": 0,
-				"y": 0
-			},
-			"onlyPlayExpirationVfxOnAbilityProc": 0,
-			"overrideAbilitySource": 1,
-			"playExpirationVfxOnDeath": 0,
-			"positive": 0,
-			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 0,
-			"roots": 0,
-			"showsInBuffUI": 1,
-			"sourceAbility": {
-				"abilityName": "Bone Curse",
-				"playerAbilityID": "bc53"
-			},
-			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
-			"spreads": 0,
-			"stacksRequiredForProc": 0,
-			"stopsWhenHit": 0,
-			"tags": 16777472,
-			"vfxPrefab": {
-				"AilmentVFX": {
-					"ailment": 58,
-					"autoPoolAfterDuration": 0,
-					"autoPoolDelay": 4,
-					"currentInstances": 0,
-					"positionOnActor": 0,
-					"quantityScaling": 1,
-					"sizeScaling": 0,
-					"vfxType": 0
-				}
-			}
-		},
-		{
-			"abilityToProcOnExpiration": {
-				"abilityName": "Soul Blast",
-				"playerAbilityID": ""
-			},
 			"applyPrefix": 1,
 			"baseDamage": {
 				"addedDamageScaling": 1,
@@ -7097,10 +6486,10 @@
 			"description": "",
 			"displayName": "Doom Brand",
 			"duration": 99999,
-			"expirationAbilityProcsOnDeath": 1,
+			"effectOfEffectivenessOnProc": 0,
+			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 68,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Doom Brand",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -7113,7 +6502,7 @@
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
 				"x": 0,
-				"y": 0
+				"y": 1.2000000476837158
 			},
 			"offsetForStackProccedAbility": {
 				"x": 0,
@@ -7123,8 +6512,8 @@
 			"overrideAbilitySource": 0,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
-			"procsAbilityOnExpiration": 1,
-			"procsAbilityWhenStacksReached": 0,
+			"procsAbilityOnExpiration": 0,
+			"procsAbilityWhenStacksReached": 1,
 			"roots": 0,
 			"showsInBuffUI": 0,
 			"spreadDelay": 0,
@@ -7132,99 +6521,8 @@
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
-			"stopsWhenHit": 0,
+			"stopsWhenHit": 1,
 			"tags": 0
-		},
-		{
-			"abilityForMutation": {
-				"abilityName": "Bone Curse",
-				"playerAbilityID": "bc53"
-			},
-			"applyPrefix": 0,
-			"baseDamage": {
-				"addedDamageScaling": 0.20000000298023224,
-				"additionalLeech": 0,
-				"convertAllAddedDamage": 0,
-				"critChance": 0.05000000074505806,
-				"critMultiplier": 2,
-				"critType": 0,
-				"cullPercent": 0,
-				"damage": [
-					0,
-					0,
-					0,
-					0,
-					4,
-					0,
-					0
-				],
-				"damageTypeToConvertTo": 0,
-				"flatCull": 0,
-				"freezeRate": 0,
-				"increasedStunChance": 0,
-				"increasedStunDuration": 0,
-				"isHit": 1
-			},
-			"blinds": 0,
-			"dealsAllDamageAtEnd": 0,
-			"dealsDamage": 1,
-			"dealsDamageWhenHit": 1,
-			"description": "You take physical damage when hit.",
-			"displayName": "Bone Curse",
-			"duration": 8,
-			"expirationAbilityProcsOnDeath": 0,
-			"hitsRequiredToStop": 0,
-			"id": 69,
-			"increasedEffectReducesStackRequirement": 0,
-			"instanceName": "Bone Curse",
-			"isCurse": 1,
-			"isSilverShroud": 0,
-			"maxInstances": 1,
-			"maxSpreadPerInstance": 0,
-			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
-			"moreDamageWhenHitByCreator": 2,
-			"mutationType": 1,
-			"offsetForExpirationAbility": {
-				"x": 0,
-				"y": 0
-			},
-			"offsetForStackProccedAbility": {
-				"x": 0,
-				"y": 0
-			},
-			"onlyPlayExpirationVfxOnAbilityProc": 0,
-			"overrideAbilitySource": 1,
-			"playExpirationVfxOnDeath": 0,
-			"positive": 0,
-			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 0,
-			"roots": 0,
-			"showsInBuffUI": 1,
-			"sourceAbility": {
-				"abilityName": "Bone Curse",
-				"playerAbilityID": "bc53"
-			},
-			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
-			"spreads": 0,
-			"stacksRequiredForProc": 0,
-			"stopsWhenHit": 0,
-			"tags": 16777472,
-			"vfxPrefab": {
-				"AilmentVFX": {
-					"ailment": 69,
-					"autoPoolAfterDuration": 0,
-					"autoPoolDelay": 4,
-					"currentInstances": 0,
-					"positionOnActor": 0,
-					"quantityScaling": 1,
-					"sizeScaling": 0,
-					"vfxType": 0
-				}
-			}
 		},
 		{
 			"applyPrefix": 0,
@@ -7253,39 +6551,23 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.699999988079071,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 16
-				},
-				{
-					"addedValue": 0.699999988079071,
-					"increasedValue": 0,
-					"property": 5,
-					"specialTag": 0,
-					"tags": 512
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increased void damage and melee critical strike multiplier",
 			"displayName": "Apocalypse",
 			"duration": 3,
+			"effectOfEffectivenessOnProc": 5,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 70,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Apocalypse",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
@@ -7306,12 +6588,12 @@
 			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
+			"spreadIfDiedBeforeDelay": 51,
+			"spreadRange": 2.2420775429197073e-44,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 70,
@@ -7376,10 +6658,10 @@
 			"description": "Grants a chance to poison on hit and increases damage over time",
 			"displayName": "Flurry 1 Hit",
 			"duration": 0.5,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 71,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Flurry 1 Hit",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -7412,7 +6694,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096
+			"tags": 0
 		},
 		{
 			"applyPrefix": 0,
@@ -7447,10 +6729,10 @@
 			"description": "Grants a chance to poison on hit and increases damage over time",
 			"displayName": "Flurry 2 Hit",
 			"duration": 0.5,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 72,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Flurry 2 Hit",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -7483,7 +6765,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096
+			"tags": 0
 		},
 		{
 			"applyPrefix": 0,
@@ -7512,33 +6794,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.05000000074505806,
-					"increasedValue": 0,
-					"property": 81,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Reduces Void Resistance",
 			"displayName": "Shred Void Resistance",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": -1088841318,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 30,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Void Resistance Shred",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 20,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": -0.6000000238418579,
-			"moreBuffEffectAgainstPlayers": -0.6000000238418579,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.1350517561031018e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -7554,10 +6827,10 @@
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 0,
+			"procsAbilityWhenStacksReached": 154,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.05000000074505806,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
@@ -7614,33 +6887,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.05000000074505806,
-					"increasedValue": 0,
-					"property": 72,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Reduces Physical Resistance",
 			"displayName": "Shred Physical Resistance",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": -1088841318,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 73,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Physical Resistance Shred",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 20,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": -0.6000000238418579,
-			"moreBuffEffectAgainstPlayers": -0.6000000238418579,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.0089348943138683e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -7656,10 +6920,10 @@
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 0,
+			"procsAbilityWhenStacksReached": 154,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.05000000074505806,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
@@ -7716,33 +6980,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.05000000074505806,
-					"increasedValue": 0,
-					"property": 79,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Reduces Cold Resistance",
 			"displayName": "Shred Cold Resistance",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": -1088841318,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 74,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Cold Resistance Shred",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 20,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": -0.6000000238418579,
-			"moreBuffEffectAgainstPlayers": -0.6000000238418579,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.1070257868166055e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -7758,10 +7013,10 @@
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 0,
+			"procsAbilityWhenStacksReached": 154,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.05000000074505806,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
@@ -7818,33 +7073,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.05000000074505806,
-					"increasedValue": 0,
-					"property": 80,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Reduces Lightning Resistance",
 			"displayName": "Shred Lightning Resistance",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": -1088841318,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 75,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Lightning Resistance Shred",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 20,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": -0.6000000238418579,
-			"moreBuffEffectAgainstPlayers": -0.6000000238418579,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.1210387714598537e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -7860,10 +7106,10 @@
 			"playExpirationVfxOnDeath": 0,
 			"positive": 0,
 			"procsAbilityOnExpiration": 0,
-			"procsAbilityWhenStacksReached": 0,
+			"procsAbilityWhenStacksReached": 154,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.05000000074505806,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
@@ -7920,47 +7166,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.6000000238418579,
-					"property": 2,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0.6000000238418579,
-					"property": 3,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0.3499999940395355,
-					"property": 9,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases attack, cast and move speed",
 			"displayName": "Enrage",
 			"duration": 6,
+			"effectOfEffectivenessOnProc": 3,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 76,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Enrage",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 4.203895392974451e-45,
+			"moreBuffEffectAgainstPlayers": 2.802596928649634e-45,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -7968,7 +7191,7 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
+				"x": 1.2611686178923354e-44,
 				"y": 0
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
@@ -7980,12 +7203,12 @@
 			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
+			"spreadIfDiedBeforeDelay": 154,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 76,
@@ -8060,32 +7283,23 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 21,
-					"increasedValue": 0,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 2
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
-			"description": "Increases cooldown recovery speed",
+			"description": "Added Lightning Damage from Storm Totem",
 			"displayName": "Lightning Infusion",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 77,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Lightning Infusion",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 3,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
@@ -8104,10 +7318,10 @@
 			"procsAbilityOnExpiration": 0,
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
-			"showsInBuffUI": 0,
-			"spreadDelay": 0,
+			"showsInBuffUI": 1,
+			"spreadDelay": 21,
 			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
+			"spreadRange": 2.802596928649634e-45,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
@@ -8140,33 +7354,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.10000000149011612,
-					"property": 6,
-					"specialTag": 0,
-					"tags": 4096
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "You take 10% increased damage over time",
 			"displayName": "Efficacious Toxin",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 78,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Efficacious Toxin",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 8.407790785948902e-45,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -8186,8 +7391,8 @@
 			"roots": 0,
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
+			"spreadIfDiedBeforeDelay": 205,
+			"spreadRange": 5.739718509874451e-42,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
@@ -8232,10 +7437,6 @@
 			}
 		},
 		{
-			"abilityToProcWhenStacksReached": {
-				"abilityName": "Shadow Daggers",
-				"playerAbilityID": ""
-			},
 			"applyPrefix": 2,
 			"baseDamage": {
 				"addedDamageScaling": 1,
@@ -8268,10 +7469,10 @@
 			"description": "",
 			"displayName": "Shadow Daggers",
 			"duration": 60,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 79,
-			"increasedEffectReducesStackRequirement": 1,
 			"instanceName": "Shadow Dagger",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -8287,8 +7488,8 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
-				"y": 0
+				"x": 5.605193857299268e-45,
+				"y": 1.2000000476837158
 			},
 			"onExpirationVfxPrefab": {
 				"AilmentVFX": {
@@ -8332,7 +7533,7 @@
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
-			"stacksRequiredForProc": 4,
+			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
 			"tags": 0,
 			"vfxPrefab": {
@@ -8392,10 +7593,10 @@
 			"description": "Increased bleed chance and dodge rating",
 			"displayName": "Mirage Form",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 80,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Mirage Form",
 			"isCurse": 0,
 			"isSilverShroud": 0,
@@ -8428,7 +7629,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 80,
@@ -8487,43 +7688,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.5,
-					"increasedValue": 0,
-					"property": 1,
-					"specialTag": 2,
-					"tags": 0
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0,
-					"moreValues": [
-						-0.05000000074505806
-					],
-					"property": 6,
-					"specialTag": 0,
-					"tags": 4096
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Additional bleed chance and less damage taken over time",
 			"displayName": "Crimson Shroud",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 6,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 83,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Crimson Shroud",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 3,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
+			"moreBuffEffectAgainstPlayers": 1.401298464324817e-45,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -8531,7 +7713,7 @@
 				"y": 0
 			},
 			"offsetForStackProccedAbility": {
-				"x": 0,
+				"x": -0.05000000074505806,
 				"y": 0
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
@@ -8542,13 +7724,13 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.5,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
-			"spreads": 0,
-			"stacksRequiredForProc": 0,
+			"spreads": 2,
+			"stacksRequiredForProc": 1,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 83,
@@ -8623,40 +7805,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.05000000074505806,
-					"increasedValue": 0,
-					"property": 62,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": 50,
-					"increasedValue": 0,
-					"property": 11,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Adds Glancing Blow chance and Dodge Rating",
 			"displayName": "Dusk Shroud",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 11,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 82,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Dusk Shroud",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 0,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
+			"moreBuffEffectAgainstPlayers": 8.688050478813866e-44,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -8675,13 +7841,13 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.05000000074505806,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 82,
@@ -8754,20 +7920,20 @@
 			"description": "Dodge your next hit and gain ward per stack",
 			"displayName": "Silver Shroud",
 			"duration": 10,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
-			"hitsRequiredToStop": 1,
+			"hitsRequiredToStop": 0,
 			"id": 81,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Silver Shroud",
 			"isCurse": 0,
-			"isSilverShroud": 1,
+			"isSilverShroud": 0,
 			"maxInstances": 0,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
 			"moreBuffEffectAgainstBosses": 0,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
-			"mutationType": 0,
+			"mutationType": 1,
 			"offsetForExpirationAbility": {
 				"x": 0,
 				"y": 0
@@ -8777,7 +7943,7 @@
 				"y": 0
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
-			"overrideAbilitySource": 0,
+			"overrideAbilitySource": 1,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 1,
 			"procsAbilityOnExpiration": 0,
@@ -8790,7 +7956,7 @@
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 81,
@@ -8839,10 +8005,6 @@
 			}
 		},
 		{
-			"abilityForMutation": {
-				"abilityName": "Smoke Bomb",
-				"playerAbilityID": "smbmb"
-			},
 			"applyPrefix": 1,
 			"baseDamage": {
 				"addedDamageScaling": 0,
@@ -8869,42 +8031,26 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.10000000149011612,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 512
-				},
-				{
-					"addedValue": 0,
-					"increasedValue": 0.10000000149011612,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 1024
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "increases melee and throwing damage",
 			"displayName": "Smoke Blades",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 84,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Smoke Blades",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 0,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
-			"mutationType": 1,
+			"mutationType": 0,
 			"offsetForExpirationAbility": {
 				"x": 0,
 				"y": 0
@@ -8914,24 +8060,20 @@
 				"y": 0
 			},
 			"onlyPlayExpirationVfxOnAbilityProc": 0,
-			"overrideAbilitySource": 1,
+			"overrideAbilitySource": 0,
 			"playExpirationVfxOnDeath": 0,
 			"positive": 1,
 			"procsAbilityOnExpiration": 0,
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"sourceAbility": {
-				"abilityName": "Smoke Bomb",
-				"playerAbilityID": "smbmb"
-			},
 			"spreadDelay": 0,
-			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
+			"spreadIfDiedBeforeDelay": 205,
+			"spreadRange": 7.174648137343064e-43,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 84,
@@ -8982,40 +8124,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.05000000074505806,
-					"increasedValue": 0,
-					"property": 112,
-					"specialTag": 0,
-					"tags": 0
-				},
-				{
-					"addedValue": -0.10000000149011612,
-					"increasedValue": 0,
-					"property": 89,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increased chance to be critically hit",
 			"displayName": "Critical Vulnerability",
 			"duration": 4,
+			"effectOfEffectivenessOnProc": 89,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 85,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Critical Vulnerability",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 0,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
+			"moreBuffEffectAgainstPlayers": 1.5694542800437951e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -9034,13 +8160,13 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.05000000074505806,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 85,
@@ -9107,32 +8233,23 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0,
-					"increasedValue": 0.25,
-					"property": 0,
-					"specialTag": 0,
-					"tags": 2048
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases bow damage",
 			"displayName": "Sharpshooter",
 			"duration": 8,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 86,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Sharpshooter",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 10,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
 			"moreBuffEffectAgainstPlayers": 0,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
@@ -9154,11 +8271,11 @@
 			"showsInBuffUI": 1,
 			"spreadDelay": 0,
 			"spreadIfDiedBeforeDelay": 0,
-			"spreadRange": 0,
+			"spreadRange": 2.8698592549372254e-42,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096
+			"tags": 0
 		},
 		{
 			"applyPrefix": 0,
@@ -9187,33 +8304,24 @@
 				"isHit": 0
 			},
 			"blinds": 0,
-			"buffs": [
-				{
-					"addedValue": 0.5,
-					"increasedValue": 0,
-					"property": 105,
-					"specialTag": 0,
-					"tags": 0
-				}
-			],
 			"dealsAllDamageAtEnd": 0,
 			"dealsDamage": 0,
 			"dealsDamageWhenHit": 0,
 			"description": "Increases experience gained on kill",
 			"displayName": "Shrine Experience Buff",
 			"duration": 60,
+			"effectOfEffectivenessOnProc": 0,
 			"expirationAbilityProcsOnDeath": 0,
 			"hitsRequiredToStop": 0,
 			"id": 87,
-			"increasedEffectReducesStackRequirement": 0,
 			"instanceName": "Shrine Experience Buff",
 			"isCurse": 0,
 			"isSilverShroud": 0,
 			"maxInstances": 1,
 			"maxSpreadPerInstance": 0,
 			"modifyingStatDisplay": 0,
-			"moreBuffEffectAgainstBosses": 0,
-			"moreBuffEffectAgainstPlayers": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 1.471363387541058e-43,
 			"moreDamageWhenHitByCreator": 0,
 			"mutationType": 0,
 			"offsetForExpirationAbility": {
@@ -9232,13 +8340,13 @@
 			"procsAbilityWhenStacksReached": 0,
 			"roots": 0,
 			"showsInBuffUI": 1,
-			"spreadDelay": 0,
+			"spreadDelay": 0.5,
 			"spreadIfDiedBeforeDelay": 0,
 			"spreadRange": 0,
 			"spreads": 0,
 			"stacksRequiredForProc": 0,
 			"stopsWhenHit": 0,
-			"tags": 4096,
+			"tags": 0,
 			"vfxPrefab": {
 				"AilmentVFX": {
 					"ailment": 87,
@@ -9272,6 +8380,279 @@
 						}
 					],
 					"positionOnActor": 1,
+					"quantityScaling": 0,
+					"sizeScaling": 0,
+					"vfxType": 0
+				}
+			}
+		},
+		{
+			"applyPrefix": 0,
+			"baseDamage": {
+				"addedDamageScaling": 0,
+				"additionalLeech": 0,
+				"convertAllAddedDamage": 0,
+				"critChance": 0,
+				"critMultiplier": 1,
+				"critType": 1,
+				"cullPercent": 0,
+				"damage": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"damageTypeToConvertTo": 0,
+				"flatCull": 0,
+				"freezeRate": 0,
+				"increasedStunChance": 0,
+				"increasedStunDuration": 0,
+				"isHit": 0
+			},
+			"blinds": 0,
+			"dealsAllDamageAtEnd": 0,
+			"dealsDamage": 0,
+			"dealsDamageWhenHit": 0,
+			"description": "Grants +3 melee lightning damage and +3 spell lightning damage.",
+			"displayName": "Aspect of the Crow",
+			"duration": 8,
+			"effectOfEffectivenessOnProc": 0,
+			"expirationAbilityProcsOnDeath": 0,
+			"hitsRequiredToStop": 0,
+			"id": 88,
+			"instanceName": "Aspect of the Crow",
+			"isCurse": 0,
+			"isSilverShroud": 0,
+			"maxInstances": 0,
+			"maxSpreadPerInstance": 0,
+			"modifyingStatDisplay": 0,
+			"moreBuffEffectAgainstBosses": 2.802596928649634e-45,
+			"moreBuffEffectAgainstPlayers": 0,
+			"moreDamageWhenHitByCreator": 0,
+			"mutationType": 0,
+			"offsetForExpirationAbility": {
+				"x": 0,
+				"y": 0
+			},
+			"offsetForStackProccedAbility": {
+				"x": 0,
+				"y": 0
+			},
+			"onlyPlayExpirationVfxOnAbilityProc": 0,
+			"overrideAbilitySource": 0,
+			"playExpirationVfxOnDeath": 0,
+			"positive": 1,
+			"procsAbilityOnExpiration": 0,
+			"procsAbilityWhenStacksReached": 0,
+			"roots": 0,
+			"showsInBuffUI": 1,
+			"spreadDelay": 3,
+			"spreadIfDiedBeforeDelay": 0,
+			"spreadRange": 7.20267410662956e-43,
+			"spreads": 0,
+			"stacksRequiredForProc": 0,
+			"stopsWhenHit": 0,
+			"tags": 0,
+			"vfxPrefab": {
+				"AilmentVFX": {
+					"ailment": 88,
+					"autoPoolAfterDuration": 0,
+					"autoPoolDelay": 4,
+					"currentInstances": 0,
+					"particles": [
+						{
+							"baseEmissionOverDistance": 0,
+							"baseEmissionOverTime": 0,
+							"dontScaleEmission": 0,
+							"endsImmediately": 0,
+							"particlesPerStack": 1,
+							"xParticlesPerStack": 1
+						}
+					],
+					"positionOnActor": 0,
+					"quantityScaling": 2,
+					"sizeScaling": 0,
+					"vfxType": 0
+				}
+			}
+		},
+		{
+			"applyPrefix": 0,
+			"baseDamage": {
+				"addedDamageScaling": 0,
+				"additionalLeech": 0,
+				"convertAllAddedDamage": 0,
+				"critChance": 0,
+				"critMultiplier": 1,
+				"critType": 1,
+				"cullPercent": 0,
+				"damage": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"damageTypeToConvertTo": 0,
+				"flatCull": 0,
+				"freezeRate": 0,
+				"increasedStunChance": 0,
+				"increasedStunDuration": 0,
+				"isHit": 0
+			},
+			"blinds": 0,
+			"dealsAllDamageAtEnd": 0,
+			"dealsDamage": 0,
+			"dealsDamageWhenHit": 0,
+			"description": "Increases movement speed",
+			"displayName": "Ancient Flight",
+			"duration": 2,
+			"effectOfEffectivenessOnProc": 58,
+			"expirationAbilityProcsOnDeath": 0,
+			"hitsRequiredToStop": 0,
+			"id": 89,
+			"instanceName": "Ancient Flight",
+			"isCurse": 0,
+			"isSilverShroud": 0,
+			"maxInstances": 1,
+			"maxSpreadPerInstance": 0,
+			"modifyingStatDisplay": 0,
+			"moreBuffEffectAgainstBosses": 5.605193857299268e-45,
+			"moreBuffEffectAgainstPlayers": 8.127531093083939e-44,
+			"moreDamageWhenHitByCreator": 0,
+			"mutationType": 0,
+			"offsetForExpirationAbility": {
+				"x": 0,
+				"y": 1
+			},
+			"offsetForStackProccedAbility": {
+				"x": 5.605193857299268e-45,
+				"y": 0
+			},
+			"onlyPlayExpirationVfxOnAbilityProc": 0,
+			"overrideAbilitySource": 0,
+			"playExpirationVfxOnDeath": 0,
+			"positive": 1,
+			"procsAbilityOnExpiration": 0,
+			"procsAbilityWhenStacksReached": 0,
+			"roots": 0,
+			"showsInBuffUI": 1,
+			"spreadDelay": 2,
+			"spreadIfDiedBeforeDelay": 0,
+			"spreadRange": 3.1389085600875902e-43,
+			"spreads": 3,
+			"stacksRequiredForProc": 0,
+			"stopsWhenHit": 0,
+			"tags": 0
+		},
+		{
+			"applyPrefix": 1,
+			"baseDamage": {
+				"addedDamageScaling": 0,
+				"additionalLeech": 0,
+				"convertAllAddedDamage": 0,
+				"critChance": 0,
+				"critMultiplier": 1,
+				"critType": 1,
+				"cullPercent": 0,
+				"damage": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					400,
+					0
+				],
+				"damageTypeToConvertTo": 0,
+				"flatCull": 0,
+				"freezeRate": 0,
+				"increasedStunChance": 0,
+				"increasedStunDuration": 0,
+				"isHit": 0
+			},
+			"blinds": 0,
+			"dealsAllDamageAtEnd": 0,
+			"dealsDamage": 1,
+			"dealsDamageWhenHit": 0,
+			"description": "Deals void damage over time and increases melee damage taken",
+			"displayName": "Doom",
+			"duration": 4,
+			"effectOfEffectivenessOnProc": 0,
+			"expirationAbilityProcsOnDeath": 0,
+			"hitsRequiredToStop": 0,
+			"id": 90,
+			"instanceName": "Doom",
+			"isCurse": 0,
+			"isSilverShroud": 0,
+			"maxInstances": 4,
+			"maxSpreadPerInstance": 0,
+			"modifyingStatDisplay": 0,
+			"moreBuffEffectAgainstBosses": 1.401298464324817e-45,
+			"moreBuffEffectAgainstPlayers": 8.407790785948902e-45,
+			"moreDamageWhenHitByCreator": 0,
+			"mutationType": 0,
+			"offsetForExpirationAbility": {
+				"x": 0,
+				"y": 0
+			},
+			"offsetForStackProccedAbility": {
+				"x": 0,
+				"y": 0
+			},
+			"onlyPlayExpirationVfxOnAbilityProc": 0,
+			"overrideAbilitySource": 0,
+			"playExpirationVfxOnDeath": 0,
+			"positive": 0,
+			"procsAbilityOnExpiration": 0,
+			"procsAbilityWhenStacksReached": 0,
+			"roots": 0,
+			"showsInBuffUI": 1,
+			"spreadDelay": 0,
+			"spreadIfDiedBeforeDelay": 10,
+			"spreadRange": 7.174648137343064e-43,
+			"spreads": 0,
+			"stacksRequiredForProc": 0,
+			"stopsWhenHit": 0,
+			"tags": 0,
+			"vfxPrefab": {
+				"AilmentVFX": {
+					"ailment": 90,
+					"autoPoolAfterDuration": 0,
+					"autoPoolDelay": 4,
+					"currentInstances": 0,
+					"particles": [
+						{
+							"baseEmissionOverDistance": 0,
+							"baseEmissionOverTime": 0.5,
+							"dontScaleEmission": 0,
+							"endsImmediately": 0,
+							"particlesPerStack": 1,
+							"xParticlesPerStack": 0
+						},
+						{
+							"baseEmissionOverDistance": 0,
+							"baseEmissionOverTime": 0.5,
+							"dontScaleEmission": 0,
+							"endsImmediately": 0,
+							"particlesPerStack": 1,
+							"xParticlesPerStack": 0
+						},
+						{
+							"baseEmissionOverDistance": 0,
+							"baseEmissionOverTime": 5,
+							"dontScaleEmission": 0,
+							"endsImmediately": 0,
+							"particlesPerStack": 1,
+							"xParticlesPerStack": 0
+						}
+					],
+					"positionOnActor": 2,
 					"quantityScaling": 0,
 					"sizeScaling": 0,
 					"vfxType": 0

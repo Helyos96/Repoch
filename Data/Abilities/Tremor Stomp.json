@@ -1,6 +1,102 @@
 {
 	"abilityName": "Tremor Stomp",
 	"abilityPrefab": {
+		"AbilityMutatorManager": {
+			"onSubObject": 0
+		},
+		"AvalancheMutator": {
+			"abilityRef": {
+				"key": 0
+			},
+			"addedChargeRegen": 0,
+			"addedCharges": 0,
+			"addedManaCost": 0,
+			"addedManaCostDivider": 0,
+			"changeLocation": 0,
+			"changeTargetLocation": 0,
+			"circleCastMode": 1,
+			"coldConversion": 0,
+			"followsYou": 0,
+			"increasedBoulderCastFrequency": 0.4000000059604645,
+			"increasedDuration": 0,
+			"increasedFallArea": 4,
+			"increasedManaCost": 0,
+			"moreDamage": 0,
+			"newLocation": {
+				"x": 0,
+				"y": 0
+			},
+			"newTargetLocation": {
+				"x": 0,
+				"y": 0
+			},
+			"nonChanneledDuration": 0.30000001192092896,
+			"physicalConversion": 0,
+			"targetable": 0
+		},
+		"CastAfterDuration": {
+			"abilityRef": {
+				"key": 461554396
+			},
+			"aimingMethod": 0,
+			"animationForCastPoint": 0,
+			"castAtCreatorTargetLocation": 0,
+			"castChance": 1,
+			"castFromCreatorCastPoint": 0,
+			"castFromTargetLocation": 0,
+			"castOnStartAsWell": 1,
+			"castRemainingExtrasAllOnDeath": 0,
+			"destroySelfAfterLastCast": 0,
+			"doNotRaycast": 0,
+			"failedCastConsumesARemainingCast": 0,
+			"forceObjectToFaceTarget": 0,
+			"forceTargetOffsetToMatchCastYpos": 0,
+			"interval": 0.6000000238418579,
+			"intervalModifierOnCast": 0,
+			"limitCasts": 0,
+			"manaToPayOnCast": 0,
+			"maxRandomTargetRange": 0,
+			"maxRandomTargetRangeIncreaseRate": 0,
+			"maxTargetingRange": 0,
+			"maxTargettingAngle": 0,
+			"minTargetingRange": 0,
+			"minTargetingRangeForExtraCasts": 0,
+			"noAimingAtHitTargets": 0,
+			"noRandomInitialAngle": 0,
+			"noRepeatTargets": 0,
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"offsetCastpointForward": 0,
+			"offsetCastpointRight": 0,
+			"overrideAnimationForCastPoint": 0,
+			"percentVelocityToPassOn": 0,
+			"randomAiming": 0,
+			"randomExtraCasts": 0,
+			"refreshScaling": 0,
+			"refreshScalingInterval": 0,
+			"remainingCasts": 0,
+			"requireTarget": 0,
+			"reverseSpiralDiraction": 0,
+			"scaleRadiusToMatchXScale": 0,
+			"scalingProperty": 54,
+			"scalingTags": 0,
+			"secondaryAiming": 0,
+			"seedAngle": 0,
+			"spiralAngleInterval": 0,
+			"spiralTargetDistance": 5,
+			"startAtBackInstead": 0,
+			"targetOffset": {
+				"x": 0,
+				"y": 0
+			},
+			"timePassedByPerUnitMoved": 0,
+			"useCreatorAbilityObjectConstructor": 0,
+			"useLocalMutator": 0,
+			"useParentAbilityObjectConstructor": 0,
+			"useSummonerAbilityObjectConstructor": 0
+		},
 		"DestroyIfCasterDisabled": {
 			"destroyOnDeath": 1,
 			"destroyOnStunOrFreeze": 1,
@@ -10,7 +106,7 @@
 			"alsoDamageParent": 0,
 			"alwaysShowDamageNumber": 0,
 			"baseDamageStats": {
-				"addedDamageScaling": 0.75,
+				"addedDamageScaling": 2,
 				"additionalLeech": 0,
 				"convertAllAddedDamage": 0,
 				"critChance": 0,
@@ -18,7 +114,7 @@
 				"critType": 1,
 				"cullPercent": 0,
 				"damage": [
-					15,
+					40,
 					0,
 					0,
 					0,
@@ -33,39 +129,44 @@
 				"increasedStunDuration": 0,
 				"isHit": 1
 			},
-			"damageAtStart": 1,
-			"damageIncreasePerInterval": 0,
-			"damageInterval": 0.4000000059604645,
-			"damageModifier": 0,
-			"damageTags": 4096,
+			"damageAtStart": 0,
+			"damageIncreasePerInterval": 0.5899999737739563,
+			"damageInterval": 0,
+			"damageModifier": 7.174648137343064e-43,
+			"damageTags": 0,
 			"delay": 0,
 			"highPriorityDoT": 0,
 			"limitMaxDamageIncreaseFromInterval": 0,
 			"maxDamageIncreaseFromInterval": 0,
 			"maxTargets": 0,
-			"minRadius": 0,
+			"minRadius": 4,
 			"offset": {
 				"x": 0,
 				"y": 0
 			},
-			"radius": 4,
-			"undodgeable": 0
+			"radius": 0,
+			"undodgeable": 1
 		},
 		"RepeatedlyShakeScreen": {
-			"decayFactor": 30,
+			"decayFactor": 4,
 			"duration": 3.700000047683716,
-			"largeShakeEffect": 0,
+			"largeShakeEffect": 1,
 			"scalePowerWithDistanceToPlayer": 0,
-			"shakeIntervalMax": 0.30000001192092896,
-			"shakeIntervalMin": 0.10000000149011612,
-			"shakeOnEnable": 0,
+			"shakeIntervalMax": 0.5899999737739563,
+			"shakeIntervalMin": 0.5899999737739563,
+			"shakeOnEnable": 1,
 			"shakeOnStart": 1,
 			"shakeOnTriggerEnter": 0,
-			"shakePower": 0.20000000298023224,
+			"shakePower": 1.2000000476837158,
 			"stopShakeOnDisable": 0,
-			"zeroShakeDistance": 15
+			"zeroShakeDistance": 50
 		},
-		"Stats": {}
+		"Stats": {},
+		"repeatedlyPlaySound": {
+			"interval": 0.6000000238418579,
+			"maximum": 0,
+			"sound": "event:/Abilities/Primalist/Fury Leap/sfx_combat_primalist_furyleapimpact"
+		}
 	},
 	"abilityReplacementWeaponCondition": 0,
 	"allowCastToMaxRangeWhenTargetIsOutOfRange": 0,
@@ -122,6 +223,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
@@ -176,7 +278,7 @@
 	"typeOfAbilityTargetMustBeUsing": 0,
 	"useBeginUseVoiceLine": 0,
 	"useCastPoints": 0,
-	"useDelay": 0.4000000059604645,
+	"useDelay": 0.8100000023841858,
 	"useDuration": 4,
 	"useMinionForwardForTargeting": 0,
 	"useSound": "",

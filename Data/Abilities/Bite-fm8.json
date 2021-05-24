@@ -4,7 +4,7 @@
 		"DamageEnemyOnHit": {
 			"alwaysShowDamageNumber": 0,
 			"baseDamageStats": {
-				"addedDamageScaling": 1,
+				"addedDamageScaling": 1.5,
 				"additionalLeech": 0,
 				"convertAllAddedDamage": 0,
 				"critChance": 0.05000000074505806,
@@ -12,7 +12,7 @@
 				"critType": 0,
 				"cullPercent": 0,
 				"damage": [
-					18,
+					27,
 					0,
 					0,
 					0,
@@ -33,21 +33,21 @@
 			"damageTags": 512,
 			"disableHitVfx": 0,
 			"guaranteedHitVfxType": 0,
-			"guarenteedHitVFXOfSpecificType": 0,
+			"guarenteedHitVFXOfSpecificType": 2,
 			"highPriorityDoT": 0,
-			"hitVFXDirectionType": 2
+			"hitVFXDirectionType": 0
 		}
 	},
 	"abilityReplacementWeaponCondition": 0,
 	"allowCastToMaxRangeWhenTargetIsOutOfRange": 0,
 	"altText": "",
-	"animation": 5,
+	"animation": 9,
 	"animationDurationMatchesMovement": 0,
-	"attachCastingVFXToCaster": 1,
+	"attachCastingVFXToCaster": 0,
 	"automaticallyGetTargetLocationInDirection": 0,
 	"baseMovementAnimationLength": 1,
 	"baseMovementDuration": 0,
-	"beginUseSound": "",
+	"beginUseSound": "event:/Sound Events/Void_Worm_Boss/sfx_boss_voidworm_bite",
 	"beginUseVoiceLine": "",
 	"bypassCooldownOnComboReset": 0,
 	"canBeUsedInLowPrioritySettle": 0,
@@ -65,7 +65,7 @@
 	"comboTimeLimit": 0,
 	"companion": 0,
 	"countsAsMovementAbility": 0,
-	"delayedCastDuration": 0.25,
+	"delayedCastDuration": 0,
 	"delayedCasts": 0,
 	"description": "",
 	"destroyCastingVFXOnAbilityUse": 0,
@@ -93,6 +93,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
@@ -120,7 +121,7 @@
 	"requiresDualWielding": 0,
 	"requiresSheild": 0,
 	"sendAbilityObjectCreated": 0,
-	"settleLowPriorityRatio": 0.800000011920929,
+	"settleLowPriorityRatio": 0,
 	"sharedCooldown": 0,
 	"sharedHitDetector": 0,
 	"showMinionTagInScalingTooltip": 0,
@@ -128,7 +129,7 @@
 	"skillTreeConversionDamageTags": 0,
 	"speedMultiplier": 1,
 	"speedScaler": 2,
-	"split": 0,
+	"split": 1,
 	"stayAtGroundHeight": 0,
 	"stopAtEdgeOfNavmesh": 0,
 	"stopAtEdgeOfNavmeshConnection": 0,
@@ -146,12 +147,41 @@
 	"turnSpeedModifier": 0,
 	"typeOfAbilityTargetMustBeUsing": 0,
 	"useBeginUseVoiceLine": 0,
-	"useCastPoints": 0,
-	"useDelay": 0.699999988079071,
-	"useDuration": 1.100000023841858,
+	"useCastPoints": 1,
+	"useDelay": 0.30000001192092896,
+	"useDuration": 0.800000011920929,
 	"useMinionForwardForTargeting": 0,
 	"useSound": "",
 	"useWeaponSwingSound": 1,
+	"visualObject": {
+		"AbilityVisuals": {
+			"creationReferences": {
+				"locationCreatedFrom": {
+					"x": 0,
+					"y": 0
+				},
+				"oType": 0,
+				"useType": 0
+			},
+			"faceVelocityDirection": 0,
+			"locationDetector": {
+				"reachedTargetLocation": 0,
+				"startLocation": {
+					"x": 0,
+					"y": 0
+				},
+				"targetLocationOffset": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			"selfDestroyer": {
+				"autoPool": 0,
+				"failedAbility": 0,
+				"getFromParent": 0
+			}
+		}
+	},
 	"weaponRangeStretchesZCapsuleCollider": 0,
 	"weaponTypeCanOverrideBeginUseSound": 0,
 	"weaponTypeCanOverrideUseSound": 0,

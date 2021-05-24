@@ -1,19 +1,44 @@
 {
 	"abilityName": "Attack",
 	"abilityPrefab": {
-		"LimitedPickupable": {
-			"canHitAlliesMultipleTimes": 0,
-			"canHitEnemiesMultipleTimes": 0,
-			"continualDistanceChecksAfterColliderEntered": 1,
-			"continuedCheckRadius": 1.5,
-			"onAllyHit": 1,
-			"onEnemyHit": 0,
-			"pickupID": 1,
-			"pickupLimit": 1,
-			"pickupRestriction": 1
+		"DamageEnemyOnHit": {
+			"alwaysShowDamageNumber": 0,
+			"baseDamageStats": {
+				"addedDamageScaling": 1,
+				"additionalLeech": 0,
+				"convertAllAddedDamage": 0,
+				"critChance": 0.05000000074505806,
+				"critMultiplier": 2,
+				"critType": 0,
+				"cullPercent": 0,
+				"damage": [
+					2,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"damageTypeToConvertTo": 0,
+				"flatCull": 0,
+				"freezeRate": 0,
+				"increasedStunChance": 0,
+				"increasedStunDuration": 0,
+				"isHit": 1
+			},
+			"canDamageSameEnemyAgain": 0,
+			"canDamageSameEnemyAgainAfterDuration": 0,
+			"damageModifier": 0,
+			"damageTags": 2048,
+			"disableHitVfx": 0,
+			"guaranteedHitVfxType": 0,
+			"guarenteedHitVFXOfSpecificType": 0,
+			"highPriorityDoT": 0,
+			"hitVFXDirectionType": 0
 		}
 	},
-	"abilityReplacementWeaponCondition": 0,
+	"abilityReplacementWeaponCondition": 2,
 	"allowCastToMaxRangeWhenTargetIsOutOfRange": 0,
 	"altText": "",
 	"animation": 4,
@@ -22,7 +47,7 @@
 	"automaticallyGetTargetLocationInDirection": 0,
 	"baseMovementAnimationLength": 1,
 	"baseMovementDuration": 0,
-	"beginUseSound": "",
+	"beginUseSound": "event:/Combat/John's/Bow/sfx_combat_bow_drawback",
 	"beginUseVoiceLine": "",
 	"bypassCooldownOnComboReset": 0,
 	"canBeUsedInLowPrioritySettle": 0,
@@ -66,11 +91,12 @@
 	"maxAccessibleTargetPathLength": 0,
 	"maxCharges": 0,
 	"maxTargetRangeIfTargetRequired": 0,
-	"meleeAutoAim": 1,
+	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
-	"moveIntoRangeBeforeUse": 1,
+	"moveIntoRangeBeforeUse": 0,
 	"moveOrAttackCompatible": 1,
 	"moveOrAttackFallback": 0,
 	"movementDurationPerUnitDistance": 0,
@@ -85,6 +111,10 @@
 	"playerCastVfx": 0,
 	"playerRequiresEnemyTarget": 0,
 	"rangeLimitForPlayers": 0,
+	"replacementAbilityFromWeaponCondition": {
+		"abilityName": "Attack",
+		"playerAbilityID": "ba1"
+	},
 	"replacementCondition": 0,
 	"requireSimplePath": 0,
 	"requireWeaponType": 0,
@@ -95,7 +125,7 @@
 	"requiresDualWielding": 0,
 	"requiresSheild": 0,
 	"sendAbilityObjectCreated": 0,
-	"settleLowPriorityRatio": 0.3199999928474426,
+	"settleLowPriorityRatio": 0.699999988079071,
 	"sharedCooldown": 0,
 	"sharedHitDetector": 1,
 	"showMinionTagInScalingTooltip": 0,
@@ -103,16 +133,16 @@
 	"skillTreeConversionDamageTags": 0,
 	"speedMultiplier": 1,
 	"speedScaler": 2,
-	"split": 0,
+	"split": 1,
 	"stayAtGroundHeight": 0,
 	"stopAtEdgeOfNavmesh": 0,
 	"stopAtEdgeOfNavmeshConnection": 0,
 	"stopMovementOnKeyRelease": 0,
 	"stopRange": 1.399999976158142,
-	"stopRangeAffectedByWeaponRange": 1,
+	"stopRangeAffectedByWeaponRange": 0,
 	"stopWhenOutOfMana": 0,
 	"subtractStopRangeForManaCostPerDistance": 0,
-	"tags": 513,
+	"tags": 2049,
 	"targetMustBeUsingAbility": 0,
 	"targetsAllies": 0,
 	"targetsSelfOnly": 0,
@@ -125,9 +155,38 @@
 	"useDelay": 0.20000000298023224,
 	"useDuration": 0.75,
 	"useMinionForwardForTargeting": 0,
-	"useSound": "",
+	"useSound": "event:/Combat/John's/Bow/sfx_combat_bow_shoot",
 	"useWeaponSwingSound": 1,
-	"weaponRangeStretchesZCapsuleCollider": 1,
+	"visualObject": {
+		"AbilityVisuals": {
+			"creationReferences": {
+				"locationCreatedFrom": {
+					"x": 0,
+					"y": 0
+				},
+				"oType": 0,
+				"useType": 0
+			},
+			"faceVelocityDirection": 0,
+			"locationDetector": {
+				"reachedTargetLocation": 0,
+				"startLocation": {
+					"x": 0,
+					"y": 0
+				},
+				"targetLocationOffset": {
+					"x": 0,
+					"y": 0
+				}
+			},
+			"selfDestroyer": {
+				"autoPool": 0,
+				"failedAbility": 0,
+				"getFromParent": 0
+			}
+		}
+	},
+	"weaponRangeStretchesZCapsuleCollider": 0,
 	"weaponTypeCanOverrideBeginUseSound": 0,
 	"weaponTypeCanOverrideUseSound": 0,
 	"zigZagPerpendicularDistance": 0,

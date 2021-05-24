@@ -5,10 +5,6 @@
 			"ailments": [
 				{
 					"ailment": {
-						"abilityToProcOnExpiration": {
-							"abilityName": "Spark Charge",
-							"playerAbilityID": "ln24"
-						},
 						"applyPrefix": 2,
 						"baseDamage": {
 							"addedDamageScaling": 1,
@@ -41,10 +37,10 @@
 						"description": "",
 						"displayName": "Spark Charge",
 						"duration": 1,
-						"expirationAbilityProcsOnDeath": 1,
+						"effectOfEffectivenessOnProc": 0,
+						"expirationAbilityProcsOnDeath": 0,
 						"hitsRequiredToStop": 0,
 						"id": 55,
-						"increasedEffectReducesStackRequirement": 0,
 						"instanceName": "Spark Charge",
 						"isCurse": 0,
 						"isSilverShroud": 0,
@@ -57,7 +53,7 @@
 						"mutationType": 0,
 						"offsetForExpirationAbility": {
 							"x": 0,
-							"y": 0
+							"y": 1.2000000476837158
 						},
 						"offsetForStackProccedAbility": {
 							"x": 0,
@@ -67,8 +63,8 @@
 						"overrideAbilitySource": 0,
 						"playExpirationVfxOnDeath": 0,
 						"positive": 0,
-						"procsAbilityOnExpiration": 1,
-						"procsAbilityWhenStacksReached": 0,
+						"procsAbilityOnExpiration": 0,
+						"procsAbilityWhenStacksReached": 1,
 						"roots": 0,
 						"showsInBuffUI": 0,
 						"spreadDelay": 0,
@@ -76,7 +72,7 @@
 						"spreadRange": 0,
 						"spreads": 0,
 						"stacksRequiredForProc": 0,
-						"stopsWhenHit": 0,
+						"stopsWhenHit": 1,
 						"tags": 0
 					},
 					"chance": -9999,
@@ -195,6 +191,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,

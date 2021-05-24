@@ -5,10 +5,6 @@
 			"canApplyToSameEnemyAgain": 0,
 			"cannotApply": [
 				{
-					"abilityToProcWhenStacksReached": {
-						"abilityName": "Shadow Daggers",
-						"playerAbilityID": ""
-					},
 					"applyPrefix": 2,
 					"baseDamage": {
 						"addedDamageScaling": 1,
@@ -41,10 +37,10 @@
 					"description": "",
 					"displayName": "Shadow Daggers",
 					"duration": 60,
+					"effectOfEffectivenessOnProc": 0,
 					"expirationAbilityProcsOnDeath": 0,
 					"hitsRequiredToStop": 0,
 					"id": 79,
-					"increasedEffectReducesStackRequirement": 1,
 					"instanceName": "Shadow Dagger",
 					"isCurse": 0,
 					"isSilverShroud": 0,
@@ -60,8 +56,8 @@
 						"y": 0
 					},
 					"offsetForStackProccedAbility": {
-						"x": 0,
-						"y": 0
+						"x": 5.605193857299268e-45,
+						"y": 1.2000000476837158
 					},
 					"onlyPlayExpirationVfxOnAbilityProc": 1,
 					"overrideAbilitySource": 0,
@@ -75,7 +71,7 @@
 					"spreadIfDiedBeforeDelay": 0,
 					"spreadRange": 0,
 					"spreads": 0,
-					"stacksRequiredForProc": 4,
+					"stacksRequiredForProc": 0,
 					"stopsWhenHit": 0,
 					"tags": 0
 				}
@@ -86,7 +82,7 @@
 		"DamageEnemyOnHit": {
 			"alwaysShowDamageNumber": 0,
 			"baseDamageStats": {
-				"addedDamageScaling": 2.5,
+				"addedDamageScaling": 5,
 				"additionalLeech": 0,
 				"convertAllAddedDamage": 0,
 				"critChance": 1,
@@ -94,7 +90,7 @@
 				"critType": 0,
 				"cullPercent": 0,
 				"damage": [
-					50,
+					100,
 					0,
 					0,
 					0,
@@ -109,8 +105,8 @@
 				"increasedStunDuration": 0,
 				"isHit": 1
 			},
-			"canDamageSameEnemyAgain": 1,
-			"canDamageSameEnemyAgainAfterDuration": 0,
+			"canDamageSameEnemyAgain": 0,
+			"canDamageSameEnemyAgainAfterDuration": 1.401298464324817e-45,
 			"damageModifier": 0,
 			"damageTags": 1536,
 			"disableHitVfx": 0,
@@ -182,13 +178,14 @@
 	"keepRotationInSync": 0,
 	"landingDistanceFromTarget": 0,
 	"limitRangeForPlayers": 0,
-	"manaCost": 7,
+	"manaCost": 0,
 	"manaCostPerDistance": 0,
 	"maxAccessibleTargetPathLength": 0,
 	"maxCharges": 0,
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,

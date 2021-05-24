@@ -8,7 +8,7 @@
 			"stepsRemaining": 0
 		},
 		"DamageEnemyOnHit": {
-			"alwaysShowDamageNumber": 0,
+			"alwaysShowDamageNumber": 1,
 			"baseDamageStats": {
 				"addedDamageScaling": 0.550000011920929,
 				"additionalLeech": 0.30000001192092896,
@@ -33,15 +33,15 @@
 				"increasedStunDuration": 0,
 				"isHit": 0
 			},
-			"canDamageSameEnemyAgain": 1,
-			"canDamageSameEnemyAgainAfterDuration": 0,
+			"canDamageSameEnemyAgain": 0,
+			"canDamageSameEnemyAgainAfterDuration": 1.401298464324817e-45,
 			"damageModifier": 0,
 			"damageTags": 4352,
-			"disableHitVfx": 1,
+			"disableHitVfx": 0,
 			"guaranteedHitVfxType": 0,
 			"guarenteedHitVFXOfSpecificType": 0,
-			"highPriorityDoT": 1,
-			"hitVFXDirectionType": 0
+			"highPriorityDoT": 0,
+			"hitVFXDirectionType": 1
 		},
 		"ExistsWhileChannelling": {
 			"age": 0,
@@ -58,8 +58,11 @@
 			"alwaysCreateVFX": 0,
 			"arcDegrees": 0,
 			"attachVFXToTarget": 1,
+			"autoEndChannellingIfNoTargets": 0,
+			"autoEndChannellingIfNoTargetsBufferTime": 0,
 			"hitImmediately": 1,
 			"hitNearest": 1,
+			"ignoreSelfWhenIgnoringAlignment": 0,
 			"ignoresAlignment": 0,
 			"interval": 0.18330000340938568,
 			"limitTargetsToArcInFront": 0,
@@ -153,6 +156,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 1,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,

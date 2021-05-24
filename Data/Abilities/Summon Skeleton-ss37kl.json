@@ -1,5 +1,29 @@
 {
 	"abilityName": "Summon Skeleton",
+	"abilityPrefab": {
+		"CreateRandomAbilityObjectOnDeath": {
+			"aimingMethod": 0,
+			"createAtTarget": 1,
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"possibleAbilities": [
+				{
+					"abilityName": "Summon Skeleton",
+					"playerAbilityID": ""
+				},
+				{
+					"abilityName": "Summon Skeleton",
+					"playerAbilityID": ""
+				}
+			],
+			"weights": [
+				1,
+				1
+			]
+		}
+	},
 	"abilityReplacementWeaponCondition": 0,
 	"allowCastToMaxRangeWhenTargetIsOutOfRange": 0,
 	"altText": "Skeletons have 100 base health. Press A to give your minions an attack command.\n\nYou will always summon the skeleton type you have the fewest of.",
@@ -50,7 +74,7 @@
 	"countsAsMovementAbility": 0,
 	"delayedCastDuration": 0.25,
 	"delayedCasts": 0,
-	"description": "Summons a skeleton warrior or skeleton archers to guard you. You are limited to 3 skeletons at a time.",
+	"description": "Summons a skeleton warrior or skeleton archer to guard you. You are limited to 3 skeletons at a time.",
 	"destroyCastingVFXOnAbilityUse": 0,
 	"displayAlternateDamageDescriptorInTooltip": 0,
 	"doNotLookAtTargetWhileChannelling": 0,
@@ -82,14 +106,15 @@
 		}
 	],
 	"limitRangeForPlayers": 1,
-	"manaCost": 20,
+	"manaCost": 15,
 	"manaCostPerDistance": 0,
 	"maxAccessibleTargetPathLength": 0,
 	"maxCharges": 0,
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
-	"minionTagsDisplay": 2593,
+	"minionAbilityUseType": 0,
+	"minionTagsDisplay": 2561,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
 	"moveOrAttackCompatible": 0,
@@ -103,7 +128,7 @@
 	"onlyTargetSpecificActors": 0,
 	"playerAbilityID": "ss37kl",
 	"playerCanCancelDelayedCasts": 0,
-	"playerCastVfx": 0,
+	"playerCastVfx": 4,
 	"playerRequiresEnemyTarget": 0,
 	"rangeLimitForPlayers": 20,
 	"replacementCondition": 0,
@@ -121,7 +146,7 @@
 	"sharedHitDetector": 0,
 	"showMinionTagInScalingTooltip": 0,
 	"skillLore": "",
-	"skillTreeConversionDamageTags": 0,
+	"skillTreeConversionDamageTags": 9,
 	"speedMultiplier": 1,
 	"speedScaler": 3,
 	"split": 0,
@@ -143,10 +168,10 @@
 	"typeOfAbilityTargetMustBeUsing": 0,
 	"useBeginUseVoiceLine": 0,
 	"useCastPoints": 1,
-	"useDelay": 0.4300000071525574,
+	"useDelay": 0.20000000298023224,
 	"useDuration": 0.75,
 	"useMinionForwardForTargeting": 0,
-	"useSound": "event:/Abilities/Necromancer/Skeleton/sfx_player_abilities_necromancer_summon_skeleton_master",
+	"useSound": "",
 	"useWeaponSwingSound": 0,
 	"weaponRangeStretchesZCapsuleCollider": 0,
 	"weaponTypeCanOverrideBeginUseSound": 0,

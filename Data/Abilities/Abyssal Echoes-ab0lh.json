@@ -5,9 +5,8 @@
 			"onSubObject": 0
 		},
 		"AbyssalEchoesMutator": {
-			"ability": {
-				"abilityName": "Abyssal Echoes",
-				"playerAbilityID": "ab0lh"
+			"abilityRef": {
+				"key": 1572181493
 			},
 			"addedChargeRegen": 0,
 			"addedCharges": 0,
@@ -88,10 +87,10 @@
 						"description": "",
 						"displayName": "Abyssal Decay",
 						"duration": 6,
+						"effectOfEffectivenessOnProc": 0,
 						"expirationAbilityProcsOnDeath": 0,
 						"hitsRequiredToStop": 1,
 						"id": 12,
-						"increasedEffectReducesStackRequirement": 0,
 						"instanceName": "Abyssal Decay",
 						"isCurse": 0,
 						"isSilverShroud": 0,
@@ -111,7 +110,7 @@
 							"y": 0
 						},
 						"onlyPlayExpirationVfxOnAbilityProc": 0,
-						"overrideAbilitySource": 0,
+						"overrideAbilitySource": 1,
 						"playExpirationVfxOnDeath": 0,
 						"positive": 0,
 						"procsAbilityOnExpiration": 0,
@@ -123,8 +122,8 @@
 						"spreadRange": 0,
 						"spreads": 0,
 						"stacksRequiredForProc": 0,
-						"stopsWhenHit": 1,
-						"tags": 4352
+						"stopsWhenHit": 0,
+						"tags": 0
 					},
 					"chance": 1,
 					"increasedDuration": 0,
@@ -142,9 +141,14 @@
 				"playerAbilityID": "ab0lh"
 			},
 			"active": 1,
+			"aimDistanceTowards": 0,
+			"aimLocation": 0,
+			"aimPointRandomisation": 5,
+			"castDistanceTowards": 0,
+			"castLocation": 0,
+			"castPointRandomisation": 0,
 			"chance": 0,
 			"limit": 0,
-			"spawnAtHit": 1,
 			"useCreatorConstructor": 0
 		}
 	},
@@ -217,6 +221,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,

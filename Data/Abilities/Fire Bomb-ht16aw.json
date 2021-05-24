@@ -2,9 +2,8 @@
 	"abilityName": "Fire Bomb",
 	"abilityPrefab": {
 		"CastAfterDuration": {
-			"ability": {
-				"abilityName": "Fire Bomb",
-				"playerAbilityID": "sl35"
+			"abilityRef": {
+				"key": -1160271070
 			},
 			"aimingMethod": 0,
 			"animationForCastPoint": 0,
@@ -62,7 +61,8 @@
 			"timePassedByPerUnitMoved": 1,
 			"useCreatorAbilityObjectConstructor": 0,
 			"useLocalMutator": 0,
-			"useParentAbilityObjectConstructor": 0
+			"useParentAbilityObjectConstructor": 0,
+			"useSummonerAbilityObjectConstructor": 0
 		},
 		"ExtraProjectiles": {
 			"adjustForParabolicMovement": 0,
@@ -86,6 +86,7 @@
 			"centreOnTransform": 0,
 			"changeFacingDirection": 1,
 			"constantVelocity": 2,
+			"maxOutwardDistance": 0,
 			"offsetFromTransform": {
 				"x": 0,
 				"y": 0
@@ -93,6 +94,7 @@
 			"outwardDistance": 1,
 			"outwardSpeed": 7,
 			"randomStartAngle": 0,
+			"randomizeOutwardDistance": 0,
 			"tangentialVelocity": 10,
 			"yRot": 0
 		}
@@ -178,6 +180,7 @@
 	"maxTargetRangeIfTargetRequired": 0,
 	"meleeAutoAim": 0,
 	"minimumManaCost": 0,
+	"minionAbilityUseType": 0,
 	"minionTagsDisplay": 0,
 	"minionsUseAbility": 0,
 	"moveIntoRangeBeforeUse": 0,
