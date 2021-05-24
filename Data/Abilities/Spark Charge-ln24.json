@@ -5,6 +5,10 @@
 			"ailments": [
 				{
 					"ailment": {
+						"abilityToProcOnExpiration": {
+							"abilityName": "Spark Charge",
+							"playerAbilityID": "ln24"
+						},
 						"applyPrefix": 2,
 						"baseDamage": {
 							"addedDamageScaling": 1,
@@ -37,8 +41,8 @@
 						"description": "",
 						"displayName": "Spark Charge",
 						"duration": 1,
-						"effectOfEffectivenessOnProc": 0,
-						"expirationAbilityProcsOnDeath": 0,
+						"effectOfEffectivenessOnProc": 1,
+						"expirationAbilityProcsOnDeath": 1,
 						"hitsRequiredToStop": 0,
 						"id": 55,
 						"instanceName": "Spark Charge",
@@ -53,7 +57,7 @@
 						"mutationType": 0,
 						"offsetForExpirationAbility": {
 							"x": 0,
-							"y": 1.2000000476837158
+							"y": 0
 						},
 						"offsetForStackProccedAbility": {
 							"x": 0,
@@ -63,8 +67,8 @@
 						"overrideAbilitySource": 0,
 						"playExpirationVfxOnDeath": 0,
 						"positive": 0,
-						"procsAbilityOnExpiration": 0,
-						"procsAbilityWhenStacksReached": 1,
+						"procsAbilityOnExpiration": 1,
+						"procsAbilityWhenStacksReached": 0,
 						"roots": 0,
 						"showsInBuffUI": 0,
 						"spreadDelay": 0,
@@ -72,7 +76,7 @@
 						"spreadRange": 0,
 						"spreads": 0,
 						"stacksRequiredForProc": 0,
-						"stopsWhenHit": 1,
+						"stopsWhenHit": 0,
 						"tags": 0
 					},
 					"chance": -9999,
