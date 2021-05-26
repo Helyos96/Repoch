@@ -15,7 +15,7 @@ blacklist = ["UMAAssetIndexer", "SlotDataAsset", "CachedPrefab", "OverlayDataAss
 whitelist = []
 #whitelist = ["Ability", "AbilityManager", "AffixList", "GlobalTreeData", "ItemList", "PropertyList", "UniqueList", "WarpathTree", "SkillTreeNode", "CharacterClassList", "KnightTree"]
 # Some monobehaviours start at a weird raw position which can't be guessed currently
-seek_override = {"SkillTreeNode": 0x2C}
+seek_override = {"SkillTreeNode": 0x2C, "ChangeDamageModifierOverTime": 0x2C}
 # For classes that are parsed as pptrs (subnodes), only keep some of the fields
 pptr_override = {"Ability":   ["abilityName", "playerAbilityID"],
 				 "Quest":     ["id"],
